@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  30 JUN 2018 01:55
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  30 JUN 2018 02:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1469,8 +1469,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--21
 
 
 ])
-File: images/licences/cc_by.png Graphic file (type bmp)
-<images/licences/cc_by.png>
+File: images/licences/cc-by-nc-sa.png Graphic file (type bmp)
+<images/licences/cc-by-nc-sa.png>
  [0
 
 
@@ -1762,8 +1762,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 115.
  ) 
 Here is how much of TeX's memory you used:
  28358 strings out of 492970
- 503908 string characters out of 6133938
- 690954 words of memory out of 5000000
+ 503932 string characters out of 6133938
+ 690960 words of memory out of 5000000
  31781 multiletter control sequences out of 15000+600000
  540684 words of font info for 86 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
