@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  30 JUN 2018 02:49
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  30 JUN 2018 17:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1512,9 +1512,9 @@ Cap\'itulo 1.
 
 
 ]
-File: images/fig-arquitectura/Legacy-OpenGlove-Architecture-02.png Graphic file
- (type bmp)
-<images/fig-arquitectura/Legacy-OpenGlove-Architecture-02.png>
+File: images/chapter01/Legacy-OpenGlove-Architecture-02.png Graphic file (type 
+bmp)
+<images/chapter01/Legacy-OpenGlove-Architecture-02.png>
 )
 (./chapters/01.03.Solucion-propuesta.tex [2]
 Underfull \hbox (badness 10000) in paragraph at lines 17--17
@@ -1530,9 +1530,8 @@ rmite la transmisión de datos entre
  []
 
 [3]
-File: images/fig-arquitectura/OpenGlove-Architecture-02.png Graphic file (type 
-bmp)
-<images/fig-arquitectura/OpenGlove-Architecture-02.png>
+File: images/chapter01/OpenGlove-Architecture-02.png Graphic file (type bmp)
+<images/chapter01/OpenGlove-Architecture-02.png>
 ) (./chapters/01.04.Objetivos-alcance-proyecto.tex [4])
 (./chapters/01.05.Metodologias-herramientas.tex [5] [6] [7])
 (./chapters/01.06.Organizacion-documento.tex) [8]
@@ -1542,18 +1541,21 @@ Cap\'itulo 2.
 [10
 
 ] [11]
-File: images/fig-analisis-solucion/openglove.png Graphic file (type bmp)
-<images/fig-analisis-solucion/openglove.png>
+File: images/chapter02/openglove.png Graphic file (type bmp)
+<images/chapter02/openglove.png>
  [12]
-File: images/fig-analisis-solucion/avatar-VR.png Graphic file (type bmp)
-<images/fig-analisis-solucion/avatar-VR.png>
-File: images/fig-analisis-solucion/dexmo.png Graphic file (type bmp)
-<images/fig-analisis-solucion/dexmo.png>
+File: images/chapter02/avatar-VR.png Graphic file (type bmp)
+<images/chapter02/avatar-VR.png>
+File: images/chapter02/dexmo.png Graphic file (type bmp)
+<images/chapter02/dexmo.png>
  [13]
-File: images/fig-analisis-solucion/manus-vr.jpeg Graphic file (type bmp)
-<images/fig-analisis-solucion/manus-vr.jpeg>
- [14]) (./chapters/02.03.Resumen.tex)
-(./chapters/03.00.Analisis.tex [15]
+File: images/chapter02/manus-vr.jpeg Graphic file (type bmp)
+<images/chapter02/manus-vr.jpeg>
+ [14]
+File: images/chapter02/haptx01.jpg Graphic file (type bmp)
+<images/chapter02/haptx01.jpg>
+) (./chapters/02.03.Resumen.tex [15])
+(./chapters/03.00.Analisis.tex [16]
 Cap\'itulo 3.
 ) (./chapters/03.01.Requisitos-software.tex
 Overfull \hbox (19.21721pt too wide) in alignment at lines 28--33
@@ -1575,48 +1577,48 @@ Overfull \hbox (19.21721pt too wide) in alignment at lines 56--60
  [] [] [] [] 
  []
 
-[16
+[17
 
-] [17] [18] [19]) (./chapters/03.02.Prototipos.tex
+] [18] [19] [20]) (./chapters/03.02.Prototipos.tex
 
-LaTeX Warning: Reference `table:protype-01' on page 20 undefined on input line 
+LaTeX Warning: Reference `table:protype-01' on page 21 undefined on input line 
 9.
 
-[20]
+[21]
 Overfull \hbox (23.3137pt too wide) in paragraph at lines 16--25
  [][] 
  []
 
-File: images/fig-analisis-solucion/01-prototype.png Graphic file (type bmp)
-<images/fig-analisis-solucion/01-prototype.png>
-[21]
+File: images/chapter03/01-prototype.png Graphic file (type bmp)
+<images/chapter03/01-prototype.png>
+[22]
 Overfull \hbox (11.11644pt too wide) in paragraph at lines 47--56
  [][] 
  []
 
-File: images/fig-analisis-solucion/02-prototype.png Graphic file (type bmp)
-<images/fig-analisis-solucion/02-prototype.png>
-[22]
+File: images/chapter03/02-prototype.png Graphic file (type bmp)
+<images/chapter03/02-prototype.png>
+[23]
 Overfull \hbox (18.72711pt too wide) in paragraph at lines 78--87
  [][] 
  []
 
-[23]
-File: images/fig-analisis-solucion/03-prototype.png Graphic file (type bmp)
-<images/fig-analisis-solucion/03-prototype.png>
+[24]
+File: images/chapter03/03-prototype.png Graphic file (type bmp)
+<images/chapter03/03-prototype.png>
 ) (./chapters/03.03.APIs.tex) (./chapters/03.04.Resumen.tex)
-(./chapters/04.00.Diseno-implementacion.tex [24] [25]
+(./chapters/04.00.Diseno-implementacion.tex [25] [26]
 Cap\'itulo 4.
 ) (./chapters/04.01.Arquitectura-general.tex) (./chapters/04.02.Estructura.tex)
 (./chapters/04.03.Comportamiento.tex)
 (./chapters/04.04.Aspectos-implementacion.tex) (./chapters/04.05.Resumen.tex)
-(./chapters/05.00.Evaluacion-tecnica.tex [26
+(./chapters/05.00.Evaluacion-tecnica.tex [27
 
 ]
 Overfull \vbox (369.4542pt too high) has occurred while \output is active []
 
 
-[27]
+[28]
 Cap\'itulo 5.
 ) (./chapters/05.01.Evaluacion-aplicaciones-nativa-multiplataforma.tex
 File: evaluation/graphics/Droid/Galaxy/HistMotorsDroidGalaxy.png Graphic file (
@@ -1625,59 +1627,59 @@ type bmp)
 File: evaluation/graphics/Droid/Galaxy/NormalQQMotorsDroidGalaxy.png Graphic fi
 le (type bmp)
 <evaluation/graphics/Droid/Galaxy/NormalQQMotorsDroidGalaxy.png>
- [28
+ [29
 
 ]
-[29]
+[30]
 File: evaluation/graphics/Droid/Galaxy/BoxplotMotorsDroidGalaxy.png Graphic fil
 e (type bmp)
 <evaluation/graphics/Droid/Galaxy/BoxplotMotorsDroidGalaxy.png>
- [30]
+ [31]
 File: evaluation/graphics/Droid/Galaxy/HistFlexorsDroidGalaxy.png Graphic file 
 (type bmp)
 <evaluation/graphics/Droid/Galaxy/HistFlexorsDroidGalaxy.png>
 File: evaluation/graphics/Droid/Galaxy/NormalQQFlexorsDroidGalaxy.png Graphic f
 ile (type bmp)
 <evaluation/graphics/Droid/Galaxy/NormalQQFlexorsDroidGalaxy.png>
- [31]
+ [32]
 File: evaluation/graphics/Droid/Galaxy/BoxplotMotorsDroidGalaxy.png Graphic fil
 e (type bmp)
 <evaluation/graphics/Droid/Galaxy/BoxplotMotorsDroidGalaxy.png>
- [32]
+ [33]
 File: evaluation/graphics/Xamarin/Galaxy/HistMotorsXamarinGalaxy.png Graphic fi
 le (type bmp)
 <evaluation/graphics/Xamarin/Galaxy/HistMotorsXamarinGalaxy.png>
 File: evaluation/graphics/Xamarin/Galaxy/NormalQQMotorsXamarinGalaxy.png Graphi
 c file (type bmp)
 <evaluation/graphics/Xamarin/Galaxy/NormalQQMotorsXamarinGalaxy.png>
- [33] [34]
+ [34] [35]
 File: evaluation/graphics/Xamarin/Galaxy/BoxplotMotorsXamarinGalaxy.png Graphic
  file (type bmp)
 <evaluation/graphics/Xamarin/Galaxy/BoxplotMotorsXamarinGalaxy.png>
- [35]
+ [36]
 File: evaluation/graphics/Xamarin/Galaxy/HistFlexorsXamarinGalaxy.png Graphic f
 ile (type bmp)
 <evaluation/graphics/Xamarin/Galaxy/HistFlexorsXamarinGalaxy.png>
 File: evaluation/graphics/Xamarin/Galaxy/NormalQQFlexorsXamarinGalaxy.png Graph
 ic file (type bmp)
 <evaluation/graphics/Xamarin/Galaxy/NormalQQFlexorsXamarinGalaxy.png>
- [36]
+ [37]
 File: evaluation/graphics/Xamarin/Galaxy/BoxplotFlexorsXamarinGalaxy.png Graphi
 c file (type bmp)
 <evaluation/graphics/Xamarin/Galaxy/BoxplotFlexorsXamarinGalaxy.png>
- [37])
+ [38])
 (./chapters/05.02.Evaluacion-tiempo-activacion.tex)
 (./chapters/05.03.Evaluacion-tiempo-lectura.tex) (./chapters/05.04.Resumen.tex)
-(./chapters/06.00.Conclusiones.tex [38] [39]
+(./chapters/06.00.Conclusiones.tex [39] [40]
 Overfull \vbox (43.20175pt too high) has occurred while \output is active []
 
 
-[40]
+[41]
 Cap\'itulo 6.
 ) (./chapters/06.01.Objetivos.tex) (./chapters/06.02.Resultados-obtenidos.tex)
 (./chapters/06.03.Alcances-limitaciones.tex)
 (./chapters/06.04.Trabajo-futuro.tex)
-(./chapters/06.05.Observaciones-finales.tex) [41
+(./chapters/06.05.Observaciones-finales.tex) [42
 
 ] (./finales/Glosario.tex
 Underfull \hbox (badness 1377) in paragraph at lines 17--18
@@ -1691,69 +1693,69 @@ Underfull \hbox (badness 1019) in paragraph at lines 25--26
 adas en la cabeza y el
  []
 
-[42
+[43
 
 
-]) [43] (./tesis-usach.bbl
-Underfull \hbox (badness 6268) in paragraph at lines 70--75
+]) [44] (./tesis-usach.bbl
+Underfull \hbox (badness 6268) in paragraph at lines 75--80
 []\TU/Arial(0)/m/n/10 Microsoft (2017).  Mixed reality.  https://developer.micr
 osoft.com/en-us/windows/mixed-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--107
+Underfull \hbox (badness 10000) in paragraph at lines 107--112
 []\TU/Arial(0)/m/n/10 Rouse, M. (2017).  application program interface (api).  
 Recuperado de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--107
+Underfull \hbox (badness 10000) in paragraph at lines 107--112
 \TU/Arial(0)/m/n/10 http://searchmicroservices.techtarget.com/definition/applic
 ation-program-interface-API Re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--114
+Underfull \hbox (badness 10000) in paragraph at lines 114--119
 []\TU/Arial(0)/m/n/10 Statista (2016).  Virtual reality (vr) - statistics and f
 acts.  Recuperado de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--121
+Underfull \hbox (badness 10000) in paragraph at lines 121--126
 []\TU/Arial(0)/m/n/10 Technaid (2018).  Sensor de rastreo imu.  Recuperado de
  []
 
 
-Underfull \hbox (badness 3396) in paragraph at lines 116--121
+Underfull \hbox (badness 3396) in paragraph at lines 121--126
 \TU/Arial(0)/m/n/10 http://www.technaid.com/support/research/imu-working-princi
 ples/ Revisado el 22 de Abril
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--128
+Underfull \hbox (badness 10000) in paragraph at lines 128--133
 []\TU/Arial(0)/m/n/10 Techopedia (2017).  Software development kit (sdk).  Recu
 perado de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--128
+Underfull \hbox (badness 10000) in paragraph at lines 128--133
 \TU/Arial(0)/m/n/10 https://www.techopedia.com/definition/3878/software-develop
 ment-kit-sdk Revisado el 19
  []
 
-[44
+[45
 
 
 ])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 115.
- [45]
+ [46]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 115.
  (./tesis-usach.aux (./preliminares/cubierta.aux)
 (./preliminares/abstract.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 115.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 115.
 Package rerunfilecheck Info: File `tesis-usach.out' has not changed.
-(rerunfilecheck)             Checksum: A9AA702858DB9A92B39557E38244DEF7.
+(rerunfilecheck)             Checksum: 0B6E0ACCC0B6CDB0A99E1D2B0CC588FF.
 
 
 LaTeX Warning: There were undefined references.
@@ -1761,12 +1763,12 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 115.
  ) 
 Here is how much of TeX's memory you used:
- 28358 strings out of 492970
- 503932 string characters out of 6133938
- 690960 words of memory out of 5000000
- 31781 multiletter control sequences out of 15000+600000
+ 28368 strings out of 492970
+ 503828 string characters out of 6133938
+ 691031 words of memory out of 5000000
+ 31788 multiletter control sequences out of 15000+600000
  540684 words of font info for 86 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  51i,16n,67p,10414b,671s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tesis-usach.pdf (55 pages).
+Output written on tesis-usach.pdf (56 pages).
