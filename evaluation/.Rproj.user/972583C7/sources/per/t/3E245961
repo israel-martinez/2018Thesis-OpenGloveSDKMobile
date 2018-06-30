@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1529534750840.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2023225994",
+    "id" : "3E245961",
+    "lastKnownWriteTime" : 1530217738,
+    "last_content_update" : 1530217738802,
+    "path" : "~/code/src/github.com/openglove-projects/israel-martinez/latex-2018-OpenGlove-SDK/evaluation/main.R",
+    "project_path" : "main.R",
+    "properties" : {
+        "cursorPosition" : "47,18",
+        "scrollLine" : "41",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

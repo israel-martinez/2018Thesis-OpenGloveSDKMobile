@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: tesis-usach.aux
+A level-1 auxiliary file: preliminares/cubierta.aux
+A level-1 auxiliary file: preliminares/abstract.aux
+The style file: apa-good.bst
+Database file #1: bibliografia.bib
+You've used 21 entries,
+            2804 wiz_defined-function locations,
+            675 strings with 7730 characters,
+and the built_in function-call counts, 7422 in all, are:
+= -- 671
+> -- 219
+< -- 21
++ -- 92
+- -- 66
+* -- 364
+:= -- 1397
+add.period$ -- 60
+call.type$ -- 21
+change.case$ -- 126
+chr.to.int$ -- 18
+cite$ -- 21
+duplicate$ -- 532
+empty$ -- 537
+format.name$ -- 91
+if$ -- 1407
+int.to.chr$ -- 4
+int.to.str$ -- 1
+missing$ -- 88
+newline$ -- 109
+num.names$ -- 84
+pop$ -- 184
+preamble$ -- 1
+purify$ -- 106
+quote$ -- 0
+skip$ -- 271
+stack$ -- 0
+substring$ -- 233
+swap$ -- 197
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 186
+warning$ -- 0
+while$ -- 63
+width$ -- 0
+write$ -- 252

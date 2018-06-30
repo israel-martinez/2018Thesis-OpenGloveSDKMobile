@@ -1,0 +1,136 @@
+\begin{thebibliography}{21}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+
+\bibitem[{Aie(2017)}]{actuadores}
+Aie (2017).
+\newblock Actuadores.
+\newblock Recuperado de
+  http://www.aie.cl/files/file/comites/ca/abc/actuadores.pdf Revisado el 23 de
+  Octubre de 2017.
+
+\bibitem[{Cerda(2017)}]{tesis-cerda-rodrigo}
+Cerda, R.~A. (2017).
+\newblock Extensión de openglove a nivel de hardware y software para la
+  captura del movimiento de la mano.
+
+\bibitem[{DextaRobotics(2018)}]{dexmo-info-page}
+DextaRobotics (2018).
+\newblock Dexmo.
+\newblock Recuperado de http://www.dextarobotics.com/ el 10 de Marzo de 2018.
+
+\bibitem[{Gartner(2017{\natexlab{a}})}]{gartner-group-AR}
+Gartner (2017{\natexlab{a}}).
+\newblock It glossary: Augmented reality (ar).
+\newblock Recuperado de
+  https://www.gartner.com/it-glossary/augmented-reality-ar/ Revisado el 19 de
+  Octubre de 2017.
+
+\bibitem[{Gartner(2017{\natexlab{b}})}]{gartner-group-haptics}
+Gartner (2017{\natexlab{b}}).
+\newblock It glossary: Haptics.
+\newblock Recuperado de https://www.gartner.com/it-glossary/haptics Revisado el
+  19 de Octubre de 2017.
+
+\bibitem[{Gartner(2017{\natexlab{c}})}]{gartner-group-SDK}
+Gartner (2017{\natexlab{c}}).
+\newblock It glossary: Sdk.
+\newblock Recuperado de https://www.gartner.com/it-glossary/?s=SDK Revisado el
+  19 de Octubre de 2017.
+
+\bibitem[{Gartner(2017{\natexlab{d}})}]{gartner-group-VR}
+Gartner (2017{\natexlab{d}}).
+\newblock It glossary: Virtual reality (vr).
+\newblock Recuperado de https://www.gartner.com/it-glossary/vr-virtual-reality/
+  Revisado el 19 de Octubre de 2017.
+
+\bibitem[{InTeracTion(2018)}]{openglove-info-page}
+InTeracTion (2018).
+\newblock Openglove haptics easy to develop.
+\newblock Recuperado de http://www.openglove.org/ Revisado el 10 de Marzo de
+  2018.
+
+\bibitem[{ManusVR(2018)}]{manusvr-info-page}
+ManusVR (2018).
+\newblock Manus vr.
+\newblock Recuperado de http://www.dextarobotics.com/ el 10 de Marzo de 2018.
+
+\bibitem[{Martin(1991)}]{Martin:1991:RAD:103275}
+Martin, J. (1991).
+\newblock {\em Rapid Application Development\/}.
+\newblock Indianapolis, IN, USA: Macmillan Publishing Co., Inc.
+
+\bibitem[{Meneses(2016)}]{tesis-meneses-sebastian}
+Meneses, S.~A. (2016).
+\newblock Openglove sdk: Apis de alto nivel para c\#, c++ java y javascript.
+
+\bibitem[{Microsoft(2017)}]{microsoft-MR}
+Microsoft (2017).
+\newblock Mixed reality.
+\newblock
+  https://developer.microsoft.com/en-us/windows/mixed-reality/mixed\_reality
+  Revisado el 26 de Noviembre de 2017.
+
+\bibitem[{Monsalve(2016)}]{tesis-monsalve-rodrigo}
+Monsalve, R.~A. (2016).
+\newblock Dispositivo de retroalimentación táctil para interfaces naturaltes
+  y de ralidad virtual.
+
+\bibitem[{Neurodigital(2018)}]{avatarvr-info-page}
+Neurodigital (2018).
+\newblock Avatarvr.
+\newblock Recuperado de https://www.neurodigital.es/avatarvr/ el 10 de Marzo de
+  2018.
+
+\bibitem[{Norman \& Nielsen(2017)}]{nngroup-ux}
+Norman, D., \& Nielsen, J. (2017).
+\newblock The definition of user experience (ux).
+\newblock Recuperado de
+  https://www.nngroup.com/articles/definition-user-experience/ Revisado el 21
+  de Octubre de 2017.
+
+\bibitem[{Rambal(2018)}]{flexor-sensor-01}
+Rambal (2018).
+\newblock Sensor flex.
+\newblock Recuperado de
+  http://rambal.com/presion-peso-nivel-liquido/250-sensor-flex.html Revisado el
+  23 de Abril de 2018.
+
+\bibitem[{Rouse(2017)}]{techtarget-API}
+Rouse, M. (2017).
+\newblock application program interface (api).
+\newblock Recuperado de
+  http://searchmicroservices.techtarget.com/definition/application-program-interface-API
+  Revisado el 21 de Octubre de 2017.
+
+\bibitem[{Statista(2016)}]{statista-VR-AR}
+Statista (2016).
+\newblock Virtual reality (vr) - statistics and facts.
+\newblock Recuperado de
+  https://www.statista.com/topics/2532/virtual-reality-vr/ Revisado el 20 de
+  Octubre de 2017.
+
+\bibitem[{Technaid(2018)}]{IMU-sensor-01}
+Technaid (2018).
+\newblock Sensor de rastreo imu.
+\newblock Recuperado de
+  http://www.technaid.com/support/research/imu-working-principles/ Revisado el
+  22 de Abril de 2018.
+
+\bibitem[{Techopedia(2017)}]{techopedia-SDK}
+Techopedia (2017).
+\newblock Software development kit (sdk).
+\newblock Recuperado de
+  https://www.techopedia.com/definition/3878/software-development-kit-sdk
+  Revisado el 19 de Octubre de 2017.
+
+\bibitem[{Ticportal(2018)}]{open-source}
+Ticportal (2018).
+\newblock Open source (código abierto).
+\newblock Recuperado de
+  https://www.ticportal.es/glosario-tic/open-source-codigo-abierto Revisado el
+  28 de Abril de 2018.
+
+\end{thebibliography}

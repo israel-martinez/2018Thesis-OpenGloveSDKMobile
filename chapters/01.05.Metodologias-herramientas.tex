@@ -1,0 +1,77 @@
+\section{Metodologías y herramientas utilizadas}
+
+%
+En esta sección se presenta la metodología utilizada a lo largo del proyecto, las herramientas y el ambiente de desarrollo del SDK que permitirá el soporte de OpenGlove en dispositivos móviles.
+
+\subsection{Metodología a usar}
+Para alcanzar los objetivos planteados en este proyecto, también es necesario elegir una metodología adecuada para el proyecto. En base a esto y a la incertidumbre que presenta el proyecto, es necesario que se elija una metodología que reduzca los riesgos asociados,  permitiendo entregas de software funcional de manera rápida y que puedan ser validados por el cliente (profesor guía). En este contexto y dado que el proyecto de título debe ser realizado dentro del semestre considerando un trabajo de 612 horas cronológicas y basado en la experiencia y el desarrollo de proyectos de similares características, la metodología planteada a continuación es la adecuada para el presente proyecto de ingeniería propuesto. 
+
+La metodología corresponde a la utilizada por el grupo de investigación y desarrollo InTeracTion. Puede separarse en dos etapas principales. La primera etapa consiste en el desarrollo de prototipos funcionales, con la finalidad de obtener retroalimentación del cliente y así cubrir los requerimientos del cliente de manera iterativa. Esta etapa tiene como referencia la metodología RAD (Rapid Application Development) \citep{Martin:1991:RAD:103275}, la cual está orientada a grupos pequeños, enfocada en el producto y no en la documentación generada, necesitando entregas rápidas para obtener retroalimentación del producto desechable desarrollado.  El prototipo final aprobado será la base con lo que se desarrollará la siguiente etapa. La segunda etapa consiste en el desarrollo de las funcionalidades requeridas para el producto, utilizando como base el prototipo funcional de la primera etapa. El proyecto se desarrolla de manera iterativa e incremental, para su gestión se establece  como mínimo una reunión semanal en la cual se tratan temas como  el estado de avance, los compromisos asumidos para la semana, los compromisos siguientes y los problemas ocurridos.  En estas reuniones es posible tomar decisiones sobre los problemas ocurridos y cambiar de estrategia según sea necesario, esto permite reducir los riesgos ocasionados por la incertidumbre del proyecto. 
+
+%<metodología del profesor Roberto>
+En resumen la metodología a utilizar contempla las siguiente características:
+\begin{itemize}
+\item Primera etapa de desarrollo mediante prototipos basada en RAD.
+\item Segunda etapa de desarrollo iterativo del prototipo maduro y aceptado.
+\item Como mínimo reuniones una vez a la semana en todas las etapas.
+\end{itemize}
+
+Para la gestión del proyecto se utilizan los siguientes recursos, que permiten tener un seguimiento del trabajo a realizar, :
+
+\begin{itemize}
+\item Kanban físico y compromisos semanales.
+\item Kanban simple de tres columnas o estados por hacer (TO DO), haciendo (DOING) y hecho (DONE).
+\end{itemize}
+
+%</metodología del  profesor Roberto>
+
+Para que el proyecto llegue a buen término, se debe elegir la metodología adecuada al proyecto dado el contexto del mismo. Dada las características y la interacción que se desea establecer con el profesor guía como cliente, se adoptó la metodología utilizada por InTeracTion. Además, esta metodología presenta ventajas por sobre las tradicionales respecto de la adaptabilidad, colaboración con el cliente y entregas funcionales iterativas que pueden ser evaluadas cada cierto tiempo, mostrando los avances y favoreciendo el producto funcionando por sobre la documentación exhaustiva \footnote{Manifiesto ágil: \url{http://agilemanifesto.org/}}.
+
+\subsection{Herramientas de Software}
+En esta sección se listan las herramientas de Software que se utilizaron para el desarrollo del proyecto de título.
+La aplicación fue desarrollada utilizando el IDE Visual Studio Community 2018 para Mac \footnote{Xamarin más VS Community para Mac 2018: \url{https://store.xamarin.com/}} en conjunto con el ecosistema de plataformas para compilar \footnote{ En resumidas palabras un compilador es un programa informático que traduce un programa escrito en un lenguaje de programación a otro lenguaje de programación.% Usualmente el segundo lenguaje es lenguaje de máquina, pero también puede ser un código intermedio (bytecode), o simplemente texto.
+Este proceso de traducción se conoce como compilación. \url{http://www.ictea.com/cs/knowledgebase.php?action=displayarticle&id=8817}} aplicaciones móviles Xamarin.Forms, el cual utiliza el lenguaje de programación C\# para el desarrollo de aplicaciones nativas multiplataforma. Adicionalmente se utilizó el IDE Android Studio \footnote{Android Studio: \url{https://developer.android.com/studio/index.html?hl=es-419}}, el cual corresponde al IDE oficial para el sistema operativo Android, el cual integra distintas herramientas de desarrollo, como el SDK de Android, el editor de texto, el soporte para control de versiones, compilador, etc. A continuación se listan otras herramientas de software para el apoyo para el desarrollo del proyecto.
+
+\begin{enumerate}
+
+\item Github\footnote{Github: \url{https://github.com/}} para el control de  versiones.
+
+\item Texmaker \footnote{Texmaker : \url{http://www.xm1math.net/texmaker/}}, para la escritura de la memoria.
+
+\item RStudio\footnote{Rstudio: \url{https://www.rstudio.com/}}: para el análisis de datos de la evaluación del proyecto.
+
+\item Google Drive\footnote{Google Drive: \url{https://www.google.com/intl/es\_ALL/drive/}}, para generar y compartir documentos  y archivos de manera colaborativa.
+
+\item Microsoft Project Professional y Gantter, para el desarrollo de la carta gantt del proyecto de título.
+
+\end{enumerate}
+
+\subsection{Herramientas de Hardware}
+El ambiente de desarrollo en el cual se desarrolló SDK fue un Macbook Pro con las siguientes características:
+\begin{enumerate}
+\item Sistema operativo SO macOS Sierra versión 10.13.3.
+\item Procesador Intel Core i5,  3,1 GHz .
+\item  Memoria RAM 8GB 2133 MHz LPDDR3.
+\item 512 GB disco duro SSD.
+\item Gráficos Intel Iris Plus Graphics 650 1536 MB.
+\end{enumerate}
+Las pruebas de la aplicación se realizarán utilizando Android Virtual Device (AVD) mediante Android Studio  y un smartphone \textit{Samsung Galaxy  S5 mini} \footnote{ \url{http://www.movilcelular.es/samsung-galaxy-s5-mini-duos-sm-g800h/caracteristicas/1659}} con las siguientes características:
+
+\begin{enumerate}
+\item Sistema Operativo Android Marshmallow 6.0.1.
+\item CPU: 1.4Ghz Quad-Core ARM Cortex-A7.
+\item GPU: ARM Mali-400 MP4 450Mhz.
+\item Memoria RAM 1,5GB LPDDR2.
+\item Almacenamiento interno 16GB (12GB accesible al usuario).
+\item Bluetooth Versión 4.0 con A2DP.
+\item Sensores:  Acelerómetro, Proximidad, Brújula , Luz ambiental, Giroscopio, Biométrico (huellas digitales).
+\end{enumerate}
+
+El prototipo de dispositivo OpenGlove disponible en InTeracTion fue utilizado para realizar las pruebas y el desarrollo del SDK. Se usaron el IMU, motores y sensores de flexibilidad disponibles en el prototipo.
+
+\begin{enumerate}
+\item Sensores de flexibilidad de 2,2”, SparkFun.
+\item Sensor de rastreo IMU, SparkFun.
+\item Actuadores (En específico motores de vibración).
+\item Bluetooth mate silver, Sparkfun.
+\end{enumerate}
