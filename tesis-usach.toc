@@ -29,9 +29,7 @@
 \contentsline {subsection}{\numberline {2.2.3}Dexmo}{13}{subsection.2.2.3}
 \contentsline {subsection}{\numberline {2.2.4}Manus VR}{14}{subsection.2.2.4}
 \contentsline {subsection}{\numberline {2.2.5}Haptx}{15}{subsection.2.2.5}
-\contentsline {subsection}{\numberline {2.2.6}Sense glove}{15}{subsection.2.2.6}
-\contentsline {subsection}{\numberline {2.2.7}Virtual Reality Smart Glove}{15}{subsection.2.2.7}
-\contentsline {section}{\numberline {2.3}Resumen}{16}{section.2.3}
+\contentsline {section}{\numberline {2.3}Resumen}{15}{section.2.3}
 \contentsline {chapter}{\numberline {3}Análisis}{17}{chapter.3}
 \contentsline {section}{\numberline {3.1}Levantamiento de requisitos de software}{17}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Antecedentes}{17}{subsection.3.1.1}
