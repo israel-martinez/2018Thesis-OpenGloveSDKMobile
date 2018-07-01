@@ -1,11 +1,12 @@
 \section{Levantamiento de requisitos de software}
 
 \subsection{Antecedentes}
-%debería incluirse los requerimientos de las anteriores 2 tesis (en lo que respecta al software)
-En los trabajos anteriores se ha logrado establecer las bases de hardware y software para
+%debería incluirse los requerimientos de las anteriores 2 tesis (en lo que respecta al software) debe especificarse
+% trabajo relacionado al SDK alto nivel (extensión de software)
+% trabajo relacionado al extensión de OpenGlove a nivel de Hardware y Software
+En los trabajos anteriores relacionados a OpenGlove, realizados por \cite{tesis-monsalve-rodrigo}, \cite{tesis-meneses-sebastian} y \cite{tesis-cerda-rodrigo} se ha logrado establecer las bases de hardware y software para dar soporte a la retroalimentación vibrotáctil y el seguimiento de las manos. En el trabajo de \cite{tesis-meneses-sebastian}, se realizó una extensión de sofware a OpenGlove, desarrollando un SDK de alto nivel para la retroalimentación vibrotáctil. Por otra parte, el trabajo de \cite{tesis-cerda-rodrigo}, se realizó una extensión de software y hardware para la captura de movimientos de la mano. En base a estos dos últimos se desprenden las diferentes funcionalidades y soporte que se debe lograr a nivel de software, para dar soporte a los actuadores, sensores de flexibilidad e IMU. Actualmente OpenGlove cuenta con un SDK para Windows, el cual incluye el sofware de configuración y cuatro APIs de alto nivel para los lenguajes C\#, Java, C++ y JavaScript. El SDK fue desarrollado en el IDE Visual Studio.
 
-
-%En este capítulo se realiza un levantamiento de requerimientos en conformidad con los antecedentes recogidos del estado actual del software existente para OpenGlove y el nivel de abstracción al que se desea llegar. Utilizando la metodología basada en RAD . El producto final es un paquete de software funcional que permite controlar dispositivos OpenGlove a través de APIs de alto nivel.
+%Los dispositivos móviles suelen tener menos capacidades de cálculo, memoria y batería, por lo que se esperan tener latencias mayores a las presentadas en los trabajos antes mencionados. El SDK para dispositivos móviles
 
 \subsection{Requisitos}
 % ¿Requisitos o Requerimientos? http://investigacionit.com.ar/es/requisitos-o-requerimientos/
@@ -61,3 +62,33 @@ RF023 & \begin{tabular}[c]{@{}l@{}}El sistema debe permitir al\\ usuario calibra
 
 %{END} tables-generator/functional-requeriments
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+La Tabla \ref{table:RNF}, muestra los requisitos no funcionales obtenidos mediante las reuniones con el profesor guía. De estas restricciones al SDK, se le debe tomar especial importancia al requisito no funcional RNF004, puesto este indica el umbral límite que no se debe superar. Experimentos enfocados en medir los tiempos de latencia que las personas pueden detectar son del orden de 54 ms para retroalimentación kinestésica \citep{latency-haptic-kinestesic-2004}, 60 ms en estudios de percepción\citep{latency-haptic-perception-2009} y 60 ms simulaciones quirúrgicas simulaciones \citep{latency-visual-haptic-2015}. Referencias de la literatura obtenidas del primer trabajo relacionado a OpenGlove realizado por \cite{tesis-monsalve-rodrigo}.
+
+%Experimentaciones que miden los tiempos de latencia que las personas pueden detectar un desfase en una representación visual-haptic son del orden de los 54 ms con retroalimentación kinestésica \cite{retroalimentacion-kinestesica-2004}, 60 ms con retroalimentación vibrotáctil en simulaciones quirúrgicas (Wu, Sim, Enquobahrie, & Ortiz, 2015) y 60 ms con retroalimentación vibrotáctil en un estudio de percepción (Okamoto, Konyo, Saga, & Tadokoro, 2009)
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% https://www.tablesgenerator.com/
+%\caption[Requisitos no funcionales de software]{Requisitos  no funcionales de software \\ Fuente: Elaboración propia (2018)}
+%\label{table:RNF}
+
+\begin{table}[H]
+\caption[Requisitos no funcionales de software]{Requisitos  no funcionales de software \\ Fuente: Elaboración propia (2018)}
+\label{table:RNF}
+\begin{tabular}{|l|l|l|l|}
+\hline
+ID     & Síntesis del requisito                                                    & Descripción                                                                                                                                                                                                                      & Origen \\ \hline
+RNF001 & Sistema multiplataforma                                                   & \begin{tabular}[c]{@{}l@{}}El software a desarrollar debe ser ejecutado\\ inicialmente en el sistema operativo Android,\\ sin embargo, el proyecto en un futuro debe \\ poder dar soporte al sistema operativo iOS.\end{tabular} & Inicio \\ \hline
+RNF002 & \begin{tabular}[c]{@{}l@{}}Soportar comunicación\\ Bluetooth\end{tabular} & \begin{tabular}[c]{@{}l@{}}El sistema debe ser capaz de comunicarse\\ con los dispositivos OpenGlove mediante \\ Bluetooth Clásico.\end{tabular}                                                                                 & Inicio \\ \hline
+RNF003 & Interoperabilidad                                                         & \begin{tabular}[c]{@{}l@{}}El SDK debe permitir la interoperabilidad\\ entre los lenguajes de programación C\# y\\ Java.\end{tabular}                                                                                            & Inicio \\ \hline
+RNF004 & Umbral latencia aceptada                                                  & \begin{tabular}[c]{@{}l@{}}El SDK no debe superar el umbral de 60 ms\\ de latencia perceptible por el usuario.\end{tabular}                                                                                                      & Inicio \\ \hline
+\end{tabular}
+\end{table}
+
+%{START} .../2018Thesis-OpenGloveSDKMobile/tables-generator/no-functional-requeriments
+
+
+
+%{END} .../2018Thesis-OpenGloveSDKMobile/tables-generator/no-functional-requeriments

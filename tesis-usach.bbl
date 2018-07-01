@@ -1,4 +1,4 @@
-\begin{thebibliography}{22}
+\begin{thebibliography}{25}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{{\tt #1}}\fi
@@ -10,6 +10,13 @@ Aie (2017).
 \newblock Recuperado de
   http://www.aie.cl/files/file/comites/ca/abc/actuadores.pdf Revisado el 23 de
   Octubre de 2017.
+
+\bibitem[{Batteau et~al.(2004)Batteau, Liu, Maintz, Bhasin, \&
+  Bowyer}]{latency-haptic-kinestesic-2004}
+Batteau, L.~M., Liu, A., Maintz, J. B.~A., Bhasin, Y., \& Bowyer, M.~W. (2004).
+\newblock A study on the perception of haptics in surgical simulation.
+\newblock In S.~Cotin, \& D.~Metaxas (Eds.) {\em Medical Simulation\/}, (pp.
+  185--192). Berlin, Heidelberg: Springer Berlin Heidelberg.
 
 \bibitem[{Cerda(2017)}]{tesis-cerda-rodrigo}
 Cerda, R.~A. (2017).
@@ -78,8 +85,8 @@ Microsoft (2017).
   https://developer.microsoft.com/en-us/windows/mixed-reality/mixed\_reality
   Revisado el 26 de Noviembre de 2017.
 
-\bibitem[{Monsalve(2016)}]{tesis-monsalve-rodrigo}
-Monsalve, R.~A. (2016).
+\bibitem[{Monsalve(2015)}]{tesis-monsalve-rodrigo}
+Monsalve, R.~A. (2015).
 \newblock Dispositivo de retroalimentación táctil para interfaces naturaltes
   y de ralidad virtual.
 
@@ -95,6 +102,13 @@ Norman, D., \& Nielsen, J. (2017).
 \newblock Recuperado de
   https://www.nngroup.com/articles/definition-user-experience/ Revisado el 21
   de Octubre de 2017.
+
+\bibitem[{Okamoto et~al.(2009)Okamoto, Konyo, Saga, \&
+  Tadokoro}]{latency-haptic-perception-2009}
+Okamoto, S., Konyo, M., Saga, S., \& Tadokoro, S. (2009).
+\newblock Detectability and perceptual consequences of delayed feedback in a
+  vibrotactile texture display.
+\newblock {\em IEEE Transactions on Haptics\/}, {\em 2\/}(2), 73--84.
 
 \bibitem[{Rambal(2018)}]{flexor-sensor-01}
 Rambal (2018).
@@ -137,5 +151,12 @@ Ticportal (2018).
 \newblock Recuperado de
   https://www.ticportal.es/glosario-tic/open-source-codigo-abierto Revisado el
   28 de Abril de 2018.
+
+\bibitem[{Wu et~al.(2015)Wu, Sim, Enquobahrie, \&
+  Ortiz}]{latency-visual-haptic-2015}
+Wu, B., Sim, S.~H., Enquobahrie, A., \& Ortiz, R. (2015).
+\newblock Effects of visual latency on visual-haptic experience of stiffness.
+\newblock In {\em 2015 Seventh International Workshop on Quality of Multimedia
+  Experience (QoMEX)\/}, (pp. 1--6).
 
 \end{thebibliography}
