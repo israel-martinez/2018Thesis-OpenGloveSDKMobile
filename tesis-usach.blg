@@ -5,44 +5,44 @@ A level-1 auxiliary file: preliminares/cubierta.aux
 A level-1 auxiliary file: preliminares/abstract.aux
 The style file: apa-good.bst
 Database file #1: bibliografia.bib
-You've used 25 entries,
+You've used 28 entries,
             2804 wiz_defined-function locations,
-            701 strings with 8633 characters,
-and the built_in function-call counts, 10111 in all, are:
-= -- 882
-> -- 349
-< -- 24
-+ -- 142
-- -- 110
-* -- 573
-:= -- 1811
-add.period$ -- 73
-call.type$ -- 25
-change.case$ -- 166
-chr.to.int$ -- 22
-cite$ -- 25
-duplicate$ -- 725
-empty$ -- 726
-format.name$ -- 146
-if$ -- 1941
+            715 strings with 9150 characters,
+and the built_in function-call counts, 11152 in all, are:
+= -- 978
+> -- 379
+< -- 27
++ -- 154
+- -- 119
+* -- 621
+:= -- 2009
+add.period$ -- 82
+call.type$ -- 28
+change.case$ -- 184
+chr.to.int$ -- 25
+cite$ -- 28
+duplicate$ -- 800
+empty$ -- 801
+format.name$ -- 158
+if$ -- 2139
 int.to.chr$ -- 4
 int.to.str$ -- 1
-missing$ -- 128
-newline$ -- 129
-num.names$ -- 102
-pop$ -- 266
+missing$ -- 140
+newline$ -- 144
+num.names$ -- 114
+pop$ -- 290
 preamble$ -- 1
-purify$ -- 136
+purify$ -- 151
 quote$ -- 0
-skip$ -- 345
+skip$ -- 384
 stack$ -- 0
-substring$ -- 338
-swap$ -- 311
+substring$ -- 371
+swap$ -- 338
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 222
+type$ -- 249
 warning$ -- 0
-while$ -- 82
+while$ -- 91
 width$ -- 0
-write$ -- 304
+write$ -- 340

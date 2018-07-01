@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  1 JUL 2018 05:06
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  1 JUL 2018 18:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1239,30 +1239,30 @@ Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 (./tesis-usach.aux (./preliminares/cubierta.aux) (./preliminares/abstract.aux))
 \openout1 = `tesis-usach.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 9.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
 .................................................
 . fontspec info: "setup-math"
 . 
@@ -1270,56 +1270,56 @@ LaTeX Font Info:    ... okay on input line 7.
 .................................................
 \symlegacymaths=\mathgroup10
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 7.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 7.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 7.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 7.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 7.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 7.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 7.
-LaTeX Font Info:    Redeclaring math accent \check on input line 7.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 7.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 7.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 7.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 7.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 7.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 7.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 7.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 7.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 7.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 7.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 7.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 7.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 7.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 7.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 7.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 7.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 9.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 9.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 9.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 9.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 9.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 9.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 9.
+LaTeX Font Info:    Redeclaring math accent \check on input line 9.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 9.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 9.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 9.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 9.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 9.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 7.
+(Font)              `operators' in the math version `normal' on input line 9.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/Arial(0)/m/n on input line 7.
+(Font)                  OT1/cmr/m/n --> TU/Arial(0)/m/n on input line 9.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 7.
+(Font)              `operators' in the math version `bold' on input line 9.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/Arial(0)/m/n on input line 7.
+(Font)                  OT1/cmr/bx/n --> TU/Arial(0)/m/n on input line 9.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/Arial(0)/m/n --> TU/Arial(0)/m/n on input line 7.
+(Font)                  TU/Arial(0)/m/n --> TU/Arial(0)/m/n on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/Arial(0)/m/it on input line 7.
+(Font)                  OT1/cmr/m/it --> TU/Arial(0)/m/it on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/Arial(0)/bx/n on input line 7.
+(Font)                  OT1/cmr/bx/n --> TU/Arial(0)/bx/n on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 7.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 7.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 9.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/Arial(0)/m/n --> TU/Arial(0)/bx/n on input line 7.
+(Font)                  TU/Arial(0)/m/n --> TU/Arial(0)/bx/n on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/Arial(0)/bx/it on input line 7.
+(Font)                  OT1/cmr/bx/it --> TU/Arial(0)/bx/it on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 7.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 7.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 9.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1332,7 +1332,7 @@ Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box69
-Package hyperref Info: Link coloring ON on input line 7.
+Package hyperref Info: Link coloring ON on input line 9.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1342,9 +1342,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count332
 )
-LaTeX Info: Redefining \ref on input line 7.
-LaTeX Info: Redefining \pageref on input line 7.
-LaTeX Info: Redefining \nameref on input line 7.
+LaTeX Info: Redefining \ref on input line 9.
+LaTeX Info: Redefining \pageref on input line 9.
+LaTeX Info: Redefining \nameref on input line 9.
 
 (./tesis-usach.out) (./tesis-usach.out)
 \@outlinefile=\write6
@@ -1537,25 +1537,28 @@ File: images/chapter01/OpenGlove-Architecture-02.png Graphic file (type bmp)
 (./chapters/01.06.Organizacion-documento.tex) [8]
 (./chapters/02.00.Marco-teorico.tex [9]
 Cap\'itulo 2.
-) (./chapters/02.01.Marco-conceptual.tex) (./chapters/02.02.Estado-del-arte.tex
-[10
+) (./chapters/02.01.Marco-conceptual.tex [10
 
-] [11]
+]
+
+Package natbib Warning: Citation `statista-SO-war-mobile' on page 11 undefined 
+on input line 29.
+
+[11]) (./chapters/02.02.Estado-del-arte.tex [12]
 File: images/chapter02/openglove.png Graphic file (type bmp)
 <images/chapter02/openglove.png>
- [12]
 File: images/chapter02/avatar-VR.png Graphic file (type bmp)
 <images/chapter02/avatar-VR.png>
+ [13]
 File: images/chapter02/dexmo.png Graphic file (type bmp)
 <images/chapter02/dexmo.png>
- [13]
+ [14]
 File: images/chapter02/manus-vr.jpeg Graphic file (type bmp)
 <images/chapter02/manus-vr.jpeg>
- [14]
 File: images/chapter02/haptx01.jpg Graphic file (type bmp)
 <images/chapter02/haptx01.jpg>
-) (./chapters/02.03.Resumen.tex [15])
-(./chapters/03.00.Analisis.tex [16]
+ [15])
+(./chapters/02.03.Resumen.tex) (./chapters/03.00.Analisis.tex [16]
 Cap\'itulo 3.
 ) (./chapters/03.01.Requisitos-software.tex
 Overfull \hbox (19.21721pt too wide) in alignment at lines 29--34
@@ -1580,12 +1583,6 @@ Overfull \hbox (19.21721pt too wide) in alignment at lines 57--61
  []
 
 [18] [19] [20] [21]) (./chapters/03.02.Prototipos.tex
-Underfull \hbox (badness 1383) in paragraph at lines 3--4
-[]\TU/Arial(0)/m/n/10 A continuación se muestran los diferentes prototipos desa
-rrollados durante la
- []
-
-
 Overfull \hbox (23.3137pt too wide) in paragraph at lines 17--26
 [][] 
  []
@@ -1594,14 +1591,14 @@ Overfull \hbox (23.3137pt too wide) in paragraph at lines 17--26
 File: images/chapter03/01-prototype.png Graphic file (type bmp)
 <images/chapter03/01-prototype.png>
  [23]
-Overfull \hbox (11.11644pt too wide) in paragraph at lines 48--58
- [][] 
+Overfull \hbox (11.11644pt too wide) in paragraph at lines 51--61
+[][] 
  []
 
 File: images/chapter03/02-prototype.png Graphic file (type bmp)
 <images/chapter03/02-prototype.png>
 [24] [25]
-Overfull \hbox (18.72711pt too wide) in paragraph at lines 80--89
+Overfull \hbox (18.72711pt too wide) in paragraph at lines 87--96
  [][] 
  []
 
@@ -1698,76 +1695,81 @@ adas en la cabeza y el
 
 
 ]) [45] (./tesis-usach.bbl
-Underfull \hbox (badness 6268) in paragraph at lines 82--87
+Underfull \hbox (badness 6268) in paragraph at lines 88--93
 []\TU/Arial(0)/m/n/10 Microsoft (2017).  Mixed reality.  https://developer.micr
 osoft.com/en-us/windows/mixed-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--126
-[]\TU/Arial(0)/m/n/10 Rouse, M. (2017).  application program interface (api).  
-Recuperado de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--126
-\TU/Arial(0)/m/n/10 http://searchmicroservices.techtarget.com/definition/applic
-ation-program-interface-API Re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--133
-[]\TU/Arial(0)/m/n/10 Statista (2016).  Virtual reality (vr) - statistics and f
-acts.  Recuperado de
+Underfull \hbox (badness 4096) in paragraph at lines 95--100
+[]\TU/Arial(0)/m/n/10 MobiLoud (2018).  Native, web or hybrid apps? what’s the 
+difference?  Recu-
  []
 
 [46
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 135--140
+Underfull \hbox (badness 10000) in paragraph at lines 134--139
+[]\TU/Arial(0)/m/n/10 Rouse, M. (2017).  application program interface (api).  
+Recuperado de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--139
+\TU/Arial(0)/m/n/10 http://searchmicroservices.techtarget.com/definition/applic
+ation-program-interface-API Re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--146
+[]\TU/Arial(0)/m/n/10 Statista (2016).  Virtual reality (vr) - statistics and f
+acts.  Recuperado de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--153
 []\TU/Arial(0)/m/n/10 Technaid (2018).  Sensor de rastreo imu.  Recuperado de
  []
 
 
-Underfull \hbox (badness 3396) in paragraph at lines 135--140
+Underfull \hbox (badness 3396) in paragraph at lines 148--153
 \TU/Arial(0)/m/n/10 http://www.technaid.com/support/research/imu-working-princi
 ples/ Revisado el 22 de Abril
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--147
+Underfull \hbox (badness 10000) in paragraph at lines 155--160
 []\TU/Arial(0)/m/n/10 Techopedia (2017).  Software development kit (sdk).  Recu
 perado de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--147
+Underfull \hbox (badness 10000) in paragraph at lines 155--160
 \TU/Arial(0)/m/n/10 https://www.techopedia.com/definition/3878/software-develop
 ment-kit-sdk Revisado el 19
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 115.
- [47]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 115.
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 117.
+[47]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 117.
  (./tesis-usach.aux (./preliminares/cubierta.aux)
 (./preliminares/abstract.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 115.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 115.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 117.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 117.
 Package rerunfilecheck Info: File `tesis-usach.out' has not changed.
-(rerunfilecheck)             Checksum: 10E6FDCB4E49696C5024BEB699DCA2BB.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 115.
+(rerunfilecheck)             Checksum: 2491651DE3F763817E8F0831B4ABAEF9.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 117.
  ) 
 Here is how much of TeX's memory you used:
- 28382 strings out of 492970
- 504397 string characters out of 6133938
- 693209 words of memory out of 5000000
- 31801 multiletter control sequences out of 15000+600000
+ 28391 strings out of 492970
+ 504607 string characters out of 6133938
+ 692385 words of memory out of 5000000
+ 31810 multiletter control sequences out of 15000+600000
  540684 words of font info for 86 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  51i,16n,67p,10414b,671s stack positions out of 5000i,500n,10000p,200000b,80000s

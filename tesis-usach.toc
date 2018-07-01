@@ -6,30 +6,29 @@
 \contentsline {section}{\numberline {1.3}Solución Propuesta}{3}{section.1.3}
 \contentsline {subsection}{\numberline {1.3.1}Características de la solución}{3}{subsection.1.3.1}
 \contentsline {subsection}{\numberline {1.3.2}Propósitos de la solución}{4}{subsection.1.3.2}
-\contentsline {section}{\numberline {1.4}Objetivos y alcance del proyecto}{5}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Objetivo general}{5}{subsection.1.4.1}
+\contentsline {section}{\numberline {1.4}Objetivos y alcance del proyecto}{4}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Objetivo general}{4}{subsection.1.4.1}
 \contentsline {subsection}{\numberline {1.4.2}Objetivos específicos}{5}{subsection.1.4.2}
 \contentsline {section}{\numberline {1.5}Metodologías y herramientas utilizadas}{5}{section.1.5}
-\contentsline {subsection}{\numberline {1.5.1}Metodología a usar}{6}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {1.5.1}Metodología a usar}{5}{subsection.1.5.1}
 \contentsline {subsection}{\numberline {1.5.2}Herramientas de Software}{7}{subsection.1.5.2}
-\contentsline {subsection}{\numberline {1.5.3}Herramientas de Hardware}{8}{subsection.1.5.3}
-\contentsline {section}{\numberline {1.6}Organización del documento}{9}{section.1.6}
+\contentsline {subsection}{\numberline {1.5.3}Herramientas de Hardware}{7}{subsection.1.5.3}
+\contentsline {section}{\numberline {1.6}Organización del documento}{8}{section.1.6}
 \contentsline {chapter}{\numberline {2}Marco teórico}{10}{chapter.2}
-\contentsline {section}{\numberline {2.1}Marco conceptual}{11}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}API}{11}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}SDK}{11}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Haptics}{11}{subsection.2.1.3}
-\contentsline {subsection}{\numberline {2.1.4}Tipos de aplicaciones móviles}{11}{subsection.2.1.4}
-\contentsline {subsubsection}{\numberline {2.1.4.1}Nativas}{11}{subsubsection.2.1.4.1}
-\contentsline {subsubsection}{\numberline {2.1.4.2}Híbridas}{11}{subsubsection.2.1.4.2}
-\contentsline {subsubsection}{\numberline {2.1.4.3}Web}{11}{subsubsection.2.1.4.3}
-\contentsline {section}{\numberline {2.2}Estado del arte}{11}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}OpenGlove}{12}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.1}Marco conceptual}{10}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}API}{10}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}SDK}{10}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Tipos de aplicaciones móviles}{11}{subsection.2.1.3}
+\contentsline {subsubsection}{\numberline {2.1.3.1}Nativas}{11}{subsubsection.2.1.3.1}
+\contentsline {subsubsection}{\numberline {2.1.3.2}Híbridas}{12}{subsubsection.2.1.3.2}
+\contentsline {subsubsection}{\numberline {2.1.3.3}Web}{12}{subsubsection.2.1.3.3}
+\contentsline {section}{\numberline {2.2}Estado del arte}{12}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}OpenGlove}{13}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}AvatarVR}{13}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Dexmo}{13}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Manus VR}{14}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.3}Dexmo}{14}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Manus VR}{15}{subsection.2.2.4}
 \contentsline {subsection}{\numberline {2.2.5}Haptx}{15}{subsection.2.2.5}
-\contentsline {section}{\numberline {2.3}Resumen}{15}{section.2.3}
+\contentsline {section}{\numberline {2.3}Resumen}{16}{section.2.3}
 \contentsline {chapter}{\numberline {3}Análisis}{17}{chapter.3}
 \contentsline {section}{\numberline {3.1}Levantamiento de requisitos de software}{17}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Antecedentes}{17}{subsection.3.1.1}

@@ -1,23 +1,59 @@
 \section{Marco conceptual}
 
 \subsection{API}
+\textit{Application Program Interface} por sus siglas en inglés, es código que actúa como interfaz para la programación de aplicaciones, permitiendo por ejemplo, que dos aplicaciones se comuniquen entre si, como el acceder a funcionalidades sin la necesidad de conocer la complejidad del código implementado \citep{techtarget-API}. Por ejemplo, para el sistema operativo \footnote{En resumidas palabras, un sistema operativo (OS por sus siglas en inglés) es un software que, después de ser cargado en la computadora por un programa de arranque inicial, administra los recursos de una computadora, controlando el flujo de información hacia y desde un procesador principal, administrando recursos como, la memoria, redes, archivos, etc. \citep{gartner-group-OS}} Android, todo su conjunto de funciones está disponible mediante APIs escritas en el lenguaje Java. Estas APIs son los cimientos necesarios para crear aplicaciones de Android simplificando la reutilización de componentes del sistema, servicios centrales y modulares.
 
 \subsection{SDK}
+Es un conjunto de utilidades de desarrollo para escribir aplicaciones de software, generalmente asociadas a entornos específicos \citep{gartner-group-SDK}. Ejemplos de SDKs incluyen a Windows 7 SDK, the Mac OS X SDK, iPhone SDK y Android SDK. 
 
-\subsection{Haptics}
+Los SDK suelen incluir un entorno de desarrollo integrado (IDE), que sirve como interfaz de programación central. El IDE puede incluir una ventana de programación para escribir el código fuente, un depurador para corregir errores del programa y un editor visual, que permite a los desarrolladores crear y editar la interfaz gráfica de usuario (GUI) del programa. Los IDE también incluyen un compilador, que se usa para crear aplicaciones a partir de archivos de código fuente \citep{techterms-SDK}.
+
+La mayoría de los SDK contienen código de ejemplo, que proporciona a los desarrolladores ejemplos de programas y bibliotecas. Estas muestras ayudan a los desarrolladores a aprender cómo crear programas básicos con el SDK, lo que les permite eventualmente crear aplicaciones más complejas. Los SDK también ofrecen documentación técnica, que puede incluir tutoriales y preguntas frecuentes. Algunos SDK también pueden incluir gráficos de muestra, como botones e iconos, que se pueden incorporar a las aplicaciones \citep{techterms-SDK}. En resumen, un SDK usualmente incluye lo siguiente:
+
+\begin{itemize}
+\item APIs
+\item IDE
+\item Software de configuración
+\item Códigos de ejemplo (programas, pruebas de concepto y bibliotecas)
+\item Documentación (técnica, tutoriales, preguntas frecuentes)
+\item Materiales gráficos de muestra (iconos, botones, etc.)
+\end{itemize}
+
+
+
+%\subsection{Haptics}
+% http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S1794-12372016000200002
+%Haptics es una tecnología táctil o de retroalimentación de fuerza que aprovecha el sentido del tacto de una persona al aplicar vibraciones y / o movimiento a la punta del dedo del usuario. Esta estimulación puede ayudar a la tecnología en el desarrollo de objetos virtuales en la pantalla del dispositivo. En su sentido más amplio, hápticos puede ser cualquier sistema que incorpore elementos táctiles y vibre a través de un sentido del tacto \citep{gartner-group-haptics}. OpenGlove posee
 
 \subsection{Tipos de aplicaciones móviles}
+Actualmente los sistemas operativos que predominan el mercado de dispositivos móviles son dos, iOS con un 14.4\% y Android con un 84,8\%  \citep{statista-SO-war-mobile}. Cuando se habla de aplicaciones móviles se nusca desarrollar aplicaciones para dispositivos que tienen iOS o Android como sistema operativo. A continuación se detallan los tres principales tipos de aplicaciones móviles: Nativas, Híbridas y Web.
+
 %https://www.solbyte.com/blog/2014/07/21/tipos-de-aplicaciones-moviles-nativas-webs-hibridas/
 
 %https://clearbridgemobile.com/mobile-app-development-native-vs-web-vs-hybrid/
 
-% Very : https://www.mobiloud.com/blog/native-web-or-hybrid-apps/
+% Very interesant : https://www.mobiloud.com/blog/native-web-or-hybrid-apps/
 
 	\subsubsection{Nativas}
+	Apple y Google ofrecen a los desarrolladores de aplicaciones sus propias herramientas de desarrollo, elementos de interfaz y SDK estandarizado; Xcode y Android Studio. Esto permite a cualquier desarrollador profesional desarrollar una aplicación nativa con relativa facilidad.
 	
-	\subsubsection{Híbridas}
+	Las ventajas que ofrecen las aplicaciones móbiles nativas, son mayor rapidez que las aplicaciones Híbridas y Web, también una experiencia con elementos de interfaz nativos. Con aplicaciones nativas, es posible acceder a la cámara, el micrófono, almacenamiento interno, Bluetooth, la brújula, el acelerómetro y deslizar gestos fácilmente. Todavía es posible usar las alternativas, pero es más fácil de manera nativa \citep{mobile-apps-types}.
+	
+	Las desventajas de las aplicaciones nativas es que se requiere más de un código base, dado que las aplicaciones iOS no se ejecutarán en Android y viceversa, por lo que se tiene que trabajar con diferentes códigos para cada plataforma que se elija construir. Esto se traduce a mayores costos de mantención, puesto que se  necesitan desarrolladores con conocimientos en ambas plataformas o bien equipos diferenciados, teniendo ambos que desarrollar lo mismo en ambas aplicaciones nativas \citep{mobile-apps-types}.
+
+Actualmente existen alternativas a las herramientas para desarrollo nativo ofrecidas por iOS y Android. Estas son, Xamarin, ReactNative y Titanum, las cuales permiten desarrollar aplicaciones nativas multiplataforma (cross-platform) para iOS y Android. Gracias a estas alternativas se permite compartir código para ambas plataformas. 
 	
 	\subsubsection{Web}
+	La mayoría están desarrolladas en JavaScript, CSS y HTML5. No poseen SDK para trabajar con iOS y Android. En resumidas cuentas son aplicaciones web que son adaptadas para parecer aplicaciones nativas, pero sin acceder completamente a las funcionalidades del dispositivo y sin tener un comportamiento igual al nativo. 
+	
+	Hasta hace poco, las aplicaciones web carecían de la funcionalidad de las aplicaciones nativas, como la capacidad de enviar notificaciones automáticas, trabajar sin conexión y cargar en la pantalla de inicio.
 
+Sin embargo, ha habido algunas mejoras en los navegadores y aplicaciones web que ofrecen estas características. Las aplicaciones que aprovechan estas características se denominan aplicaciones web progresivas \citep{mobile-apps-types}. Esta alternativa permite compartir el 100\% del código para ambas plataformas, ya que son aplicaciones web accedidas por internet desarrolladas con herramientas web.
+	
+	\subsubsection{Híbridas}
+	Se instala como una aplicación nativa, pero en realidad es una aplicación web en el interior. Las aplicaciones híbridas, como las aplicaciones web, se crean con Javascript, HTML y CSS y se ejecutan en algo llamado Webview, un navegador simplificado dentro de su aplicación. 
+	Las ventajas que presentan estas aplicaiones es que son menos costosas ya que comparten el mismo código base. Al igual que con las aplicaciones nativas, conserva la misma capacidad para acceder a las funciones del dispositivo. Esto es gracias a soluciones como PhoneGap que actúan como un puente entre el SDK nativo y la vista web en la que se ejecuta la aplicación. 
+	
+	La principal desventaja de este tipo de aplicación móvil, es su rendimiento, además de que presentan diferencias en el comportamiento con el usuario de como lo son las aplicaciones nativas. Alguna de las alternativas existentes para desarrollar aplicaciones híbridas son: PhoneGap/Cordova y Canvas.
 
 

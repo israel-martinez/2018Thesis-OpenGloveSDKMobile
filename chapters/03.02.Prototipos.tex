@@ -12,7 +12,7 @@ Este primer prototipo tiene como principal objetivo establecer las bases necesar
 %\label{table:prototype-01}
 
 \begin{table}[H]
-\caption[Primer prototipo]{Primer prototipo \\ Fuente: elaboración propia (2018).}
+\caption[Primer prototipo: activación de motores]{Primer prototipo \\ Fuente: elaboración propia (2018).}
 \label{table:prototype-01}
 \begin{tabular}{|l|l|}
 \hline
@@ -28,11 +28,11 @@ Requisitos no funcionales & RNF002, RNF004                                      
 Para lograr el objetivo propuesto, luego obtener los dispositivos vinculados y de la conexión con el guante mediante las APIs de bluetooth de Android, se procedió a enviar mensajes bajo el protocolo establecido en el desarrollo de Monsalve (2015). Dicho de una manera más detallada se utilizó la clase \textit{Message Generator} de la API de bajo nivel y la implementación nativa en Android para la escritura serial por medio de bluetooth. La Figura \ref{fig:prototype-01} consiste en el primer prototipo que muestra el listado de los dispositivos vinculados, la posibilidad de la conexión con el dispositivo deseado, permitiendo finalmente activar y desactivar el motor seleccionado para las pruebas. Para administrar la conexión entre el dispositivos, se requiere de un hilo encargado de ello (\textit{ConnectedThread}), el cual se comunica con el hilo de la \textit{interfaz de usuario} (UI desde ahora)  mediante mensajes. En conclusión es posible realizar envio de mensajes bajo el protocolo que acepta OpenGlove desde una aplicación Android nativa en Java.
 
 \begin{figure}[H]
-  \begin{center} 
+	\centering
+	\captionsetup{justification=centering}
    	\includegraphics[width=0.3\textwidth]{images/chapter03/01-prototype.png} 
-    \caption{Primer prototipo} 
+    \caption[Primer prototipo: activación de motores]{Primer prototipo: Activación de motores \\ Fuente: elaboración propia (2018).}
     \label{fig:prototype-01}
-  \end{center}
 \end{figure}
 
 
@@ -41,9 +41,12 @@ Para lograr el objetivo propuesto, luego obtener los dispositivos vinculados y d
 \label{segundo-prototipo}
 En el segundo prototipo se mantiene lo desarrollado previamente, añadiendo en esta iteración el soporte para los flexores. En este caso es necesaria la lectura desde el dispositivo OpenGlove. En la Tabla \ref{table:prototype-02} se muestra el resumen del prototipo ya mencionado. El RNF004 es cubierto parcialmente, debido a que se consulta continuamente el valor del flexor mediante funciones de bajo nivel, aumentando la latencia debido a las continuas consultas. No se presentan problemas de latencia para la activación y desactivación de motores.
 
+
+%\caption[Segundo prototipo]{Segundo prototipo \\ Fuente: elaboración propia (2018).}
+%\label{table:prototype-02}
+
 \begin{table}[H]
-\centering
-\caption{Segundo prototipo}
+\caption[Segundo prototipo: obtención de datos desde flexores]{Segundo prototipo\\ Fuente: elaboración propia (2018).}
 \label{table:prototype-02}
 \begin{tabular}{|l|l|}
 \hline
@@ -51,7 +54,7 @@ En el segundo prototipo se mantiene lo desarrollado previamente, añadiendo en e
 Nombre                    & Obtención de datos desde los flexores.                                                                                                                                                                                                                              \\ \hline
 Objetivos                 & \begin{tabular}[c]{@{}l@{}}Verificar la correcta obtención de datos desde los flexores en \\ la aplicación de Android nativo, utilizando las APIs de bajo \\ nivel disponibles.\end{tabular}                                                                        \\ \hline
 Descripción               & \begin{tabular}[c]{@{}l@{}}El segundo prototipo desarrollado agrega los métodos disponibles \\ de los flexores de la API de bajo nivel C\# hecha por Cerda (2017). \\ De esta manera, se obtiene un prototipo capaz de obtener los datos\\ del flexor.\end{tabular} \\ \hline
-Requisitos funcionales    & RF 000                                                                                                                                                                                                                                                              \\ \hline
+Requisitos funcionales    & RF 001                                                                                                                                                                                                                                                              \\ \hline
 Requisitos no funcionales & RNF002, RNF004 (parcialmente)
  \\ \hline
 \end{tabular}
@@ -59,11 +62,11 @@ Requisitos no funcionales & RNF002, RNF004 (parcialmente)
 
 
 \begin{figure}[H]
-  \begin{center} 
+	\centering
+	\captionsetup{justification=centering}
    	\includegraphics[width=0.3\textwidth]{images/chapter03/02-prototype.png} 
-    \caption{Segundo prototipo} 
+        \caption[Segundo prototipo: obtención de datos desde flexores]{Segundo prototipo: obtención de datos desde flexores \\ Fuente: elaboración propia (2018).}
     \label{fig:prototype-02}
-  \end{center}
 \end{figure}
 
 Para realizar la captura de datos del flexor, se obtiene valor actual del pin al cual el está conectado, esto se logra con el desarrollo de la función analogRead(pin) en Java basada en la API C\# de bajo nivel Cerda (2017). El hilo encargado de la administrar conexión (\textit{ConnectedThread}), tiene la responsabilidad de leer los mensajes desde OpenGlove y actualiza la UI enviando como un mensaje ente hilos el valor obtenido del flexor. Además se agregan las demás funciones de generación de mensajes relacionadas a los flexores en la API C\# ya mencionada. En la figura \ref{fig:prototype-02} se puede ver el estado actual del flexor el cual varia en un rango de entre 60 a 300 y 170 el valor medio del flexor sin aplicar fuerza.
@@ -73,9 +76,13 @@ Para realizar la captura de datos del flexor, se obtiene valor actual del pin al
 % Xamarin C# prototype for cross platform use
 En el segundo prototipo fue posible la activación del motor y obtener la información del flexor, permitiendo así comprobar la factibilidad de un desarrollo nativo en Android. En este tercer prototipo, se buscó dar soporte multiplataforma al proyecto, considerando la importancia de mantener umbrales de latencia, se optó por Xamarin. En concreto Xamarin.Forms,  que es una tecnología de desarrollo móvil multiplataforma \footnote{Traducción libre}, el cual permite desarrollar aplicaciones nativas para Android e iOS en C\#. La tabla \ref{table:prototype-03} muestra el resumen del tercer prototipo. El RNF004 es cubierto parcialmente, debido a que se consulta continuamente el valor del flexor al igual que el segundo prototipo. De igual manera no se presentan problemas de latencia para la activación y desactivación de motores.
 
+
+%\caption[Tercer prototipo]{Tercer prototipo \\ Fuente: elaboración propia (2018).}
+%\label{table:prototype-03}
+
 \begin{table}[H]
 \centering
-\caption{Tercer prototipo}
+\caption[Tercer prototipo]{Tercer prototipo \\ Fuente: elaboración propia (2018).}
 \label{table:prototype-03}
 \begin{tabular}{|l|l|}
 \hline
@@ -94,11 +101,11 @@ La figura \ref{fig:prototype-03} muestra el prototipo hecho en Xamarin.Forms, el
 
 
 \begin{figure}[H]
-  \begin{center} 
+	\centering
+	\captionsetup{justification=centering}
    	\includegraphics[width=0.3\textwidth]{images/chapter03/03-prototype.png} 
-    \caption{Tercer prototipo} 
+            \caption[Tercer prototipo: activación de motores y obtención de datos desde flexores]{Tercer prototipo: activación de motores y obtención de datos desde flexores \\ Fuente: elaboración propia (2018).}
     \label{fig:prototype-03}
-  \end{center}
 \end{figure}
 
 

@@ -1,4 +1,4 @@
-\begin{thebibliography}{25}
+\begin{thebibliography}{28}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{{\tt #1}}\fi
@@ -53,6 +53,12 @@ Gartner (2017{\natexlab{d}}).
 \newblock Recuperado de https://www.gartner.com/it-glossary/vr-virtual-reality/
   Revisado el 19 de Octubre de 2017.
 
+\bibitem[{Gartner(2018)}]{gartner-group-OS}
+Gartner (2018).
+\newblock It glossary: Operating system.
+\newblock Recuperado de https://www.gartner.com/it-glossary/os-operating-system
+  Revisado el 28 Junio de 2018.
+
 \bibitem[{Haptx(2018)}]{haptx-info-page}
 Haptx (2018).
 \newblock Haptx.
@@ -84,6 +90,13 @@ Microsoft (2017).
 \newblock
   https://developer.microsoft.com/en-us/windows/mixed-reality/mixed\_reality
   Revisado el 26 de Noviembre de 2017.
+
+\bibitem[{MobiLoud(2018)}]{mobile-apps-types}
+MobiLoud (2018).
+\newblock Native, web or hybrid apps? what’s the difference?
+\newblock Recuperado de
+  https://www.statista.com/statistics/266136/global-market-share-held-by-smartphone-operating-systems/
+  Revisado el 30 de Junio de 2018.
 
 \bibitem[{Monsalve(2015)}]{tesis-monsalve-rodrigo}
 Monsalve, R.~A. (2015).
@@ -144,6 +157,12 @@ Techopedia (2017).
 \newblock Recuperado de
   https://www.techopedia.com/definition/3878/software-development-kit-sdk
   Revisado el 19 de Octubre de 2017.
+
+\bibitem[{Techterms(2010)}]{techterms-SDK}
+Techterms (2010).
+\newblock Sdk definition.
+\newblock Recuperado de https://techterms.com/definition/sdk Revisado el 30 de
+  Junio de 2018.
 
 \bibitem[{Ticportal(2018)}]{open-source}
 Ticportal (2018).
