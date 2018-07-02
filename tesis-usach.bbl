@@ -1,4 +1,4 @@
-\begin{thebibliography}{28}
+\begin{thebibliography}{29}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{{\tt #1}}\fi
@@ -143,6 +143,13 @@ Statista (2016).
 \newblock Recuperado de
   https://www.statista.com/topics/2532/virtual-reality-vr/ Revisado el 20 de
   Octubre de 2017.
+
+\bibitem[{Statista(2017)}]{statista-SO-war-mobile}
+Statista (2017).
+\newblock The smartphone platform war is over.
+\newblock Recuperado de
+  https://www.statista.com/statistics/266136/global-market-share-held-by-smartphone-operating-systems/
+  Revisado el 29 de Junio de 2018.
 
 \bibitem[{Technaid(2018)}]{IMU-sensor-01}
 Technaid (2018).
