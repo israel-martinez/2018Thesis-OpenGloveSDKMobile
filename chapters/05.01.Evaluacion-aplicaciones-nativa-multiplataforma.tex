@@ -1,10 +1,37 @@
 \section{Evaluación aplicaciones nativa y multiplataforma}
 
-A continuación se realizará una evaluación de los prototipos 3 y 4 ya expuestos en la Sección 3.2, los cuales poseen las mismas funcionalidades pero desarrollados con distintas herramientas, el primero utilizando el IDE Android Studio para desarrollar con el SDK nativo de android (desde ahora Droid) y el segundo prototipo utilizando el IDE VisualStudio Community en un proyecto Xamarin.Forms (desde ahora Xamarin). Ambos prototipos fueron modificados para realizar la siguiente evaluación que consta de 1000 muestras y su almacenamiento en la memoria interna para la cantidad de motores y flexores del hardware disponible. Las pruebas fueron realizadas en el dispositivo Samsung Galaxy S5 mini y Nexus 5 ya señalados en el Capítulo 1.
+A continuación se realizará una evaluación de los prototipos 3 y 4 ya expuestos en la Sección 3.2, los cuales poseen las mismas funcionalidades pero desarrollados con distintas herramientas, el primero utilizando el IDE Android Studio para desarrollar con el SDK nativo de android (desde ahora Droid) y el segundo prototipo utilizando el IDE VisualStudio Community en un proyecto Xamarin.Forms (desde ahora Xamarin). Ambos prototipos fueron modificados para realizar la siguiente evaluación que consta de 1000 muestras y su almacenamiento en la memoria interna para la cantidad de motores y flexores del hardware disponible. Las pruebas fueron realizadas en el dispositivo Samsung Galaxy S5 mini y Nexus 5 ya señalados en el Capítulo 1. Para el análisis de latencia de los motores, se considerando el tiempo medido de activación y desactivación con una precisión de nanosegundos ($ns$), transformando los resultados a microsegundos ($\mu s$).  Por tanto el umbral límite de 60 milisegundos ($ms$) es equivalente a 60000 $\mu s$.
 
 \subsection{Prototipo 3 : Droid - Galaxy}
 
 \subsubsection{Motores}
+
+% {START} RESUME TABLE ---------------------------------
+%\caption[Resumen resultado pruebas motor Droid-Galaxy]{Resumen resultado pruebas motor Droid-Galaxy \\ Fuente: Elaboración propia (2018)}
+%\label{table:motor-droid-galaxy} 
+
+% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Tue, Jul 03, 2018 - 19:28:30
+% Requires LaTeX packages: dcolumn 
+\begin{table}[!htbp] \centering 
+\caption[Resumen resultado pruebas motor Droid-Galaxy]{Resumen resultado pruebas motor Droid-Galaxy \\ Fuente: Elaboración propia (2018)}
+\label{table:motor-droid-galaxy} 
+\begin{tabular}{@{\extracolsep{5pt}} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} } 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+\multicolumn{1}{c}{Motors} & \multicolumn{1}{c}{Mean} & \multicolumn{1}{c}{Median} & \multicolumn{1}{c}{Min} & \multicolumn{1}{c}{Max} & \multicolumn{1}{c}{Std. Dev.} & \multicolumn{1}{c}{Skewness} & \multicolumn{1}{c}{Kurtosis} \\ 
+\hline \\[-1.8ex] 
+1 & 245.345 & 170.156 & 135.469 & 681.354 & 141.369 & 1.336 & 3.376 \\ 
+2 & 263.026 & 272.031 & 192.084 & 357.083 & 36.334 & -0.114 & 2.965 \\ 
+3 & 570.168 & 375.026 & 313.802 & 1,576.875 & 337.726 & 1.257 & 2.911 \\ 
+4 & 418.957 & 424.843 & 304.688 & 668.750 & 61.357 & 0.417 & 4.613 \\ 
+5 & 484.390 & 497.240 & 353.073 & 724.479 & 78.401 & 0.221 & 3.303 \\ 
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
+% {END} RESUME TABLE ---------------------------------
+
+La Figura \ref{fig:droid-galaxy-hist-motors}, muestra los histogramas de las latencias obtenidas al mandar los mensajes de activación y desactivación. Se realizaron pruebas desde uno a cinco motores.
 
 \begin{figure}
  \begin{center} 
@@ -34,6 +61,28 @@ A continuación se realizará una evaluación de los prototipos 3 y 4 ya expuest
 
 \subsubsection{Flexores}
 
+% {START} RESUME TABLE ---------------------------------
+%\extracolsep{-11pt}
+%\caption[Resumen resultado pruebas flexor Droid-Galaxy]{Resumen resultado pruebas flexor Droid-Galaxy \\ Fuente: Elaboración propia (2018)}
+%\label{table:flexor-droid-galaxy}
+
+% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Tue, Jul 03, 2018 - 19:48:03
+% Requires LaTeX packages: dcolumn 
+\begin{table}[!htbp] \centering 
+\caption[Resumen resultado pruebas flexor Droid-Galaxy]{Resumen resultado pruebas flexor Droid-Galaxy \\ Fuente: Elaboración propia (2018)}
+\label{table:flexor-droid-galaxy}
+\begin{tabular}{@{\extracolsep{-11pt}} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} } 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+\multicolumn{1}{c}{Motors} & \multicolumn{1}{c}{Mean} & \multicolumn{1}{c}{Median} & \multicolumn{1}{c}{Min} & \multicolumn{1}{c}{Max} & \multicolumn{1}{c}{Std. Dev.} & \multicolumn{1}{c}{Skewness} & \multicolumn{1}{c}{Kurtosis} \\ 
+\hline \\[-1.8ex] 
+1 & 121,879.900 & 108,551.400 & 34,473.860 & 252,435.200 & 38,318.940 & 0.658 & 2.637 \\ 
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
+% {END} RESUME TABLE ---------------------------------
+
 \begin{figure}
  \begin{center} 
    	\includegraphics[width=0.5\textwidth]{evaluation/graphics/Droid/Galaxy/HistFlexorsDroidGalaxy.png} 
@@ -62,6 +111,30 @@ A continuación se realizará una evaluación de los prototipos 3 y 4 ya expuest
 \subsection{Prototipo 4: Xamarin - Galaxy}
 
 \subsubsection{Motores}
+% {START} RESUME TABLE ---------------------------------
+%\caption[Resumen resultado pruebas motor Xamarin-Galaxy]{Resumen resultado pruebas motor Xamarin-Galaxy \\ Fuente: Elaboración propia (2018)}
+%\label{table:motor-xamarin-galaxy}
+
+% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Tue, Jul 03, 2018 - 19:43:49
+% Requires LaTeX packages: dcolumn 
+\begin{table}[!htbp] \centering 
+\caption[Resumen resultado pruebas motor Xamarin-Galaxy]{Resumen resultado pruebas motor Xamarin-Galaxy \\ Fuente: Elaboración propia (2018)}
+\label{table:motor-xamarin-galaxy}
+\begin{tabular}{@{\extracolsep{5pt}} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} } 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+\multicolumn{1}{c}{Motors} & \multicolumn{1}{c}{Mean} & \multicolumn{1}{c}{Median} & \multicolumn{1}{c}{Min} & \multicolumn{1}{c}{Max} & \multicolumn{1}{c}{Std. Dev.} & \multicolumn{1}{c}{Skewness} & \multicolumn{1}{c}{Kurtosis} \\ 
+\hline \\[-1.8ex] 
+1 & 299.835 & 268.800 & 231.500 & 512 & 77.214 & 1.376 & 4.065 \\ 
+2 & 367.823 & 387.100 & 282 & 600.800 & 59.888 & 0.290 & 2.832 \\ 
+3 & 363.318 & 358.200 & 333 & 472.100 & 26.389 & 1.707 & 6.343 \\ 
+4 & 491.245 & 506.050 & 380.800 & 785.600 & 78.420 & 0.503 & 3.042 \\ 
+5 & 574.120 & 600 & 429.200 & 832.200 & 84.596 & 0.045 & 2.703 \\ 
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
+% {END} RESUME TABLE ---------------------------------
 
 \begin{figure}
  \begin{center} 
@@ -88,6 +161,27 @@ A continuación se realizará una evaluación de los prototipos 3 y 4 ya expuest
 \end{figure}
 
 \subsubsection{Flexores}
+% {START} RESUME TABLE ---------------------------------
+%\extracolsep{-11pt}
+%\caption[Resumen resultado pruebas flexor Xamarin-Galaxy]{Resumen resultado pruebas flexor Xamarin-Galaxy \\ Fuente: Elaboración propia (2018)}
+%\label{table:flexor-xamarin-galaxy}
+
+% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Tue, Jul 03, 2018 - 20:10:45
+% Requires LaTeX packages: dcolumn 
+\begin{table}[!htbp] \centering 
+\caption[Resumen resultado pruebas flexor Xamarin-Galaxy]{Resumen resultado pruebas flexor Xamarin-Galaxy \\ Fuente: Elaboración propia (2018)}
+\label{table:flexor-xamarin-galaxy}
+\begin{tabular}{@{\extracolsep{-11pt}} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} } 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+\multicolumn{1}{c}{Motors} & \multicolumn{1}{c}{Mean} & \multicolumn{1}{c}{Median} & \multicolumn{1}{c}{Min} & \multicolumn{1}{c}{Max} & \multicolumn{1}{c}{Std. Dev.} & \multicolumn{1}{c}{Skewness} & \multicolumn{1}{c}{Kurtosis} \\ 
+\hline \\[-1.8ex] 
+1 & 123,483.700 & 109,237.600 & 55,364.200 & 253,747.900 & 39,493.110 & 0.696 & 2.824 \\ 
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
+% {END} RESUME TABLE ---------------------------------
 
 \begin{figure}
  \begin{center} 

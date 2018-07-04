@@ -3,8 +3,9 @@
 
 \usepackage{eurosym} % Para utilizar el símbolo \euro
 \usepackage{longtable} % for add multi-page tables
+\usepackage{dcolumn}  % for Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
 
-\setlength{\parindent}{0pt} % comentar para que exista sangría en cada párrafo
+%\setlength{\parindent}{0pt} % comentar para que exista sangría en cada párrafo
 
 \begin{document}
 \baselineskip 23pt
@@ -25,7 +26,6 @@
 \makecopyright							% Si es propuesta no se mostrará
 
 % ### Resumen de la tesis
-\setcounter{page}{0} 
 \include{preliminares/abstract}
 
 % ### Dedicatoria y agredecimientos de la tesis ###
@@ -45,6 +45,7 @@
 \mainmatter								% Reinicia el contador de páginas para partir de 1 y usando números arábicos.
 
 % ### Capítulos de la tesis ###
+\setlength{\parindent}{0pt} % comentar para que exista sangría en cada
 
 \input{chapters/01.00.Introduccion}
 	\input{chapters/01.01.Antecedentes-motivacion}

@@ -23,7 +23,7 @@
 \contentsline {subsubsection}{\numberline {2.1.3.2}Web}{11}{subsubsection.2.1.3.2}
 \contentsline {subsubsection}{\numberline {2.1.3.3}Híbridas}{11}{subsubsection.2.1.3.3}
 \contentsline {section}{\numberline {2.2}Estado del arte}{12}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}OpenGlove}{12}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.1}OpenGlove}{13}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}AvatarVR}{13}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Dexmo}{14}{subsection.2.2.3}
 \contentsline {subsection}{\numberline {2.2.4}Manus VR}{15}{subsection.2.2.4}
@@ -68,36 +68,36 @@
 \contentsline {section}{\numberline {4.5}Resumen}{37}{section.4.5}
 \contentsline {chapter}{\numberline {5}Evaluación técnica}{38}{chapter.5}
 \contentsline {section}{\numberline {5.1}Evaluación aplicaciones nativa y multiplataforma}{38}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Prototipo 3 : Droid - Galaxy}{40}{subsection.5.1.1}
-\contentsline {subsubsection}{\numberline {5.1.1.1}Motores}{40}{subsubsection.5.1.1.1}
-\contentsline {subsubsection}{\numberline {5.1.1.2}Flexores}{42}{subsubsection.5.1.1.2}
-\contentsline {subsection}{\numberline {5.1.2}Prototipo 4: Xamarin - Galaxy}{45}{subsection.5.1.2}
-\contentsline {subsubsection}{\numberline {5.1.2.1}Motores}{45}{subsubsection.5.1.2.1}
-\contentsline {subsubsection}{\numberline {5.1.2.2}Flexores}{47}{subsubsection.5.1.2.2}
-\contentsline {subsection}{\numberline {5.1.3}Prototipo 3 : Droid - Nexus}{50}{subsection.5.1.3}
-\contentsline {subsubsection}{\numberline {5.1.3.1}Motores}{50}{subsubsection.5.1.3.1}
-\contentsline {subsubsection}{\numberline {5.1.3.2}Flexores}{50}{subsubsection.5.1.3.2}
-\contentsline {subsection}{\numberline {5.1.4}Prototipo 4: Xamarin - Nexus}{50}{subsection.5.1.4}
-\contentsline {subsubsection}{\numberline {5.1.4.1}Motores}{50}{subsubsection.5.1.4.1}
-\contentsline {subsubsection}{\numberline {5.1.4.2}Flexores}{50}{subsubsection.5.1.4.2}
-\contentsline {section}{\numberline {5.2}Evaluación tiempo de activación}{50}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}API C\#}{50}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}API Java}{50}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}Evaluación tiempo de lectura de datos}{50}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}API C\#}{50}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}API Java}{50}{subsection.5.3.2}
-\contentsline {section}{\numberline {5.4}Resumen}{50}{section.5.4}
-\contentsline {chapter}{\numberline {6}Conclusiones}{51}{chapter.6}
-\contentsline {section}{\numberline {6.1}Objetivos}{51}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Objetivos específicos}{51}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Objetivo general}{51}{subsection.6.1.2}
-\contentsline {section}{\numberline {6.2}Resultados obtenidos}{51}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Desarrollo de software}{51}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Resultados de las pruebas}{51}{subsection.6.2.2}
-\contentsline {subsubsection}{\numberline {6.2.2.1}Tiempo de respuesta}{51}{subsubsection.6.2.2.1}
-\contentsline {subsubsection}{\numberline {6.2.2.2}Líneas de código}{51}{subsubsection.6.2.2.2}
-\contentsline {section}{\numberline {6.3}Alcances y limitaciones}{51}{section.6.3}
-\contentsline {section}{\numberline {6.4}Trabajo futuro}{51}{section.6.4}
-\contentsline {section}{\numberline {6.5}Observaciones finales}{51}{section.6.5}
-\contentsline {chapter}{Glosario}{52}{section.6.5}
-\contentsline {chapter}{Referencias bibliogr\'aficas}{54}{chapter*.41}
+\contentsline {subsection}{\numberline {5.1.1}Prototipo 3 : Droid - Galaxy}{38}{subsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.1.1}Motores}{38}{subsubsection.5.1.1.1}
+\contentsline {subsubsection}{\numberline {5.1.1.2}Flexores}{41}{subsubsection.5.1.1.2}
+\contentsline {subsection}{\numberline {5.1.2}Prototipo 4: Xamarin - Galaxy}{43}{subsection.5.1.2}
+\contentsline {subsubsection}{\numberline {5.1.2.1}Motores}{43}{subsubsection.5.1.2.1}
+\contentsline {subsubsection}{\numberline {5.1.2.2}Flexores}{46}{subsubsection.5.1.2.2}
+\contentsline {subsection}{\numberline {5.1.3}Prototipo 3 : Droid - Nexus}{49}{subsection.5.1.3}
+\contentsline {subsubsection}{\numberline {5.1.3.1}Motores}{49}{subsubsection.5.1.3.1}
+\contentsline {subsubsection}{\numberline {5.1.3.2}Flexores}{49}{subsubsection.5.1.3.2}
+\contentsline {subsection}{\numberline {5.1.4}Prototipo 4: Xamarin - Nexus}{49}{subsection.5.1.4}
+\contentsline {subsubsection}{\numberline {5.1.4.1}Motores}{49}{subsubsection.5.1.4.1}
+\contentsline {subsubsection}{\numberline {5.1.4.2}Flexores}{49}{subsubsection.5.1.4.2}
+\contentsline {section}{\numberline {5.2}Evaluación tiempo de activación}{49}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}API C\#}{49}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}API Java}{49}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Evaluación tiempo de lectura de datos}{49}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}API C\#}{49}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}API Java}{49}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}Resumen}{49}{section.5.4}
+\contentsline {chapter}{\numberline {6}Conclusiones}{50}{chapter.6}
+\contentsline {section}{\numberline {6.1}Objetivos}{50}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Objetivos específicos}{50}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Objetivo general}{50}{subsection.6.1.2}
+\contentsline {section}{\numberline {6.2}Resultados obtenidos}{50}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Desarrollo de software}{50}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Resultados de las pruebas}{50}{subsection.6.2.2}
+\contentsline {subsubsection}{\numberline {6.2.2.1}Tiempo de respuesta}{50}{subsubsection.6.2.2.1}
+\contentsline {subsubsection}{\numberline {6.2.2.2}Líneas de código}{50}{subsubsection.6.2.2.2}
+\contentsline {section}{\numberline {6.3}Alcances y limitaciones}{50}{section.6.3}
+\contentsline {section}{\numberline {6.4}Trabajo futuro}{50}{section.6.4}
+\contentsline {section}{\numberline {6.5}Observaciones finales}{50}{section.6.5}
+\contentsline {chapter}{Glosario}{51}{section.6.5}
+\contentsline {chapter}{Referencias bibliogr\'aficas}{53}{chapter*.45}

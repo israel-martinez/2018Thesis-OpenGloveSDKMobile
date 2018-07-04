@@ -1,10 +1,14 @@
 # This file generate evaluation graphics for latex project of Mobile SDK Openlove 2018
+# install.packages("stargazer")
+# install.packages("moments")
+library(stargazer) # For generate LaTeX tables from R: stargazer(table, summary=FALSE, rownames=FALSE)
+library(moments) # for calculate skewness and kurtosis
 
 # Load .R files to use
 source('loadData.R')
 source('preprocessing.R')
 source('graphics.R')
-source('stadisticsTests.R')
+source('statistics.R')
 
 # Load Data to processing
 path <- getwd()
@@ -34,6 +38,13 @@ flexorTestDroidList     <- preprocessingTestList(flexorTestDroidList)
 flexorTestXamarinList   <- preprocessingTestList(flexorTestXamarinList)
 motorTestDroidList      <- preprocessingTestList(motorTestDroidList)
 motorTestXamarinList    <- preprocessingTestList(motorTestXamarinList)
+
+# Generate matrix statistic summary for generate LaTeX tables with stargazer
+tableFlexorTestDroid    <- statisticsTable_us(flexorTestDroidList)
+tableFlexorTestXamarin  <- statisticsTable_us(flexorTestXamarinList)
+tableMotorTestDroid     <- statisticsTable_us(motorTestDroidList)
+tableMotorTestXamarin   <- statisticsTable_us(motorTestXamarinList)
+
 
 # Constants for graphics
 ext <- '.png'
