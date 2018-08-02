@@ -16,7 +16,7 @@ folderData <- 'data'
 folderGraphics <- 'graphics'
 # ----------------------------  DEVICE IS VARIABLE ---------------------------- #
 # 'Device2' # Is the name for graphics subfolder... graphics/Droid/Galaxy ... graphics/Droid/Device2 ... graphics/Xamarin/Device2
-device <- 'Galaxy' # Galaxy - Nexus
+device <- 'Nexus' # Galaxy - Nexus
 # ----------------------------  DEVICE IS VARIABLE ---------------------------- #
 
 # TEST FOR device:  Native Android vs Xamarin.Forms flexors and motors

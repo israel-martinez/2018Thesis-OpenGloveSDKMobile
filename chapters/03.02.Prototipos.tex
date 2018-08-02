@@ -25,8 +25,6 @@ Requisitos no funcionales & RNF002, RNF004                                      
 \end{tabular}
 \end{table}
 
-Para lograr el objetivo propuesto, luego obtener los dispositivos vinculados y de la conexión con el guante mediante las APIs de bluetooth de Android, se procedió a enviar mensajes bajo el protocolo establecido en el desarrollo de Monsalve (2015). Dicho de una manera más detallada se utilizó la clase \textit{Message Generator} de la API de bajo nivel y la implementación nativa en Android para la escritura serial por medio de bluetooth. La Figura \ref{fig:prototype-01} consiste en el primer prototipo que muestra el listado de los dispositivos vinculados, la posibilidad de la conexión con el dispositivo deseado, permitiendo finalmente activar y desactivar el motor seleccionado para las pruebas. Para administrar la conexión entre el dispositivos, se requiere de un hilo encargado de ello (\textit{ConnectedThread}), el cual se comunica con el hilo de la \textit{interfaz de usuario} (UI desde ahora)  mediante mensajes. En conclusión es posible realizar envio de mensajes bajo el protocolo que acepta OpenGlove desde una aplicación Android nativa en Java.
-
 \begin{figure}[H]
 	\centering
 	\captionsetup{justification=centering}
@@ -34,6 +32,10 @@ Para lograr el objetivo propuesto, luego obtener los dispositivos vinculados y d
     \caption[Primer prototipo: activación de motores]{Primer prototipo: Activación de motores \\ Fuente: elaboración propia (2018).}
     \label{fig:prototype-01}
 \end{figure}
+
+Para lograr el objetivo propuesto, luego obtener los dispositivos vinculados y de la conexión con el guante mediante las APIs de bluetooth de Android, se procedió a enviar mensajes bajo el protocolo establecido en el desarrollo de Monsalve (2015). Dicho de una manera más detallada se utilizó la clase \textit{Message Generator} de la API de bajo nivel y la implementación nativa en Android para la escritura serial por medio de bluetooth. La Figura \ref{fig:prototype-01} consiste en el primer prototipo que muestra el listado de los dispositivos vinculados, la posibilidad de la conexión con el dispositivo deseado, permitiendo finalmente activar y desactivar el motor seleccionado para las pruebas. Para administrar la conexión entre los dispositivos, se requiere de un hilo\footnote{Hilo o Thread: En palabras muy resumidas, un hilo es una secuencia instrucciones dentro de un programa que se puede ejecutar independientemente de otro código, permitiendo así la ejecución en paralelo de instrucciones.} encargado de ello (\textit{ConnectedThread}), el cual se comunica con el hilo de la \textit{interfaz de usuario} (UI desde ahora)  mediante mensajes. El uso de hilos, permite administrar multiples conexiones con dispositivos Bluetooh de manera simultánea. En conclusión es posible realizar envio de mensajes bajo el protocolo que acepta OpenGlove desde una aplicación Android nativa en Java.
+
+
 
 
 
@@ -112,8 +114,36 @@ La figura \ref{fig:prototype-03} muestra el prototipo hecho en Xamarin.Forms, el
 
 \subsection{Cuarto prototipo}
 \label{cuarto-prototipo}
-Este prototipo tiene como propósito cubrir los diferentes requisitos funcionales relacionados a los actuadores y ser la base de las siguientes iteraciones para dar soporte a los sensores de flexibilidad e IMU.
+Este prototipo tiene como propósito cubrir los diferentes requisitos funcionales relacionados al comportamiento y ser la base de las siguientes iteraciones para dar soporte a los sensores de flexibilidad, actuadores e IMU. Se establece la navegación que posee la aplicación para hacer uso de todas las funcionalidades, por medio del diseño de un prototipo usando la herramienta AdobeXD en su versión grauita, con el cual se diseña, prototipa y se generan las diferentes imágenes e íconos que se utilizaron en el desarrollo del cuarto, quinto y sexto prototipo. La Figura \ref{fig:prototype-04}, muestra el prototipo desarrollado en Xamarin.Forms para Android y iOS, los cuales comparten la interfaz de usuario diferenciándose en la representación nativas de los elementos de cada plataforma.
+
+\begin{figure}[H]
+	\centering
+	\captionsetup{justification=centering}
+   	\includegraphics[width=1.0\textwidth]{images/chapter03/04-prototype/04-prototype.png} 
+            \caption[Cuarto prototipo: app navigation, devices, server and board configuration]{Cuarto prototipo: app navigation, devices, server and board configuration \\ Fuente: elaboración propia (2018).}
+    \label{fig:prototype-04}
+\end{figure}
 
 \subsection{Quinto  prototipo}
 \label{quinto-prototipo}
+Este prototipo tiene como propósito cubrir los diferentes requisitos funcionales relacionados a los actuadores.
+
+\begin{figure}[H]
+	\centering
+	\captionsetup{justification=centering}
+   	\includegraphics[width=1.0\textwidth]{images/chapter03/05-prototype/05-prototype.png} 
+            \caption[Quinto prototipo: actuator mapping and  actuator test]{Quinto prototipo: actuator mapping and actuator test \\ Fuente: elaboración propia (2018).}
+    \label{fig:prototype-05}
+\end{figure}
+
+\subsection{Sexto  prototipo}
+\label{sexto-prototipo}
 Este prototipo tiene como propósito cubrir los diferentes requisitos funcionales relacionados a los flexores e IMU.
+
+\begin{figure}[H]
+	\centering
+	\captionsetup{justification=centering}
+   	\includegraphics[width=1.0\textwidth]{images/chapter03/06-prototype/06-prototype.png} 
+            \caption[Sexto prototipo: flexor mapping, flexor test and IMU configuration]{Sexto prototipo: flexor mapping, flexor test and IMU configuration\\ Fuente: elaboración propia (2018).}
+    \label{fig:prototype-06}
+\end{figure}

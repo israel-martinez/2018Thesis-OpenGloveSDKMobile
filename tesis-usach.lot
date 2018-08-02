@@ -2,19 +2,19 @@
 \babel@toc {english}{}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Comparación SDK de distintos Guantes}}{12}{table.caption.7}
+\contentsline {table}{\numberline {2.1}{\ignorespaces Comparación SDK de distintos Guantes}}{14}{table.caption.7}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Requisitos funcionales de software}}{18}{table.3.1}
-\contentsline {table}{\numberline {3.2}{\ignorespaces Requisitos no funcionales de software}}{22}{table.caption.13}
-\contentsline {table}{\numberline {3.3}{\ignorespaces Primer prototipo: activación de motores}}{23}{table.caption.14}
-\contentsline {table}{\numberline {3.4}{\ignorespaces Segundo prototipo: obtención de datos desde flexores}}{24}{table.caption.16}
-\contentsline {table}{\numberline {3.5}{\ignorespaces Tercer prototipo: activación de motores y obtención de datos desde flexores}}{26}{table.caption.18}
-\contentsline {table}{\numberline {3.6}{\ignorespaces Matriz de prototipos de software vs requisitos funcionales}}{28}{table.caption.20}
-\contentsline {table}{\numberline {3.7}{\ignorespaces Matriz de prototipos de software vs requisitos no funcionales}}{28}{table.caption.21}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Requisitos funcionales de software}}{20}{table.3.1}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Requisitos no funcionales de software}}{25}{table.caption.13}
+\contentsline {table}{\numberline {3.3}{\ignorespaces Primer prototipo: activación de motores}}{26}{table.caption.14}
+\contentsline {table}{\numberline {3.4}{\ignorespaces Segundo prototipo: obtención de datos desde flexores}}{27}{table.caption.16}
+\contentsline {table}{\numberline {3.5}{\ignorespaces Tercer prototipo: activación de motores y obtención de datos desde flexores}}{29}{table.caption.18}
+\contentsline {table}{\numberline {3.6}{\ignorespaces Matriz de prototipos de software vs requisitos funcionales}}{34}{table.caption.23}
+\contentsline {table}{\numberline {3.7}{\ignorespaces Matriz de prototipos de software vs requisitos no funcionales}}{34}{table.caption.24}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Resumen resultado pruebas motor Droid-Galaxy}}{38}{table.caption.29}
-\contentsline {table}{\numberline {5.2}{\ignorespaces Resumen resultado pruebas flexor Droid-Galaxy}}{41}{table.caption.33}
-\contentsline {table}{\numberline {5.3}{\ignorespaces Resumen resultado pruebas motor Xamarin-Galaxy}}{43}{table.caption.37}
-\contentsline {table}{\numberline {5.4}{\ignorespaces Resumen resultado pruebas flexor Xamarin-Galaxy}}{46}{table.caption.41}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Resumen resultado pruebas motor Droid-Galaxy}}{44}{table.caption.32}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Resumen resultado pruebas flexor Droid-Galaxy}}{47}{table.caption.36}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Resumen resultado pruebas motor Xamarin-Galaxy}}{49}{table.caption.40}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Resumen resultado pruebas flexor Xamarin-Galaxy}}{52}{table.caption.44}
 \addvspace {10\p@ }
