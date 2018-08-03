@@ -91,14 +91,12 @@
 \contentsline {chapter}{\numberline {6}Conclusiones}{57}{chapter.6}
 \contentsline {section}{\numberline {6.1}Objetivos}{57}{section.6.1}
 \contentsline {subsection}{\numberline {6.1.1}Objetivos específicos}{57}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Objetivo general}{57}{subsection.6.1.2}
-\contentsline {section}{\numberline {6.2}Resultados obtenidos}{57}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Desarrollo de software}{57}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Resultados de las pruebas}{57}{subsection.6.2.2}
-\contentsline {subsubsection}{\numberline {6.2.2.1}Tiempo de respuesta}{57}{subsubsection.6.2.2.1}
-\contentsline {subsubsection}{\numberline {6.2.2.2}Líneas de código}{57}{subsubsection.6.2.2.2}
-\contentsline {section}{\numberline {6.3}Alcances y limitaciones}{57}{section.6.3}
-\contentsline {section}{\numberline {6.4}Trabajo futuro}{57}{section.6.4}
-\contentsline {section}{\numberline {6.5}Observaciones finales}{57}{section.6.5}
-\contentsline {chapter}{Glosario}{58}{section.6.5}
-\contentsline {chapter}{Referencias bibliogr\'aficas}{60}{chapter*.49}
+\contentsline {subsection}{\numberline {6.1.2}Objetivo general}{58}{subsection.6.1.2}
+\contentsline {section}{\numberline {6.2}Resultados obtenidos}{58}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Desarrollo de software}{59}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Resultados de las pruebas}{59}{subsection.6.2.2}
+\contentsline {section}{\numberline {6.3}Alcances y limitaciones}{59}{section.6.3}
+\contentsline {section}{\numberline {6.4}Trabajo futuro}{60}{section.6.4}
+\contentsline {section}{\numberline {6.5}Observaciones finales}{61}{section.6.5}
+\contentsline {chapter}{Glosario}{62}{section.6.5}
+\contentsline {chapter}{Referencias bibliogr\'aficas}{64}{chapter*.49}

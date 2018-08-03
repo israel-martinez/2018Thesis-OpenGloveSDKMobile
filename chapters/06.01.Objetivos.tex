@@ -1,5 +1,26 @@
 \section{Objetivos}
+En esta sección se concluye sobre el objetivo general y específicos del proyecto, detallando el nivel de completitud de cada uno.
 
 \subsection{Objetivos específicos}
+\begin{enumerate}
+
+\item \textbf{Desarrollar la aplicación de configuración de OpenGlove en Android. Permitiendo la creación, visualización, actualización y eliminación de los perfiles de configuración:}
+Se logró desarrollar la aplicación de configuración utilizando Xamarin.Forms permitiendo compartir la interfaz de usuario, realizando modificaciones mínimas según los patrones de diseño para iOS y Android. Además se logró compartir el código sobre el almacenamiento y el servidor WebSocket,  esto fue logrado utilizando paquetes de software compatibles\footnote{Paquetes de software NuGet: \url{https://www.nuget.org/packages}} con Xamarin.Forms (.NET Standar 2.0). Con esto se logró abstraer la complejidad de las configuraciones de la placa, de la IMU, los mapeos los flexores y actuadores, gracias a esta herramienta que permite configurar y administrar los distintos perfiles de configuración que pueden ser utilizados de manera independiente en cada dispositivo Bluetooth.
+
+Adicionalmente esta aplicación permite probar los actuadores, flexores e IMU previamente configurados.También permite la administración de los dispositivos Bluetooth vinculados, todo esto haciendo uso de la API C\# desarrollada en paralelo a esta aplicación.
+
+\item \textbf{Desarrollar APIs en Java y C\# que permitan la administración de dispositivos Bluetooth en segundo plano en Android permitiendo la conexión, desconexión, activación y listado de guantes OpenGlove.  También permitirá la activación y control de actuadores, flexores e IMU: } 
+El desarrollo de las APIs fue realizado completamente para los dos lenguajes de programación Java y C\#, permitiendo realizar todas las funcionalidades descritas en este objetivo. Estas APIs fueron desarrolladas como clientes WebSocket que se comunican bajo un protocolo de mensajes especificado en el Anexo de este documento. Gracias a esto los desarrolladores pueden implementar diferentes funcionalidades a sus aplicaciones, como lo es el caso de la aplicación de configuración de este proyecto, el cual brinda funcionalidades que permiten probar los actuadores, flexores e IMU.
+
+%\item Implementar la autenticación mediante cuentas de Google para acceder a los perfiles de configuración en FireBase \footnote{Base de datos no relacional en la nube Firebase \url{https://firebase.google.com/?hl=es-419}}.
+
+\item \textbf{Realizar evaluaciones de rendimiento para las APIs Java y C\# :} 
+Se lograron realizar las evaluaciones de rendimiento necesarias para las APIs, considerando también las evaluaciones que buscaban comparar el desarrollo de aplicaciones nativas en Android usando Android Studio con el uso de Xamarin.Forms como herramienta multiplataforma para aplicaciones nativas. Las evaluaciones permitieron determinar los rendimientos obtenidos en los dispositivos móviles. En comparación a los resultados obtenidos en el trabajo de\cite{tesis-cerda-rodrigo}, los de este proyecto presentaron rendimientos inferiores, pero esto es debido a las limitaciones del dispositivo móvil utilizado, comparado con el ordenador en el que el trabajo previo fue evaluado.
+
+\item \textbf{Demostrar el uso del SDK en un ambiente de VR, AR o MR, utilizando OpenGlove y el visor de realidad virtual ZapBox:}
+Fue posible realizar una prueba de concepto simple, utilizando las herramientas de GoogleARCore/GoogleVR, generando colisiones en regiones especificadas para activar los actuadores y generando el movimiento gracias a los datos provistos por el IMU. De esta forma es posible demostrar de manera práctica el uso de las APIs en los ambientes de AR, VR o MR.
+
+\end{enumerate}
 
 \subsection{Objetivo general}
+El objetivo general del proyecto fue desarrollar un SDK que permita dar soporte a OpenGlove en dispositivos móviles. Como producto final se obtiene una aplicación de configuración para Android, con APIs en lenguajes de programación Java y C\#. Se proporciona un SDK para dispositivos móviles de Código Abierto (Open Source) que incluye las APIs de alto nivel, la documentación y todo los recursos generados durante el desarrollo del proyecto (prototipos, iconos, imágenes, diagramas, etc.)

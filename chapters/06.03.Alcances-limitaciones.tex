@@ -1,1 +1,19 @@
 \section{Alcances y limitaciones}
+
+\begin{itemize}
+	\item Redactando ...
+	
+	\item El estado actual del SDK de OpenGlove desarrollado, solo permite ser utilizado en Android. Para dar soporte en iOS es necesario implementar la comunicación con dispositivos Bluetooth con las APIs nativas de iOS, además de replicar por lo menos una API como las hechas en Java y C\# si fuera necesario. Existe la posibilidad de usar la API C\# en iOS desarrollando aplicaciones con Xamarin con C\# y ver la integración con Unity (también compatible con C\#).
+	
+	\item La aplicación para iOS solo fue probada utilizando los dispositivos virtuales provistos por el IDE XCode de Mac, los cuales fueron iPhone X, iPhone 8 y iPhone 8 Plus  con la versión 11.4 de iOS. Con esto sólo fue posible probar la interfaz de usuario de la aplicación, ya que no fue se pudo probar la conexión con dispositivos Bluetooth ni el uso del servidor WebSocket.
+	
+	\item La aplicación para Android fue probada utilizando dispositivos virtuales y reales. Los dispositivos virtuales provistos por Android Virtual Device Manager, sólo se utilizó el Nexus 5X (API 23) y para pruebas en dispositivos reales, se utilizó el Samsung Galaxy S5 mini con Android 6.0.1 (API 23) y Nexus 5 Android 6.0.1 (API 23). Los dispositivos reales, fue posible probar el funcionamiento correcto de la aplicación, esto incluye aspectos técnicos como la conexión con dispositivos Bluetooth y el correcto funcionamiento del servidor WebSocket. En los dispositivos virtuales solo fue posible probar la interfaz de usuario, dado que no fue posible probar la conexión con dispositivos Bluetooth ni el uso del servidor WebSocket.
+	
+	\item No se han realizado validaciones automatizadas del software del SDK. Sólo se han realizado pruebas de aceptación con el profesor guía y las pruebas de concepto que permiten ver el uso las APIs.
+	
+	\item No se pudieron realizar pruebas reales con el máximo de flexores permitido, debido a las limitaciones del harware (máximo cinco). Sin embargo basado en el trabajo de \cite{tesis-cerda-rodrigo}, se repitió el flexor en otra región, para simular las lecturas de otro real, obteniendo un total de diez flexores, la mitad reales y la otra mitad simulados.
+	
+	\item Debido al hardware disponible no fue posible realizar conexión simultánea con dispositivos Bluetooth OpenGlove, dado que solo se disponía de un módulo Bluetooth.
+	
+	
+\end{itemize}
