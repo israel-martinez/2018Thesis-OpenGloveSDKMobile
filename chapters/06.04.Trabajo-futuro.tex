@@ -1,9 +1,16 @@
 \section{Trabajo futuro}
 
 \begin{itemize}
-	\item Redactando ...
-	\item Dar soporte del SDK en iOS, desarrollando los componentes específicos faltantes.
-	\item Desarrollar patrones de activación de actuadores extensibles en las APIs de alto nivel, para evitar que el desarrollador deba crear sus propios patrones básicos cada vez, y que pueda extender estos patrones.
-	\item Extender el protocolo de comunicación de las APIs de alto nivel al SDK de Windows, para soportar la activación de actuadores mediante mensajes utilizando WebSocket.
-	\item Ver la posibilidad de extender este proyecto en otras plataformas\footnote{Plataformas soportadas por Xamarin.Forms \url{https://github.com/xamarin/Xamarin.Forms/wiki/Platform-Support}}, dado que Xamarin.Forms Android, iOS y UWP (universal Windows Platform) en una versión estable.
+%	\item Redactando ...
+	
+	\item Dar soporte del SDK en iOS, desarrollando como mínimo la comunicación y administración de dispositivos Bluetooth. Luego desarrollar APIs que soporten otros lenguajes de programación para dispositivos móviles como Kotlin, Swift y Objetive C.
+	
+	\item Desarrollar patrones de activación de actuadores extensibles en las APIs de alto nivel, para evitar que el desarrollador deba crear sus propios patrones básicos cada vez y que pueda extender estos patrones para crear otros más complejos.
+	
+%	\item Extender el protocolo de comunicación de las APIs de alto nivel al SDK de Windows, para soportar la activación de actuadores mediante mensajes utilizando WebSocket.
+	
+	\item Evaluar la posibilidad de extender este proyecto en otras plataformas\footnote{Plataformas soportadas por Xamarin.Forms \url{https://github.com/xamarin/Xamarin.Forms/wiki/Platform-Support}}, dado que Xamarin.Forms soporte las siguientes plataformas Android, iOS y UWP (Universal Windows Platform) en una versión estable
+	
+	\item Establecer la calibración  del IMU para los diferentes dispositivos OpenGlove para establecer una orientación específica. También desarrollar un algoritmo encargado de interpretar la orientación y posición de la mano (o donde se encuentre el IMU), para obtener una interpretación precisa en tiempo real.
+	.
 \end{itemize}
