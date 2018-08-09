@@ -23,80 +23,80 @@
 \contentsline {subsubsection}{\numberline {2.1.3.2}Web}{12}{subsubsection.2.1.3.2}
 \contentsline {subsubsection}{\numberline {2.1.3.3}Híbridas}{12}{subsubsection.2.1.3.3}
 \contentsline {subsection}{\numberline {2.1.4}WebSocket}{13}{subsection.2.1.4}
-\contentsline {section}{\numberline {2.2}Estado del arte}{13}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}OpenGlove}{14}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}AvatarVR}{15}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Dexmo}{15}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Manus VR}{16}{subsection.2.2.4}
-\contentsline {subsection}{\numberline {2.2.5}Haptx}{17}{subsection.2.2.5}
-\contentsline {section}{\numberline {2.3}Resumen}{17}{section.2.3}
-\contentsline {chapter}{\numberline {3}Análisis}{19}{chapter.3}
-\contentsline {section}{\numberline {3.1}Levantamiento de requisitos de software}{19}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Antecedentes}{19}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Requisitos}{19}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}Prototipos}{25}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Primer prototipo: Activación de motores}{25}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Segundo prototipo: Obtención de datos desde flexores}{27}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Tercer prototipo}{28}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Cuarto prototipo}{30}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}Quinto prototipo}{31}{subsection.3.2.5}
-\contentsline {subsection}{\numberline {3.2.6}Sexto prototipo}{31}{subsection.3.2.6}
-\contentsline {section}{\numberline {3.3}APIs}{32}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Cuarto prototipo}{32}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Quinto prototipo}{33}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Sexto prototipo}{33}{subsection.3.3.3}
-\contentsline {section}{\numberline {3.4}Resumen}{34}{section.3.4}
-\contentsline {chapter}{\numberline {4}Diseño e implementación}{35}{chapter.4}
-\contentsline {section}{\numberline {4.1}Arquitectura general}{35}{section.4.1}
-\contentsline {section}{\numberline {4.2}Estructura}{37}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Servicio}{37}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}APIs}{37}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Software de configuración}{37}{subsection.4.2.3}
-\contentsline {section}{\numberline {4.3}Comportamiento}{37}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Obtener guantes}{38}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Activación}{39}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Añadir flexor a una región}{40}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Asignar Threshold}{41}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}Iniciar IMU}{42}{subsection.4.3.5}
-\contentsline {subsection}{\numberline {4.3.6}Lectura de datos provenientes de Arduino}{43}{subsection.4.3.6}
-\contentsline {section}{\numberline {4.4}Aspectos de implementación}{44}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Desarrollo multiplataforma en Xamarin.Forms}{44}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Servicio}{44}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Software de configuración}{44}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}APIs}{44}{subsection.4.4.4}
-\contentsline {subsubsection}{\numberline {4.4.4.1}Java}{44}{subsubsection.4.4.4.1}
-\contentsline {subsubsection}{\numberline {4.4.4.2}C\#}{44}{subsubsection.4.4.4.2}
-\contentsline {section}{\numberline {4.5}Resumen}{44}{section.4.5}
-\contentsline {chapter}{\numberline {5}Evaluación técnica}{45}{chapter.5}
-\contentsline {section}{\numberline {5.1}Evaluación aplicaciones nativa y multiplataforma}{45}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Prototipo 3 : Droid - Galaxy}{45}{subsection.5.1.1}
-\contentsline {subsubsection}{\numberline {5.1.1.1}Motores}{45}{subsubsection.5.1.1.1}
-\contentsline {subsubsection}{\numberline {5.1.1.2}Flexores}{48}{subsubsection.5.1.1.2}
-\contentsline {subsection}{\numberline {5.1.2}Prototipo 4: Xamarin - Galaxy}{50}{subsection.5.1.2}
-\contentsline {subsubsection}{\numberline {5.1.2.1}Motores}{50}{subsubsection.5.1.2.1}
-\contentsline {subsubsection}{\numberline {5.1.2.2}Flexores}{53}{subsubsection.5.1.2.2}
-\contentsline {subsection}{\numberline {5.1.3}Prototipo 3 : Droid - Nexus}{56}{subsection.5.1.3}
-\contentsline {subsubsection}{\numberline {5.1.3.1}Motores}{56}{subsubsection.5.1.3.1}
-\contentsline {subsubsection}{\numberline {5.1.3.2}Flexores}{56}{subsubsection.5.1.3.2}
-\contentsline {subsection}{\numberline {5.1.4}Prototipo 4: Xamarin - Nexus}{56}{subsection.5.1.4}
-\contentsline {subsubsection}{\numberline {5.1.4.1}Motores}{56}{subsubsection.5.1.4.1}
-\contentsline {subsubsection}{\numberline {5.1.4.2}Flexores}{56}{subsubsection.5.1.4.2}
-\contentsline {section}{\numberline {5.2}Evaluación tiempo de activación}{56}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}API C\#}{56}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}API Java}{56}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}Evaluación tiempo de lectura de datos}{56}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}API C\#}{56}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}API Java}{56}{subsection.5.3.2}
-\contentsline {section}{\numberline {5.4}Resumen}{56}{section.5.4}
-\contentsline {chapter}{\numberline {6}Conclusiones}{57}{chapter.6}
-\contentsline {section}{\numberline {6.1}Objetivos}{57}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Objetivos específicos}{57}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Objetivo general}{58}{subsection.6.1.2}
-\contentsline {section}{\numberline {6.2}Resultados obtenidos}{58}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Desarrollo de software}{59}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Resultados de las pruebas}{59}{subsection.6.2.2}
-\contentsline {section}{\numberline {6.3}Alcances y limitaciones}{59}{section.6.3}
-\contentsline {section}{\numberline {6.4}Trabajo futuro}{60}{section.6.4}
-\contentsline {section}{\numberline {6.5}Observaciones finales}{61}{section.6.5}
-\contentsline {chapter}{Glosario}{62}{section.6.5}
-\contentsline {chapter}{Referencias bibliogr\'aficas}{64}{chapter*.49}
+\contentsline {section}{\numberline {2.2}Estado del arte}{14}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}OpenGlove}{15}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}AvatarVR}{16}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Dexmo}{17}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Manus VR}{17}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}Haptx}{18}{subsection.2.2.5}
+\contentsline {section}{\numberline {2.3}Resumen}{19}{section.2.3}
+\contentsline {chapter}{\numberline {3}Análisis}{20}{chapter.3}
+\contentsline {section}{\numberline {3.1}Levantamiento de requisitos de software}{20}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Antecedentes}{20}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Requisitos}{20}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Prototipos}{26}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Primer prototipo: Activación de motores}{26}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Segundo prototipo: Obtención de datos desde flexores}{28}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Tercer prototipo}{29}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Cuarto prototipo}{31}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Quinto prototipo}{33}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.6}Sexto prototipo}{35}{subsection.3.2.6}
+\contentsline {section}{\numberline {3.3}APIs}{37}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Cuarto prototipo}{38}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Quinto prototipo}{38}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Sexto prototipo}{39}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}Resumen}{39}{section.3.4}
+\contentsline {chapter}{\numberline {4}Diseño e implementación}{41}{chapter.4}
+\contentsline {section}{\numberline {4.1}Arquitectura general}{41}{section.4.1}
+\contentsline {section}{\numberline {4.2}Estructura}{43}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Servicio}{43}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}APIs}{43}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Software de configuración}{43}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}Comportamiento}{43}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Obtener guantes}{44}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Activación}{45}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Añadir flexor a una región}{46}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Asignar Threshold}{47}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}Iniciar IMU}{48}{subsection.4.3.5}
+\contentsline {subsection}{\numberline {4.3.6}Lectura de datos provenientes de Arduino}{49}{subsection.4.3.6}
+\contentsline {section}{\numberline {4.4}Aspectos de implementación}{50}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Desarrollo multiplataforma en Xamarin.Forms}{50}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Servicio}{50}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Software de configuración}{50}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}APIs}{50}{subsection.4.4.4}
+\contentsline {subsubsection}{\numberline {4.4.4.1}Java}{50}{subsubsection.4.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.4.2}C\#}{50}{subsubsection.4.4.4.2}
+\contentsline {section}{\numberline {4.5}Resumen}{50}{section.4.5}
+\contentsline {chapter}{\numberline {5}Evaluación técnica}{51}{chapter.5}
+\contentsline {section}{\numberline {5.1}Evaluación aplicaciones nativa y multiplataforma}{51}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Prototipo 3 : Droid - Galaxy}{51}{subsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.1.1}Motores}{51}{subsubsection.5.1.1.1}
+\contentsline {subsubsection}{\numberline {5.1.1.2}Flexores}{54}{subsubsection.5.1.1.2}
+\contentsline {subsection}{\numberline {5.1.2}Prototipo 4: Xamarin - Galaxy}{56}{subsection.5.1.2}
+\contentsline {subsubsection}{\numberline {5.1.2.1}Motores}{56}{subsubsection.5.1.2.1}
+\contentsline {subsubsection}{\numberline {5.1.2.2}Flexores}{59}{subsubsection.5.1.2.2}
+\contentsline {subsection}{\numberline {5.1.3}Prototipo 3 : Droid - Nexus}{62}{subsection.5.1.3}
+\contentsline {subsubsection}{\numberline {5.1.3.1}Motores}{62}{subsubsection.5.1.3.1}
+\contentsline {subsubsection}{\numberline {5.1.3.2}Flexores}{62}{subsubsection.5.1.3.2}
+\contentsline {subsection}{\numberline {5.1.4}Prototipo 4: Xamarin - Nexus}{62}{subsection.5.1.4}
+\contentsline {subsubsection}{\numberline {5.1.4.1}Motores}{62}{subsubsection.5.1.4.1}
+\contentsline {subsubsection}{\numberline {5.1.4.2}Flexores}{62}{subsubsection.5.1.4.2}
+\contentsline {section}{\numberline {5.2}Evaluación tiempo de activación}{62}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}API C\#}{62}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}API Java}{62}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Evaluación tiempo de lectura de datos}{62}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}API C\#}{62}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}API Java}{62}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}Resumen}{62}{section.5.4}
+\contentsline {chapter}{\numberline {6}Conclusiones}{63}{chapter.6}
+\contentsline {section}{\numberline {6.1}Objetivos}{63}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Objetivos específicos}{63}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Objetivo general}{64}{subsection.6.1.2}
+\contentsline {section}{\numberline {6.2}Resultados obtenidos}{64}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Desarrollo de software}{65}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Resultados de las pruebas}{65}{subsection.6.2.2}
+\contentsline {section}{\numberline {6.3}Alcances y limitaciones}{65}{section.6.3}
+\contentsline {section}{\numberline {6.4}Trabajo futuro}{66}{section.6.4}
+\contentsline {section}{\numberline {6.5}Observaciones finales}{67}{section.6.5}
+\contentsline {chapter}{Glosario}{68}{section.6.5}
+\contentsline {chapter}{Referencias bibliogr\'aficas}{70}{chapter*.53}

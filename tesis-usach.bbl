@@ -1,4 +1,4 @@
-\begin{thebibliography}{32}
+\begin{thebibliography}{33}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{{\tt #1}}\fi
@@ -128,6 +128,12 @@ Okamoto, S., Konyo, M., Saga, S., \& Tadokoro, S. (2009).
 \newblock Detectability and perceptual consequences of delayed feedback in a
   vibrotactile texture display.
 \newblock {\em IEEE Transactions on Haptics\/}, {\em 2\/}(2), 73--84.
+
+\bibitem[{PubNub(2018)}]{websocket-pubnub}
+PubNub (2018).
+\newblock Pubnub websockets.
+\newblock Recuperado de https://www.pubnub.com/websockets/ Revisado el 1 de
+  Agosto de 2018.
 
 \bibitem[{Rambal(2018)}]{flexor-sensor-01}
 Rambal (2018).

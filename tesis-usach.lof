@@ -3,38 +3,39 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Arquitectura OpenGlove}}{2}{figure.caption.6}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Guantes OpenGlove}}{14}{figure.caption.8}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Guantes AvatarVR y TrackBand}}{15}{figure.caption.9}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Guantes Dexmo}}{16}{figure.caption.10}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Guantes Manus VR}}{16}{figure.caption.11}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Guantes Haptx}}{17}{figure.caption.12}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Representación visual de WebSocket}}{14}{figure.caption.7}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Guantes OpenGlove}}{16}{figure.caption.9}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Guantes AvatarVR y TrackBand}}{16}{figure.caption.10}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Guantes Dexmo}}{17}{figure.caption.11}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Guantes Manus VR}}{18}{figure.caption.12}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Guantes Haptx}}{19}{figure.caption.13}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Primer prototipo: activación de motores}}{26}{figure.caption.15}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Segundo prototipo: obtención de datos desde flexores}}{28}{figure.caption.17}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Tercer prototipo: activación de motores y obtención de datos desde flexores}}{29}{figure.caption.19}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Cuarto prototipo: app navigation, devices, server and board configuration}}{30}{figure.caption.20}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Quinto prototipo: actuator mapping and actuator test}}{31}{figure.caption.21}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Sexto prototipo: flexor mapping, flexor test and IMU configuration}}{32}{figure.caption.22}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Primer prototipo: activación de motores}}{27}{figure.caption.16}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Segundo prototipo: obtención de datos desde flexores}}{29}{figure.caption.18}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Tercer prototipo: activación de motores y obtención de datos desde flexores}}{30}{figure.caption.20}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Cuarto prototipo: app navigation, devices, server and board configuration}}{32}{figure.caption.22}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Quinto prototipo: actuator mapping and actuator test}}{34}{figure.caption.24}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Sexto prototipo: flexor mapping, flexor test and IMU configuration}}{36}{figure.caption.26}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Arquitectura de Openglove}}{35}{figure.caption.25}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Detalle Arquitectura de Openglove}}{36}{figure.caption.26}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Obtener guantes}}{38}{figure.caption.27}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Activar región}}{39}{figure.caption.28}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Agregar flexor a una región}}{40}{figure.caption.29}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Asignar Threshold}}{41}{figure.caption.30}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Iniciar IMU}}{42}{figure.caption.31}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Lectura de datos provenientes de Arduino}}{43}{figure.caption.32}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Arquitectura de Openglove}}{41}{figure.caption.29}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Detalle Arquitectura de Openglove}}{42}{figure.caption.30}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Obtener guantes}}{44}{figure.caption.31}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Activar región}}{45}{figure.caption.32}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Agregar flexor a una región}}{46}{figure.caption.33}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Asignar Threshold}}{47}{figure.caption.34}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Iniciar IMU}}{48}{figure.caption.35}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Lectura de datos provenientes de Arduino}}{49}{figure.caption.36}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Histogramas de motores Droid-Galaxy}}{46}{figure.caption.34}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Gráfico QQ de motores Droid-Galaxy}}{47}{figure.caption.35}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Gráficos de cajas de motores Droid-Galaxy}}{48}{figure.caption.36}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Histogramas de flexores Droid-Galaxy}}{49}{figure.caption.38}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Gráfico QQ de flexores Droid-Galaxy}}{49}{figure.caption.39}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Gráficos de cajas de flexores Droid-Galaxy}}{50}{figure.caption.40}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Histogramas de motores Xamarin-Galaxy}}{51}{figure.caption.42}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Gráfico QQ de motores Xamarin-Galaxy}}{52}{figure.caption.43}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Gráficos de cajas de motores Xamarin-Galaxy}}{53}{figure.caption.44}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Histogramas de flexores Xamarin-Galaxy}}{54}{figure.caption.46}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Gráfico QQ de flexores Xamarin-Galaxy}}{54}{figure.caption.47}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Gráficos de cajas de flexores Xamarin-Galaxy}}{55}{figure.caption.48}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Histogramas de motores Droid-Galaxy}}{52}{figure.caption.38}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Gráfico QQ de motores Droid-Galaxy}}{53}{figure.caption.39}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Gráficos de cajas de motores Droid-Galaxy}}{54}{figure.caption.40}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Histogramas de flexores Droid-Galaxy}}{55}{figure.caption.42}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Gráfico QQ de flexores Droid-Galaxy}}{55}{figure.caption.43}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Gráficos de cajas de flexores Droid-Galaxy}}{56}{figure.caption.44}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Histogramas de motores Xamarin-Galaxy}}{57}{figure.caption.46}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Gráfico QQ de motores Xamarin-Galaxy}}{58}{figure.caption.47}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Gráficos de cajas de motores Xamarin-Galaxy}}{59}{figure.caption.48}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Histogramas de flexores Xamarin-Galaxy}}{60}{figure.caption.50}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Gráfico QQ de flexores Xamarin-Galaxy}}{60}{figure.caption.51}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Gráficos de cajas de flexores Xamarin-Galaxy}}{61}{figure.caption.52}
 \addvspace {10\p@ }

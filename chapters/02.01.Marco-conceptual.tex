@@ -37,7 +37,7 @@ Actualmente los sistemas operativos que predominan el mercado de dispositivos m�
 	\subsubsection{Nativas}
 	Apple y Google ofrecen a los desarrolladores de aplicaciones sus propias herramientas de desarrollo, elementos de interfaz y SDK estandarizado; Xcode y Android Studio. Esto permite a cualquier desarrollador profesional desarrollar una aplicación nativa con relativa facilidad.
 	
-	Las ventajas que ofrecen las aplicaciones móbiles nativas, son mayor rapidez que las aplicaciones Híbridas y Web, también una experiencia con elementos de interfaz nativos. Con aplicaciones nativas, es posible acceder a la cámara, el micrófono, almacenamiento interno, Bluetooth, la brújula, el acelerómetro y deslizar gestos fácilmente. Todavía es posible usar las alternativas, pero es más fácil de manera nativa \citep{mobile-apps-types}.
+	Las ventajas que ofrecen las aplicaciones móbiles nativas, son mayor rapidez que las aplicaciones Híbridas y Web, también una experiencia con elementos de interfaz nativos. Con aplicaciones nativas, es posible acceder a la cámara, el micrófono, almacenamiento interno, Bluetooth, la brújula, el acelerómetro y deslizar gestos fácilmente. Todavía es posible usar las alternativas, pero es más directo de manera nativa \citep{mobile-apps-types}.
 	
 	Las desventajas de las aplicaciones nativas es que se requiere más de un código base, dado que las aplicaciones iOS no se ejecutarán en Android y viceversa, por lo que se tiene que trabajar con diferentes códigos para cada plataforma que se elija construir. Esto se traduce a mayores costos de mantención, puesto que se  necesitan desarrolladores con conocimientos en ambas plataformas o bien equipos diferenciados, teniendo ambos que desarrollar lo mismo en ambas aplicaciones nativas \citep{mobile-apps-types}.
 
@@ -51,15 +51,36 @@ Actualmente existen alternativas a las herramientas para desarrollo nativo ofrec
 Sin embargo, han habido algunas mejoras en los navegadores y aplicaciones web que ofrecen estas características. Las aplicaciones que aprovechan estas características se denominan aplicaciones web progresivas \citep{mobile-apps-types}. Esta alternativa permite compartir el 100\% del código para ambas plataformas, ya que son aplicaciones web accedidas por Internet desarrolladas con herramientas web.
 	
 	\subsubsection{Híbridas}
-	Se instala como una aplicación nativa, pero en realidad es una aplicación web en el interior. Las aplicaciones híbridas, como las aplicaciones web, se crean con Javascript, HTML y CSS y se ejecutan en algo llamado Webview, un navegador simplificado dentro de su aplicación. 
+	Se instala como una aplicación nativa, pero en realidad es una aplicación web en el interior. Las aplicaciones híbridas, como las aplicaciones web, se crean con Javascript, HTML y CSS y se ejecutan en algo llamado Webview, un navegador simplificado dentro de su aplicación.
 	Las ventajas que presentan estas aplicaciones es que son menos costosas ya que comparten el mismo código base. Al igual que con las aplicaciones nativas, conserva la misma capacidad para acceder a las funciones del dispositivo. Esto es gracias a soluciones como PhoneGap que actúan como un puente entre el SDK nativo y la vista web en la que se ejecuta la aplicación. 
 	
-	La principal desventaja de este tipo de aplicación móvil, es su rendimiento, además de que presentan diferencias en el comportamiento con el usuario de como lo son las aplicaciones nativas. Alguna de las alternativas existentes para desarrollar aplicaciones híbridas son: PhoneGap/Cordova y Canvas.
+	La principal desventaja de este tipo de aplicación móvil, es su rendimiento, además de que presentan diferencias en el comportamiento respecto de las aplicaciones nativas. Algunas de las alternativas existentes para desarrollar aplicaciones híbridas son: PhoneGap/Cordova y Canvas. \citep{mobile-apps-types}
 
 \subsection{WebSocket}
+WebSocket es un protocolo que provee un canal de comunicación bidireccional y simultáneo (full-duplex) entre un cliente y un servidor, utilizando un único socket TCP \footnote{TCP: es un protocolo que cubre las capa de transporte del modelo de red de siete capas OSI (Open System Interconnection) \url{https://www.gartner.com/it-glossary/tcpip-transmission-control-protocolinternet-protocol}} (Transmission Control Protocol). Este protocolo inicia con el llamado HandShake, que consiste en un request HTTP\footnote{HTTP (Hypertext Transfer Protocol): es una capa del nivel de aplicación para transmitir documentos de hipermedia (del inglés hypermedia) como lo es un documento HTML} para establecer la conexión entre el cliente y servidor \citep{websocket-html5} . Esta petición establece el upgrade del protocolo HTTP al de WebSocket. Por tanto el protocolo HTTP solo se utiliza para establecer una conexión persistente mediante un socket TCP, el cual permite el intercambio de mensajes full-duplex mientras el socket no es cerrado por alguna de las partes. El servidor puede mantener múltiples clientes conectados, intercambiando mensajes de manera simultánea, permitiendo el desarrollo de aplicaciones que requieren interacción en tiempo real, como por ejemplo, los chats, que pueden ser entre dos usuarios, o en un grupo de los mismos \citep{websocket-scalability} . La figura \ref{fig:WebSocket} muestra la representación visual del protocolo WebSocket anteriormente explicado.
+
+\begin{figure}[H]
+  \begin{center} 
+   	\includegraphics[width=0.5\textwidth]{images/chapter02/websockets-guides-transparent.png} 
+    \caption[Representación visual de WebSocket]{Representación visual de WebSocket \\Fuente: \cite{websocket-pubnub}} 
+    \label{fig:WebSocket}
+  \end{center}
+\end{figure}
+
+Para un mayor entendimiento sobre WebSocket es necesario citar la publicación de \cite{websocket-oreilly}. En el capítulo 17 define lo siguiente: "WebSocket es un conjunto de múltiples estándares: WebSocket API\footnote{WebSocket API estándar: \url{https://html.spec.whatwg.org/multipage/web-sockets.html}} que es definida por la W3C y el protocolo WebSocket (RF 6455\footnote{Protocolo estándar WebSocket: \url{https://tools.ietf.org/html/rfc6455} }) cuyas extensiones son definidas por HyBi Working Group (IETF)". En definitiva para hacer uso del protocolo se hace uso de la API  WebSocket, permitiendo abstraer la complejidad detrás del protocolo, el cual es establecido bajo el estándar RF 6455.
+
+La API de WebSocket es simple de usar, esto se puede observar los siguientes eventos presentes en clientes y servidores WebSocket:
+
+\begin{itemize}
+		\item \textbf{On Open:} Este evento se activa cuando cuando se ha abierto una nuevo socket.
+		\item \textbf{On Message:} Este evento se activa cuando se recibe un nuevo mensaje.
+		\item \textbf{On Error:} Este evento se activa cuando ocurre un error en la conexión WebSocket.
+		\item \textbf{On Close: }Este evento se activa cuando ocurre cuando el socket es cerrado por el cliente o el servidor. 
+\end{itemize}
 
 
-\citep{websocket-html5}
-\citep{websocket-scalability}
-\citep{websocket-oreilly}
+
+%\citep{websocket-html5}
+%\citep{websocket-scalability}
+%\citep{websocket-oreilly}
 
