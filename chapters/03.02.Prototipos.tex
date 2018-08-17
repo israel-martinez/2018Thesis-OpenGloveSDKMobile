@@ -1,10 +1,10 @@
 \section{Prototipos}
 \label{seccion-prototipos}
-A continuación se muestran los diferentes prototipos desarrollados durante la escritura de esta memoria. Los prototipos serán detallados utilizando una tabla resumen del mismo, la que incluye, los Objetivos del prototipo, una Descripción, los requisitos funcionales y no funcionales que aborda el prototipo.  Se incluyen las capturas del trabajo realizado, el análisis y conclusión del avance .
+A continuación se muestran los diferentes prototipos desarrollados durante la escritura de esta memoria. Los prototipos serán detallados utilizando una tabla resumen del mismo, la que incluye, los Objetivos del prototipo, una Descripción, los requisitos funcionales y no funcionales que aborda el prototipo.  Se incluyen las capturas del trabajo realizado, el análisis y conclusión del avance. Luego de la revisión de los prototipos, finalmente se detalla el desarrollo de las APIs, las cuales fueron desarrolladas en paralelo a los prototipos de la aplicación de configuración.
 
 %En esta sección se muestran los prototipos desarrollados. Cada prototipo cuenta con una tabla para exponer el objetivo de éste, los requerimientos que aborda, imágenes del trabajo realizado y una conclusión sobre el avance del proyecto.
 
-\subsection{Primer prototipo: Activación de motores}
+\subsection{Primer prototipo:  Activación de motores}
 \label{primer-prototipo}
 Este primer prototipo tiene como principal objetivo establecer las bases necesarias para conectar de OpenGlove con un dispositivo Android y establecer una comunicación básica. Para ello se utiliza la documentación oficial de Android sobre las conexiones bluetooth \footnote{Documentación oficial android: \url{https://developer.android.com/guide/topics/connectivity/bluetooth}}, permitiendo en primera instancia la obtención de dispositivos vinculados y la conexión con alguno de los mismos. No es necesaria la modificación de código cargado en la placa arduino, puesto que los protocolos de comunicación (mensajes) ya han sido establecidos con anterioridad. Por tanto se procede a hacer uso de la API en Java de bajo nivel desarrollada por Monsalve (2015). El prototipo se resume en la Tabla \ref{table:prototype-01}.
 
@@ -37,9 +37,7 @@ Para lograr el objetivo propuesto, luego obtener los dispositivos vinculados y d
 
 
 
-
-
-\subsection{Segundo prototipo: Obtención de datos desde flexores}
+\subsection{Segundo prototipo: Obtención de datos desde los flexores}
 \label{segundo-prototipo}
 En el segundo prototipo se mantiene lo desarrollado previamente, añadiendo en esta iteración el soporte para los flexores. En este caso es necesaria la lectura desde el dispositivo OpenGlove. En la Tabla \ref{table:prototype-02} se muestra el resumen del prototipo ya mencionado. El RNF004 es cubierto parcialmente, debido a que se consulta continuamente el valor del flexor mediante funciones de bajo nivel, aumentando la latencia debido a las continuas consultas. No se presentan problemas de latencia para la activación y desactivación de motores.
 
@@ -73,7 +71,7 @@ Requisitos no funcionales & RNF002, RNF004 (parcialmente)
 
 Para realizar la captura de datos del flexor, se obtiene valor actual del pin al cual el está conectado, esto se logra con el desarrollo de la función analogRead(pin) en Java basada en la API C\# de bajo nivel Cerda (2017). El hilo encargado de la administrar conexión (\textit{ConnectedThread}), tiene la responsabilidad de leer los mensajes desde OpenGlove y actualiza la UI enviando como un mensaje ente hilos el valor obtenido del flexor. Además se agregan las demás funciones de generación de mensajes relacionadas a los flexores en la API C\# ya mencionada. En la figura \ref{fig:prototype-02} se puede ver el estado actual del flexor el cual varia en un rango de entre 60 a 300 y 170 el valor medio del flexor sin aplicar fuerza.
 
-\subsection{Tercer prototipo}
+\subsection{Tercer prototipo: Activación de motores y obtención de datos desde los flexores }
 \label{tercer-prototipo}
 % Xamarin C# prototype for cross platform use
 En el segundo prototipo fue posible la activación del motor y obtener la información del flexor, permitiendo así comprobar la factibilidad de un desarrollo nativo en Android. En este tercer prototipo, se buscó dar soporte multiplataforma al proyecto, considerando la importancia de mantener umbrales de latencia, se optó por Xamarin. En concreto Xamarin.Forms,  que es una tecnología de desarrollo móvil multiplataforma \footnote{Traducción libre}, el cual permite desarrollar aplicaciones nativas para Android e iOS en C\#. La tabla \ref{table:prototype-03} muestra el resumen del tercer prototipo. El RNF004 es cubierto parcialmente, debido a que se consulta continuamente el valor del flexor al igual que el segundo prototipo. De igual manera no se presentan problemas de latencia para la activación y desactivación de motores.
@@ -115,7 +113,7 @@ La figura \ref{fig:prototype-03} muestra el prototipo hecho en Xamarin.Forms, el
 
 
 
-\subsection{Cuarto prototipo}
+\subsection{Cuarto prototipo: Navegación aplicación, administración dispositivos Bluetooth, servidor WebSocket y configuración de la placa}
 \label{cuarto-prototipo}
 Este prototipo tiene como propósito cubrir los diferentes requisitos funcionales relacionados al comportamiento de la aplicación y ser la base de las siguientes iteraciones para dar soporte a los sensores de flexibilidad, actuadores e IMU. Se establece la navegación que posee la aplicación para hacer uso de todas las funcionalidades, por medio del diseño de un prototipo usando la herramienta AdobeXD en su versión grauita, con el cual se diseña, prototipa y se generan las diferentes imágenes e íconos que se utilizaron en el desarrollo del cuarto, quinto y sexto prototipo. La Figura \ref{fig:prototype-04}, muestra el prototipo desarrollado en Xamarin.Forms para Android y iOS, los cuales comparten la interfaz de usuario diferenciándose en la representaciones nativas de los elementos de cada plataforma. La Tabla \ref{table:prototype-04} muestra el resumen del prototipo ya mencionado.
 
@@ -171,7 +169,7 @@ A continuación se describen las pantallas desarrolladas, especificando el alcan
 
 
 
-\subsection{Quinto  prototipo}
+\subsection{Quinto  prototipo: Mapeo de actuadores y prueba de actuadores}
 \label{quinto-prototipo}
 Este prototipo tiene como propósito cubrir los diferentes requisitos funcionales relacionados a los actuadores.  La Tabla \ref{table:prototype-05} muestra el resumen del prototipo antes mencionado. Este prototipo utilizó como base el cuarto prototipo desarrollado.
 
@@ -217,7 +215,7 @@ A continuación se describen las pantallas desarrolladas, especificando el alcan
 
 
 
-\subsection{Sexto  prototipo}
+\subsection{Sexto  prototipo: Mapeo de flexores, prueba de flexores y la configuración del IMU.}
 \label{sexto-prototipo}
 Este prototipo tiene como propósito cubrir los diferentes requisitos funcionales relacionados a los flexores e IMU. Se utilizó como base el quinto prototipo ya descrito. 
 

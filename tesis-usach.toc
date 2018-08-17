@@ -28,7 +28,7 @@
 \contentsline {subsection}{\numberline {2.2.2}AvatarVR}{16}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Dexmo}{17}{subsection.2.2.3}
 \contentsline {subsection}{\numberline {2.2.4}Manus VR}{17}{subsection.2.2.4}
-\contentsline {subsection}{\numberline {2.2.5}Haptx}{18}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.2.5}HaptX}{18}{subsection.2.2.5}
 \contentsline {section}{\numberline {2.3}Resumen}{19}{section.2.3}
 \contentsline {chapter}{\numberline {3}Análisis}{20}{chapter.3}
 \contentsline {section}{\numberline {3.1}Levantamiento de requisitos de software}{20}{section.3.1}
@@ -36,16 +36,16 @@
 \contentsline {subsection}{\numberline {3.1.2}Requisitos}{20}{subsection.3.1.2}
 \contentsline {section}{\numberline {3.2}Prototipos}{26}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Primer prototipo: Activación de motores}{26}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Segundo prototipo: Obtención de datos desde flexores}{28}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Tercer prototipo}{29}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Cuarto prototipo}{31}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}Quinto prototipo}{33}{subsection.3.2.5}
-\contentsline {subsection}{\numberline {3.2.6}Sexto prototipo}{35}{subsection.3.2.6}
-\contentsline {section}{\numberline {3.3}APIs}{37}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Cuarto prototipo}{38}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Quinto prototipo}{38}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Sexto prototipo}{39}{subsection.3.3.3}
-\contentsline {section}{\numberline {3.4}Resumen}{39}{section.3.4}
+\contentsline {subsection}{\numberline {3.2.2}Segundo prototipo: Obtención de datos desde los flexores}{28}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Tercer prototipo: Activación de motores y obtención de datos desde los flexores }{29}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Cuarto prototipo: Navegación aplicación, administración dispositivos Bluetooth, servidor WebSocket y configuración de la placa}{31}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Quinto prototipo: Mapeo de actuadores y prueba de actuadores}{33}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.6}Sexto prototipo: Mapeo de flexores, prueba de flexores y la configuración del IMU.}{35}{subsection.3.2.6}
+\contentsline {subsection}{\numberline {3.2.7}APIs}{37}{subsection.3.2.7}
+\contentsline {subsubsection}{\numberline {3.2.7.1}Cuarto prototipo}{38}{subsubsection.3.2.7.1}
+\contentsline {subsubsection}{\numberline {3.2.7.2}Quinto prototipo}{38}{subsubsection.3.2.7.2}
+\contentsline {subsubsection}{\numberline {3.2.7.3}Sexto prototipo}{39}{subsubsection.3.2.7.3}
+\contentsline {section}{\numberline {3.3}Resumen}{39}{section.3.3}
 \contentsline {chapter}{\numberline {4}Diseño e implementación}{41}{chapter.4}
 \contentsline {section}{\numberline {4.1}Arquitectura general}{41}{section.4.1}
 \contentsline {section}{\numberline {4.2}Estructura}{43}{section.4.2}
