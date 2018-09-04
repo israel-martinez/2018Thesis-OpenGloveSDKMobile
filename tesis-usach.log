@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  16 AUG 2018 14:26
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  3 SEP 2018 18:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1702,7 +1702,7 @@ File: evaluation/graphics/Xamarin/Galaxy/BoxplotMotorsXamarinGalaxy.png Graphic
  file (type bmp)
 <evaluation/graphics/Xamarin/Galaxy/BoxplotMotorsXamarinGalaxy.png>
  [58]
-Overfull \hbox (26.35362pt too wide) in paragraph at lines 175--183
+Overfull \hbox (26.35362pt too wide) in paragraph at lines 176--184
  [][] 
  []
 
@@ -1716,13 +1716,61 @@ ic file (type bmp)
 File: evaluation/graphics/Xamarin/Galaxy/BoxplotFlexorsXamarinGalaxy.png Graphi
 c file (type bmp)
 <evaluation/graphics/Xamarin/Galaxy/BoxplotFlexorsXamarinGalaxy.png>
- [60]) (./chapters/05.02.Evaluacion-tiempo-activacion.tex)
+ [60]
+File: evaluation/graphics/Droid/Nexus/HistMotorsDroidNexus.png Graphic file (ty
+pe bmp)
+<evaluation/graphics/Droid/Nexus/HistMotorsDroidNexus.png>
+File: evaluation/graphics/Droid/Nexus/NormalQQMotorsDroidNexus.png Graphic file
+ (type bmp)
+<evaluation/graphics/Droid/Nexus/NormalQQMotorsDroidNexus.png>
+ [61] [62]
+File: evaluation/graphics/Droid/Nexus/BoxplotMotorsDroidNexus.png Graphic file 
+(type bmp)
+<evaluation/graphics/Droid/Nexus/BoxplotMotorsDroidNexus.png>
+ [63]
+Overfull \hbox (22.35623pt too wide) in paragraph at lines 280--288
+ [][] 
+ []
+
+File: evaluation/graphics/Droid/Nexus/HistFlexorsDroidNexus.png Graphic file (t
+ype bmp)
+<evaluation/graphics/Droid/Nexus/HistFlexorsDroidNexus.png>
+File: evaluation/graphics/Droid/Nexus/NormalQQFlexorsDroidNexus.png Graphic fil
+e (type bmp)
+<evaluation/graphics/Droid/Nexus/NormalQQFlexorsDroidNexus.png>
+[64]
+File: evaluation/graphics/Droid/Nexus/BoxplotFlexorsDroidNexus.png Graphic file
+ (type bmp)
+<evaluation/graphics/Droid/Nexus/BoxplotFlexorsDroidNexus.png>
+ [65]
+File: evaluation/graphics/Xamarin/Nexus/HistMotorsXamarinNexus.png Graphic file
+ (type bmp)
+<evaluation/graphics/Xamarin/Nexus/HistMotorsXamarinNexus.png>
+File: evaluation/graphics/Xamarin/Nexus/NormalQQMotorsXamarinNexus.png Graphic 
+file (type bmp)
+<evaluation/graphics/Xamarin/Nexus/NormalQQMotorsXamarinNexus.png>
+ [66] [67]
+File: evaluation/graphics/Xamarin/Nexus/BoxplotMotorsXamarinNexus.png Graphic f
+ile (type bmp)
+<evaluation/graphics/Xamarin/Nexus/BoxplotMotorsXamarinNexus.png>
+ [68]
+Overfull \hbox (22.35623pt too wide) in paragraph at lines 382--390
+ [][] 
+ []
+
+File: evaluation/graphics/Xamarin/Nexus/HistFlexorsXamarinNexus.png Graphic fil
+e (type bmp)
+<evaluation/graphics/Xamarin/Nexus/HistFlexorsXamarinNexus.png>
+File: evaluation/graphics/Xamarin/Nexus/NormalQQFlexorsXamarinNexus.png Graphic
+ file (type bmp)
+<evaluation/graphics/Xamarin/Nexus/NormalQQFlexorsXamarinNexus.png>
+[69]
+File: evaluation/graphics/Xamarin/Nexus/BoxplotFlexorsXamarinNexus.png Graphic 
+file (type bmp)
+<evaluation/graphics/Xamarin/Nexus/BoxplotFlexorsXamarinNexus.png>
+) (./chapters/05.02.Evaluacion-tiempo-activacion.tex [70])
 (./chapters/05.03.Evaluacion-tiempo-lectura.tex) (./chapters/05.04.Resumen.tex)
-(./chapters/06.00.Conclusiones.tex [61]
-Overfull \vbox (43.20175pt too high) has occurred while \output is active []
-
-
-[62]
+(./chapters/06.00.Conclusiones.tex [71]
 Cap\'itulo 6.
 ) (./chapters/06.01.Objetivos.tex
 Underfull \hbox (badness 1418) in paragraph at lines 12--14
@@ -1730,10 +1778,10 @@ Underfull \hbox (badness 1418) in paragraph at lines 12--14
 ción de dispositivos
  []
 
-[63
+[72
 
-]) (./chapters/06.02.Resultados-obtenidos.tex [64])
-(./chapters/06.03.Alcances-limitaciones.tex [65])
+]) (./chapters/06.02.Resultados-obtenidos.tex [73])
+(./chapters/06.03.Alcances-limitaciones.tex [74])
 (./chapters/06.04.Trabajo-futuro.tex
 Underfull \hbox (badness 1365) in paragraph at lines 6--7
 \TU/Arial(0)/m/n/10 de dispositivos Bluetooth. Luego desarrollar APIs que sopor
@@ -1747,28 +1795,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--12
 ][][] [] [][][][] []
  []
 
-[66]
+[75]
 Underfull \hbox (badness 1314) in paragraph at lines 16--17
 \TU/Arial(0)/m/n/10 seleccionar otro modelo de IMU aparte de SparkFun LSM9DS1, 
 dado que requiere
  []
 
-) (./chapters/06.05.Observaciones-finales.tex) [67] (./finales/Glosario.tex
-Underfull \hbox (badness 1377) in paragraph at lines 17--18
-\TU/Arial(0)/m/n/10 táctil en ambientes virtuales, como también la captura de m
-ovimientos de la mano
- []
-
-
+) (./chapters/06.05.Observaciones-finales.tex) [76] (./finales/Glosario.tex
 Underfull \hbox (badness 1019) in paragraph at lines 25--26
 \TU/Arial(0)/m/n/10 natural, generalmente a través de pantallas inmersivas mont
 adas en la cabeza y el
  []
 
-[68
+[77
 
 
-]) [69] (./tesis-usach.bbl
+]) [78] (./tesis-usach.bbl
 Underfull \hbox (badness 1014) in paragraph at lines 63--67
 []\TU/Arial(0)/m/n/10 Grigorik, I. (2013).  High performance browser networking
 : Websocket.  Recuperado de
@@ -1786,7 +1828,7 @@ Underfull \hbox (badness 4096) in paragraph at lines 101--106
 difference?  Recu-
  []
 
-[70
+[79
 
 
 ]
@@ -1850,27 +1892,33 @@ o de
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 118.
- [71]
+ [80]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 118.
  (./tesis-usach.aux (./preliminares/cubierta.aux)
 (./preliminares/abstract.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 118.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 118.
-Package rerunfilecheck Info: File `tesis-usach.out' has not changed.
-(rerunfilecheck)             Checksum: CB1DB4963D1E1F4E8213786A5E714B64.
 
+
+Package rerunfilecheck Warning: File `tesis-usach.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `tesis-usach.out':
+(rerunfilecheck)             Before: 2039053D1D7C47E11D20A411011E113B
+(rerunfilecheck)             After:  999709823EDBE0746FF9EADB5270DC5C.
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 118.
  ) 
 Here is how much of TeX's memory you used:
- 28487 strings out of 492970
- 508018 string characters out of 6133938
- 703898 words of memory out of 5000000
- 31888 multiletter control sequences out of 15000+600000
+ 28553 strings out of 492970
+ 511240 string characters out of 6133938
+ 705074 words of memory out of 5000000
+ 31940 multiletter control sequences out of 15000+600000
  540684 words of font info for 86 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  51i,17n,67p,10414b,655s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tesis-usach.pdf (81 pages).
+Output written on tesis-usach.pdf (90 pages).

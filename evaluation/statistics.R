@@ -14,9 +14,9 @@
 # sample generate LaTeX table (no problems with negative sign): stargazer(tableMotorTestDroid, align = T)
 # add the package LaTeX: \usepackage{dcolumn}
 
-statisticsTable_us <- function(dataList){
+statisticsTable_us <- function(name, dataList){
   table <- matrix(NA, length(dataList), 8)
-  colnames(table) <- c("Motors", "Mean", "Median", "Min", "Max", "Std. Dev.", "Skewness", "Kurtosis")
+  colnames(table) <- c(name, "Mean", "Median", "Min", "Max", "Std. Dev.", "Skewness", "Kurtosis")
   i = 1
   while( i <= length(dataList)){
     data <- dataList[[i]]$latencies.us

@@ -1,6 +1,6 @@
 \section{Evaluación aplicaciones nativa y multiplataforma}
 
-A continuación se realizará una evaluación de los prototipos 3 y 4 ya expuestos en la Sección 3.2, los cuales poseen las mismas funcionalidades pero desarrollados con distintas herramientas, el primero utilizando el IDE Android Studio para desarrollar con el SDK nativo de android (desde ahora Droid) y el segundo prototipo utilizando el IDE VisualStudio Community en un proyecto Xamarin.Forms (desde ahora Xamarin). Ambos prototipos fueron modificados para realizar la siguiente evaluación que consta de 1000 muestras y su almacenamiento en la memoria interna para la cantidad de motores y flexores del hardware disponible. Las pruebas fueron realizadas en el dispositivo Samsung Galaxy S5 mini y Nexus 5 ya señalados en el Capítulo 1. Para el análisis de latencia de los motores, se considerando el tiempo medido de activación y desactivación con una precisión de nanosegundos ($ns$), transformando los resultados a microsegundos ($\mu s$).  Por tanto el umbral límite de 60 milisegundos ($ms$) es equivalente a 60000 $\mu s$.
+A continuación se realizará una evaluación de los prototipos 3 y 4 ya expuestos en la Sección 3.2, los cuales poseen las mismas funcionalidades pero desarrollados con distintas herramientas, el primero utilizando el IDE Android Studio para desarrollar con el SDK nativo de android (desde ahora Droid) y el segundo prototipo utilizando el IDE VisualStudio Community en un proyecto Xamarin.Forms (desde ahora Xamarin). Ambos prototipos fueron modificados para realizar la siguiente evaluación que consta de 1,000 muestras y su almacenamiento en la memoria interna para la cantidad de motores y flexores del hardware disponible. Las pruebas fueron realizadas en el dispositivo Samsung Galaxy S5 mini y Nexus 5 ya señalados en el Capítulo 1. Para el análisis de latencia de los motores, se considerando su tiempo de activación y desactivación con una precisión de nanosegundos ($ns$), transformando los resultados a microsegundos ($\mu s$).  Por tanto el umbral límite de 60 milisegundos ($ms$) es equivalente a 60,000 $\mu s$ ó 60,000,000 $ns$ .
 
 \subsection{Prototipo 3 : Droid - Galaxy}
 
@@ -14,7 +14,7 @@ A continuación se realizará una evaluación de los prototipos 3 y 4 ya expuest
 % Date and time: Tue, Jul 03, 2018 - 19:28:30
 % Requires LaTeX packages: dcolumn 
 \begin{table}[!htbp] \centering 
-\caption[Resumen resultado pruebas motor Droid-Galaxy]{Resumen resultado pruebas motor Droid-Galaxy \\ Fuente: Elaboración propia (2018)}
+\caption[Resumen resultado pruebas motor Droid-Galaxy]{Resumen resultado pruebas motor Droid-Galaxy  en $\mu s$\\ Fuente: Elaboración propia (2018)}
 \label{table:motor-droid-galaxy} 
 \begin{tabular}{@{\extracolsep{5pt}} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} } 
 \\[-1.8ex]\hline 
@@ -70,7 +70,7 @@ La Figura \ref{fig:droid-galaxy-hist-motors}, muestra los histogramas de las lat
 % Date and time: Tue, Jul 03, 2018 - 19:48:03
 % Requires LaTeX packages: dcolumn 
 \begin{table}[!htbp] \centering 
-\caption[Resumen resultado pruebas flexor Droid-Galaxy]{Resumen resultado pruebas flexor Droid-Galaxy \\ Fuente: Elaboración propia (2018)}
+\caption[Resumen resultado pruebas flexor Droid-Galaxy]{Resumen resultado pruebas flexor Droid-Galaxy en $\mu s$\\ Fuente: Elaboración propia (2018)}
 \label{table:flexor-droid-galaxy}
 \begin{tabular}{@{\extracolsep{-11pt}} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} } 
 \\[-1.8ex]\hline 
@@ -119,7 +119,7 @@ La Figura \ref{fig:droid-galaxy-hist-motors}, muestra los histogramas de las lat
 % Date and time: Tue, Jul 03, 2018 - 19:43:49
 % Requires LaTeX packages: dcolumn 
 \begin{table}[!htbp] \centering 
-\caption[Resumen resultado pruebas motor Xamarin-Galaxy]{Resumen resultado pruebas motor Xamarin-Galaxy \\ Fuente: Elaboración propia (2018)}
+\caption[Resumen resultado pruebas motor Xamarin-Galaxy]{Resumen resultado pruebas motor Xamarin-Galaxy en $\mu s$ \\ Fuente: Elaboración propia (2018)}
 \label{table:motor-xamarin-galaxy}
 \begin{tabular}{@{\extracolsep{5pt}} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} } 
 \\[-1.8ex]\hline 
@@ -169,8 +169,9 @@ La Figura \ref{fig:droid-galaxy-hist-motors}, muestra los histogramas de las lat
 % Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
 % Date and time: Tue, Jul 03, 2018 - 20:10:45
 % Requires LaTeX packages: dcolumn 
-\begin{table}[!htbp] \centering 
-\caption[Resumen resultado pruebas flexor Xamarin-Galaxy]{Resumen resultado pruebas flexor Xamarin-Galaxy \\ Fuente: Elaboración propia (2018)}
+\begin{table}[!htbp]
+\centering 
+\caption[Resumen resultado pruebas flexor Xamarin-Galaxy]{Resumen resultado pruebas flexor Xamarin-Galaxy en $\mu s$\\ Fuente: Elaboración propia (2018)}
 \label{table:flexor-xamarin-galaxy}
 \begin{tabular}{@{\extracolsep{-11pt}} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} } 
 \\[-1.8ex]\hline 
@@ -208,15 +209,207 @@ La Figura \ref{fig:droid-galaxy-hist-motors}, muestra los histogramas de las lat
 \end{figure}
 
 
+
 \subsection{Prototipo 3 : Droid - Nexus}
 
 \subsubsection{Motores}
+% {START} RESUME TABLE ---------------------------------
+%\caption[Resumen resultado pruebas motor Droid-Nexus]{Resumen resultado pruebas motor Droid-Nexus  en $\mu s$\\ Fuente: Elaboración propia (2018)}
+%\label{table:motor-droid-nexus} 
+
+% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Tue, Jul 03, 2018 - 19:28:30
+% Requires LaTeX packages: dcolumn 
+% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Mon, Sep 03, 2018 - 17:49:12
+\begin{table}[!htbp] \centering 
+\caption[Resumen resultado pruebas motor Droid-Nexus]{Resumen resultado pruebas motor Droid-Nexus  en $\mu s$\\ Fuente: Elaboración propia (2018)}
+\label{table:motor-droid-nexus} 
+\begin{tabular}{@{\extracolsep{5pt}} cccccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+motors & Mean & Median & Min & Max & Std. Dev. & Skewness & Kurtosis \\ 
+\hline \\[-1.8ex] 
+$1$ & $187.574$ & $171.979$ & $133.646$ & $335.416$ & $44.577$ & $0.337$ & $1.905$ \\ 
+$2$ & $231.251$ & $192.761$ & $168.230$ & $482.136$ & $63.706$ & $0.773$ & $2.835$ \\ 
+$3$ & $237.638$ & $220.105$ & $202.812$ & $387.813$ & $44.517$ & $1.965$ & $5.687$ \\ 
+$4$ & $262.838$ & $258.646$ & $240.938$ & $391.615$ & $20.442$ & $2.567$ & $13.078$ \\ 
+$5$ & $336.917$ & $301.250$ & $276.667$ & $592.553$ & $79.910$ & $1.566$ & $3.872$ \\ 
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
+% {END} RESUME TABLE ---------------------------------
+
+La Figura \ref{fig:droid-nexus-hist-motors}, muestra los histogramas de las latencias obtenidas al mandar los mensajes de activación y desactivación. Se realizaron pruebas desde uno a cinco motores.
+
+\begin{figure}
+ \begin{center} 
+   	\includegraphics[width=1.0\textwidth]{evaluation/graphics/Droid/Nexus/HistMotorsDroidNexus.png} 
+    \caption[Histogramas de motores Droid-Nexus]{Histogramas de motores  Droid-Nexus\\Fuente: elaboración propia (2018)} 
+    \label{fig:droid-nexus-hist-motors}
+  \end{center}
+\end{figure}
+
+\begin{figure}[H]
+  \begin{center} 
+   	\includegraphics[width=1.0\textwidth]{evaluation/graphics/Droid/Nexus/NormalQQMotorsDroidNexus.png} 
+    \caption[Gráfico QQ de motores Droid-Nexus]{Gráficos QQ de motores Droid-Nexus\\Fuente: elaboración propia (2018)} 
+    \label{fig:droid-nexus-QQ-motors}
+  \end{center}
+\end{figure}
+
+\begin{figure}[H]
+  \begin{center} 
+   	\includegraphics[width=0.8\textwidth]{evaluation/graphics/Droid/Nexus/BoxplotMotorsDroidNexus.png} 
+    \caption[Gráficos de cajas de motores Droid-Nexus]{Gráficos de cajas de motores Droid-Nexus\\Fuente: elaboración propia (2018)} 
+    \label{fig:droid-nexus-boxplot-motors}
+  \end{center}
+\end{figure}
 
 \subsubsection{Flexores}
+% {START} RESUME TABLE ---------------------------------
+%\extracolsep{-11pt}
+%\caption[Resumen resultado pruebas flexor Droid-Nexus]{Resumen resultado pruebas flexor Droid-Nexus en $\mu s$\\ Fuente: Elaboración propia (2018)}
+%\label{table:flexor-droid-nexus}
 
+% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Mon, Sep 03, 2018 - 17:53:15
+\begin{table}[!htbp] \centering 
+\caption[Resumen resultado pruebas flexor Droid-Nexus]{Resumen resultado pruebas flexor Droid-Nexus en $\mu s$ \\ Fuente: Elaboración propia (2018)}
+\label{table:flexor-droid-nexus}
+\begin{tabular}{@{\extracolsep{5pt}} cccccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+flexors & Mean & Median & Min & Max & Std. Dev. & Skewness & Kurtosis \\ 
+\hline \\[-1.8ex] 
+$1$ & $109,671$ & $114,496$ & $48,099.480$ & $172,982.100$ & $24,155.450$ & $-0.304$ & $2.621$ \\ 
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
+% {END} RESUME TABLE ---------------------------------
+
+\begin{figure}
+ \begin{center} 
+   	\includegraphics[width=0.5\textwidth]{evaluation/graphics/Droid/Nexus/HistFlexorsDroidNexus.png} 
+    \caption[Histogramas de flexores Droid-Nexus]{Histogramas de flexores  Droid-Nexus\\Fuente: elaboración propia (2018)} 
+    \label{fig:droid-nexus-hist-flexors}
+  \end{center}
+\end{figure}
+
+\begin{figure}[H]
+  \begin{center} 
+   	\includegraphics[width=0.5\textwidth]{evaluation/graphics/Droid/Nexus/NormalQQFlexorsDroidNexus.png} 
+    \caption[Gráfico QQ de flexores Droid-Nexus]{Gráficos QQ de flexores Droid-Nexus\\Fuente: elaboración propia (2018)} 
+    \label{fig:droid-nexus-QQ-flexors}
+  \end{center}
+\end{figure}
+
+\begin{figure}[H]
+  \begin{center} 
+   	\includegraphics[width=0.5\textwidth]{evaluation/graphics/Droid/Nexus/BoxplotFlexorsDroidNexus.png} 
+    \caption[Gráficos de cajas de flexores Droid-Nexus]{Gráficos de cajas de flexores Droid-Nexus\\Fuente: elaboración propia (2018)} 
+    \label{fig:droid-nexus-boxplot-flexors}
+  \end{center}
+\end{figure}
 
 \subsection{Prototipo 4: Xamarin - Nexus}
 
 \subsubsection{Motores}
 
+% {START} RESUME TABLE ---------------------------------
+%\caption[Resumen resultado pruebas motor Xamarin-Nexus]{Resumen resultado pruebas motor Xamarin-Nexus  en $\mu s$\\ Fuente: Elaboración propia (2018)}
+%\label{table:motor-xamarin-nexus} 
+
+% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Mon, Sep 03, 2018 - 17:56:53
+\begin{table}[!htbp] \centering 
+\caption[Resumen resultado pruebas motor Xamarin-Nexus]{Resumen resultado pruebas motor Xamarin-Nexus  en $\mu s$\\ Fuente: Elaboración propia (2018)}
+\label{table:motor-xamarin-nexus} 
+\begin{tabular}{@{\extracolsep{5pt}} cccccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+motors & Mean & Median & Min & Max & Std. Dev. & Skewness & Kurtosis \\ 
+\hline \\[-1.8ex] 
+$1$ & $206.856$ & $193.600$ & $185.300$ & $288.900$ & $29.516$ & $1.673$ & $4.187$ \\ 
+$2$ & $296.004$ & $243.100$ & $225.600$ & $570.200$ & $83.534$ & $0.995$ & $2.558$ \\ 
+$3$ & $275.752$ & $275.400$ & $264.100$ & $316.400$ & $8.007$ & $1.078$ & $5.129$ \\ 
+$4$ & $309.417$ & $307.950$ & $296.600$ & $333.300$ & $6.822$ & $0.707$ & $3.544$ \\ 
+$5$ & $363.526$ & $341.100$ & $328.400$ & $545.300$ & $54.915$ & $2.211$ & $6.235$ \\ 
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
+% {END} RESUME TABLE ---------------------------------
+
+La Figura \ref{fig:xamarin-nexus-hist-motors}, muestra los histogramas de las latencias obtenidas al mandar los mensajes de activación y desactivación. Se realizaron pruebas desde uno a cinco motores.
+
+\begin{figure}
+ \begin{center} 
+   	\includegraphics[width=1.0\textwidth]{evaluation/graphics/Xamarin/Nexus/HistMotorsXamarinNexus.png} 
+    \caption[Histogramas de motores Xamarin-Nexus]{Histogramas de motores  Xamarin-Nexus\\Fuente: elaboración propia (2018)} 
+    \label{fig:xamarin-nexus-hist-motors}
+  \end{center}
+\end{figure}
+
+\begin{figure}[H]
+  \begin{center} 
+   	\includegraphics[width=1.0\textwidth]{evaluation/graphics/Xamarin/Nexus/NormalQQMotorsXamarinNexus.png} 
+    \caption[Gráfico QQ de motores Xamarin-Nexus]{Gráficos QQ de motores Xamarin-Nexus\\Fuente: elaboración propia (2018)} 
+    \label{fig:xamarin-nexus-QQ-motors}
+  \end{center}
+\end{figure}
+
+\begin{figure}[H]
+  \begin{center} 
+   	\includegraphics[width=0.8\textwidth]{evaluation/graphics/Xamarin/Nexus/BoxplotMotorsXamarinNexus.png} 
+    \caption[Gráficos de cajas de motores Xamarin-Nexus]{Gráficos de cajas de motores Xamarin-Nexus\\Fuente: elaboración propia (2018)} 
+    \label{fig:xamarin-nexus-boxplot-motors}
+  \end{center}
+\end{figure}
+
+
 \subsubsection{Flexores}
+
+% {START} RESUME TABLE ---------------------------------
+%\extracolsep{-11pt}
+%\caption[Resumen resultado pruebas flexor Xamarin-Nexus]{Resumen resultado pruebas flexor Xamarin-Nexus en $\mu s$ \\ Fuente: Elaboración propia (2018)}
+%\label{table:flexor-xamarin-nexus}
+
+% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Mon, Sep 03, 2018 - 18:04:31
+\begin{table}[!htbp] \centering 
+\caption[Resumen resultado pruebas flexor Xamarin-Nexus]{Resumen resultado pruebas flexor Xamarin-Nexus en $\mu s$ \\ Fuente: Elaboración propia (2018)}
+\label{table:flexor-xamarin-nexus}
+\begin{tabular}{@{\extracolsep{5pt}} cccccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+flexors & Mean & Median & Min & Max & Std. Dev. & Skewness & Kurtosis \\ 
+\hline \\[-1.8ex] 
+$1$ & $109,677$ & $110,958$ & $67,022.400$ & $158,703.500$ & $18,411.270$ & $-0.353$ & $2.914$ \\ 
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
+% {END} RESUME TABLE ---------------------------------
+
+\begin{figure}
+ \begin{center} 
+   	\includegraphics[width=0.5\textwidth]{evaluation/graphics/Xamarin/Nexus/HistFlexorsXamarinNexus.png} 
+    \caption[Histogramas de flexores Xamarin-Nexus]{Histogramas de flexores  Xamarin-Nexus\\Fuente: elaboración propia (2018)} 
+    \label{fig:xamarin-nexus-hist-flexors}
+  \end{center}
+\end{figure}
+
+\begin{figure}[H]
+  \begin{center} 
+   	\includegraphics[width=0.5\textwidth]{evaluation/graphics/Xamarin/Nexus/NormalQQFlexorsXamarinNexus.png} 
+    \caption[Gráfico QQ de flexores Xamarin-Nexus]{Gráficos QQ de flexores Xamarin-Nexus\\Fuente: elaboración propia (2018)} 
+    \label{fig:xamarin-nexus-QQ-flexors}
+  \end{center}
+\end{figure}
+
+\begin{figure}[H]
+  \begin{center} 
+   	\includegraphics[width=0.5\textwidth]{evaluation/graphics/Xamarin/Nexus/BoxplotFlexorsXamarinNexus.png} 
+    \caption[Gráficos de cajas de flexores Xamarin-Nexus]{Gráficos de cajas de flexores Xamarin-Nexus\\Fuente: elaboración propia (2018)} 
+    \label{fig:xamarin-nexus-boxplot-flexors}
+  \end{center}
+\end{figure}

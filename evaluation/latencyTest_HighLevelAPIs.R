@@ -13,25 +13,28 @@ source('statistics.R')
 # Load Data to processing
 path <- getwd()
 folderData <- 'data'
-folderGraphics <- 'graphics'
-# ----------------------------  DEVICE IS VARIABLE ---------------------------- #
-# 'Device2' # Is the name for graphics subfolder... graphics/Droid/Galaxy ... graphics/Droid/Device2 ... graphics/Xamarin/Device2
-device <- 'Nexus' # Galaxy - Nexus
-# ----------------------------  DEVICE IS VARIABLE ---------------------------- #
+subFolderData1 <- 'LatencyTests_JavaAPI'
+subFolderData2 <- 'LatencyTests_CSharpAPI'
 
-# TEST FOR device:  Native Android vs Xamarin.Forms flexors and motors
-flexorTestNamesDroid    <- getTestFileNames(1, 'flexor', 'Droid', device, '.csv')
-flexorTestNamesXamarin  <- getTestFileNames(1, 'flexor', 'Xamarin', device, '.csv')
-motorTestNamesDroid     <- getTestFileNames(5, 'motor', 'Droid', device, '.csv')
-motorTestNamesXamarin   <- getTestFileNames(5, 'motor', 'Xamarin', device, '.csv')
-#imuTestNamesDroid       <- getTestFileNames(1, 'imu', 'Droid', device, '.csv') # For next imu data
-#imuTestNamesXamarin     <- getTestFileNames(1, 'imu', 'Xamarin', device, '.csv') # For next imu data
+folderGraphics <- 'graphics'
+# ----------------------------  SUBFOLDER IS VARIABLE ---------------------------- #
+# 'Device2' # Is the name for graphics subfolder... graphics/Droid/Galaxy ... graphics/Droid/Device2 ... graphics/Xamarin/Device2
+# 'CSharpAPI-Galaxy' # Is the name for graphics subfolder... graphics/Droid/Galaxy ... graphics/Droid/Device2 ... graphics/Xamarin/Device2
+device <- 'Galaxy-APITest'
+deviceName <- 'Galaxy' # Galaxy - Nexus
+# ----------------------------  SUBFOLDER IS VARIABLE ---------------------------- #
+
+# TEST FOR APIs C# and Java: Xamarin.Forms for C# API and Native Android App for Java API
+flexorTestNamesDroid    <- getTestFileNames(10, 'flexors_IMU', 'Droid', deviceName, '.csv')
+flexorTestNamesXamarin  <- getTestFileNames(10, 'flexors_IMU', 'Xamarin', deviceName, '.csv')
+motorTestNamesDroid     <- getTestFileNames(5, 'actuators', 'Droid', deviceName, '.csv')
+motorTestNamesXamarin   <- getTestFileNames(5, 'actuators', 'Xamarin', deviceName, '.csv')
 
 # Load samples test in List
-flexorTestDroidList     <- loadData(path, folderData, flexorTestNamesDroid)
-flexorTestXamarinList   <- loadData(path, folderData, flexorTestNamesXamarin)
-motorTestDroidList      <- loadData(path, folderData, motorTestNamesDroid)
-motorTestXamarinList    <- loadData(path, folderData, motorTestNamesXamarin)
+flexorTestDroidList     <- loadData(path, paste(folderData, subFolderData1, sep = "/"), flexorTestNamesDroid)
+flexorTestXamarinList   <- loadData(path, paste(folderData, subFolderData2, sep = "/"), flexorTestNamesXamarin)
+motorTestDroidList      <- loadData(path, paste(folderData, subFolderData1, sep = "/"), motorTestNamesDroid)
+motorTestXamarinList    <- loadData(path, paste(folderData, subFolderData2, sep = "/"), motorTestNamesXamarin)
 
 # Preprocessing the load data (convert time ns-> us ->ms) and (convert outlierst to NA for ignore in graphics
 flexorTestDroidList     <- preprocessingTestList(flexorTestDroidList)
@@ -40,26 +43,27 @@ motorTestDroidList      <- preprocessingTestList(motorTestDroidList)
 motorTestXamarinList    <- preprocessingTestList(motorTestXamarinList)
 
 # Generate matrix statistic summary for generate LaTeX tables with stargazer
-tableFlexorTestDroid    <- statisticsTable_us(flexorTestDroidList)
-tableFlexorTestXamarin  <- statisticsTable_us(flexorTestXamarinList)
-tableMotorTestDroid     <- statisticsTable_us(motorTestDroidList)
-tableMotorTestXamarin   <- statisticsTable_us(motorTestXamarinList)
+tableFlexorTestDroid    <- statisticsTable_us("flexors", flexorTestDroidList)
+tableFlexorTestXamarin  <- statisticsTable_us("flexors", flexorTestXamarinList)
+tableMotorTestDroid     <- statisticsTable_us("motors", motorTestDroidList)
+tableMotorTestXamarin   <- statisticsTable_us("motors", motorTestXamarinList)
 
 
 # Constants for graphics
 ext <- '.png'
-testName <- list('Flexors', 'Motors', 'IMU')
+testName <- list('Flexors and IMU', 'Motors', 'IMU')
 graphicType <- list('NormalQQ', 'Hist', 'Boxplot')
 platform <- list('Droid', 'Xamarin')
 graphicTypeTitle <- list('Normal Q-Q ', 'Histogram ', 'Boxplot')
+
 
 # ----------------------------  FLEXORS TEST ---------------------------- #
 res = 75 * 1.5 # pixel of resolution
 width = 400 * 3.0
 height = 350 * 3.0
 
-nRow <- 1
-nCol <- 1
+nRow <- 4
+nCol <- 3
 
 # NORMAL QQ graphics
 tmpFileName <- paste(graphicType[1], testName[1], platform[1], device, ext, sep = '')
@@ -100,7 +104,7 @@ dev.off()
 # ----------------------------  MOTOR TEST ---------------------------- #
 
 ext <- '.png'
-testName <- list('Flexors', 'Motors', 'IMU')
+testName <- list('Flexors and IMU', 'Motors', 'IMU')
 graphicType <- list('NormalQQ', 'Hist', 'Boxplot')
 platform <- list('Droid', 'Xamarin')
 graphicTypeTitle <- list('Normal Q-Q ', 'Histogram ', 'Boxplot')

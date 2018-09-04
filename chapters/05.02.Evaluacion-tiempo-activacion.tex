@@ -1,5 +1,7 @@
-\section{Evaluación tiempo de activación}
-
+\section{Evaluación tiempo de activación usando APIs}
+ Para la realización de las pruebas de activación de los actuadores por medio de las APIs de alto nivel desarrolladas en C\# y Java. El tipo de prueba realizada se basa lo realizado por  \cite{tesis-monsalve-rodrigo} y  \cite{tesis-meneses-sebastian}, en ambos trabajos considera el tiempo de las tres etapas comprendidas por el tiempo de la generación de mensajes, el tiempo de envío y el tiempo de activación de actuatores en el Software Arduino. En este proyecto, se considera el tiempo de generación de mensajes en la API de alto nivel (C\# y Java), el tiempo que demora en llegar al Servidor WebSocket, también considera el tiempo de la generación de mensajes desde la instancia de openglove en el servidor, luego el tiempo hasta software de control en la placa Arduino, el tiempo a través del Bluetooth para finalmente calcular el tiempo que le demora el microcontrolador Arduino en realizar la activación de los actuatores. Se realizaron 2000 pruebas entre la activación y desactivación, utilizando un Baudrate de 57600 en la placa Arduino. Los tiempos entre activación y desactivación desde la API de alto nivel están dados por la velocidad entre los mensajes que el software de control genera y envía hacia la API de alto nivel. Con ello se evita los efectos indeseados por el envío de mensajes en corto tiempo. %seguir la idea
+ 
+ % Baudrate Arduino Control  Software = 57600 bits per second
 \subsection{API C\#}
 
 \subsection{API Java}
