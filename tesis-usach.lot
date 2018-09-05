@@ -17,11 +17,13 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {5.1}{\ignorespaces Resumen resultado pruebas motor Droid-Galaxy}}{52}{table.caption.37}
-\contentsline {table}{\numberline {5.2}{\ignorespaces Resumen resultado pruebas flexor Droid-Galaxy}}{54}{table.caption.41}
-\contentsline {table}{\numberline {5.3}{\ignorespaces Resumen resultado pruebas motor Xamarin-Galaxy}}{56}{table.caption.45}
-\contentsline {table}{\numberline {5.4}{\ignorespaces Resumen resultado pruebas flexor Xamarin-Galaxy}}{59}{table.caption.49}
-\contentsline {table}{\numberline {5.5}{\ignorespaces Resumen resultado pruebas motor Droid-Nexus}}{61}{table.caption.53}
-\contentsline {table}{\numberline {5.6}{\ignorespaces Resumen resultado pruebas flexor Droid-Nexus}}{64}{table.caption.57}
-\contentsline {table}{\numberline {5.7}{\ignorespaces Resumen resultado pruebas motor Xamarin-Nexus}}{66}{table.caption.61}
-\contentsline {table}{\numberline {5.8}{\ignorespaces Resumen resultado pruebas flexor Xamarin-Nexus}}{69}{table.caption.65}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Resumen resultado pruebas flexor Droid-Galaxy}}{56}{table.caption.41}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Resumen resultado pruebas motor Xamarin-Galaxy}}{57}{table.caption.45}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Resumen resultado pruebas flexor Xamarin-Galaxy}}{60}{table.caption.49}
+\contentsline {table}{\numberline {5.5}{\ignorespaces Resumen resultado pruebas motor Droid-Nexus}}{62}{table.caption.53}
+\contentsline {table}{\numberline {5.6}{\ignorespaces Resumen resultado pruebas flexor Droid-Nexus}}{65}{table.caption.57}
+\contentsline {table}{\numberline {5.7}{\ignorespaces Resumen resultado pruebas motor Xamarin-Nexus}}{67}{table.caption.61}
+\contentsline {table}{\numberline {5.8}{\ignorespaces Resumen resultado pruebas flexor Xamarin-Nexus}}{70}{table.caption.65}
+\contentsline {table}{\numberline {5.9}{\ignorespaces Resumen resultados de pruebas de activación usando API C\#}}{73}{table.caption.69}
+\contentsline {table}{\numberline {5.10}{\ignorespaces Resumen resultados de pruebas de lectura flexores e IMU usando API C\#}}{77}{table.caption.73}
 \addvspace {10\p@ }

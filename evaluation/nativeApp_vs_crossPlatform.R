@@ -3,6 +3,7 @@
 # install.packages("moments")
 library(stargazer) # For generate LaTeX tables from R: stargazer(table, summary=FALSE, rownames=FALSE)
 library(moments) # for calculate skewness and kurtosis
+library(coin) # For calculate the p-value of Wilcoxon test, for determine if two samples present significant differences.
 
 # Load .R files to use
 source('loadData.R')
@@ -44,7 +45,6 @@ tableFlexorTestDroid    <- statisticsTable_us("flexors", flexorTestDroidList)
 tableFlexorTestXamarin  <- statisticsTable_us("flexors", flexorTestXamarinList)
 tableMotorTestDroid     <- statisticsTable_us("motors", motorTestDroidList)
 tableMotorTestXamarin   <- statisticsTable_us("motors", motorTestXamarinList)
-
 
 # Constants for graphics
 ext <- '.png'
@@ -152,3 +152,15 @@ tmpFileName <- paste(graphicType[3], testName[2], platform[2], device, ext, sep 
 png(filename <- paste(path, folderGraphics, platform[2], device, tmpFileName, sep = '/'), res=res, width = width, height = height)
 boxplotGraphic(motorTestXamarinList, testName[2], graphicTypeTitle[3])
 dev.off()
+
+# ----------------------------  Wilcoxon TESTs ---------------------------- #
+
+# Wilcoxon test
+
+# Flexors in Droid vs Xamarin
+first <- flexorTestDroidList[[1]]$latencies.us
+second <- flexorTestXamarinList[[1]]$latencies.us
+dataWilcoxonTest <- data.frame(first = first, second = second)
+flexorWilcoxonTestResult <- wilcoxsign_test(first ~ second, data = dataWilcoxonTest, distribution = "exact")
+
+

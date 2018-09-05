@@ -1,10 +1,12 @@
 \section{Evaluación aplicaciones nativa y multiplataforma}
 
-A continuación se realizará una evaluación de los prototipos 3 y 4 ya expuestos en la Sección 3.2, los cuales poseen las mismas funcionalidades pero desarrollados con distintas herramientas, el primero utilizando el IDE Android Studio para desarrollar con el SDK nativo de android (desde ahora Droid) y el segundo prototipo utilizando el IDE VisualStudio Community en un proyecto Xamarin.Forms (desde ahora Xamarin). Ambos prototipos fueron modificados para realizar la siguiente evaluación que consta de 1,000 muestras y su almacenamiento en la memoria interna para la cantidad de motores y flexores del hardware disponible. Las pruebas fueron realizadas en el dispositivo Samsung Galaxy S5 mini y Nexus 5 ya señalados en el Capítulo 1. Para el análisis de latencia de los motores, se considerando su tiempo de activación y desactivación con una precisión de nanosegundos ($ns$), transformando los resultados a microsegundos ($\mu s$).  Por tanto el umbral límite de 60 milisegundos ($ms$) es equivalente a 60,000 $\mu s$ ó 60,000,000 $ns$ .
+A continuación se detalla la evaluación de los prototipos 3 y 4 ya expuestos en la Sección 3.2, los cuales poseen las mismas funcionalidades pero desarrollados con distintas herramientas, el primero utilizando el IDE Android Studio para desarrollar con el SDK nativo de android (desde ahora Droid) y el segundo prototipo utilizando el IDE VisualStudio Community en un proyecto Xamarin.Forms (desde ahora Xamarin). Ambos prototipos fueron modificados para realizar la siguiente evaluación que consta de 1,000 muestras y su almacenamiento en la memoria interna para la cantidad de motores y flexores del hardware disponible. Las pruebas fueron realizadas en el dispositivo Samsung Galaxy S5 mini y Nexus 5 ya señalados en el Capítulo 1. Para el análisis de latencia de los motores, se considerando su tiempo de activación y desactivación con una precisión de nanosegundos ($ns$), transformando los resultados a microsegundos ($\mu s$).  Por tanto el umbral límite de 60 milisegundos ($ms$) es equivalente a 60,000 $\mu s$ ó 60,000,000 $ns$ .
 
 \subsection{Prototipo 3 : Droid - Galaxy}
 
 \subsubsection{Motores}
+
+Se realizaron pruebas desde uno a cinco motores , el resumen de los resultados para las pruebas de activación de los motores se encuentra en la Tabla \ref{table:motor-droid-galaxy}. La Figura \ref{fig:droid-galaxy-hist-motors}, muestra los histogramas de las latencias obtenidas al mandar los mensajes de activación y desactivación, siendo la gráfica para dos motores el único con una asimetría (Skewness) negativa, lo que indica que la cola de la distribución de los datos está orientada a la izquierda, por tanto la media de la distribución se encuentra desplazada a la derecha. Para las demás pruebas realizadas se obtuvieron asimetrías positivas, lo que indica que la cola de la distribución se encuentra a la derecha, por tanto su media se encuentra desplazada a la izquierda. Esto se ve reflejado en los gráficos de cajas de la Figura \ref{fig:droid-galaxy-boxplot-motors}. Las gráficas de Q-Q (quantile-quantile) mostradas en la Figura \ref{fig:droid-galaxy-QQ-motors}, demuestran que la curva no sigue estrictamente una distribución normal, pero los gráfico Q-Q de la misma figura, para para dos, cuatro y cinco motores muestra resultados cercanos a la normal exceptuando los valores atípicos, los cuales pueden ser apreciados también en sus respectivas gráficas de cajas. Finalmente la Curtosis (Kurtosis) de todas las pruebas fue positiva, lo que indica que las colas de estas distribuciones son más pesadas que la de una distribución normal, es decir, en comparación a ella concentran mayor cantidad de datos en las colas.
 
 % {START} RESUME TABLE ---------------------------------
 %\caption[Resumen resultado pruebas motor Droid-Galaxy]{Resumen resultado pruebas motor Droid-Galaxy \\ Fuente: Elaboración propia (2018)}
@@ -15,7 +17,7 @@ A continuación se realizará una evaluación de los prototipos 3 y 4 ya expuest
 % Requires LaTeX packages: dcolumn 
 \begin{table}[!htbp] \centering 
 \caption[Resumen resultado pruebas motor Droid-Galaxy]{Resumen resultado pruebas motor Droid-Galaxy  en $\mu s$\\ Fuente: Elaboración propia (2018)}
-\label{table:motor-droid-galaxy} 
+\label{table:motor-droid-galaxy}
 \begin{tabular}{@{\extracolsep{5pt}} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} } 
 \\[-1.8ex]\hline 
 \hline \\[-1.8ex] 
@@ -31,7 +33,6 @@ A continuación se realizará una evaluación de los prototipos 3 y 4 ya expuest
 \end{table} 
 % {END} RESUME TABLE ---------------------------------
 
-La Figura \ref{fig:droid-galaxy-hist-motors}, muestra los histogramas de las latencias obtenidas al mandar los mensajes de activación y desactivación. Se realizaron pruebas desde uno a cinco motores.
 
 \begin{figure}
  \begin{center} 
@@ -60,6 +61,7 @@ La Figura \ref{fig:droid-galaxy-hist-motors}, muestra los histogramas de las lat
 
 
 \subsubsection{Flexores}
+En el caso de los flexores, se realizó solamente una prueba para la obtención de datos desde la placa Arduino, con el único flexor físico disponible. Se utilizó una API de bajo nivel en Java desarrollada, en base a la C\# de bajo nivel. El resumen de los resultados de la prueba se muestra en la Tabla \ref{table:flexor-droid-galaxy}. De la tabla se puede observar que la muestra presenta una asimetría positiva, lo que implica que la cola de la distribución se encuentra a la derecha, por tanto, la media se encuentra desplazada hacia la izquierda, su Curtosis al ser positiva indica que posee mayor concentración de datos en las colas que una distribución normal. Esto puede apreciarse en el histograma de la Figura \ref{fig:droid-galaxy-hist-flexors} en conjunto con el diagrama de cajas de la Figura \ref{fig:droid-galaxy-boxplot-flexors}. En el gráfico Q-Q de la Figura \ref{fig:droid-galaxy-QQ-flexors}, se puede apreciar que la curva no sigue una distribución normal de manera estricta, sino que presenta acercamientos a ella, en forma sinusoidal.
 
 % {START} RESUME TABLE ---------------------------------
 %\extracolsep{-11pt}
@@ -106,6 +108,9 @@ La Figura \ref{fig:droid-galaxy-hist-motors}, muestra los histogramas de las lat
     \label{fig:droid-galaxy-boxplot-flexors}
   \end{center}
 \end{figure}
+
+
+
 
 
 \subsection{Prototipo 4: Xamarin - Galaxy}

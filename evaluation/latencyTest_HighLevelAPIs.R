@@ -2,7 +2,8 @@
 # install.packages("stargazer")
 # install.packages("moments")
 library(stargazer) # For generate LaTeX tables from R: stargazer(table, summary=FALSE, rownames=FALSE)
-library(moments) # for calculate skewness and kurtosis
+library(moments) # For calculate skewness and kurtosis
+library(coin) # For calculate the p-value of Wilcoxon test, for determine if two samples present significant differences.
 
 # Load .R files to use
 source('loadData.R')
@@ -48,10 +49,18 @@ tableFlexorTestXamarin  <- statisticsTable_us("flexors", flexorTestXamarinList)
 tableMotorTestDroid     <- statisticsTable_us("motors", motorTestDroidList)
 tableMotorTestXamarin   <- statisticsTable_us("motors", motorTestXamarinList)
 
+# Wilcoxon test
+
+# Flexors in Droid vs Xamarin
+first <- flexorTestDroidList[[1]]$latencies.us
+second <- flexorTestXamarinList[[1]]$latencies.us
+dataWilcoxonTest <- data.frame(first = first, second = first)
+wilcoxsign_test(first ~ second, data = dataWilcoxonTest, distribution = "exact")
+
 
 # Constants for graphics
 ext <- '.png'
-testName <- list('Flexors and IMU', 'Motors', 'IMU')
+testName <- list('Flexors&IMU', 'Motors', 'IMU')
 graphicType <- list('NormalQQ', 'Hist', 'Boxplot')
 platform <- list('Droid', 'Xamarin')
 graphicTypeTitle <- list('Normal Q-Q ', 'Histogram ', 'Boxplot')
@@ -104,7 +113,7 @@ dev.off()
 # ----------------------------  MOTOR TEST ---------------------------- #
 
 ext <- '.png'
-testName <- list('Flexors and IMU', 'Motors', 'IMU')
+testName <- list('Flexors&IMU', 'Motors', 'IMU')
 graphicType <- list('NormalQQ', 'Hist', 'Boxplot')
 platform <- list('Droid', 'Xamarin')
 graphicTypeTitle <- list('Normal Q-Q ', 'Histogram ', 'Boxplot')

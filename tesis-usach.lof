@@ -26,28 +26,34 @@
 \contentsline {figure}{\numberline {4.7}{\ignorespaces Iniciar IMU}}{48}{figure.caption.35}
 \contentsline {figure}{\numberline {4.8}{\ignorespaces Lectura de datos provenientes de Arduino}}{49}{figure.caption.36}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Histogramas de motores Droid-Galaxy}}{52}{figure.caption.38}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Gráfico QQ de motores Droid-Galaxy}}{53}{figure.caption.39}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Gráficos de cajas de motores Droid-Galaxy}}{54}{figure.caption.40}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Histogramas de flexores Droid-Galaxy}}{55}{figure.caption.42}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Gráfico QQ de flexores Droid-Galaxy}}{55}{figure.caption.43}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Gráficos de cajas de flexores Droid-Galaxy}}{56}{figure.caption.44}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Histogramas de motores Xamarin-Galaxy}}{57}{figure.caption.46}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Gráfico QQ de motores Xamarin-Galaxy}}{58}{figure.caption.47}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Gráficos de cajas de motores Xamarin-Galaxy}}{59}{figure.caption.48}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Histogramas de flexores Xamarin-Galaxy}}{60}{figure.caption.50}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Gráfico QQ de flexores Xamarin-Galaxy}}{60}{figure.caption.51}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Gráficos de cajas de flexores Xamarin-Galaxy}}{61}{figure.caption.52}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Histogramas de motores Droid-Nexus}}{62}{figure.caption.54}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Gráfico QQ de motores Droid-Nexus}}{63}{figure.caption.55}
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Gráficos de cajas de motores Droid-Nexus}}{64}{figure.caption.56}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Histogramas de flexores Droid-Nexus}}{65}{figure.caption.58}
-\contentsline {figure}{\numberline {5.17}{\ignorespaces Gráfico QQ de flexores Droid-Nexus}}{65}{figure.caption.59}
-\contentsline {figure}{\numberline {5.18}{\ignorespaces Gráficos de cajas de flexores Droid-Nexus}}{66}{figure.caption.60}
-\contentsline {figure}{\numberline {5.19}{\ignorespaces Histogramas de motores Xamarin-Nexus}}{67}{figure.caption.62}
-\contentsline {figure}{\numberline {5.20}{\ignorespaces Gráfico QQ de motores Xamarin-Nexus}}{68}{figure.caption.63}
-\contentsline {figure}{\numberline {5.21}{\ignorespaces Gráficos de cajas de motores Xamarin-Nexus}}{69}{figure.caption.64}
-\contentsline {figure}{\numberline {5.22}{\ignorespaces Histogramas de flexores Xamarin-Nexus}}{70}{figure.caption.66}
-\contentsline {figure}{\numberline {5.23}{\ignorespaces Gráfico QQ de flexores Xamarin-Nexus}}{70}{figure.caption.67}
-\contentsline {figure}{\numberline {5.24}{\ignorespaces Gráficos de cajas de flexores Xamarin-Nexus}}{71}{figure.caption.68}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Histogramas de motores Droid-Galaxy}}{53}{figure.caption.38}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Gráfico QQ de motores Droid-Galaxy}}{54}{figure.caption.39}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Gráficos de cajas de motores Droid-Galaxy}}{55}{figure.caption.40}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Histogramas de flexores Droid-Galaxy}}{56}{figure.caption.42}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Gráfico QQ de flexores Droid-Galaxy}}{56}{figure.caption.43}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Gráficos de cajas de flexores Droid-Galaxy}}{57}{figure.caption.44}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Histogramas de motores Xamarin-Galaxy}}{58}{figure.caption.46}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Gráfico QQ de motores Xamarin-Galaxy}}{59}{figure.caption.47}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Gráficos de cajas de motores Xamarin-Galaxy}}{60}{figure.caption.48}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Histogramas de flexores Xamarin-Galaxy}}{61}{figure.caption.50}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Gráfico QQ de flexores Xamarin-Galaxy}}{61}{figure.caption.51}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Gráficos de cajas de flexores Xamarin-Galaxy}}{62}{figure.caption.52}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Histogramas de motores Droid-Nexus}}{63}{figure.caption.54}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Gráfico QQ de motores Droid-Nexus}}{64}{figure.caption.55}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Gráficos de cajas de motores Droid-Nexus}}{65}{figure.caption.56}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Histogramas de flexores Droid-Nexus}}{66}{figure.caption.58}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Gráfico QQ de flexores Droid-Nexus}}{66}{figure.caption.59}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Gráficos de cajas de flexores Droid-Nexus}}{67}{figure.caption.60}
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Histogramas de motores Xamarin-Nexus}}{68}{figure.caption.62}
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Gráfico QQ de motores Xamarin-Nexus}}{69}{figure.caption.63}
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Gráficos de cajas de motores Xamarin-Nexus}}{70}{figure.caption.64}
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Histogramas de flexores Xamarin-Nexus}}{71}{figure.caption.66}
+\contentsline {figure}{\numberline {5.23}{\ignorespaces Gráfico QQ de flexores Xamarin-Nexus}}{71}{figure.caption.67}
+\contentsline {figure}{\numberline {5.24}{\ignorespaces Gráficos de cajas de flexores Xamarin-Nexus}}{72}{figure.caption.68}
+\contentsline {figure}{\numberline {5.25}{\ignorespaces Histogramas de motores usando API C\# }}{74}{figure.caption.70}
+\contentsline {figure}{\numberline {5.26}{\ignorespaces Gráfico QQ de motores usando API C\# }}{75}{figure.caption.71}
+\contentsline {figure}{\numberline {5.27}{\ignorespaces Gráficos de cajas de motores usando API C\# }}{76}{figure.caption.72}
+\contentsline {figure}{\numberline {5.28}{\ignorespaces Histogramas de Flexores e IMU usando API C\#}}{78}{figure.caption.74}
+\contentsline {figure}{\numberline {5.29}{\ignorespaces Gráfico QQ de Flexores e IMU usando API C\# }}{79}{figure.caption.75}
+\contentsline {figure}{\numberline {5.30}{\ignorespaces Gráficos de cajas de Flexores e IMU usando API C\# }}{80}{figure.caption.76}
 \addvspace {10\p@ }
