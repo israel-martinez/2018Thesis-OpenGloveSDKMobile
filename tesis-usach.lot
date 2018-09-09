@@ -18,17 +18,18 @@
 \contentsline {table}{\numberline {4.1}{\ignorespaces Descripción de la estructura software de control Arduino}}{45}{table.caption.32}
 \contentsline {table}{\numberline {4.2}{\ignorespaces Descripción del diagrama de clases API C\# de bajo nivel}}{47}{table.caption.34}
 \contentsline {table}{\numberline {4.3}{\ignorespaces Descripción del diagrama de clases APIs de alto nivel}}{49}{table.caption.37}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Descripción del diagrama de clases aplicación de configuración}}{50}{table.4.4}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Resumen resultado pruebas motor Droid-Galaxy}}{59}{table.caption.45}
-\contentsline {table}{\numberline {5.2}{\ignorespaces Resumen resultado pruebas flexor Droid-Galaxy}}{63}{table.caption.49}
-\contentsline {table}{\numberline {5.3}{\ignorespaces Resumen resultado pruebas motor Xamarin-Galaxy}}{64}{table.caption.53}
-\contentsline {table}{\numberline {5.4}{\ignorespaces Resumen resultado pruebas flexor Xamarin-Galaxy}}{67}{table.caption.57}
-\contentsline {table}{\numberline {5.5}{\ignorespaces Resumen resultado pruebas motor Droid-Nexus}}{69}{table.caption.61}
-\contentsline {table}{\numberline {5.6}{\ignorespaces Resumen resultado pruebas flexor Droid-Nexus}}{72}{table.caption.65}
-\contentsline {table}{\numberline {5.7}{\ignorespaces Resumen resultado pruebas motor Xamarin-Nexus}}{74}{table.caption.69}
-\contentsline {table}{\numberline {5.8}{\ignorespaces Resumen resultado pruebas flexor Xamarin-Nexus}}{77}{table.caption.73}
-\contentsline {table}{\numberline {5.9}{\ignorespaces Resumen resultados de pruebas de activación usando API C\#}}{80}{table.caption.77}
-\contentsline {table}{\numberline {5.10}{\ignorespaces Resumen resultados de pruebas de lectura flexores e IMU usando API C\#}}{84}{table.caption.81}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Resumen resultado pruebas motor Droid-Galaxy}}{61}{table.caption.45}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Resumen resultado pruebas flexor Droid-Galaxy}}{65}{table.caption.49}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Resumen resultado pruebas motor Xamarin-Galaxy}}{66}{table.caption.53}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Resumen resultado pruebas flexor Xamarin-Galaxy}}{69}{table.caption.57}
+\contentsline {table}{\numberline {5.5}{\ignorespaces Resumen resultado pruebas motor Droid-Nexus}}{71}{table.caption.61}
+\contentsline {table}{\numberline {5.6}{\ignorespaces Resumen resultado pruebas flexor Droid-Nexus}}{74}{table.caption.65}
+\contentsline {table}{\numberline {5.7}{\ignorespaces Resumen resultado pruebas motor Xamarin-Nexus}}{76}{table.caption.69}
+\contentsline {table}{\numberline {5.8}{\ignorespaces Resumen resultado pruebas flexor Xamarin-Nexus}}{79}{table.caption.73}
+\contentsline {table}{\numberline {5.9}{\ignorespaces Resumen resultados de pruebas de activación usando API C\#}}{82}{table.caption.77}
+\contentsline {table}{\numberline {5.10}{\ignorespaces Resumen resultados de pruebas de lectura flexores e IMU usando API C\#}}{86}{table.caption.81}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

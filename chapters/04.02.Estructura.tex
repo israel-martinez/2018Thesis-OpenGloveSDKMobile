@@ -26,11 +26,13 @@ La versión utilizada para el software de control modificada es 1.1.0, considera
   \end{center}
 \end{figure}
 
+%\captionsetup{justification=centering}
 %\caption[Descripción de la estructura software de control Arduino]{Descripción estructura del software de control Arduino \\Fuente: Elaboración propia (2018)}
 %\label{table:arduino-software-control}
 
 \begin{table}[H]
 \centering
+\captionsetup{justification=centering}
 \caption[Descripción de la estructura software de control Arduino]{Descripción estructura del software de control Arduino \\Fuente: Elaboración propia (2018)}
 \label{table:arduino-software-control}
 \begin{tabular}{|l|l|l|l|}
@@ -63,12 +65,14 @@ Redactando ...
 \end{figure}
 
 
+%\captionsetup{justification=centering}
 %\caption[Descripción del diagrama de clases API C\# de bajo nivel]{Descripción del diagrama de clases API C\# de bajo nivel \\Fuente: Elaboración propia (2018)}
 %\label{table:api-csharp-ll}
 
 
 \begin{table}[H]
 \centering
+\captionsetup{justification=centering}
 \caption[Descripción del diagrama de clases API C\# de bajo nivel]{Descripción del diagrama de clases API C\# de bajo nivel \\Fuente: Elaboración propia (2018)}
 \label{table:api-csharp-ll}
 \begin{tabular}{|l|l|l|l|}
@@ -111,13 +115,13 @@ Redactando ...
 
 %\captionsetup{justification=centering}
 %\caption[Descripción del diagrama de clases APIs  de alto nivel]{Descripción del diagrama de clases APIs  de alto nivel \\Fuente: Elaboración propia (2018)}
-%\label{fig:api-hl-class-diagram-description}
+%\label{table:api-hl-class-diagram-description}
 
 \begin{table}[H]
 \centering
 \captionsetup{justification=centering}
 \caption[Descripción del diagrama de clases APIs  de alto nivel]{Descripción del diagrama de clases APIs  de alto nivel \\Fuente: Elaboración propia (2018)}
-\label{fig:api-hl-class-diagram-description}
+\label{table:api-hl-class-diagram-description}
 \begin{tabular}{|l|l|}
 \hline
 Nombre           & Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         \\ \hline
@@ -141,3 +145,42 @@ Redactando ...
     \label{fig:class-diagram-configuarion-app}
   \end{center}
 \end{figure}
+
+
+%\captionsetup{justification=centering}
+%\caption[Descripción del diagrama de clases aplicación de configuración]{Descripción del diagrama de clases aplicación de configuración \\Fuente: Elaboración propia (2018)}
+%\label{table:class-diagram-configuarion-app}\\
+
+
+% Please add the following required packages to your document preamble:
+% \usepackage{longtable}
+% Note: It may be necessary to compile the document several times to get a multi-page table to line up properly
+\begin{longtable}[c]{|l|l|}
+\captionsetup{justification=centering}
+\caption[Descripción del diagrama de clases aplicación de configuración]{Descripción del diagrama de clases aplicación de configuración \\Fuente: Elaboración propia (2018)}
+\label{table:class-diagram-configuarion-app}\\
+\hline
+Nombre            & Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       \\ \hline
+\endfirsthead
+%
+\endhead
+%
+ContentPage       & \begin{tabular}[c]{@{}l@{}}Xamarin.Forms.ContentPage es una clase y un elemento visual\\ que hereda de la clase base Page en Xamarin.Forms. Otras\\ clases derivadas de Page son MasterDetailPage, NavigationPage,\\ TabbedPage, TemplatedPage y CarrouselPage.\end{tabular}                                                                                                                                                                                                                                      \\ \hline
+BottomBarPage     & \begin{tabular}[c]{@{}l@{}}BottomBar.XamarinForms.BottomBarPage es una clase que\\ implementa la  representación visual de la barra inferior en iOS\\ y Android. Permite agregar Pages para representarlos como\\ botones inferiores de navegación.\end{tabular}                                                                                                                                                                                                                                                  \\ \hline
+Home              & \begin{tabular}[c]{@{}l@{}}Clase que hereda de BottomBarPage (biblioteca de terceros).\\ Esta clase se instancia como primer Page del NavigationPage,\\ esto permite la navegación jerárquica en la aplicación. La\\ clase NavigationPage implementa la navegación como una\\ lista LIFO (last-in, first-out) de objetos Page.\end{tabular}                                                                                                                                                                       \\ \hline
+ConfigurationPage & \begin{tabular}[c]{@{}l@{}}Clase que contiene el menú de acceso a las diferentes\\ interfaces gráficas que permiten la actualización de\\ los actuadores, los flexores e IMU. Permite la creación,\\ lectura, actualización y eliminación (CRUD) de\\ configuraciones globales de OpenGlove.\end{tabular}                                                                                                                                                                                                         \\ \hline
+BoardsPage        & \begin{tabular}[c]{@{}l@{}}Clase que provee la interfaz gráfica para modificar la\\ configuración de la placa Arduino, es decir, la configuración\\ de los pines de la placa, cantidad, tipo de señal (análoga/digital),\\ tipo de componente asociado (VibeBoards, Flexores) y \\ polaridad del pin (positiva/negativa). Permite la creación de\\ nuevos modelos de placas, especificando: nombre de la\\ placa, cantidad de pines digitales, cantidad de pines análogos y\\ el primer pin análogo.\end{tabular} \\ \hline
+ActuatorsPage     & \begin{tabular}[c]{@{}l@{}}Clase que provee la interfaz gráfica para modificar la configuración\\ de los actuadores, es decir, el mapeo región-actuador, el rango de regiones\\ disponible es dinámica según se requiera, permitiendo cambiar\\ la imagen referencial del mapeo utilizar. Además permite testear\\ los actuadores, especificando la intensidad.\end{tabular}                                                                                                                                      \\ \hline
+FlexorPage        & \begin{tabular}[c]{@{}l@{}}Clase que provee la interfaz gráfica para modificar la configuración de los\\ flexores, es decir, el mapeo region-flexor, el rango de regiones\\ disponible es dinámica según se requiera, esto permite cambiar\\ la imagen referencial del mapeo a utilizar. Además permite testear los\\ flexores, mostrando el valor leído desde la placa Arduino con el Threshold\\ permite asignado.\end{tabular}                                                                                 \\ \hline
+IMUPage           & \begin{tabular}[c]{@{}l@{}}Clase que provee la interfaz gráfica para modificar la configuración del\\ IMU (SparkFun LSM9DS1). Además permite testear el IMU, mostrando\\ los valores leídos desde la placa Arduino según se especifique.\end{tabular}                                                                                                                                                                                                                                                             \\ \hline
+DevicePage        & \begin{tabular}[c]{@{}l@{}}Clase que muestra todos los dispositivos emparejados, permitiendo\\ asignar la configuración global OpenGlove que se quiera inicializar en la\\ placa Arduino.\end{tabular}                                                                                                                                                                                                                                                                                                            \\ \hline
+ServerPage        & \begin{tabular}[c]{@{}l@{}}Clase que provee la interfaz gráfica para modificar la configuración del \\ servidor, permitiendo la modificación de la dirección del servidor\\ WebSocket, además del encendido y apagado del mismo.\end{tabular}                                                                                                                                                                                                                                                                     \\ \hline
+IServer           & Interfaz que define los métodos Start, Stop y ConfigureServer.                                                                                                                                                                                                                                                                                                                                                                                                                                                    \\ \hline
+OpenGloveServer   & \begin{tabular}[c]{@{}l@{}}Clase que provee el acceso a todas las funcionalidades de la aplicación de\\ configuración. Posee todas las instancias de OpenGloveDevice, de los\\ clientes WebSocket conectados y recibe los mensajes de los hilos que\\ administran las conexiones con los dispositivos Bluetooth.\end{tabular}                                                                                                                                                                                     \\ \hline
+WebSocketServer   & \begin{tabular}[c]{@{}l@{}}Clase que permite utilizar la API WebSocket, la cual implementa el \\ protocolo RFC 6455. Se utiliza la biblioteca Fleck.\end{tabular}                                                                                                                                                                                                                                                                                                                                                 \\ \hline
+OpenGlove         & Clase de alto nivel de OpenGlove ya descrita en la Tabla 4.2                                                                                                                                                                                                                                                                                                                                                                                                                                                      \\ \hline
+OpenGloveDevice   & Clase de bajo nivel de OpenGlove ya descrita en la Tabla 4.3                                                                                                                                                                                                                                                                                                                                                                                                                                                      \\ \hline
+\end{longtable}
+    
+    
+    
