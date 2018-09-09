@@ -6,7 +6,7 @@ En esta sección se detalla la estructura de todos los componentes de software d
 
 
 \subsection{Software de control Arduino}
-La estructura del sofware de control Arduino corresponde a la desarrollada por \cite{tesis-cerda-rodrigo}, esta estructura se mantiene para este proyecto. En este trabajo se agrega el soporte a una nueva función que envía la versión actual del Sofware de configuración, siguiendo el versionamiento semántico propuesto por \cite{semantic-versioning-tom-preston-werner-coFounder-GitHub}. A continuación se muestra la forma de aplicar este versionamiento de manera resumida:
+La estructura del sofware de control Arduino corresponde a la desarrollada por \cite{tesis-cerda-rodrigo}, esta estructura se mantiene para este proyecto, solamente se agrega el soporte para obtener la versión actual del Sofware de configuración, siguiendo el versionamiento semántico propuesto por \cite{semantic-versioning-tom-preston-werner-coFounder-GitHub}. A continuación se muestra la forma de aplicar este versionamiento en resumidas palabras:
 
 ``Dado un número de versión MAJOR.MINOR.PATCH incrementar
 \begin{itemize}
@@ -16,7 +16,7 @@ La estructura del sofware de control Arduino corresponde a la desarrollada por \
 \end{itemize}
 El uso de etiquetas adicionales para pre-lanzamientos y metadatos, son extensiones al formato MAJOR.MINOR.PATCH." \citep{semantic-versioning-tom-preston-werner-coFounder-GitHub}. 
 
-La versión 1.0.0 fue desarrollada en el trabajo de \cite{tesis-monsalve-rodrigo} permitiendo administrar actuadores. Luego en el trabajo de \cite{tesis-cerda-rodrigo} se desarrolla la versión 1.1.0, porque mantiene la compatibilidad luego de agregar todas las funcionalidades para administrar flexores e IMU de la placa. Por tanto la versión modificada en este proyecto corresponde a la versión 1.2.0. La Figura \ref{fig:arduino-software-control} muestra la estructura del software de control, donde se aprecia que OpenGloveArduino es el código principal y que FunctionsSwitch contiene todas las funciones relativas a la placa y a los componentes de hardware conectados a ella (actuadores, flexores e IMU). La Tabla \ref{table:arduino-software-control} contiene la descripción del software de control.
+La versión 1.0.0 fue desarrollada en el trabajo de \cite{tesis-monsalve-rodrigo} permitiendo la activación de actuadores. Luego en el trabajo de \cite{tesis-cerda-rodrigo} se desarrolla la versión 1.1.0, porque se mantiene la compatibilidad luego de agregar la funcionalidad de lectura de datos de flexores e IMU en la placa Arduino. Por tanto la versión modificada en este proyecto corresponde a la versión 1.2.0. La Figura \ref{fig:arduino-software-control} muestra la estructura del software de control, donde se aprecia que OpenGloveArduino es el código principal, el cual incluye a FunctionsSwitch que contiene todas referencias a las funciones de la placa y a los componentes de hardware conectados a ella (actuadores, flexores e IMU).  La Tabla \ref{table:arduino-software-control} contiene la descripción de cada clase del diagrama, su origen y el estado actual de desarrollo.
 
 \begin{figure}[H]
   \begin{center} 
@@ -54,7 +54,10 @@ ImuFunctions       & \begin{tabular}[c]{@{}l@{}}"Contiene todas las variables y 
 
 
 \subsection{API C\# de bajo nivel}
-Redactando ...
+Para establecer la comunicación entre la API C\# de bajo nivel  y el software de configuración Arduino, fue necesario rehacer la clase Communication, puesto que estaba pensada solamente para un ambiente de escritorio en Windows. Por ello se define una interfaz ICommunication, que establece define los métodos que deben ser implementados en las diferentes plataformas objetivo. Los métodos de la interfaz son: la obtención de la lista de dispositivos emparejados, la conexión/desconexión de dispositivos y la escritura/lectura del socket Bluetooth creado. La Figura \ref{fig:api-csharp-ll} muestra el diagrama de clases de la API C\# de bajo nivel  desarrollada.  La Tabla \ref{table:api-csharp-ll} contiene la descripción de cada clase que compone el diagrama de clases, su origen y el estado actual de desarrollo.
+
+\end{itemize}
+%Además cuando establecen conexión, esta debe ser mediante la creación de hilos que administren las conexiones Bluetooth, los cuales se deben suscribir al servidor para enviar los mensajes recibidos. En la sección 4.4 se detallan los aspectos de implementación en base a este diseño.
 
 \begin{figure}[H]
   \begin{center} 
@@ -92,7 +95,13 @@ ICommunication                                                     & \begin{tabu
 
 
 \subsection{APIs alto nivel}
-Redactando ...
+Para permitir la interoperabilidad de OpenGlove se deben soportar diferentes lenguajes de programación. Los lenguajes de programación definidos en el alcance del proyecto son \C# y Java, estos permiten el desarrollo en diferentes plataformas de desarrollo móvil. Las APIs de alto nivel desarrolladas poseen el mismo comportamiento base, el cual consiste en abstraer la complejidad de conexiones y protocolos de comunicación necesarios, para tener una instacia OpenGlove que permite la interacción en tiempo real con el dispositivo físico.
+% administrar la conexión WebSocket, los eventos (OnOpen, OnMessage, OnClose y OnError)
+
+ser una representación de un dispositivo OpenGlove
+
+La Figura \ref{fig:api-csharp-ll} muestra el diagrama de clases de la API C\# de bajo nivel  desarrollada.  La Tabla \ref{table:api-csharp-ll} contiene la descripción de cada clase que compone el diagrama de clases, su origen y el estado actual de desarrollo.
+
 
 \begin{figure}[H]
   \begin{center} 

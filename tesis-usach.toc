@@ -62,11 +62,12 @@
 \contentsline {subsection}{\numberline {4.3.6}Lectura de datos provenientes de Arduino}{58}{subsection.4.3.6}
 \contentsline {section}{\numberline {4.4}Aspectos de implementación}{59}{section.4.4}
 \contentsline {subsection}{\numberline {4.4.1}Desarrollo multiplataforma en Xamarin.Forms}{59}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Servicio}{59}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Software de configuración}{59}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}APIs}{59}{subsection.4.4.4}
-\contentsline {subsubsection}{\numberline {4.4.4.1}Java}{59}{subsubsection.4.4.4.1}
-\contentsline {subsubsection}{\numberline {4.4.4.2}C\#}{59}{subsubsection.4.4.4.2}
+\contentsline {subsection}{\numberline {4.4.2}API C\# bajo nivel}{59}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Servidor WebSocket}{59}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}Software de configuración}{59}{subsection.4.4.4}
+\contentsline {subsection}{\numberline {4.4.5}APIs}{59}{subsection.4.4.5}
+\contentsline {subsubsection}{\numberline {4.4.5.1}Java}{59}{subsubsection.4.4.5.1}
+\contentsline {subsubsection}{\numberline {4.4.5.2}C\#}{59}{subsubsection.4.4.5.2}
 \contentsline {section}{\numberline {4.5}Resumen}{59}{section.4.5}
 \contentsline {chapter}{\numberline {5}Evaluación técnica}{60}{chapter.5}
 \contentsline {section}{\numberline {5.1}Evaluación aplicaciones nativa y multiplataforma}{60}{section.5.1}
