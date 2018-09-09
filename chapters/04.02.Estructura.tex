@@ -87,7 +87,7 @@ ICommunication                                                     & \begin{tabu
 
 
 
-\subsection{API C\# alto nivel}
+\subsection{APIs alto nivel}
 Redactando ...
 
 \begin{figure}[H]
@@ -99,14 +99,6 @@ Redactando ...
 \end{figure}
 
 
-%\caption[Descripción del diagrama de clases API C\# de alto nivel]{Descripción del diagrama de clases API C\# de alto nivel \\Fuente: Elaboración propia (2018)}
-%\label{fig:api-csharp-hl}
-
-
-
-
-
-\subsection{API Java alto nivel}
 Redactando ...
 
 \begin{figure}[H]
@@ -116,6 +108,25 @@ Redactando ...
     \label{fig:api-java-hl}
   \end{center}
 \end{figure}
+
+%\captionsetup{justification=centering}
+%\caption[Descripción del diagrama de clases APIs  de alto nivel]{Descripción del diagrama de clases APIs  de alto nivel \\Fuente: Elaboración propia (2018)}
+%\label{fig:api-hl-class-diagram-description}
+
+\begin{table}[H]
+\centering
+\captionsetup{justification=centering}
+\caption[Descripción del diagrama de clases APIs  de alto nivel]{Descripción del diagrama de clases APIs  de alto nivel \\Fuente: Elaboración propia (2018)}
+\label{fig:api-hl-class-diagram-description}
+\begin{tabular}{|l|l|}
+\hline
+Nombre           & Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         \\ \hline
+OpenGlove        & \begin{tabular}[c]{@{}l@{}}Clase que representa un dispositivo OpenGlove,\\ la cual incluye su identificación y todos los métodos\\ que permiten la comunicación con el servidor\\ WebSocket, la creación/asignación\\ de la configuración en la instancia OpenGlove\\ del servidor y la inicialización de la  configuración\\  en la placa Arduino.\end{tabular}                                                                                                                                                                                                                                                                                                                                                                                                                   \\ \hline
+MessageGenerator & \begin{tabular}[c]{@{}l@{}}Clase que permite la generación de mensajes\\ bajo el protocolo creado por el memorista, para\\ la comunicación Cliente WebSocket y Servidor\\ WebSocket.\end{tabular}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   \\ \hline
+Communication    & \begin{tabular}[c]{@{}l@{}}Clase que permite la comunicación con el Servidor\\ WebSocket, permitiendo el envío/recepción de\\ mensajes bajo el protocolo creado por el memorista.\\ Se utiliza esta clase para la obtención de datos mediante\\ la invocación de métodos, permitiendo crear soluciones\\ en tiempo real suscribiéndose/implementando los\\ siguientes eventos/interfaces:\\ - OnTimeTestServerLatencyActivateActuatorsReceived\\ - OnTimeTestArduinoLatencyActivateActuatorsReceived\\ - OnFlexorValueReceived\\ - OnAccelerometerValuesReceived\\ - OnGyroscopeValuesReceived\\ - OnMagnometerValuesReceived\\ - OnAllIMUValuesReceived\\ - OnBluetoothDeviceConnectionStateChanged\\ - OnWebSocketConnectionStateChangued\\ - OnInfoMessagesReceived\end{tabular} \\ \hline
+WebSocketClient  & \begin{tabular}[c]{@{}l@{}}Clase que permite utilizar la API WebSocket,\\ la cual que implementa el protocolo RFC 6455. Se\\ utilizan las bibliotecas disponibles para cada\\ lenguaje de programación.\end{tabular}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                \\ \hline
+\end{tabular}
+\end{table}
 
 
 
