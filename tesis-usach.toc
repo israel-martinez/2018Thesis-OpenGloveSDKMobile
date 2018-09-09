@@ -51,7 +51,7 @@
 \contentsline {section}{\numberline {4.2}Estructura}{43}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Software de control Arduino}{43}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}API C\# de bajo nivel}{45}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}API C\# alto nivel}{47}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.3}API C\# alto nivel}{48}{subsection.4.2.3}
 \contentsline {subsection}{\numberline {4.2.4}API Java alto nivel}{48}{subsection.4.2.4}
 \contentsline {subsection}{\numberline {4.2.5}Aplicación de configuración}{48}{subsection.4.2.5}
 \contentsline {section}{\numberline {4.3}Comportamiento}{49}{section.4.3}
