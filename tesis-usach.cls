@@ -512,8 +512,8 @@
         \begin{flushleft}
 			\copyright\ 
 			\@autor \;, \@annoexamen \\ 
-			\includegraphics[height=20pt]{images/licences/cc-by-nc-sa.png}
-				~$\bullet$~~ Algunos derechos reservados. Esta obra est\'a bajo una Licencia Creative Commons Atribuci\'on-Chile 3.0. Sus condiciones de uso pueden ser revisadas en: \url{http://creativecommons.org/licenses/by/3.0/cl/}.      
+			\includegraphics[height=20pt]{images/licences/cc-by.png}
+				~$\bullet$~~ Algunos derechos reservados. Esta obra est\'a bajo una Licencia Creative Commons Atribuci\'on-Chile 3.0. Sus condiciones de uso pueden ser revisadas en: \url{http://creativecommons.org/licenses/by/3.0/cl/}.
         \end{flushleft}
     \fi
 }

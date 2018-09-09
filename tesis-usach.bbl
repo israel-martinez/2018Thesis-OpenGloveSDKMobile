@@ -1,4 +1,4 @@
-\begin{thebibliography}{33}
+\begin{thebibliography}{34}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{{\tt #1}}\fi
@@ -128,6 +128,11 @@ Okamoto, S., Konyo, M., Saga, S., \& Tadokoro, S. (2009).
 \newblock Detectability and perceptual consequences of delayed feedback in a
   vibrotactile texture display.
 \newblock {\em IEEE Transactions on Haptics\/}, {\em 2\/}(2), 73--84.
+
+\bibitem[{Preston-Werner(2018)}]{semantic-versioning-tom-preston-werner-coFounder-GitHub}
+Preston-Werner, T. (2018).
+\newblock stargazer: Well-formatted regression and summary statistics tables.
+\newblock Recuperado de https://semver.org/ Revisado el 25 de Agosto de 2018.
 
 \bibitem[{PubNub(2018)}]{websocket-pubnub}
 PubNub (2018).

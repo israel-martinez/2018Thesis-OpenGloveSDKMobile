@@ -5,7 +5,7 @@ La Figura \ref{fig:arquitectura-open-glove}, muestra un diagrama conceptual gene
 \begin{figure}[H]
   \begin{center} 
    	\includegraphics[width=1.0\textwidth]{images/chapter04/OpenGlove-Architecture-General.png} 
-    \caption[Arquitectura de Openglove]{Arquitectura de OpenGlove \\Fuente: Elaboración propia (2018)}
+    \caption[Diagrama conceptual general de OpenGlove]{Diagrama conceptual general de OpenGlove \\Fuente: Elaboración propia (2018)}
     \label{fig:arquitectura-open-glove}
   \end{center}
 \end{figure}
@@ -20,9 +20,9 @@ La aplicación de configuración de OpenGlove desarrollada en este proyecto, per
   \end{center}
 \end{figure}
 
-La Figura \ref{fig:detalle-arquitectura-open-glove} muestra el detalle de la arquitectura considerando el objetivo de uso de las APIs de alto nivel en Java y C\#. Las APIs de alto nivel mencionadas permiten el desarrollo de aplicaciones de terceros en Android nativo usando Java o con C\# utilizando Xamarin. Para realizar aplicaciones de AR o VR, se puede utilizar Google ARCore y Google VR respectivamente. Ambas herramientas de Google están disponibles para Android, iOS, Unity y Unreal.
+La Figura \ref{fig:detalle-arquitectura-open-glove} muestra un diagrama conceptual de la arquitectura en detalle, donde se consideró el objetivo de uso de las APIs de alto nivel en Java y C\#. Las APIs de alto nivel mencionadas permiten el desarrollo de aplicaciones de terceros en Android nativo usando Java o con C\# utilizando Xamarin. Para realizar aplicaciones de AR o VR, se puede utilizar Google ARCore y Google VR respectivamente. Ambas herramientas de Google están disponibles para Android, iOS, Unity y Unreal.
 
-Esta arquitectura establece al servidor WebSocket como proveedor de las funcionalidades referentes a los actuadores, flexores e IMU. Por tanto la aplicación de configuración y las aplicaciones de terceros utilizan las mismas APIs de alto nivel para su desarrollo.
+Esta arquitectura establece al servidor WebSocket como punto de acceso a las funcionalidades referentes a los actuadores, flexores e IMU. Por tanto la aplicación de configuración y las aplicaciones de terceros utilizan las mismas APIs de alto nivel para su desarrollo, evitando replicación de código y aprovechando todas las funcionalidades provistas por la API de alto nivel. La aplicación de configuración de OpenGlove desarrollada en Xamarin.Forms, utiliza la API de alto nivel C\#.
 
 Dado el alcance de la solución, no se ha desarrollado APIs de alto nivel que tengan como objetivos aplicaciones de terceros para iOS, para lo cual requiere un dispositivo iPhone real para realizar las pruebas de Bluetooth y WebSockets, o en su defecto un MacBook para poder visualizar la interfaz de la aplicación, pero sin hacer uso de las funcionalidades Bluetooth ni WebSocket. También es importante recalcar la necesidad de implementar parte de la API de bajo nivel en C\# ( Communication ) específica para iOS para gestionar las conexiones de los dispositivos Bluetooth y la administración de mensajes entre la API de bajo nivel y el servidor WebSocket. Este es un trabajo que se puede realizar a futuro para dar soporte a OpenGlove en iOS.
 
