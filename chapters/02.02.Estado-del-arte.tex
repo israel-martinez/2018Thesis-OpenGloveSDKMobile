@@ -3,18 +3,20 @@
 
 En esta sección se busca presentar los antecedentes y el estado actual sobre los dispositivos de retroalimentación vibrotáctil disponibles en el mercado, las cuales suelen venir con herramientas para el desarrollo de aplicaciones de terceros. Una de las herramientas que se le suelen facilitar a los desarrolladores es el SDK (\textit{Software Development Kit}), el cual es un conjunto de herramientas utilizadas para desarrollar aplicaciones proporcionadas por proveedores de hardware y software. Los SDK suelen estar compuestos por interfaces de programación de aplicaciones APIs (\textit{Application Program Interface}), código de muestra, documentación, entre otros elementos \citep{techopedia-SDK}. En la Tabla \ref{table:SDKs} muestra una comparativa de distintas características de los SDKs del mercado referente a dispositivos de \textit{haptic feedback}. Es importante señalar que el SDK no posee soporte multiplataforma, tampoco tiene una integración directa con Unity, sería necesario hacer un plugin para ello.
 
+%\caption[Comparación SDK de distintos Guantes]{Comparación SDK de distintos Guantes \\Fuente: Elaboración propia (2018)}
+%\label{table:SDKs}
+
 % ... /table-generation/sdk-comparation.tgn
 \begin{table}[H]
-\centering
 \caption[Comparación SDK de distintos Guantes]{Comparación SDK de distintos Guantes \\Fuente: Elaboración propia (2018)}
 \label{table:SDKs}
 \begin{tabular}{|l|l|l|l|l|}
 \hline
-          & \begin{tabular}[c]{@{}l@{}}Lenguajes \\ soportados\end{tabular} & SO soportado                                                                  & \begin{tabular}[c]{@{}l@{}}Información \\ Bidireccional\end{tabular} & \begin{tabular}[c]{@{}l@{}}Integración \\ SDK con Unity\end{tabular} \\ \hline
-OpenGlove & C\#, Java, JavaScript                                           & Windows                                                                       & SI                                                                   & \begin{tabular}[c]{@{}l@{}}NO\\ (Requiere plugin)\end{tabular}       \\ \hline
-GloveOne  & C++ y C\#                                                       & \begin{tabular}[c]{@{}l@{}}Windows, MAC, \\ Linux, Android e iOS\end{tabular} & SI                                                                   & SI                                                                   \\ \hline
-AvatarVR  & C++ y C\#                                                       & \begin{tabular}[c]{@{}l@{}}Windows, MAC,\\ Linux, Android e iOS\end{tabular}  & SI                                                                   & SI                                                                   \\ \hline
-Dexmo     & No anunciado                                                    & No anunciado                                                                  & SI                                                                   & Si                                                                   \\ \hline
+          & \begin{tabular}[c]{@{}l@{}}Lenguajes \\ soportados\end{tabular}       & SO soportado                                                                  & \begin{tabular}[c]{@{}l@{}}Información \\ Bidireccional\end{tabular} & \begin{tabular}[c]{@{}l@{}}Integración \\ SDK con Unity\end{tabular} \\ \hline
+OpenGlove & \begin{tabular}[c]{@{}l@{}}C\#, C++, Java y\\ JavaScript\end{tabular} & Windows                                                                       & SI                                                                   & SI                                                                   \\ \hline
+GloveOne  & C++ y C\#                                                             & \begin{tabular}[c]{@{}l@{}}Windows, MAC, \\ Linux, Android e iOS\end{tabular} & SI                                                                   & SI                                                                   \\ \hline
+AvatarVR  & C++ y C\#                                                             & \begin{tabular}[c]{@{}l@{}}Windows, MAC,\\ Linux, Android e iOS\end{tabular}  & SI                                                                   & SI                                                                   \\ \hline
+Dexmo     & No anunciado                                                          & No anunciado                                                                  & SI                                                                   & Si                                                                   \\ \hline
 \end{tabular}
 \end{table}
 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  9 SEP 2018 15:57
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  10 SEP 2018 09:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1525,9 +1525,9 @@ File: images/chapter01/Legacy-OpenGlove-Architecture.png Graphic file (type bmp
 )
 (./chapters/01.03.Solucion-propuesta.tex [2]
 Underfull \hbox (badness 10000) in paragraph at lines 17--17
-[][][]\TU/Arial(0)/m/n/8 Background service Android: [][]$[][][][][] [] [] [] [
-][][][][][][][][] [] [][][][][][][] [] [][][] [] [][][][][][][][] [] [][][][][]
-[][][][][][][][][][][][][][][][][][][] []
+[][][]\TU/Arial(0)/m/n/8 Multiple Threads Runnable Code: [][]$[][][][][] [] [] 
+[] [][][][][][][][][] [] [][][][][][][] [] [][][] [] [][][][][][][][] [] [][][]
+[][][][][][][][][][][][][][] []
  []
 
 [3]) (./chapters/01.04.Objetivos-alcance-proyecto.tex [4])
@@ -1637,11 +1637,11 @@ File: images/chapter04/OpenGlove-Architecture-Specification.png Graphic file (t
 ype bmp)
 <images/chapter04/OpenGlove-Architecture-Specification.png>
  [42])
-(./chapters/04.02.Estructura.tex
+(./chapters/04.02.Estructura.tex [43]
 File: images/chapter04/OpenGlove-Architecture-Arduino-Software.png Graphic file
  (type bmp)
 <images/chapter04/OpenGlove-Architecture-Arduino-Software.png>
- [43]
+
 Overfull \hbox (18.47502pt too wide) in paragraph at lines 38--48
  [][] 
  []
@@ -1651,15 +1651,14 @@ File: images/chapter04/OpenGlove-Architecture-API-CSharp-LowLevel.png Graphic f
 ile (type bmp)
 <images/chapter04/OpenGlove-Architecture-API-CSharp-LowLevel.png>
 
-Overfull \hbox (26.434pt too wide) in paragraph at lines 84--95
+Overfull \hbox (26.434pt too wide) in paragraph at lines 80--91
  [][] 
  []
 
-[46]
+[46] [47]
 File: images/chapter04/OpenGlove-Architecture-API-CSharp-HL.png Graphic file (t
 ype bmp)
 <images/chapter04/OpenGlove-Architecture-API-CSharp-HL.png>
- [47]
 File: images/chapter04/OpenGlove-Architecture-API-Java-HL.png Graphic file (typ
 e bmp)
 <images/chapter04/OpenGlove-Architecture-API-Java-HL.png>
@@ -1668,17 +1667,17 @@ File: images/chapter04/OpenGlove-Architecture-Configuration-App.png Graphic fil
 e (type bmp)
 <images/chapter04/OpenGlove-Architecture-Configuration-App.png>
  [49]
-Overfull \hbox (13.343pt too wide) in alignment at lines 164--170
+Overfull \hbox (13.343pt too wide) in alignment at lines 161--167
  [] [] 
  []
 
 
-Overfull \hbox (13.343pt too wide) in alignment at lines 170--172
+Overfull \hbox (13.343pt too wide) in alignment at lines 167--169
  [] [] 
  []
 
 
-Overfull \hbox (13.343pt too wide) in alignment at lines 172--189
+Overfull \hbox (13.343pt too wide) in alignment at lines 169--186
  [] [] 
  []
 
@@ -1712,7 +1711,7 @@ Cap\'itulo 5.
 ) (./chapters/05.01.Evaluacion-aplicaciones-nativa-multiplataforma.tex [60
 
 ]
-Overfull \hbox (10.77643pt too wide) in paragraph at lines 21--33
+Overfull \hbox (10.77643pt too wide) in paragraph at lines 24--37
  [][] 
  []
 
@@ -1727,7 +1726,7 @@ File: evaluation/graphics/Droid/Galaxy/BoxplotMotorsDroidGalaxy.png Graphic fil
 e (type bmp)
 <evaluation/graphics/Droid/Galaxy/BoxplotMotorsDroidGalaxy.png>
  [63]
-Overfull \hbox (26.35362pt too wide) in paragraph at lines 77--85
+Overfull \hbox (26.35362pt too wide) in paragraph at lines 83--92
  [][] 
  []
 
@@ -1753,7 +1752,7 @@ File: evaluation/graphics/Xamarin/Galaxy/BoxplotMotorsXamarinGalaxy.png Graphic
  file (type bmp)
 <evaluation/graphics/Xamarin/Galaxy/BoxplotMotorsXamarinGalaxy.png>
  [68]
-Overfull \hbox (26.35362pt too wide) in paragraph at lines 181--189
+Overfull \hbox (26.35362pt too wide) in paragraph at lines 191--200
  [][] 
  []
 
@@ -1779,7 +1778,7 @@ File: evaluation/graphics/Droid/Nexus/BoxplotMotorsDroidNexus.png Graphic file
 (type bmp)
 <evaluation/graphics/Droid/Nexus/BoxplotMotorsDroidNexus.png>
  [73]
-Overfull \hbox (22.35623pt too wide) in paragraph at lines 285--293
+Overfull \hbox (22.35623pt too wide) in paragraph at lines 299--308
  [][] 
  []
 
@@ -1805,7 +1804,7 @@ File: evaluation/graphics/Xamarin/Nexus/BoxplotMotorsXamarinNexus.png Graphic f
 ile (type bmp)
 <evaluation/graphics/Xamarin/Nexus/BoxplotMotorsXamarinNexus.png>
  [78]
-Overfull \hbox (22.35623pt too wide) in paragraph at lines 387--395
+Overfull \hbox (22.35623pt too wide) in paragraph at lines 407--416
  [][] 
  []
 
@@ -1820,7 +1819,7 @@ File: evaluation/graphics/Xamarin/Nexus/BoxplotFlexorsXamarinNexus.png Graphic
 file (type bmp)
 <evaluation/graphics/Xamarin/Nexus/BoxplotFlexorsXamarinNexus.png>
 ) (./chapters/05.02.Evaluacion-tiempo-activacion.tex [80] [81]
-Overfull \hbox (34.02022pt too wide) in paragraph at lines 19--31
+Overfull \hbox (34.02022pt too wide) in paragraph at lines 21--34
  [][] 
  []
 
@@ -1838,13 +1837,13 @@ Test.png Graphic file (type bmp)
 <evaluation/graphics/Xamarin/Galaxy-APITest/BoxplotMotorsXamarinGalaxy-APITest.
 png>
  [84]) (./chapters/05.03.Evaluacion-tiempo-lectura.tex [85]
-Overfull \hbox (32.91182pt too wide) in paragraph at lines 16--33
+Overfull \hbox (32.91182pt too wide) in paragraph at lines 16--34
  [][] 
  []
 
 
 LaTeX Warning: Reference `fig:xamarin-galaxy-hist-flexor&imu-api' on page 86 un
-defined on input line 36.
+defined on input line 37.
 
 File: evaluation/graphics/Xamarin/Galaxy-APITest/HistFlexors&IMUXamarinGalaxy-A
 PITest.png Graphic file (type bmp)
@@ -2019,7 +2018,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 121.
 Here is how much of TeX's memory you used:
  28637 strings out of 492970
  515301 string characters out of 6133938
- 707641 words of memory out of 5000000
+ 707703 words of memory out of 5000000
  32000 multiletter control sequences out of 15000+600000
  540684 words of font info for 86 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191

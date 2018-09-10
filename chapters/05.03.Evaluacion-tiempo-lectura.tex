@@ -1,5 +1,5 @@
 \section{Evaluación tiempo de lectura de datos usando APIs}
-El tipo de prueba que se realizó es el mismo que el utilizado por \cite{tesis-cerda-rodrigo}, por tanto se considera como ciclo de lectura cuando el software de control Arduino, envía los valores de todos los flexores agregados, esto es realizado en paralelo a la lectura de todos los datos que entrega el IMU. Cada medición considera el tiempo transcurrido desde la generación del mensaje en el software de control hasta que llega a la API de alto nivel. Se realizaron 1000 pruebas de ciclos lectura utilizando un Baudrate de 57600, un LoopDelay igual a 0 ms y Threshold igual a 0 en la placa Arduino. Se realizaron pruebas con el IMU enviando la información completa (acelerómetro, giroscopio y magnetómetro) y modificando la cantidad de flexores desde uno a 1 a 10, siendo simulados con solo un sólo flexor físico en la placa. El dispositivo utilizado para la evaluación técnica de las APIs fue el Samsung Galaxy S5 Mini.
+El tipo de prueba que se realizó es el mismo que el utilizado por \cite{tesis-cerda-rodrigo}, por tanto se considera como ciclo de lectura cuando el software de control Arduino, envía los valores de todos los flexores agregados, esto es realizado en paralelo a la lectura de todos los datos que entrega el IMU. Cada medición considera el tiempo transcurrido desde la generación del mensaje en el software de control hasta que llega a la API de alto nivel. Se realizaron 1000 pruebas de ciclos lectura utilizando un Baudrate de 57600, un LoopDelay igual a 0 ms y Threshold igual a 0 en la placa Arduino. Se realizaron pruebas con el IMU enviando la información completa (acelerómetro, giroscopio y magnetómetro) y modificando la cantidad de flexores desde uno a 1 a 10, siendo simulados solamente con un flexor físico en la placa. El dispositivo utilizado para la evaluación técnica de las APIs fue el Samsung Galaxy S5 Mini.
 
 \subsection{API C\#}
 %Flexores e IMU update resources
@@ -17,6 +17,7 @@ El tipo de prueba que se realizó es el mismo que el utilizado por \cite{tesis-c
 \\[-1.8ex]\hline 
 \hline \\[-1.8ex] 
 flexors & Mean & Median & Min & Max & Std. Dev. & Skewness & Kurtosis \\ 
+ & $\mu s$ & $\mu s$ & $\mu s$ & $\mu s$ & $\mu s$ &     & \\ 
 \hline \\[-1.8ex] 
 $1$ & $16,038.830$ & $15,068.100$ & $7,417.900$ & $28,865.600$ & $4,484.658$ & $0.692$ & $2.908$ \\ 
 $2$ & $1,365.986$ & $1,271.700$ & $376.800$ & $3,635.400$ & $704.429$ & $0.816$ & $3.307$ \\ 
