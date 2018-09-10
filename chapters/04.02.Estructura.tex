@@ -1,4 +1,5 @@
 \section{Estructura}
+\label{seccion-estructura}
 En esta sección se detalla la estructura de todos los componentes de software de OpenGlove, los cuales son: el software de control Arduino, la API de bajo nivel C\#, las APIs de alto nivel  y la aplicación de configuración.
 
 
@@ -6,6 +7,7 @@ En esta sección se detalla la estructura de todos los componentes de software d
 
 
 \subsection{Software de control Arduino}
+\label{subseccion-estructura-arduino-software}
 La estructura del sofware de control Arduino corresponde a la desarrollada por \cite{tesis-cerda-rodrigo}, esta estructura se mantiene para este proyecto, solamente se agrega el soporte para obtener la versión actual del Sofware de configuración, siguiendo el versionamiento semántico propuesto por \cite{semantic-versioning-tom-preston-werner-coFounder-GitHub}. A continuación se muestra la forma de aplicar este versionamiento en resumidas palabras:
 
 ``Dado un número de versión MAJOR.MINOR.PATCH incrementar
@@ -54,6 +56,7 @@ ImuFunctions       & \begin{tabular}[c]{@{}l@{}}"Contiene todas las variables y 
 
 
 \subsection{API C\# de bajo nivel}
+\label{subseccion-estructura-api-ll}
 Para establecer la comunicación entre la API C\# de bajo nivel  y el software de configuración Arduino, fue necesario rehacer la clase Communication, puesto que estaba pensada solamente para un ambiente de escritorio en Windows. Por ello se define una interfaz ICommunication, que define los métodos que deben ser implementados en las diferentes plataformas objetivo. Los métodos de la interfaz son: la obtención de la lista de dispositivos emparejados, la conexión/desconexión de dispositivos y la escritura/lectura del socket Bluetooth creado. La Figura \ref{fig:api-csharp-ll} muestra el diagrama de clases de la API C\# de bajo nivel  desarrollada.  La Tabla \ref{table:api-csharp-ll} contiene la descripción de cada clase que compone el diagrama de clases, su origen y el estado actual de desarrollo.
 
 %Además cuando establecen conexión, esta debe ser mediante la creación de hilos que administren las conexiones Bluetooth, los cuales se deben suscribir al servidor para enviar los mensajes recibidos. En la sección 4.4 se detallan los aspectos de implementación en base a este diseño.
@@ -94,6 +97,7 @@ ICommunication                                                     & \begin{tabu
 
 
 \subsection{APIs alto nivel}
+\label{subseccion-estructura-apis-hl}
 Para permitir la interoperabilidad de OpenGlove, se deben soportar diferentes lenguajes de programación, que son utilizados en el desarrollo móvil de diferentes plataformas, como lo es iOS y Android, por tanto se desarrollaron las APIs C\# y Java como se especifica en el alcance del proyecto. Estas APIs poseen un mismo objetivo, el cual consiste en abstraer la complejidad de conexiones y protocolos de comunicación necesarios, para tener una instancia OpenGlove que permita la interacción en tiempo real con el dispositivo físico. Esto se consigue utilizando el diseño presentado en la Figura \ref{fig:api-csharp-hl} y \ref{fig:api-java-hl}. Se destaca la diferencia en la implementación de WebSocketClient en la clase Communication, debido a las diferencias en el lenguaje de programación y la implementación de las Bibliotecas WebSocket utilizadas en cada API. Esto se debe a que en ambos casos, se busca que la clase Communication sea el acceso a los eventos relacionados con la obtención de mensajes desde el servidor (valores de los flexores, el IMU y el estado de conexión con el dispositivo Bluetooth). La Tabla \ref{table:api-hl-class-diagram-description} contiene la descripción de cada clase que compone el diagrama de clases.
 
 
@@ -139,7 +143,11 @@ WebSocketClient  & \begin{tabular}[c]{@{}l@{}}Clase que permite utilizar la API 
 
 
 \subsection{Aplicación de configuración}
-Redactando ... 
+\label{subseccion-estructura-aplicacion-configuracion}
+La aplicación de configuración utiliza la API C\# de alto nivel  ...
+
+
+La Figura \ref{fig:class-diagram-configuarion-app} muestra el diagrama de clases de la aplicación de configuración desarrollada. La Tabla \ref{table:class-diagram-configuarion-app} contiene la descripción de cada clase que compone el diagrama de clases de la aplicación de configuración de OpenGlove.
 
 \begin{figure}[H]
   \begin{center} 
@@ -154,11 +162,10 @@ Redactando ...
 %\caption[Descripción del diagrama de clases aplicación de configuración]{Descripción del diagrama de clases aplicación de configuración \\Fuente: Elaboración propia (2018)}
 %\label{table:class-diagram-configuarion-app}\\
 
-
 % Please add the following required packages to your document preamble:
 % \usepackage{longtable}
 % Note: It may be necessary to compile the document several times to get a multi-page table to line up properly
-\begin{longtable}[c]{|l|l|}
+\begin{longtable}{|l|l|}
 \captionsetup{justification=centering}
 \caption[Descripción del diagrama de clases aplicación de configuración]{Descripción del diagrama de clases aplicación de configuración \\Fuente: Elaboración propia (2018)}
 \label{table:class-diagram-configuarion-app}\\
@@ -169,7 +176,7 @@ Nombre            & Descripción                                                
 \endhead
 %
 ContentPage       & \begin{tabular}[c]{@{}l@{}}Xamarin.Forms.ContentPage es una clase y un elemento visual\\ que hereda de la clase base Page en Xamarin.Forms. Otras\\ clases derivadas de Page son MasterDetailPage, NavigationPage,\\ TabbedPage, TemplatedPage y CarrouselPage.\end{tabular}                                                                                                                                                                                                                                      \\ \hline
-BottomBarPage     & \begin{tabular}[c]{@{}l@{}}BottomBar.XamarinForms.BottomBarPage es una clase que\\ implementa la  representación visual de la barra inferior en iOS\\ y Android. Permite agregar Pages para representarlos como\\ botones inferiores de navegación.\end{tabular}                                                                                                                                                                                                                                                  \\ \hline
+BottomBarPage     & \begin{tabular}[c]{@{}l@{}}BottomBar.XamarinForms.BottomBarPage es una clase que\\ implementa la  representación visual de la barra inferior en iOS\\ y Android. Permite agregar Pages para representarlos como botones\\ inferiores de navegación.\end{tabular}                                                                                                                                                                                                                                                  \\ \hline
 Home              & \begin{tabular}[c]{@{}l@{}}Clase que hereda de BottomBarPage (biblioteca de terceros).\\ Esta clase se instancia como primer Page del NavigationPage,\\ esto permite la navegación jerárquica en la aplicación. La\\ clase NavigationPage implementa la navegación como una\\ lista LIFO (last-in, first-out) de objetos Page.\end{tabular}                                                                                                                                                                       \\ \hline
 ConfigurationPage & \begin{tabular}[c]{@{}l@{}}Clase que contiene el menú de acceso a las diferentes\\ interfaces gráficas que permiten la actualización de\\ los actuadores, los flexores e IMU. Permite la creación,\\ lectura, actualización y eliminación (CRUD) de\\ configuraciones globales de OpenGlove.\end{tabular}                                                                                                                                                                                                         \\ \hline
 BoardsPage        & \begin{tabular}[c]{@{}l@{}}Clase que provee la interfaz gráfica para modificar la\\ configuración de la placa Arduino, es decir, la configuración\\ de los pines de la placa, cantidad, tipo de señal (análoga/digital),\\ tipo de componente asociado (VibeBoards, Flexores) y \\ polaridad del pin (positiva/negativa). Permite la creación de\\ nuevos modelos de placas, especificando: nombre de la\\ placa, cantidad de pines digitales, cantidad de pines análogos y\\ el primer pin análogo.\end{tabular} \\ \hline
@@ -181,8 +188,8 @@ ServerPage        & \begin{tabular}[c]{@{}l@{}}Clase que provee la interfaz grá
 IServer           & Interfaz que define los métodos Start, Stop y ConfigureServer.                                                                                                                                                                                                                                                                                                                                                                                                                                                    \\ \hline
 OpenGloveServer   & \begin{tabular}[c]{@{}l@{}}Clase que provee el acceso a todas las funcionalidades de la aplicación de\\ configuración. Posee todas las instancias de OpenGloveDevice, de los\\ clientes WebSocket conectados y recibe los mensajes de los hilos que\\ administran las conexiones con los dispositivos Bluetooth.\end{tabular}                                                                                                                                                                                     \\ \hline
 WebSocketServer   & \begin{tabular}[c]{@{}l@{}}Clase que permite utilizar la API WebSocket, la cual implementa el \\ protocolo RFC 6455. Se utiliza la biblioteca Fleck.\end{tabular}                                                                                                                                                                                                                                                                                                                                                 \\ \hline
-OpenGlove         & Clase de alto nivel de OpenGlove ya descrita en la Tabla 4.2                                                                                                                                                                                                                                                                                                                                                                                                                                                      \\ \hline
-OpenGloveDevice   & Clase de bajo nivel de OpenGlove ya descrita en la Tabla 4.3                                                                                                                                                                                                                                                                                                                                                                                                                                                      \\ \hline
+OpenGlove         & \begin{tabular}[c]{@{}l@{}}Clase correspondiente a la API C\# de alto nivel de OpenGlove, la\\ cual ya fue descrita en la Tabla 4.2.\end{tabular}                                                                                                                                                                                                                                                                                                                                                                 \\ \hline
+OpenGloveDevice   & \begin{tabular}[c]{@{}l@{}}Clase correspondiente a la API C\# de bajo nivel de OpenGlove, la \\ cual ya fue descrita en la Tabla 4.3.\end{tabular}                                                                                                                                                                                                                                                                                                                                                                \\ \hline
 \end{longtable}
     
     

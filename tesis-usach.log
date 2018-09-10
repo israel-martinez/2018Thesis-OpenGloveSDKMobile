@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  10 SEP 2018 09:25
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  10 SEP 2018 17:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1533,31 +1533,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--17
 [3]) (./chapters/01.04.Objetivos-alcance-proyecto.tex [4])
 (./chapters/01.05.Metodologias-herramientas.tex [5] [6] [7])
 (./chapters/01.06.Organizacion-documento.tex)
-(./chapters/02.00.Marco-teorico.tex [8] [9]
+(./chapters/02.00.Marco-teorico.tex [8]
 Cap\'itulo 2.
-) (./chapters/02.01.Marco-conceptual.tex [10
+) (./chapters/02.01.Marco-conceptual.tex [9
 
-] [11] [12]
+] [10] [11]
 File: images/chapter02/websockets-guides-transparent.png Graphic file (type bmp
 )
 <images/chapter02/websockets-guides-transparent.png>
- [13])
-(./chapters/02.02.Estado-del-arte.tex [14]
+ [12])
+(./chapters/02.02.Estado-del-arte.tex [13]
 File: images/chapter02/openglove.png Graphic file (type bmp)
 <images/chapter02/openglove.png>
- [15]
+ [14]
 File: images/chapter02/avatar-VR.png Graphic file (type bmp)
 <images/chapter02/avatar-VR.png>
- [16]
+ [15]
 File: images/chapter02/dexmo.png Graphic file (type bmp)
 <images/chapter02/dexmo.png>
 File: images/chapter02/manus-vr.jpeg Graphic file (type bmp)
 <images/chapter02/manus-vr.jpeg>
- [17]
+ [16]
 File: images/chapter02/haptx01.jpg Graphic file (type bmp)
 <images/chapter02/haptx01.jpg>
- [18])
-(./chapters/02.03.Resumen.tex) (./chapters/03.00.Analisis.tex [19]
+ [17])
+(./chapters/02.03.Resumen.tex) (./chapters/03.00.Analisis.tex [18]
 Cap\'itulo 3.
 ) (./chapters/03.01.Requisitos-software.tex
 Overfull \hbox (20.90178pt too wide) in alignment at lines 28--33
@@ -1574,141 +1574,141 @@ Overfull \hbox (20.90178pt too wide) in alignment at lines 35--56
  [] [] [] [] 
  []
 
-[20
+[19
 
 ]
 Overfull \hbox (20.90178pt too wide) in alignment at lines 56--60
  [] [] [] [] 
  []
 
-[21] [22] [23] [24] [25]) (./chapters/03.02.Prototipos.tex
+[20] [21] [22] [23] [24]) (./chapters/03.02.Prototipos.tex
 Overfull \hbox (23.3137pt too wide) in paragraph at lines 17--26
 [][] 
  []
 
-[26]
+[25]
 File: images/chapter03/01-prototype.png Graphic file (type bmp)
 <images/chapter03/01-prototype.png>
- [27]
+ [26]
 Overfull \hbox (11.11644pt too wide) in paragraph at lines 51--61
 [][] 
  []
 
 File: images/chapter03/02-prototype.png Graphic file (type bmp)
 <images/chapter03/02-prototype.png>
-[28] [29]
+[27] [28]
 Overfull \hbox (18.72711pt too wide) in paragraph at lines 88--97
  [][] 
  []
 
 File: images/chapter03/03-prototype.png Graphic file (type bmp)
 <images/chapter03/03-prototype.png>
-[30]
+[29]
 Overfull \hbox (2.16624pt too wide) in paragraph at lines 127--136
 [][] 
  []
 
 File: images/chapter03/04-prototype/04-prototype.png Graphic file (type bmp)
 <images/chapter03/04-prototype/04-prototype.png>
-[31] [32]
+[30] [31]
 Underfull \hbox (badness 1688) in paragraph at lines 162--162
 [][][]\TU/Arial(0)/m/n/8 El baud rate especifica la velocidad en la que se enví
 an los datos por una línea serial, usualmente son
  []
 
-[33]
+[32]
 File: images/chapter03/05-prototype/05-prototype.png Graphic file (type bmp)
 <images/chapter03/05-prototype/05-prototype.png>
- [34] [35]
+ [33] [34]
 File: images/chapter03/06-prototype/06-prototype.png Graphic file (type bmp)
 <images/chapter03/06-prototype/06-prototype.png>
- [36]) (./chapters/03.03.APIs.tex [37])
-(./chapters/03.04.Resumen.tex [38] [39])
-(./chapters/04.00.Diseno-implementacion.tex [40]
+ [35]) (./chapters/03.03.APIs.tex [36])
+(./chapters/03.04.Resumen.tex [37] [38])
+(./chapters/04.00.Diseno-implementacion.tex [39]
 Cap\'itulo 4.
 ) (./chapters/04.01.Arquitectura-general.tex
 File: images/chapter04/OpenGlove-Architecture-General.png Graphic file (type bm
 p)
 <images/chapter04/OpenGlove-Architecture-General.png>
- [41
+ [40
 
 ]
 File: images/chapter04/OpenGlove-Architecture-Specification.png Graphic file (t
 ype bmp)
 <images/chapter04/OpenGlove-Architecture-Specification.png>
- [42])
-(./chapters/04.02.Estructura.tex [43]
+ [41])
+(./chapters/04.02.Estructura.tex [42]
 File: images/chapter04/OpenGlove-Architecture-Arduino-Software.png Graphic file
  (type bmp)
 <images/chapter04/OpenGlove-Architecture-Arduino-Software.png>
 
-Overfull \hbox (18.47502pt too wide) in paragraph at lines 38--48
+Overfull \hbox (18.47502pt too wide) in paragraph at lines 40--50
  [][] 
  []
 
-[44] [45]
+[43] [44]
 File: images/chapter04/OpenGlove-Architecture-API-CSharp-LowLevel.png Graphic f
 ile (type bmp)
 <images/chapter04/OpenGlove-Architecture-API-CSharp-LowLevel.png>
 
-Overfull \hbox (26.434pt too wide) in paragraph at lines 80--91
+Overfull \hbox (26.434pt too wide) in paragraph at lines 83--94
  [][] 
  []
 
-[46] [47]
+[45] [46]
 File: images/chapter04/OpenGlove-Architecture-API-CSharp-HL.png Graphic file (t
 ype bmp)
 <images/chapter04/OpenGlove-Architecture-API-CSharp-HL.png>
 File: images/chapter04/OpenGlove-Architecture-API-Java-HL.png Graphic file (typ
 e bmp)
 <images/chapter04/OpenGlove-Architecture-API-Java-HL.png>
- [48]
+ [47]
 File: images/chapter04/OpenGlove-Architecture-Configuration-App.png Graphic fil
 e (type bmp)
 <images/chapter04/OpenGlove-Architecture-Configuration-App.png>
- [49]
-Overfull \hbox (13.343pt too wide) in alignment at lines 161--167
+ [48]
+Overfull \hbox (13.343pt too wide) in alignment at lines 168--174
  [] [] 
  []
 
 
-Overfull \hbox (13.343pt too wide) in alignment at lines 167--169
+Overfull \hbox (13.343pt too wide) in alignment at lines 174--176
  [] [] 
  []
 
 
-Overfull \hbox (13.343pt too wide) in alignment at lines 169--186
+Overfull \hbox (13.343pt too wide) in alignment at lines 176--193
  [] [] 
  []
 
-[50] [51]) (./chapters/04.03.Comportamiento.tex
+[49] [50]) (./chapters/04.03.Comportamiento.tex
 File: images/chapter04/ActivityDiagrams-GetGloves.png Graphic file (type bmp)
 <images/chapter04/ActivityDiagrams-GetGloves.png>
- [52]
+ [51]
 File: images/chapter04/ActivityDiagrams-RegionActivation.png Graphic file (type
  bmp)
 <images/chapter04/ActivityDiagrams-RegionActivation.png>
- [53]
+ [52]
 File: images/chapter04/ActivityDiagrams-AddFlexorToRegion.png Graphic file (typ
 e bmp)
 <images/chapter04/ActivityDiagrams-AddFlexorToRegion.png>
- [54]
+ [53]
 File: images/chapter04/ActivityDiagrams-AssignThreshold.png Graphic file (type 
 bmp)
 <images/chapter04/ActivityDiagrams-AssignThreshold.png>
- [55]
+ [54]
 File: images/chapter04/ActivityDiagrams-StartIMU.png Graphic file (type bmp)
 <images/chapter04/ActivityDiagrams-StartIMU.png>
- [56]
+ [55]
 File: images/chapter04/ActivityDiagrams-ReadDataFromArduino.png Graphic file (t
 ype bmp)
 <images/chapter04/ActivityDiagrams-ReadDataFromArduino.png>
 )
-(./chapters/04.04.Aspectos-implementacion.tex [57])
+(./chapters/04.04.Aspectos-implementacion.tex [56])
 (./chapters/04.05.Resumen.tex) (./chapters/05.00.Evaluacion-tecnica.tex
-[58] [59]
+[57] [58]
 Cap\'itulo 5.
-) (./chapters/05.01.Evaluacion-aplicaciones-nativa-multiplataforma.tex [60
+) (./chapters/05.01.Evaluacion-aplicaciones-nativa-multiplataforma.tex [59
 
 ]
 Overfull \hbox (10.77643pt too wide) in paragraph at lines 24--37
@@ -1721,12 +1721,12 @@ type bmp)
 File: evaluation/graphics/Droid/Galaxy/NormalQQMotorsDroidGalaxy.png Graphic fi
 le (type bmp)
 <evaluation/graphics/Droid/Galaxy/NormalQQMotorsDroidGalaxy.png>
-[61] [62]
+[60] [61]
 File: evaluation/graphics/Droid/Galaxy/BoxplotMotorsDroidGalaxy.png Graphic fil
 e (type bmp)
 <evaluation/graphics/Droid/Galaxy/BoxplotMotorsDroidGalaxy.png>
- [63]
-Overfull \hbox (26.35362pt too wide) in paragraph at lines 83--92
+ [62]
+Overfull \hbox (26.35362pt too wide) in paragraph at lines 88--97
  [][] 
  []
 
@@ -1736,23 +1736,23 @@ File: evaluation/graphics/Droid/Galaxy/HistFlexorsDroidGalaxy.png Graphic file
 File: evaluation/graphics/Droid/Galaxy/NormalQQFlexorsDroidGalaxy.png Graphic f
 ile (type bmp)
 <evaluation/graphics/Droid/Galaxy/NormalQQFlexorsDroidGalaxy.png>
-[64]
+[63]
 File: evaluation/graphics/Droid/Galaxy/BoxplotFlexorsDroidGalaxy.png Graphic fi
 le (type bmp)
 <evaluation/graphics/Droid/Galaxy/BoxplotFlexorsDroidGalaxy.png>
- [65]
+ [64]
 File: evaluation/graphics/Xamarin/Galaxy/HistMotorsXamarinGalaxy.png Graphic fi
 le (type bmp)
 <evaluation/graphics/Xamarin/Galaxy/HistMotorsXamarinGalaxy.png>
 File: evaluation/graphics/Xamarin/Galaxy/NormalQQMotorsXamarinGalaxy.png Graphi
 c file (type bmp)
 <evaluation/graphics/Xamarin/Galaxy/NormalQQMotorsXamarinGalaxy.png>
- [66] [67]
+ [65] [66]
 File: evaluation/graphics/Xamarin/Galaxy/BoxplotMotorsXamarinGalaxy.png Graphic
  file (type bmp)
 <evaluation/graphics/Xamarin/Galaxy/BoxplotMotorsXamarinGalaxy.png>
- [68]
-Overfull \hbox (26.35362pt too wide) in paragraph at lines 191--200
+ [67]
+Overfull \hbox (26.35362pt too wide) in paragraph at lines 204--213
  [][] 
  []
 
@@ -1762,23 +1762,23 @@ ile (type bmp)
 File: evaluation/graphics/Xamarin/Galaxy/NormalQQFlexorsXamarinGalaxy.png Graph
 ic file (type bmp)
 <evaluation/graphics/Xamarin/Galaxy/NormalQQFlexorsXamarinGalaxy.png>
-[69]
+[68]
 File: evaluation/graphics/Xamarin/Galaxy/BoxplotFlexorsXamarinGalaxy.png Graphi
 c file (type bmp)
 <evaluation/graphics/Xamarin/Galaxy/BoxplotFlexorsXamarinGalaxy.png>
- [70]
+ [69]
 File: evaluation/graphics/Droid/Nexus/HistMotorsDroidNexus.png Graphic file (ty
 pe bmp)
 <evaluation/graphics/Droid/Nexus/HistMotorsDroidNexus.png>
 File: evaluation/graphics/Droid/Nexus/NormalQQMotorsDroidNexus.png Graphic file
  (type bmp)
 <evaluation/graphics/Droid/Nexus/NormalQQMotorsDroidNexus.png>
- [71] [72]
+ [70] [71]
 File: evaluation/graphics/Droid/Nexus/BoxplotMotorsDroidNexus.png Graphic file 
 (type bmp)
 <evaluation/graphics/Droid/Nexus/BoxplotMotorsDroidNexus.png>
- [73]
-Overfull \hbox (22.35623pt too wide) in paragraph at lines 299--308
+ [72]
+Overfull \hbox (22.35623pt too wide) in paragraph at lines 320--329
  [][] 
  []
 
@@ -1788,23 +1788,23 @@ ype bmp)
 File: evaluation/graphics/Droid/Nexus/NormalQQFlexorsDroidNexus.png Graphic fil
 e (type bmp)
 <evaluation/graphics/Droid/Nexus/NormalQQFlexorsDroidNexus.png>
-[74]
+[73]
 File: evaluation/graphics/Droid/Nexus/BoxplotFlexorsDroidNexus.png Graphic file
  (type bmp)
 <evaluation/graphics/Droid/Nexus/BoxplotFlexorsDroidNexus.png>
- [75]
+ [74]
 File: evaluation/graphics/Xamarin/Nexus/HistMotorsXamarinNexus.png Graphic file
  (type bmp)
 <evaluation/graphics/Xamarin/Nexus/HistMotorsXamarinNexus.png>
 File: evaluation/graphics/Xamarin/Nexus/NormalQQMotorsXamarinNexus.png Graphic 
 file (type bmp)
 <evaluation/graphics/Xamarin/Nexus/NormalQQMotorsXamarinNexus.png>
- [76] [77]
+ [75] [76]
 File: evaluation/graphics/Xamarin/Nexus/BoxplotMotorsXamarinNexus.png Graphic f
 ile (type bmp)
 <evaluation/graphics/Xamarin/Nexus/BoxplotMotorsXamarinNexus.png>
- [78]
-Overfull \hbox (22.35623pt too wide) in paragraph at lines 407--416
+ [77]
+Overfull \hbox (22.35623pt too wide) in paragraph at lines 436--445
  [][] 
  []
 
@@ -1814,12 +1814,17 @@ e (type bmp)
 File: evaluation/graphics/Xamarin/Nexus/NormalQQFlexorsXamarinNexus.png Graphic
  file (type bmp)
 <evaluation/graphics/Xamarin/Nexus/NormalQQFlexorsXamarinNexus.png>
-[79]
+[78]
 File: evaluation/graphics/Xamarin/Nexus/BoxplotFlexorsXamarinNexus.png Graphic 
 file (type bmp)
 <evaluation/graphics/Xamarin/Nexus/BoxplotFlexorsXamarinNexus.png>
-) (./chapters/05.02.Evaluacion-tiempo-activacion.tex [80] [81]
-Overfull \hbox (34.02022pt too wide) in paragraph at lines 21--34
+) (./chapters/05.02.Evaluacion-tiempo-activacion.tex [79]
+File: images/chapter05/C-Sharp-APITest.png Graphic file (type bmp)
+<images/chapter05/C-Sharp-APITest.png>
+File: images/chapter05/Java-APITest.png Graphic file (type bmp)
+<images/chapter05/Java-APITest.png>
+ [80] [81]
+Overfull \hbox (34.02022pt too wide) in paragraph at lines 43--56
  [][] 
  []
 
@@ -1858,19 +1863,24 @@ File: evaluation/graphics/Xamarin/Galaxy-APITest/BoxplotFlexors&IMUXamarinGalax
 y-APITest.png Graphic file (type bmp)
 <evaluation/graphics/Xamarin/Galaxy-APITest/BoxplotFlexors&IMUXamarinGalaxy-API
 Test.png>
- [88]) (./chapters/05.04.Resumen.tex)
-(./chapters/06.00.Conclusiones.tex [89]
+ [88]) (./chapters/05.04.Pruebas-concepto.tex)
+(./chapters/05.05.Resumen.tex) (./chapters/06.00.Conclusiones.tex [89]
 Cap\'itulo 6.
-) (./chapters/06.01.Objetivos.tex
-Underfull \hbox (badness 1418) in paragraph at lines 12--14
-[]\TU/Arial(0)/bx/n/10 Desarrollar APIs en Java y C# que permitan la administra
-ción de dispositivos
+) (./chapters/06.01.Objetivos.tex [90
+
+]
+
+LaTeX Warning: Reference `capitulo-evaluacion-tecnica' on page 91 undefined on 
+input line 20.
+
+
+Underfull \hbox (badness 6047) in paragraph at lines 23--24
+[]\TU/Arial(0)/m/n/10 Fue posible realizar una prueba de concepto simple, utili
+zando las herramientas de
  []
 
-[90
-
-]) (./chapters/06.02.Resultados-obtenidos.tex [91])
-(./chapters/06.03.Alcances-limitaciones.tex [92])
+[91]) (./chapters/06.02.Resultados-obtenidos.tex)
+(./chapters/06.03.Alcances-limitaciones.tex [92] [93])
 (./chapters/06.04.Trabajo-futuro.tex
 Underfull \hbox (badness 1365) in paragraph at lines 6--7
 \TU/Arial(0)/m/n/10 de dispositivos Bluetooth. Luego desarrollar APIs que sopor
@@ -1884,22 +1894,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--12
 ][][] [] [][][][] []
  []
 
-[93]
+
 Underfull \hbox (badness 1314) in paragraph at lines 16--17
 \TU/Arial(0)/m/n/10 seleccionar otro modelo de IMU aparte de SparkFun LSM9DS1, 
 dado que requiere
  []
 
-) (./chapters/06.05.Observaciones-finales.tex) [94] (./finales/Glosario.tex
+[94]) (./chapters/06.05.Observaciones-finales.tex) [95] (./finales/Glosario.tex
+
 Underfull \hbox (badness 1019) in paragraph at lines 25--26
 \TU/Arial(0)/m/n/10 natural, generalmente a través de pantallas inmersivas mont
 adas en la cabeza y el
  []
 
-[95
+[96
 
 
-]) [96] (./tesis-usach.bbl
+]) [97] (./tesis-usach.bbl
 Underfull \hbox (badness 1014) in paragraph at lines 63--67
 []\TU/Arial(0)/m/n/10 Grigorik, I. (2013).  High performance browser networking
 : Websocket.  Recuperado de
@@ -1917,7 +1928,7 @@ Underfull \hbox (badness 4096) in paragraph at lines 101--106
 difference?  Recu-
  []
 
-[97
+[98
 
 
 ]
@@ -1979,33 +1990,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 199--203
 o de
  []
 
-) [98] (./finales/Anexo-1.tex
+) [99] (./finales/Anexo-1.tex
 Anexo A.
-) (./finales/Anexo-2.tex [99
+) (./finales/Anexo-2.tex [100
 
 
 ]
 Anexo B.
-) (./finales/Anexo-3.tex [100
+) (./finales/Anexo-3.tex [101
 
 ]
 Anexo C.
-) (./finales/Anexo-4.tex [101
+) (./finales/Anexo-4.tex [102
 
 ]
 Anexo D.
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 121.
- [102
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 122.
+ [103
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 121.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 122.
  (./tesis-usach.aux (./preliminares/cubierta.aux)
 (./preliminares/abstract.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 121.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 121.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 122.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 122.
 Package rerunfilecheck Info: File `tesis-usach.out' has not changed.
-(rerunfilecheck)             Checksum: 38E5AB041221F3577FBF4BA791F4211B.
+(rerunfilecheck)             Checksum: E70CD3A82FD2D36D683043977A031E70.
 
 
 LaTeX Warning: There were undefined references.
@@ -2013,15 +2024,15 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 121.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 122.
  ) 
 Here is how much of TeX's memory you used:
- 28637 strings out of 492970
- 515301 string characters out of 6133938
- 707703 words of memory out of 5000000
- 32000 multiletter control sequences out of 15000+600000
+ 28663 strings out of 492970
+ 516037 string characters out of 6133938
+ 710451 words of memory out of 5000000
+ 32018 multiletter control sequences out of 15000+600000
  540684 words of font info for 86 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  51i,17n,67p,10414b,673s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tesis-usach.pdf (113 pages).
+Output written on tesis-usach.pdf (114 pages).

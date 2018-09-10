@@ -7,7 +7,6 @@ A continuación se detalla la evaluación de los prototipos 3 y 4 ya expuestos e
 \subsubsection{Motores}
 
 Se realizaron pruebas desde uno a cinco motores, el resumen de los resultados para las pruebas de activación de los motores se encuentra en la Tabla \ref{table:motor-droid-galaxy}. La Figura \ref{fig:droid-galaxy-hist-motors}, muestra los histogramas de las latencias obtenidas al mandar los mensajes de activación y desactivación, siendo la gráfica para dos motores la única con una asimetría (Skewness) negativa, lo que indica que la cola de la distribución de los datos está orientada a la izquierda, por tanto la media de la distribución se encuentra desplazada a la derecha. Para las demás pruebas realizadas se obtuvieron asimetrías positivas, lo que indica que la cola de la distribución se encuentra a la derecha, por tanto su media se encuentra desplazada a la izquierda. Esto se ve reflejado en los gráficos de cajas de la Figura \ref{fig:droid-galaxy-boxplot-motors}. Las gráficas de Q-Q (quantile-quantile) mostradas en la Figura \ref{fig:droid-galaxy-QQ-motors}, demuestran que la curva no sigue estrictamente una distribución normal, pero los gráfico Q-Q de la misma figura, para dos, cuatro y cinco motores muestra resultados cercanos a la normal exceptuando los valores atípicos, los cuales pueden ser apreciados también en sus respectivas gráficas de cajas. Finalmente la Curtosis (Kurtosis) de todas las pruebas fue positiva, lo que indica que las colas de estas distribuciones concentran una cantidad mayor de datos en las colas, que en una distribución normal.
-% son más pesadas que la de una distribución normal, es decir, en comparación a ella concentran mayor cantidad de datos en las colas.
 
 % {START} RESUME TABLE ---------------------------------
 %\caption[Resumen resultado pruebas motor Droid-Galaxy]{Resumen resultado pruebas motor Droid-Galaxy \\ Fuente: Elaboración propia (2018)}
@@ -19,7 +18,8 @@ Se realizaron pruebas desde uno a cinco motores, el resumen de los resultados pa
 % Date and time: Tue, Jul 03, 2018 - 19:28:30
 % Requires LaTeX packages: dcolumn 
 \begin{table}[!htbp] \centering 
-\caption[Resumen resultado pruebas motor Droid-Galaxy]{Resumen resultado pruebas motor Droid-Galaxy  en $\mu s$\\ Fuente: Elaboración propia (2018)}
+\captionsetup{justification=centering}
+\caption[Resumen de los resultados de los tiempos de activación de motor Droid-Galaxy]{Resumen de los resultados de los tiempos de activación de motor Droid-Galaxy\\ Fuente: Elaboración propia (2018)}
 \label{table:motor-droid-galaxy}
 \begin{tabular}{@{\extracolsep{5pt}} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} } 
 \\[-1.8ex]\hline 
@@ -41,7 +41,8 @@ Se realizaron pruebas desde uno a cinco motores, el resumen de los resultados pa
 \begin{figure}
  \begin{center} 
    	\includegraphics[width=1.0\textwidth]{evaluation/graphics/Droid/Galaxy/HistMotorsDroidGalaxy.png} 
-    \caption[Histogramas de motores Droid-Galaxy]{Histogramas de motores  Droid-Galaxy\\Fuente: elaboración propia (2018)} 
+   	\captionsetup{justification=centering}
+    \caption[Histogramas de los tiempos de activación de motores Droid-Galaxy]{Histogramas de los tiempos de activación de motores Droid-Galaxy\\Fuente: elaboración propia (2018)} 
     \label{fig:droid-galaxy-hist-motors}
   \end{center}
 \end{figure}
@@ -49,7 +50,8 @@ Se realizaron pruebas desde uno a cinco motores, el resumen de los resultados pa
 \begin{figure}[H]
   \begin{center} 
    	\includegraphics[width=1.0\textwidth]{evaluation/graphics/Droid/Galaxy/NormalQQMotorsDroidGalaxy.png} 
-    \caption[Gráfico QQ de motores Droid-Galaxy]{Gráficos QQ de motores Droid-Galaxy\\Fuente: elaboración propia (2018)} 
+   	\captionsetup{justification=centering}
+    \caption[Gráfico QQ de os tiempos de activación de motores motores Droid-Galaxy]{Gráficos QQ de los tiempos de activación de motores Droid-Galaxy\\Fuente: elaboración propia (2018)} 
     \label{fig:droid-galaxy-QQ-motors}
   \end{center}
 \end{figure}
@@ -57,7 +59,9 @@ Se realizaron pruebas desde uno a cinco motores, el resumen de los resultados pa
 \begin{figure}[H]
   \begin{center} 
    	\includegraphics[width=0.8\textwidth]{evaluation/graphics/Droid/Galaxy/BoxplotMotorsDroidGalaxy.png} 
-    \caption[Gráficos de cajas de motores Droid-Galaxy]{Gráficos de cajas de motores Droid-Galaxy\\Fuente: elaboración propia (2018)} 
+   	\captionsetup{justification=centering}
+    \captionsetup{justification=centering}
+    \caption[Gráficos de cajas de los tiempos de activación de motores de motores Droid-Galaxy]{Gráficos de cajas de los tiempos de activación de motores Droid-Galaxy\\Fuente: elaboración propia (2018)} 
     \label{fig:droid-galaxy-boxplot-motors}
   \end{center}
 \end{figure}
@@ -78,7 +82,8 @@ En el caso de los flexores, se realizó solamente una prueba para la obtención 
 % Date and time: Tue, Jul 03, 2018 - 19:48:03
 % Requires LaTeX packages: dcolumn 
 \begin{table}[!htbp] \centering 
-\caption[Resumen resultado pruebas flexor Droid-Galaxy]{Resumen resultado pruebas flexor Droid-Galaxy en $\mu s$\\ Fuente: Elaboración propia (2018)}
+\captionsetup{justification=centering}
+\caption[Resumen de los resultados de los tiempos de lectura de flexores Droid-Galaxy]{Resumen de los resultados de los tiempos de lectura de flexores Droid-Galaxy en $\mu s$\\ Fuente: Elaboración propia (2018)}
 \label{table:flexor-droid-galaxy}
 \begin{tabular}{@{\extracolsep{-11pt}} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} } 
 \\[-1.8ex]\hline 
@@ -95,7 +100,8 @@ En el caso de los flexores, se realizó solamente una prueba para la obtención 
 \begin{figure}
  \begin{center} 
    	\includegraphics[width=0.5\textwidth]{evaluation/graphics/Droid/Galaxy/HistFlexorsDroidGalaxy.png} 
-    \caption[Histogramas de flexores Droid-Galaxy]{Histogramas de flexores  Droid-Galaxy\\Fuente: elaboración propia (2018)} 
+   	\captionsetup{justification=centering}
+    \caption[Histogramas de los tiempos de lectura de flexores Droid-Galaxy]{Histogramas de los tiempos de lectura de flexores  Droid-Galaxy\\Fuente: elaboración propia (2018)} 
     \label{fig:droid-galaxy-hist-flexors}
   \end{center}
 \end{figure}
@@ -103,7 +109,8 @@ En el caso de los flexores, se realizó solamente una prueba para la obtención 
 \begin{figure}[H]
   \begin{center} 
    	\includegraphics[width=0.5\textwidth]{evaluation/graphics/Droid/Galaxy/NormalQQFlexorsDroidGalaxy.png} 
-    \caption[Gráfico QQ de flexores Droid-Galaxy]{Gráficos QQ de flexores Droid-Galaxy\\Fuente: elaboración propia (2018)} 
+   	\captionsetup{justification=centering}
+    \caption[Gráfico QQ de los tiempos de lectura de flexores Droid-Galaxy]{Gráficos QQ de de los tiempos de lectura de flexores Droid-Galaxy\\Fuente: elaboración propia (2018)} 
     \label{fig:droid-galaxy-QQ-flexors}
   \end{center}
 \end{figure}
@@ -111,7 +118,8 @@ En el caso de los flexores, se realizó solamente una prueba para la obtención 
 \begin{figure}[H]
   \begin{center} 
    	\includegraphics[width=0.5\textwidth]{evaluation/graphics/Droid/Galaxy/BoxplotFlexorsDroidGalaxy.png} 
-    \caption[Gráficos de cajas de flexores Droid-Galaxy]{Gráficos de cajas de flexores Droid-Galaxy\\Fuente: elaboración propia (2018)} 
+   	\captionsetup{justification=centering}
+    \caption[Gráficos de cajas de los tiempos de lectura de flexores Droid-Galaxy]{Gráficos de cajas de los tiempos de lectura de flexores Droid-Galaxy\\Fuente: elaboración propia (2018)} 
     \label{fig:droid-galaxy-boxplot-flexors}
   \end{center}
 \end{figure}
@@ -131,7 +139,8 @@ En el caso de los flexores, se realizó solamente una prueba para la obtención 
 % Date and time: Tue, Jul 03, 2018 - 19:43:49
 % Requires LaTeX packages: dcolumn 
 \begin{table}[!htbp] \centering 
-\caption[Resumen resultado pruebas motor Xamarin-Galaxy]{Resumen resultado pruebas motor Xamarin-Galaxy en $\mu s$ \\ Fuente: Elaboración propia (2018)}
+\captionsetup{justification=centering}
+\caption[Resumen de los resultados de los tiempos de activación de motores Xamarin-Galaxy]{Resumen de los resultado de los tiempos de activación de motores Xamarin-Galaxy\\ Fuente: Elaboración propia (2018)}
 \label{table:motor-xamarin-galaxy}
 \begin{tabular}{@{\extracolsep{5pt}} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} } 
 \\[-1.8ex]\hline 
@@ -152,7 +161,8 @@ En el caso de los flexores, se realizó solamente una prueba para la obtención 
 \begin{figure}
  \begin{center} 
    	\includegraphics[width=1.0\textwidth]{evaluation/graphics/Xamarin/Galaxy/HistMotorsXamarinGalaxy.png} 
-    \caption[Histogramas de motores Xamarin-Galaxy]{Histogramas de motores  Xamarin-Galaxy\\Fuente: elaboración propia (2018)} 
+   	\captionsetup{justification=centering}
+    \caption[Histogramas de los tiempos de activación de motores Xamarin-Galaxy]{Histogramas de los tiempos de activación de motores  Xamarin-Galaxy\\Fuente: elaboración propia (2018)} 
     \label{fig:xamarin-galaxy-hist-motors}
   \end{center}
 \end{figure}
@@ -160,7 +170,8 @@ En el caso de los flexores, se realizó solamente una prueba para la obtención 
 \begin{figure}[H]
   \begin{center} 
    	\includegraphics[width=1.0\textwidth]{evaluation/graphics/Xamarin/Galaxy/NormalQQMotorsXamarinGalaxy.png} 
-    \caption[Gráfico QQ de motores Xamarin-Galaxy]{Gráficos QQ de motores Xamarin-Galaxy\\Fuente: elaboración propia (2018)} 
+   	\captionsetup{justification=centering}
+    \caption[Gráfico QQ de los tiempos de activación de motores Xamarin-Galaxy]{Gráficos QQ de los tiempos de activación de motores Xamarin-Galaxy\\Fuente: elaboración propia (2018)} 
     \label{fig:xamarin-galaxy-QQ-motors}
   \end{center}
 \end{figure}
@@ -168,7 +179,8 @@ En el caso de los flexores, se realizó solamente una prueba para la obtención 
 \begin{figure}[H]
   \begin{center} 
    	\includegraphics[width=0.8\textwidth]{evaluation/graphics/Xamarin/Galaxy/BoxplotMotorsXamarinGalaxy.png} 
-    \caption[Gráficos de cajas de motores Xamarin-Galaxy]{Gráficos de cajas de motores Xamarin-Galaxy\\Fuente: elaboración propia (2018)} 
+   	\captionsetup{justification=centering}
+    \caption[Gráficos de cajas de los tiempos de activación de motores Xamarin-Galaxy]{Gráficos de cajas de  los tiempos de activación de motores Xamarin-Galaxy\\Fuente: elaboración propia (2018)} 
     \label{fig:xamarin-galaxy-boxplot-motors}
   \end{center}
 \end{figure}
@@ -186,7 +198,8 @@ En el caso de los flexores, se realizó solamente una prueba para la obtención 
 % Requires LaTeX packages: dcolumn 
 \begin{table}[!htbp]
 \centering 
-\caption[Resumen resultado pruebas flexor Xamarin-Galaxy]{Resumen resultado pruebas flexor Xamarin-Galaxy en $\mu s$\\ Fuente: Elaboración propia (2018)}
+\captionsetup{justification=centering}
+\caption[Resumen de los resultados de los tiempos de lectura de flexores Xamarin-Galaxy]{Resumen de los resultados de los tiempos de lectura de flexores Xamarin-Galaxy\\ Fuente: Elaboración propia (2018)}
 \label{table:flexor-xamarin-galaxy}
 \begin{tabular}{@{\extracolsep{-11pt}} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} } 
 \\[-1.8ex]\hline 
@@ -203,7 +216,8 @@ En el caso de los flexores, se realizó solamente una prueba para la obtención 
 \begin{figure}
  \begin{center} 
    	\includegraphics[width=0.5\textwidth]{evaluation/graphics/Xamarin/Galaxy/HistFlexorsXamarinGalaxy.png} 
-    \caption[Histogramas de flexores Xamarin-Galaxy]{Histogramas de flexores Xamarin-Galaxy\\Fuente: elaboración propia (2018)} 
+   	\captionsetup{justification=centering}
+    \caption[Histogramas de los tiempos de lectura de flexores Xamarin-Galaxy]{Histogramas de los tiempos de lectura de flexores Xamarin-Galaxy\\Fuente: elaboración propia (2018)} 
     \label{fig:xamarin-galaxy-hist-flexors}
   \end{center}
 \end{figure}
@@ -211,7 +225,8 @@ En el caso de los flexores, se realizó solamente una prueba para la obtención 
 \begin{figure}[H]
   \begin{center} 
    	\includegraphics[width=0.5\textwidth]{evaluation/graphics/Xamarin/Galaxy/NormalQQFlexorsXamarinGalaxy.png} 
-    \caption[Gráfico QQ de flexores Xamarin-Galaxy]{Gráficos QQ de flexores Xamarin-Galaxy\\Fuente: elaboración propia (2018)} 
+   	\captionsetup{justification=centering}
+    \caption[Gráfico QQ de los tiempos de lectura de flexores Xamarin-Galaxy]{Gráficos QQ de los tiempos de lectura de flexores Xamarin-Galaxy\\Fuente: elaboración propia (2018)} 
     \label{fig:xamarin-galaxy-QQ-flexors}
   \end{center}
 \end{figure}
@@ -219,7 +234,8 @@ En el caso de los flexores, se realizó solamente una prueba para la obtención 
 \begin{figure}[H]
   \begin{center} 
    	\includegraphics[width=0.5\textwidth]{evaluation/graphics/Xamarin/Galaxy/BoxplotFlexorsXamarinGalaxy.png} 
-    \caption[Gráficos de cajas de flexores Xamarin-Galaxy]{Gráficos de cajas de flexores Xamarin-Galaxy\\Fuente: elaboración propia (2018)} 
+   	\captionsetup{justification=centering}
+    \caption[Gráficos de cajas de los tiempos de lectura de flexores Xamarin-Galaxy]{Gráficos de cajas de los tiempos de lectura de flexores Xamarin-Galaxy\\Fuente: elaboración propia (2018)} 
     \label{fig:xamarin-galaxy-boxplot-flexors}
   \end{center}
 \end{figure}
@@ -241,7 +257,8 @@ En el caso de los flexores, se realizó solamente una prueba para la obtención 
 % Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
 % Date and time: Mon, Sep 03, 2018 - 17:49:12
 \begin{table}[!htbp] \centering 
-\caption[Resumen resultado pruebas motor Droid-Nexus]{Resumen resultado pruebas motor Droid-Nexus  en $\mu s$\\ Fuente: Elaboración propia (2018)}
+\captionsetup{justification=centering}
+\caption[Resumen de los resultados de los tiempos de activación de motores  Droid-Nexus]{Resumen de los resultados de los tiempos de activación de motores  Droid-Nexus \\ Fuente: Elaboración propia (2018)}
 \label{table:motor-droid-nexus} 
 \begin{tabular}{@{\extracolsep{5pt}} cccccccc} 
 \\[-1.8ex]\hline 
@@ -264,7 +281,8 @@ La Figura \ref{fig:droid-nexus-hist-motors}, muestra los histogramas de las late
 \begin{figure}
  \begin{center} 
    	\includegraphics[width=1.0\textwidth]{evaluation/graphics/Droid/Nexus/HistMotorsDroidNexus.png} 
-    \caption[Histogramas de motores Droid-Nexus]{Histogramas de motores  Droid-Nexus\\Fuente: elaboración propia (2018)} 
+   	\captionsetup{justification=centering}
+    \caption[Histogramas de los tiempos de activación de motores Droid-Nexus]{Histogramas de los tiempos de activación de motores  Droid-Nexus\\Fuente: elaboración propia (2018)} 
     \label{fig:droid-nexus-hist-motors}
   \end{center}
 \end{figure}
@@ -272,7 +290,8 @@ La Figura \ref{fig:droid-nexus-hist-motors}, muestra los histogramas de las late
 \begin{figure}[H]
   \begin{center} 
    	\includegraphics[width=1.0\textwidth]{evaluation/graphics/Droid/Nexus/NormalQQMotorsDroidNexus.png} 
-    \caption[Gráfico QQ de motores Droid-Nexus]{Gráficos QQ de motores Droid-Nexus\\Fuente: elaboración propia (2018)} 
+   	\captionsetup{justification=centering}
+    \caption[Gráfico QQ de los tiempos de activación de motores Droid-Nexus]{Gráficos QQ de los tiempos de activación de motores Droid-Nexus\\Fuente: elaboración propia (2018)} 
     \label{fig:droid-nexus-QQ-motors}
   \end{center}
 \end{figure}
@@ -280,7 +299,8 @@ La Figura \ref{fig:droid-nexus-hist-motors}, muestra los histogramas de las late
 \begin{figure}[H]
   \begin{center} 
    	\includegraphics[width=0.8\textwidth]{evaluation/graphics/Droid/Nexus/BoxplotMotorsDroidNexus.png} 
-    \caption[Gráficos de cajas de motores Droid-Nexus]{Gráficos de cajas de motores Droid-Nexus\\Fuente: elaboración propia (2018)} 
+   	\captionsetup{justification=centering}
+    \caption[Gráficos de cajas los tiempos de activación de de motores Droid-Nexus]{Gráficos de cajas de los tiempos de activación de motores Droid-Nexus\\Fuente: elaboración propia (2018)} 
     \label{fig:droid-nexus-boxplot-motors}
   \end{center}
 \end{figure}
@@ -294,7 +314,8 @@ La Figura \ref{fig:droid-nexus-hist-motors}, muestra los histogramas de las late
 % Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
 % Date and time: Mon, Sep 03, 2018 - 17:53:15
 \begin{table}[!htbp] \centering 
-\caption[Resumen resultado pruebas flexor Droid-Nexus]{Resumen resultado pruebas flexor Droid-Nexus en $\mu s$ \\ Fuente: Elaboración propia (2018)}
+\captionsetup{justification=centering}
+\caption[Resumen de los resultados de los tiempos de lectura de flexores Droid-Nexus]{Resumen de los resultados de los tiempos de lectura de flexores Droid-Nexus \\ Fuente: Elaboración propia (2018)}
 \label{table:flexor-droid-nexus}
 \begin{tabular}{@{\extracolsep{5pt}} cccccccc} 
 \\[-1.8ex]\hline 
@@ -311,7 +332,8 @@ $1$ & $109,671$ & $114,496$ & $48,099.480$ & $172,982.100$ & $24,155.450$ & $-0.
 \begin{figure}
  \begin{center} 
    	\includegraphics[width=0.5\textwidth]{evaluation/graphics/Droid/Nexus/HistFlexorsDroidNexus.png} 
-    \caption[Histogramas de flexores Droid-Nexus]{Histogramas de flexores  Droid-Nexus\\Fuente: elaboración propia (2018)} 
+   	\captionsetup{justification=centering}
+    \caption[Histogramas de los tiempos de lectura de flexores Droid-Nexus]{Histogramas de los tiempos de lectura de flexores  Droid-Nexus\\Fuente: elaboración propia (2018)} 
     \label{fig:droid-nexus-hist-flexors}
   \end{center}
 \end{figure}
@@ -319,7 +341,8 @@ $1$ & $109,671$ & $114,496$ & $48,099.480$ & $172,982.100$ & $24,155.450$ & $-0.
 \begin{figure}[H]
   \begin{center} 
    	\includegraphics[width=0.5\textwidth]{evaluation/graphics/Droid/Nexus/NormalQQFlexorsDroidNexus.png} 
-    \caption[Gráfico QQ de flexores Droid-Nexus]{Gráficos QQ de flexores Droid-Nexus\\Fuente: elaboración propia (2018)} 
+   	\captionsetup{justification=centering}
+    \caption[Gráfico QQ de los tiempos de lectura de flexores Droid-Nexus]{Gráficos QQ de los tiempos de lectura de flexores Droid-Nexus\\Fuente: elaboración propia (2018)} 
     \label{fig:droid-nexus-QQ-flexors}
   \end{center}
 \end{figure}
@@ -327,7 +350,8 @@ $1$ & $109,671$ & $114,496$ & $48,099.480$ & $172,982.100$ & $24,155.450$ & $-0.
 \begin{figure}[H]
   \begin{center} 
    	\includegraphics[width=0.5\textwidth]{evaluation/graphics/Droid/Nexus/BoxplotFlexorsDroidNexus.png} 
-    \caption[Gráficos de cajas de flexores Droid-Nexus]{Gráficos de cajas de flexores Droid-Nexus\\Fuente: elaboración propia (2018)} 
+   	\captionsetup{justification=centering}
+    \caption[Gráficos de cajas de los tiempos de lectura de flexores Droid-Nexus]{Gráficos de cajas de los tiempos de lectura de flexores Droid-Nexus\\Fuente: elaboración propia (2018)} 
     \label{fig:droid-nexus-boxplot-flexors}
   \end{center}
 \end{figure}
@@ -345,7 +369,8 @@ $1$ & $109,671$ & $114,496$ & $48,099.480$ & $172,982.100$ & $24,155.450$ & $-0.
 % Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
 % Date and time: Mon, Sep 03, 2018 - 17:56:53
 \begin{table}[!htbp] \centering 
-\caption[Resumen resultado pruebas motor Xamarin-Nexus]{Resumen resultado pruebas motor Xamarin-Nexus  en $\mu s$\\ Fuente: Elaboración propia (2018)}
+\captionsetup{justification=centering}
+\caption[Resumen de los resultados de los tiempos de activación de motores Xamarin-Nexus]{Resumen de los resultados de los tiempos de activación de motores  Xamarin-Nexus\\ Fuente: Elaboración propia (2018)}
 \label{table:motor-xamarin-nexus} 
 \begin{tabular}{@{\extracolsep{5pt}} cccccccc} 
 \\[-1.8ex]\hline 
@@ -368,7 +393,8 @@ La Figura \ref{fig:xamarin-nexus-hist-motors}, muestra los histogramas de las la
 \begin{figure}
  \begin{center} 
    	\includegraphics[width=1.0\textwidth]{evaluation/graphics/Xamarin/Nexus/HistMotorsXamarinNexus.png} 
-    \caption[Histogramas de motores Xamarin-Nexus]{Histogramas de motores  Xamarin-Nexus\\Fuente: elaboración propia (2018)} 
+   	\captionsetup{justification=centering}
+    \caption[Histogramas de los tiempos de activación de motores Xamarin-Nexus]{Histogramas de los tiempos de activación de motores  Xamarin-Nexus\\Fuente: elaboración propia (2018)} 
     \label{fig:xamarin-nexus-hist-motors}
   \end{center}
 \end{figure}
@@ -376,7 +402,8 @@ La Figura \ref{fig:xamarin-nexus-hist-motors}, muestra los histogramas de las la
 \begin{figure}[H]
   \begin{center} 
    	\includegraphics[width=1.0\textwidth]{evaluation/graphics/Xamarin/Nexus/NormalQQMotorsXamarinNexus.png} 
-    \caption[Gráfico QQ de motores Xamarin-Nexus]{Gráficos QQ de motores Xamarin-Nexus\\Fuente: elaboración propia (2018)} 
+   	\captionsetup{justification=centering}
+    \caption[Gráfico QQ de los tiempos de activación de motores Xamarin-Nexus]{Gráficos QQ de los tiempos de activación de motores Xamarin-Nexus\\Fuente: elaboración propia (2018)} 
     \label{fig:xamarin-nexus-QQ-motors}
   \end{center}
 \end{figure}
@@ -384,7 +411,8 @@ La Figura \ref{fig:xamarin-nexus-hist-motors}, muestra los histogramas de las la
 \begin{figure}[H]
   \begin{center} 
    	\includegraphics[width=0.8\textwidth]{evaluation/graphics/Xamarin/Nexus/BoxplotMotorsXamarinNexus.png} 
-    \caption[Gráficos de cajas de motores Xamarin-Nexus]{Gráficos de cajas de motores Xamarin-Nexus\\Fuente: elaboración propia (2018)} 
+   	\captionsetup{justification=centering}
+    \caption[Gráficos de cajas de los tiempos de activación de motores Xamarin-Nexus]{Gráficos de cajas de los tiempos de activación de motores Xamarin-Nexus\\Fuente: elaboración propia (2018)} 
     \label{fig:xamarin-nexus-boxplot-motors}
   \end{center}
 \end{figure}
@@ -402,7 +430,8 @@ La Figura \ref{fig:xamarin-nexus-hist-motors}, muestra los histogramas de las la
 % Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
 % Date and time: Mon, Sep 03, 2018 - 18:04:31
 \begin{table}[!htbp] \centering 
-\caption[Resumen resultado pruebas flexor Xamarin-Nexus]{Resumen resultado pruebas flexor Xamarin-Nexus en $\mu s$ \\ Fuente: Elaboración propia (2018)}
+\captionsetup{justification=centering}
+\caption[Resumen de los resultados de los tiempos de lectura de flexores Xamarin-Nexus]{Resumen de los resultados de los tiempos de lectura de flexoresXamarin-Nexus\\ Fuente: Elaboración propia (2018)}
 \label{table:flexor-xamarin-nexus}
 \begin{tabular}{@{\extracolsep{5pt}} cccccccc} 
 \\[-1.8ex]\hline 
@@ -419,7 +448,8 @@ $1$ & $109,677$ & $110,958$ & $67,022.400$ & $158,703.500$ & $18,411.270$ & $-0.
 \begin{figure}
  \begin{center} 
    	\includegraphics[width=0.5\textwidth]{evaluation/graphics/Xamarin/Nexus/HistFlexorsXamarinNexus.png} 
-    \caption[Histogramas de flexores Xamarin-Nexus]{Histogramas de flexores  Xamarin-Nexus\\Fuente: elaboración propia (2018)} 
+   	\captionsetup{justification=centering}
+    \caption[Histogramas de los resultados de los tiempos de lectura de flexores Xamarin-Nexus]{Histogramas de los resultados de los tiempos de lectura de flexores  Xamarin-Nexus\\Fuente: elaboración propia (2018)} 
     \label{fig:xamarin-nexus-hist-flexors}
   \end{center}
 \end{figure}
@@ -427,7 +457,8 @@ $1$ & $109,677$ & $110,958$ & $67,022.400$ & $158,703.500$ & $18,411.270$ & $-0.
 \begin{figure}[H]
   \begin{center} 
    	\includegraphics[width=0.5\textwidth]{evaluation/graphics/Xamarin/Nexus/NormalQQFlexorsXamarinNexus.png} 
-    \caption[Gráfico QQ de flexores Xamarin-Nexus]{Gráficos QQ de flexores Xamarin-Nexus\\Fuente: elaboración propia (2018)} 
+   	\captionsetup{justification=centering}
+    \caption[Gráfico QQ de los resultados de los tiempos de lectura de flexores Xamarin-Nexus]{Gráficos QQ de los resultados de los tiempos de lectura de flexores Xamarin-Nexus\\Fuente: elaboración propia (2018)} 
     \label{fig:xamarin-nexus-QQ-flexors}
   \end{center}
 \end{figure}
@@ -435,7 +466,8 @@ $1$ & $109,677$ & $110,958$ & $67,022.400$ & $158,703.500$ & $18,411.270$ & $-0.
 \begin{figure}[H]
   \begin{center} 
    	\includegraphics[width=0.5\textwidth]{evaluation/graphics/Xamarin/Nexus/BoxplotFlexorsXamarinNexus.png} 
-    \caption[Gráficos de cajas de flexores Xamarin-Nexus]{Gráficos de cajas de flexores Xamarin-Nexus\\Fuente: elaboración propia (2018)} 
+   	\captionsetup{justification=centering}
+    \caption[Gráficos de cajas de los resultados de los tiempos de lectura de flexores Xamarin-Nexus]{Gráficos de cajas delos resultados de los tiempos de lectura de  flexores Xamarin-Nexus\\Fuente: elaboración propia (2018)} 
     \label{fig:xamarin-nexus-boxplot-flexors}
   \end{center}
 \end{figure}
