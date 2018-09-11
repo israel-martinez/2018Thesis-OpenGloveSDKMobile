@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  10 SEP 2018 17:27
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  10 SEP 2018 17:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1667,17 +1667,17 @@ File: images/chapter04/OpenGlove-Architecture-Configuration-App.png Graphic fil
 e (type bmp)
 <images/chapter04/OpenGlove-Architecture-Configuration-App.png>
  [48]
-Overfull \hbox (13.343pt too wide) in alignment at lines 168--174
+Overfull \hbox (13.343pt too wide) in alignment at lines 165--171
  [] [] 
  []
 
 
-Overfull \hbox (13.343pt too wide) in alignment at lines 174--176
+Overfull \hbox (13.343pt too wide) in alignment at lines 171--173
  [] [] 
  []
 
 
-Overfull \hbox (13.343pt too wide) in alignment at lines 176--193
+Overfull \hbox (13.343pt too wide) in alignment at lines 173--190
  [] [] 
  []
 
