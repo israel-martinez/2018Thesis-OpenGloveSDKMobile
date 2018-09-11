@@ -1,63 +1,60 @@
 \section{Comportamiento}
 \label{seccion-comportamiento-apis}
-A continuación se describe el comportamiento de los diferentes componentes del sistema. Estos diagramas son basados en el trabajo realizado por \cite{tesis-meneses-sebastian} y \cite{tesis-cerda-rodrigo}, dado que se busca replicar el comportamiento del sistema en dispositivos móviles. La diferencia principal se ve reflejado en que no existe el servicio OpenGlove desarrollado para Windows, sino que el servidor WebSocket es quien recibe mensajes desde las APIs de alto nivel y envía mensajes a los clientes WebSocket conectados.
+A continuación se describe el comportamiento de las acciones disponibles en las APIs de alto nivel, utilizando diagramas de actividades. Se agruparon estas acciones según su nivel de interacción con las diferentes capas de abstracción de la solución. Las capas de abstracción corresponden: a la API de alto nivel, el Servidor WebSocket, las instancias de la clase OpenGloveDevice en el servidor, la instancia de LegacyOpenGlove (API C\# de bajo nivel) y el software de control Arduino. 
 
-\subsection{Obtener guantes}
-
+\subsection{Acciones sobre APIs de alto nivel} 
 \begin{figure}[H]
   \begin{center} 
-   	\includegraphics[width=1.0\textwidth]{images/chapter04/ActivityDiagrams-GetGloves.png} 
-    \caption[Obtener guantes]{Obtener guantes \\Fuente: Elaboración propia (2018)}
-    \label{fig:activity-diagrams01-GetGloves}
+   	\includegraphics[width=1.0\textwidth]{images/chapter04/ActivityDiagrams-OpenGloveActions-0.png} 
+   	\captionsetup{justification=centering}
+    \caption[Diagrama de actividades de las acciones OpenGlove sobre APIs de alto nivel]{Diagrama de actividades de las acciones OpenGlove sobre APIs de alto nivel \\Fuente: Elaboración propia (2018)}
+    \label{fig:activity-diagrams-0-api-hl}
   \end{center}
 \end{figure}
 
-\subsection{Activación}
 
+\subsection{Acciones sobre servidor WebSocket}
 \begin{figure}[H]
   \begin{center} 
-   	\includegraphics[width=1.0\textwidth]{images/chapter04/ActivityDiagrams-RegionActivation.png} 
-    \caption[Activar región]{Activar región \\Fuente: Elaboración propia (2018)}
-    \label{fig:activity-diagrams02-RegionActivation}
+   	\includegraphics[width=1.0\textwidth]{images/chapter04/ActivityDiagrams-OpenGloveActions-1.png} 
+   	\captionsetup{justification=centering}
+    \caption[Diagrama de actividades de las acciones OpenGlove sobre servidor WebSocket]{Diagrama de actividades de acciones OpenGlove sobre servidor WebSocket\\Fuente: Elaboración propia (2018)}
+    \label{fig:activity-diagrams-1-websocket-server}
   \end{center}
 \end{figure}
 
-\subsection{Añadir flexor a una región}
 
+\subsection{Acciones sobre instancias de OpenGloveDevice}
 \begin{figure}[H]
   \begin{center} 
-   	\includegraphics[width=1.0\textwidth]{images/chapter04/ActivityDiagrams-AddFlexorToRegion.png} 
-    \caption[Agregar flexor a una región]{Agregar flexor a una región \\Fuente: Elaboración propia (2018)}
-    \label{fig:activity-diagrams03-AddFlexorToRegion}
+   	\includegraphics[width=1.0\textwidth]{images/chapter04/ActivityDiagrams-OpenGloveActions-2.png} 
+   	\captionsetup{justification=centering}
+    \caption[Diagrama de actividades de las acciones OpenGlove sobre instancias de OpenGloveDevice en servidor]{Diagrama de actividades de las acciones OpenGlove sobre instancias de OpenGloveDevice en servidor\\Fuente: Elaboración propia (2018)}
+    \label{fig:activity-diagrams-2-openglovedevice}
   \end{center}
 \end{figure}
 
-\subsection{Asignar Threshold}
 
+
+\subsection{Acciones sobre software de control Arduino}
 \begin{figure}[H]
   \begin{center} 
-   	\includegraphics[width=1.0\textwidth]{images/chapter04/ActivityDiagrams-AssignThreshold.png} 
-    \caption[Asignar Threshold]{Asignar Threshold \\Fuente: Elaboración propia (2018)}
-    \label{fig:activity-diagrams04-AssignThreshold}
+   	\includegraphics[width=1.0\textwidth]{images/chapter04/ActivityDiagrams-OpenGloveActions-3.png} 
+   \captionsetup{justification=centering}
+    \caption[Diagrama de actividades de las acciones OpenGlove sobre instancias de OpenGloveDevice en servidor]{Diagrama de actividades de las acciones OpenGlove sobre instancias de OpenGloveDevice en servidor\\Fuente: Elaboración propia (2018)}
+    \label{fig:activity-diagrams-3-arduino}
   \end{center}
 \end{figure}
 
-\subsection{Iniciar IMU}
-
-\begin{figure}[H]
-  \begin{center} 
-   	\includegraphics[width=1.0\textwidth]{images/chapter04/ActivityDiagrams-StartIMU.png} 
-    \caption[Iniciar IMU]{Iniciar IMU \\Fuente: Elaboración propia (2018)}
-    \label{fig:activity-diagrams05-StartIMU}
-  \end{center}
-\end{figure}
 
 \subsection{Lectura de datos provenientes de Arduino}
+Este comportamiento ocurre cuando se ha inicializado por lo menos un flexor y/o se ha inicializado la IMU con un valor booleano verdadero (SetIMUStatus). La Figura \ref{fig:activity-diagrams-4-ReadDataFromArduino}
 
 \begin{figure}[H]
   \begin{center} 
    	\includegraphics[width=1.0\textwidth]{images/chapter04/ActivityDiagrams-ReadDataFromArduino.png} 
+   	\captionsetup{justification=centering}
     \caption[Lectura de datos provenientes de Arduino]{Lectura de datos provenientes de Arduino \\Fuente: Elaboración propia (2018)}
-    \label{fig:activity-diagrams06-ReadDataFromArduino}
+    \label{fig:activity-diagrams-4-ReadDataFromArduino}
   \end{center}
 \end{figure}

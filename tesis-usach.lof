@@ -24,45 +24,44 @@
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Diagrama de clases API C\# de alto nivel}}{47}{figure.caption.35}
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Diagrama de clases API Java de alto nivel}}{47}{figure.caption.36}
 \contentsline {figure}{\numberline {4.7}{\ignorespaces Diagrama de clases aplicación de configuración}}{49}{figure.caption.38}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Obtener guantes}}{52}{figure.caption.39}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Activar región}}{53}{figure.caption.40}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Agregar flexor a una región}}{54}{figure.caption.41}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Asignar Threshold}}{55}{figure.caption.42}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Iniciar IMU}}{56}{figure.caption.43}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Lectura de datos provenientes de Arduino}}{57}{figure.caption.44}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Diagrama de actividades de las acciones OpenGlove sobre APIs de alto nivel}}{51}{figure.caption.39}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Diagrama de actividades de las acciones OpenGlove sobre servidor WebSocket}}{52}{figure.caption.40}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Diagrama de actividades de las acciones OpenGlove sobre instancias de OpenGloveDevice en servidor}}{53}{figure.caption.41}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Diagrama de actividades de las acciones OpenGlove sobre instancias de OpenGloveDevice en servidor}}{54}{figure.caption.42}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Lectura de datos provenientes de Arduino}}{55}{figure.caption.43}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Histogramas de los tiempos de activación de motores Droid-Galaxy}}{61}{figure.caption.46}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Gráfico QQ de os tiempos de activación de motores motores Droid-Galaxy}}{62}{figure.caption.47}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Gráficos de cajas de los tiempos de activación de motores de motores Droid-Galaxy}}{63}{figure.caption.48}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Histogramas de los tiempos de lectura de flexores Droid-Galaxy}}{64}{figure.caption.50}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Gráfico QQ de los tiempos de lectura de flexores Droid-Galaxy}}{64}{figure.caption.51}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Gráficos de cajas de los tiempos de lectura de flexores Droid-Galaxy}}{65}{figure.caption.52}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Histogramas de los tiempos de activación de motores Xamarin-Galaxy}}{66}{figure.caption.54}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Gráfico QQ de los tiempos de activación de motores Xamarin-Galaxy}}{67}{figure.caption.55}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Gráficos de cajas de los tiempos de activación de motores Xamarin-Galaxy}}{68}{figure.caption.56}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Histogramas de los tiempos de lectura de flexores Xamarin-Galaxy}}{69}{figure.caption.58}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Gráfico QQ de los tiempos de lectura de flexores Xamarin-Galaxy}}{69}{figure.caption.59}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Gráficos de cajas de los tiempos de lectura de flexores Xamarin-Galaxy}}{70}{figure.caption.60}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Histogramas de los tiempos de activación de motores Droid-Nexus}}{71}{figure.caption.62}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Gráfico QQ de los tiempos de activación de motores Droid-Nexus}}{72}{figure.caption.63}
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Gráficos de cajas los tiempos de activación de de motores Droid-Nexus}}{73}{figure.caption.64}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Histogramas de los tiempos de lectura de flexores Droid-Nexus}}{74}{figure.caption.66}
-\contentsline {figure}{\numberline {5.17}{\ignorespaces Gráfico QQ de los tiempos de lectura de flexores Droid-Nexus}}{74}{figure.caption.67}
-\contentsline {figure}{\numberline {5.18}{\ignorespaces Gráficos de cajas de los tiempos de lectura de flexores Droid-Nexus}}{75}{figure.caption.68}
-\contentsline {figure}{\numberline {5.19}{\ignorespaces Histogramas de los tiempos de activación de motores Xamarin-Nexus}}{76}{figure.caption.70}
-\contentsline {figure}{\numberline {5.20}{\ignorespaces Gráfico QQ de los tiempos de activación de motores Xamarin-Nexus}}{77}{figure.caption.71}
-\contentsline {figure}{\numberline {5.21}{\ignorespaces Gráficos de cajas de los tiempos de activación de motores Xamarin-Nexus}}{78}{figure.caption.72}
-\contentsline {figure}{\numberline {5.22}{\ignorespaces Histogramas de los resultados de los tiempos de lectura de flexores Xamarin-Nexus}}{79}{figure.caption.74}
-\contentsline {figure}{\numberline {5.23}{\ignorespaces Gráfico QQ de los resultados de los tiempos de lectura de flexores Xamarin-Nexus}}{79}{figure.caption.75}
-\contentsline {figure}{\numberline {5.24}{\ignorespaces Gráficos de cajas de los resultados de los tiempos de lectura de flexores Xamarin-Nexus}}{80}{figure.caption.76}
-\contentsline {figure}{\numberline {5.25}{\ignorespaces Aplicación utilizada para realizar las pruebas de la API C\# }}{81}{figure.caption.77}
-\contentsline {figure}{\numberline {5.26}{\ignorespaces Aplicación utilizada para realizar las pruebas de la API Java }}{81}{figure.caption.78}
-\contentsline {figure}{\numberline {5.27}{\ignorespaces Histogramas de los tiempos de activación de motores usando API C\# }}{83}{figure.caption.80}
-\contentsline {figure}{\numberline {5.28}{\ignorespaces Gráfico QQ delos tiempos de activación de motores usando API C\# }}{84}{figure.caption.81}
-\contentsline {figure}{\numberline {5.29}{\ignorespaces Gráficos de cajas de los tiempos de activación de motores usando API C\# }}{85}{figure.caption.82}
-\contentsline {figure}{\numberline {5.30}{\ignorespaces Histogramas de Flexores e IMU usando API C\#}}{87}{figure.caption.84}
-\contentsline {figure}{\numberline {5.31}{\ignorespaces Gráfico QQ de Flexores e IMU usando API C\# }}{88}{figure.caption.85}
-\contentsline {figure}{\numberline {5.32}{\ignorespaces Gráficos de cajas de Flexores e IMU usando API C\# }}{89}{figure.caption.86}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Histogramas de los tiempos de activación de motores Droid-Galaxy}}{59}{figure.caption.45}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Gráfico QQ de os tiempos de activación de motores motores Droid-Galaxy}}{60}{figure.caption.46}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Gráficos de cajas de los tiempos de activación de motores de motores Droid-Galaxy}}{61}{figure.caption.47}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Histogramas de los tiempos de lectura de flexores Droid-Galaxy}}{62}{figure.caption.49}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Gráfico QQ de los tiempos de lectura de flexores Droid-Galaxy}}{62}{figure.caption.50}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Gráficos de cajas de los tiempos de lectura de flexores Droid-Galaxy}}{63}{figure.caption.51}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Histogramas de los tiempos de activación de motores Xamarin-Galaxy}}{64}{figure.caption.53}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Gráfico QQ de los tiempos de activación de motores Xamarin-Galaxy}}{65}{figure.caption.54}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Gráficos de cajas de los tiempos de activación de motores Xamarin-Galaxy}}{66}{figure.caption.55}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Histogramas de los tiempos de lectura de flexores Xamarin-Galaxy}}{67}{figure.caption.57}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Gráfico QQ de los tiempos de lectura de flexores Xamarin-Galaxy}}{67}{figure.caption.58}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Gráficos de cajas de los tiempos de lectura de flexores Xamarin-Galaxy}}{68}{figure.caption.59}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Histogramas de los tiempos de activación de motores Droid-Nexus}}{69}{figure.caption.61}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Gráfico QQ de los tiempos de activación de motores Droid-Nexus}}{70}{figure.caption.62}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Gráficos de cajas los tiempos de activación de de motores Droid-Nexus}}{71}{figure.caption.63}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Histogramas de los tiempos de lectura de flexores Droid-Nexus}}{72}{figure.caption.65}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Gráfico QQ de los tiempos de lectura de flexores Droid-Nexus}}{72}{figure.caption.66}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Gráficos de cajas de los tiempos de lectura de flexores Droid-Nexus}}{73}{figure.caption.67}
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Histogramas de los tiempos de activación de motores Xamarin-Nexus}}{74}{figure.caption.69}
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Gráfico QQ de los tiempos de activación de motores Xamarin-Nexus}}{75}{figure.caption.70}
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Gráficos de cajas de los tiempos de activación de motores Xamarin-Nexus}}{76}{figure.caption.71}
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Histogramas de los resultados de los tiempos de lectura de flexores Xamarin-Nexus}}{77}{figure.caption.73}
+\contentsline {figure}{\numberline {5.23}{\ignorespaces Gráfico QQ de los resultados de los tiempos de lectura de flexores Xamarin-Nexus}}{77}{figure.caption.74}
+\contentsline {figure}{\numberline {5.24}{\ignorespaces Gráficos de cajas de los resultados de los tiempos de lectura de flexores Xamarin-Nexus}}{78}{figure.caption.75}
+\contentsline {figure}{\numberline {5.25}{\ignorespaces Aplicación utilizada para realizar las pruebas de la API C\# }}{79}{figure.caption.76}
+\contentsline {figure}{\numberline {5.26}{\ignorespaces Aplicación utilizada para realizar las pruebas de la API Java }}{79}{figure.caption.77}
+\contentsline {figure}{\numberline {5.27}{\ignorespaces Histogramas de los tiempos de activación de motores usando API C\# }}{81}{figure.caption.79}
+\contentsline {figure}{\numberline {5.28}{\ignorespaces Gráfico QQ delos tiempos de activación de motores usando API C\# }}{82}{figure.caption.80}
+\contentsline {figure}{\numberline {5.29}{\ignorespaces Gráficos de cajas de los tiempos de activación de motores usando API C\# }}{83}{figure.caption.81}
+\contentsline {figure}{\numberline {5.30}{\ignorespaces Histogramas de Flexores e IMU usando API C\#}}{85}{figure.caption.83}
+\contentsline {figure}{\numberline {5.31}{\ignorespaces Gráfico QQ de Flexores e IMU usando API C\# }}{86}{figure.caption.84}
+\contentsline {figure}{\numberline {5.32}{\ignorespaces Gráficos de cajas de Flexores e IMU usando API C\# }}{87}{figure.caption.85}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
