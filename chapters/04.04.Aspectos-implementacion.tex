@@ -1,13 +1,24 @@
 \section{Aspectos de implementación}
 
+
 \subsection{Desarrollo multiplataforma en Xamarin.Forms}
+De los resultados de la comparación en la Sección \ref{section:native-vs-crossplartform} entre desarrollo nativo en Android con Android Studio y  Android con Xamarin.Forms, se obtuvo que los rendimientos no eran muy diferentes entre si, por tanto, se optó por el uso de Xamarin.Forms, ya que provee soporte multiplataforma y permite que el proyecto pueda ser utilizado en otras plataformas en un futuro, utilizando las APIs y bibliotecas nativas que permitan comunicación tanto Bluetooth como WebSocket.
+
+
 
 
 \subsection{API C\# bajo nivel}
+En la Sección \ref{subseccion-estructura-api-ll}, se detalla sobre la estructura de OpenGloveDevice que corresponde a la API de bajo nivel C\#. Respecto a la implementación, se debe mencionar el uso de \textit{DependencyService}\footnote{DependencyService: \url{https://docs.microsoft.com/en-us/xamarin/xamarin-forms/app-fundamentals/dependency-service/introduction}} de Xamarin.Forms, el cual permite realizar diferentes implementaciones de una interfaz referenciada en el proyecto principal, a los demás proyectos asociados (iOS, Android, UWP, etc.). Para ello se requiere la declaración de una interfaz en el código compartido (proyecto principal), segundo, realizar una implementación de la interfaz en cada proyecto por plataforma, cada implementación debe ser registrada en \textit{DependencyService} para que esta sea cargada en tiempo de ejecución. Finalmente en el código compartido, se debe llamar explícitamente a \textit{DependencyService} para hacer uso de ella.
+
 
 \subsection{Servidor WebSocket}
 
+
+
+
 \subsection{Software de configuración}
+
+
 
 \subsection{APIs}
 	%\subsubsection{Kotlin}
@@ -16,5 +27,6 @@
 	%\subsubsection{C++}
 	
 	\subsubsection{Java}
+
 	\subsubsection{C\#}
     
