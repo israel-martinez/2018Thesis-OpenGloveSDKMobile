@@ -1,0 +1,84 @@
+/* OpenGloveActions by interaction level with OpenGlove layers
+ *------------------------------------------------------------
+ * OpenGloveActions: OpenGlove High level API (WebSocketClient)
+ * OpenGloveActions: WebSocket Server
+ * OpenGloveActions: OpenGlove Instances
+ * OpenGloveActions: Arduino Control Software
+ * OpenGloveActions: Listening messages from Arduino Control Software
+ * OpenGloveActions: Listening Bluetooth device connection state messages
+ * OpenGloveActions: Listening WebSocket client connection state messages
+ */
+
+// OpenGloveActions: High level API (WebSocketClient)
+public void ConnectToWebSocketServer();
+public void DisconnectFromWebSocketServer();
+
+// OpenGloveActions: WebSocket Server
+public void AddOpenGloveDeviceToServer();
+public void RemoveOpenGloveDeviceFromServer();
+public void SaveOpenGloveConfiguration();
+public void StartCaptureDataFromServer();
+public void StopCaptureDataFromServer();
+
+// OpenGloveActions: OpenGlove Instances
+public void ConnectToBluetoothDevice();
+public void DisconnectFromBluetoothDevice();
+public void AddActuator(int region, int positivePin, int negativePin);
+public void AddActuators(List<int> regions, List<int> positivePins, List<int> negativePins);
+public void AddFlexor(int region, int pin);
+public void AddFlexors(List<int> regions, List<int> pins);
+public void SetThreshold(int value);
+public void SetIMUStatus(bool status);
+public void SetRawData(bool status);
+public void SetIMUChoosingData(int value);
+public void SetLoopDelay(int value);
+
+// OpenGloveActions: Software of Control Arduino
+public void Start();
+public void Stop();
+public void RemoveActuator(int region);
+public void RemoveActuators(List<int> regions);
+public void ActivateActuators(List<int> regions, List<string> intensities);
+public void ActivateActuatorsTimeTest(List<int> regions, List<string> intensities);
+public void TurnOnActuators();
+public void TurnOffActuators();
+public void TurnOnFlexors();
+public void TurnOffFlexors();
+public void ResetActuators();
+public void RemoveFlexor(int region);
+public void RemoveFlexors(List<int> regions);
+public void CalibrateFlexors();
+public void ConfirmCalibration();
+public void ResetFlexors();
+public void StartIMU();
+public void ReadOnlyAccelerometerFromIMU();
+public void ReadOnlyGyroscopeFromIMU();
+public void ReadOnlyMagnetometerFromIMU();
+public void ReadOnlyAttitudeFromIMU();
+public void ReadAllDataFromIMU();
+public void TurnOnIMU();
+public void TurnOffIMU();
+public void GetOpenGloveArduinoVersionSoftware();
+
+// OpenGloveActions: Listening messages from Arduino Control Software
+// For use in API C#: subcribe to event with your own method
+// For use in API Java: implements public interface with lambdas or method references
+public void OnTimeTestServerLatencyActivateActuatorsReceived(long nanoSeconds);
+public void OnTimeTestArduinoLatencyActivateActuatorsReceived(long microSeconds);
+public void OnFlexorValueReceived(int region, int value);
+public void OnAccelerometerValuesReceived(float ax, float ay, float az);
+public void OnGyroscopeValuesReceived(float gx, float gy, float gz);
+public void OnMagnometerValuesReceived(float mx, float my, float mz);
+public void OnAttitudeValuesReceived(float pitch, float roll, float yaw);
+public void OnAllIMUValuesReceived(float ax, float ay, float az, float gx, float gy, float gz, float mx, float my, float mz);
+public void OnInfoMessagesReceived(string message);
+
+// OpenGloveActions: Listening Bluetooth device connection state messages
+// For use in API C#: subcribe to event with your own method
+// For use in API Java: implements public interface with lambdas or method references
+public void OnBluetoothDeviceConnectionStateChanged(bool isConnected);
+
+// OpenGloveActions: Listening WebSocket client connection state messages
+// For use in API C#: subcribe to event with your own method
+// For use in API Java: implements public interface with lambdas or method references
+public void OnWebSocketConnectionStateChanged(bool isConnected);

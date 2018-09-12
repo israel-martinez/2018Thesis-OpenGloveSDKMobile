@@ -96,9 +96,9 @@ ICommunication                                                     & \begin{tabu
 
 
 
-\subsection{APIs alto nivel}
+\subsection{APIs de alto nivel}
 \label{subseccion-estructura-apis-hl}
-Para permitir la interoperabilidad de OpenGlove, se deben soportar diferentes lenguajes de programación, que son utilizados en el desarrollo móvil de diferentes plataformas, como lo es iOS y Android, por tanto se desarrollaron las APIs C\# y Java como se especifica en el alcance del proyecto. Estas APIs poseen un mismo objetivo, el cual consiste en abstraer la complejidad de conexiones y protocolos de comunicación necesarios, para tener una instancia OpenGlove que permita la interacción en tiempo real con el dispositivo físico. Esto se consigue utilizando el diseño presentado en la Figura \ref{fig:api-csharp-hl} y \ref{fig:api-java-hl}. Se destaca la diferencia en la implementación de WebSocketClient en la clase Communication, debido a las diferencias en el lenguaje de programación y la implementación de las Bibliotecas WebSocket utilizadas en cada API. Esto se debe a que en ambos casos, se busca que la clase Communication sea el acceso a los eventos relacionados con la obtención de mensajes desde el servidor (valores de los flexores, el IMU y el estado de conexión con el dispositivo Bluetooth). La Tabla \ref{table:api-hl-class-diagram-description} contiene la descripción de cada clase que compone el diagrama de clases.
+Para permitir la interoperabilidad de OpenGlove, se deben soportar diferentes lenguajes de programación, que son utilizados en el desarrollo móvil de diferentes plataformas, como lo es iOS y Android, por tanto se desarrollaron las APIs C\# y Java como se especifica en el alcance del proyecto. Estas APIs poseen un mismo objetivo, el cual consiste en abstraer la complejidad de conexiones y protocolos de comunicación necesarios, para tener una instancia OpenGlove que permita la interacción en tiempo real con el dispositivo físico. Esto se consigue utilizando el diseño presentado en la Figura \ref{fig:api-csharp-hl} y \ref{fig:api-java-hl}. Se destaca la diferencia en la implementación de WebSocketClient en la clase Communication, debido a las diferencias en el lenguaje de programación y la implementación de las bibliotecas WebSocket utilizadas en cada API. Esto se debe a que en ambos casos, se busca que la clase Communication sea el acceso a los eventos relacionados con la obtención de mensajes desde el servidor (valores de los flexores, el IMU y el estado de conexión con el dispositivo Bluetooth). La Tabla \ref{table:api-hl-class-diagram-description} contiene la descripción de cada clase que compone el diagrama de clases.
 
 
 \begin{figure}[H]
@@ -108,9 +108,6 @@ Para permitir la interoperabilidad de OpenGlove, se deben soportar diferentes le
     \label{fig:api-csharp-hl}
   \end{center}
 \end{figure}
-
-
-Redactando ...
 
 \begin{figure}[H]
   \begin{center} 

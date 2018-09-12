@@ -223,8 +223,8 @@
 \newlabel{fig:api-csharp-ll}{{4.4}{45}{Diagrama de clases API C\# de bajo nivel}{figure.caption.33}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {4.2}{\ignorespaces Descripción del diagrama de clases API C\# de bajo nivel}}{46}{table.caption.34}}
 \newlabel{table:api-csharp-ll}{{4.2}{46}{Descripción del diagrama de clases API C\# de bajo nivel}{table.caption.34}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.3}APIs alto nivel}{47}{subsection.4.2.3}}
-\newlabel{subseccion-estructura-apis-hl}{{4.2.3}{47}{APIs alto nivel}{subsection.4.2.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.3}APIs de alto nivel}{47}{subsection.4.2.3}}
+\newlabel{subseccion-estructura-apis-hl}{{4.2.3}{47}{APIs de alto nivel}{subsection.4.2.3}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces Diagrama de clases API C\# de alto nivel}}{47}{figure.caption.35}}
 \newlabel{fig:api-csharp-hl}{{4.5}{47}{Diagrama de clases API C\# de alto nivel}{figure.caption.35}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces Diagrama de clases API Java de alto nivel}}{47}{figure.caption.36}}
@@ -242,162 +242,185 @@
 \newlabel{table:class-diagram-configuarion-app}{{4.4}{49}{Descripción del diagrama de clases aplicación de configuración}{table.4.4}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {4.3}Comportamiento}{51}{section.4.3}}
 \newlabel{seccion-comportamiento-apis}{{4.3}{51}{Comportamiento}{section.4.3}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}Acciones sobre APIs de alto nivel}{51}{subsection.4.3.1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces Diagrama de actividades de las acciones OpenGlove sobre APIs de alto nivel}}{51}{figure.caption.39}}
-\newlabel{fig:activity-diagrams-0-api-hl}{{4.8}{51}{Diagrama de actividades de las acciones OpenGlove sobre APIs de alto nivel}{figure.caption.39}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}Acciones sobre servidor WebSocket}{52}{subsection.4.3.2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.9}{\ignorespaces Diagrama de actividades de las acciones OpenGlove sobre servidor WebSocket}}{52}{figure.caption.40}}
-\newlabel{fig:activity-diagrams-1-websocket-server}{{4.9}{52}{Diagrama de actividades de las acciones OpenGlove sobre servidor WebSocket}{figure.caption.40}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.3}Acciones sobre instancias de OpenGloveDevice}{53}{subsection.4.3.3}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.10}{\ignorespaces Diagrama de actividades de las acciones OpenGlove sobre instancias de OpenGloveDevice en servidor}}{53}{figure.caption.41}}
-\newlabel{fig:activity-diagrams-2-openglovedevice}{{4.10}{53}{Diagrama de actividades de las acciones OpenGlove sobre instancias de OpenGloveDevice en servidor}{figure.caption.41}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.4}Acciones sobre software de control Arduino}{54}{subsection.4.3.4}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.11}{\ignorespaces Diagrama de actividades de las acciones OpenGlove sobre instancias de OpenGloveDevice en servidor}}{54}{figure.caption.42}}
-\newlabel{fig:activity-diagrams-3-arduino}{{4.11}{54}{Diagrama de actividades de las acciones OpenGlove sobre instancias de OpenGloveDevice en servidor}{figure.caption.42}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.5}Lectura de datos provenientes de Arduino}{54}{subsection.4.3.5}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.12}{\ignorespaces Lectura de datos provenientes de Arduino}}{55}{figure.caption.43}}
-\newlabel{fig:activity-diagrams-4-ReadDataFromArduino}{{4.12}{55}{Lectura de datos provenientes de Arduino}{figure.caption.43}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.4}Aspectos de implementación}{56}{section.4.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.1}Desarrollo multiplataforma en Xamarin.Forms}{56}{subsection.4.4.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.2}API C\# bajo nivel}{56}{subsection.4.4.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.3}Servidor WebSocket}{56}{subsection.4.4.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.4}Software de configuración}{56}{subsection.4.4.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.5}APIs}{56}{subsection.4.4.5}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.5.1}Java}{56}{subsubsection.4.4.5.1}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.5.2}C\#}{56}{subsubsection.4.4.5.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.5}Resumen}{56}{section.4.5}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {5}Evaluación técnica y pruebas de concepto}{57}{chapter.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}Métodos aplicados sobre cliente WebSocket}{52}{subsection.4.3.1}}
+\newlabel{subsection:method-websocket-client}{{4.3.1}{52}{Métodos aplicados sobre cliente WebSocket}{subsection.4.3.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces Métodos aplicados sobre el cliente WebSocket}}{52}{figure.caption.39}}
+\newlabel{fig:methods-0-api-hl}{{4.8}{52}{Métodos aplicados sobre el cliente WebSocket}{figure.caption.39}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.9}{\ignorespaces Diagrama de actividades de los métodos aplicados sobre el cliente WebSocket}}{52}{figure.caption.40}}
+\newlabel{fig:activity-diagrams-0-api-hl}{{4.9}{52}{Diagrama de actividades de los métodos aplicados sobre el cliente WebSocket}{figure.caption.40}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}Métodos aplicados sobre servidor WebSocket}{52}{subsection.4.3.2}}
+\newlabel{subsection:method-websocket-server}{{4.3.2}{52}{Métodos aplicados sobre servidor WebSocket}{subsection.4.3.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.10}{\ignorespaces Métodos aplicados sobre el servidor WebSocket}}{53}{figure.caption.41}}
+\newlabel{fig:methods-1-websocket-server}{{4.10}{53}{Métodos aplicados sobre el servidor WebSocket}{figure.caption.41}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.11}{\ignorespaces Diagrama de actividad de los métodos aplicados sobre el servidor WebSocket}}{53}{figure.caption.42}}
+\newlabel{fig:activity-diagrams-1-websocket-server}{{4.11}{53}{Diagrama de actividad de los métodos aplicados sobre el servidor WebSocket}{figure.caption.42}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.3}Métodos aplicados sobre instancias de OpenGloveDevice}{53}{subsection.4.3.3}}
+\newlabel{subsection:method-openglove-device}{{4.3.3}{53}{Métodos aplicados sobre instancias de OpenGloveDevice}{subsection.4.3.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.12}{\ignorespaces Métodos aplicados sobre instancias de OpenGloveDevice}}{54}{figure.caption.43}}
+\newlabel{fig:methods-2-openglove-device}{{4.12}{54}{Métodos aplicados sobre instancias de OpenGloveDevice}{figure.caption.43}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.13}{\ignorespaces Diagrama de actividades de las acciones OpenGlove sobre instancias de OpenGloveDevice en servidor}}{54}{figure.caption.44}}
+\newlabel{fig:activity-diagrams-2-openglove-device}{{4.13}{54}{Diagrama de actividades de las acciones OpenGlove sobre instancias de OpenGloveDevice en servidor}{figure.caption.44}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.4}Métodos aplicados sobre el software de control Arduino}{55}{subsection.4.3.4}}
+\newlabel{subsection:method-openglove-arduino}{{4.3.4}{55}{Métodos aplicados sobre el software de control Arduino}{subsection.4.3.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.14}{\ignorespaces Métodos aplicados sobre el software de control Arduino}}{55}{figure.caption.45}}
+\newlabel{fig:methods-3-openglove-arduino}{{4.14}{55}{Métodos aplicados sobre el software de control Arduino}{figure.caption.45}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.15}{\ignorespaces Diagrama de actividades de los métodos aplicados sobre el software de control Arduino}}{56}{figure.caption.46}}
+\newlabel{fig:activity-diagrams-3-openglove-arduino}{{4.15}{56}{Diagrama de actividades de los métodos aplicados sobre el software de control Arduino}{figure.caption.46}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.5}Lectura de mensajes provenientes de Arduino}{56}{subsection.4.3.5}}
+\newlabel{subsection:reading-openglove-arduino}{{4.3.5}{56}{Lectura de mensajes provenientes de Arduino}{subsection.4.3.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.16}{\ignorespaces Lectura de mensajes provenientes de Arduino}}{57}{figure.caption.47}}
+\newlabel{fig:methods-4-reading-arduino}{{4.16}{57}{Lectura de mensajes provenientes de Arduino}{figure.caption.47}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.17}{\ignorespaces Diagrama de actividades de la lectura de mensajes provenientes de Arduino}}{57}{figure.caption.48}}
+\newlabel{fig:activity-diagrams-4-ReadDataFromArduino}{{4.17}{57}{Diagrama de actividades de la lectura de mensajes provenientes de Arduino}{figure.caption.48}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.6}Lectura del estado de conexión del dispositivo Bluetooth}{58}{subsection.4.3.6}}
+\newlabel{subsection:reading-bluetooth-device-state}{{4.3.6}{58}{Lectura del estado de conexión del dispositivo Bluetooth}{subsection.4.3.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.18}{\ignorespaces Lectura del estado de conexión del dispositivo Bluetooth}}{58}{figure.caption.49}}
+\newlabel{fig:methods-5-reading-bluetoothdevice-state}{{4.18}{58}{Lectura del estado de conexión del dispositivo Bluetooth}{figure.caption.49}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.7}Lectura de mensajes provenientes del cliente WebSocket}{58}{subsection.4.3.7}}
+\newlabel{subsection:reading-openglove-arduino}{{4.3.7}{58}{Lectura de mensajes provenientes del cliente WebSocket}{subsection.4.3.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.19}{\ignorespaces Lectura del estado de conexión del cliente WebSocket}}{58}{figure.caption.50}}
+\newlabel{fig:methods-6-reading-websocket-state}{{4.19}{58}{Lectura del estado de conexión del cliente WebSocket}{figure.caption.50}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}Aspectos de implementación}{59}{section.4.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.1}Desarrollo multiplataforma en Xamarin.Forms}{59}{subsection.4.4.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.2}API C\# bajo nivel}{59}{subsection.4.4.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.3}Servidor WebSocket}{59}{subsection.4.4.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.4}Software de configuración}{59}{subsection.4.4.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.5}APIs}{59}{subsection.4.4.5}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.5.1}Java}{59}{subsubsection.4.4.5.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.5.2}C\#}{59}{subsubsection.4.4.5.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.5}Resumen}{59}{section.4.5}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Evaluación técnica y pruebas de concepto}{60}{chapter.5}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{loa}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}Evaluación aplicaciones nativa y multiplataforma}{57}{section.5.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}Prototipo 3 : Droid - Galaxy}{58}{subsection.5.1.1}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.1.1}Motores}{58}{subsubsection.5.1.1.1}}
-\@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces Resumen de los resultados de los tiempos de activación de motor Droid-Galaxy}}{58}{table.caption.44}}
-\newlabel{table:motor-droid-galaxy}{{5.1}{58}{Resumen de los resultados de los tiempos de activación de motor Droid-Galaxy}{table.caption.44}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Histogramas de los tiempos de activación de motores Droid-Galaxy}}{59}{figure.caption.45}}
-\newlabel{fig:droid-galaxy-hist-motors}{{5.1}{59}{Histogramas de los tiempos de activación de motores Droid-Galaxy}{figure.caption.45}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces Gráfico QQ de os tiempos de activación de motores motores Droid-Galaxy}}{60}{figure.caption.46}}
-\newlabel{fig:droid-galaxy-QQ-motors}{{5.2}{60}{Gráfico QQ de os tiempos de activación de motores motores Droid-Galaxy}{figure.caption.46}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces Gráficos de cajas de los tiempos de activación de motores de motores Droid-Galaxy}}{61}{figure.caption.47}}
-\newlabel{fig:droid-galaxy-boxplot-motors}{{5.3}{61}{Gráficos de cajas de los tiempos de activación de motores de motores Droid-Galaxy}{figure.caption.47}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.1.2}Flexores}{61}{subsubsection.5.1.1.2}}
-\@writefile{lot}{\contentsline {table}{\numberline {5.2}{\ignorespaces Resumen de los resultados de los tiempos de lectura de flexores Droid-Galaxy}}{62}{table.caption.48}}
-\newlabel{table:flexor-droid-galaxy}{{5.2}{62}{Resumen de los resultados de los tiempos de lectura de flexores Droid-Galaxy}{table.caption.48}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces Histogramas de los tiempos de lectura de flexores Droid-Galaxy}}{62}{figure.caption.49}}
-\newlabel{fig:droid-galaxy-hist-flexors}{{5.4}{62}{Histogramas de los tiempos de lectura de flexores Droid-Galaxy}{figure.caption.49}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces Gráfico QQ de los tiempos de lectura de flexores Droid-Galaxy}}{62}{figure.caption.50}}
-\newlabel{fig:droid-galaxy-QQ-flexors}{{5.5}{62}{Gráfico QQ de los tiempos de lectura de flexores Droid-Galaxy}{figure.caption.50}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces Gráficos de cajas de los tiempos de lectura de flexores Droid-Galaxy}}{63}{figure.caption.51}}
-\newlabel{fig:droid-galaxy-boxplot-flexors}{{5.6}{63}{Gráficos de cajas de los tiempos de lectura de flexores Droid-Galaxy}{figure.caption.51}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.2}Prototipo 4: Xamarin - Galaxy}{63}{subsection.5.1.2}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.2.1}Motores}{63}{subsubsection.5.1.2.1}}
-\@writefile{lot}{\contentsline {table}{\numberline {5.3}{\ignorespaces Resumen de los resultados de los tiempos de activación de motores Xamarin-Galaxy}}{63}{table.caption.52}}
-\newlabel{table:motor-xamarin-galaxy}{{5.3}{63}{Resumen de los resultados de los tiempos de activación de motores Xamarin-Galaxy}{table.caption.52}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.7}{\ignorespaces Histogramas de los tiempos de activación de motores Xamarin-Galaxy}}{64}{figure.caption.53}}
-\newlabel{fig:xamarin-galaxy-hist-motors}{{5.7}{64}{Histogramas de los tiempos de activación de motores Xamarin-Galaxy}{figure.caption.53}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.8}{\ignorespaces Gráfico QQ de los tiempos de activación de motores Xamarin-Galaxy}}{65}{figure.caption.54}}
-\newlabel{fig:xamarin-galaxy-QQ-motors}{{5.8}{65}{Gráfico QQ de los tiempos de activación de motores Xamarin-Galaxy}{figure.caption.54}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.9}{\ignorespaces Gráficos de cajas de los tiempos de activación de motores Xamarin-Galaxy}}{66}{figure.caption.55}}
-\newlabel{fig:xamarin-galaxy-boxplot-motors}{{5.9}{66}{Gráficos de cajas de los tiempos de activación de motores Xamarin-Galaxy}{figure.caption.55}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.2.2}Flexores}{66}{subsubsection.5.1.2.2}}
-\@writefile{lot}{\contentsline {table}{\numberline {5.4}{\ignorespaces Resumen de los resultados de los tiempos de lectura de flexores Xamarin-Galaxy}}{66}{table.caption.56}}
-\newlabel{table:flexor-xamarin-galaxy}{{5.4}{66}{Resumen de los resultados de los tiempos de lectura de flexores Xamarin-Galaxy}{table.caption.56}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.10}{\ignorespaces Histogramas de los tiempos de lectura de flexores Xamarin-Galaxy}}{67}{figure.caption.57}}
-\newlabel{fig:xamarin-galaxy-hist-flexors}{{5.10}{67}{Histogramas de los tiempos de lectura de flexores Xamarin-Galaxy}{figure.caption.57}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.11}{\ignorespaces Gráfico QQ de los tiempos de lectura de flexores Xamarin-Galaxy}}{67}{figure.caption.58}}
-\newlabel{fig:xamarin-galaxy-QQ-flexors}{{5.11}{67}{Gráfico QQ de los tiempos de lectura de flexores Xamarin-Galaxy}{figure.caption.58}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.12}{\ignorespaces Gráficos de cajas de los tiempos de lectura de flexores Xamarin-Galaxy}}{68}{figure.caption.59}}
-\newlabel{fig:xamarin-galaxy-boxplot-flexors}{{5.12}{68}{Gráficos de cajas de los tiempos de lectura de flexores Xamarin-Galaxy}{figure.caption.59}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.3}Prototipo 3 : Droid - Nexus}{68}{subsection.5.1.3}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.3.1}Motores}{68}{subsubsection.5.1.3.1}}
-\@writefile{lot}{\contentsline {table}{\numberline {5.5}{\ignorespaces Resumen de los resultados de los tiempos de activación de motores Droid-Nexus}}{68}{table.caption.60}}
-\newlabel{table:motor-droid-nexus}{{5.5}{68}{Resumen de los resultados de los tiempos de activación de motores Droid-Nexus}{table.caption.60}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.13}{\ignorespaces Histogramas de los tiempos de activación de motores Droid-Nexus}}{69}{figure.caption.61}}
-\newlabel{fig:droid-nexus-hist-motors}{{5.13}{69}{Histogramas de los tiempos de activación de motores Droid-Nexus}{figure.caption.61}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.14}{\ignorespaces Gráfico QQ de los tiempos de activación de motores Droid-Nexus}}{70}{figure.caption.62}}
-\newlabel{fig:droid-nexus-QQ-motors}{{5.14}{70}{Gráfico QQ de los tiempos de activación de motores Droid-Nexus}{figure.caption.62}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.15}{\ignorespaces Gráficos de cajas los tiempos de activación de de motores Droid-Nexus}}{71}{figure.caption.63}}
-\newlabel{fig:droid-nexus-boxplot-motors}{{5.15}{71}{Gráficos de cajas los tiempos de activación de de motores Droid-Nexus}{figure.caption.63}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.3.2}Flexores}{71}{subsubsection.5.1.3.2}}
-\@writefile{lot}{\contentsline {table}{\numberline {5.6}{\ignorespaces Resumen de los resultados de los tiempos de lectura de flexores Droid-Nexus}}{71}{table.caption.64}}
-\newlabel{table:flexor-droid-nexus}{{5.6}{71}{Resumen de los resultados de los tiempos de lectura de flexores Droid-Nexus}{table.caption.64}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.16}{\ignorespaces Histogramas de los tiempos de lectura de flexores Droid-Nexus}}{72}{figure.caption.65}}
-\newlabel{fig:droid-nexus-hist-flexors}{{5.16}{72}{Histogramas de los tiempos de lectura de flexores Droid-Nexus}{figure.caption.65}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.17}{\ignorespaces Gráfico QQ de los tiempos de lectura de flexores Droid-Nexus}}{72}{figure.caption.66}}
-\newlabel{fig:droid-nexus-QQ-flexors}{{5.17}{72}{Gráfico QQ de los tiempos de lectura de flexores Droid-Nexus}{figure.caption.66}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.18}{\ignorespaces Gráficos de cajas de los tiempos de lectura de flexores Droid-Nexus}}{73}{figure.caption.67}}
-\newlabel{fig:droid-nexus-boxplot-flexors}{{5.18}{73}{Gráficos de cajas de los tiempos de lectura de flexores Droid-Nexus}{figure.caption.67}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.4}Prototipo 4: Xamarin - Nexus}{73}{subsection.5.1.4}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.4.1}Motores}{73}{subsubsection.5.1.4.1}}
-\@writefile{lot}{\contentsline {table}{\numberline {5.7}{\ignorespaces Resumen de los resultados de los tiempos de activación de motores Xamarin-Nexus}}{73}{table.caption.68}}
-\newlabel{table:motor-xamarin-nexus}{{5.7}{73}{Resumen de los resultados de los tiempos de activación de motores Xamarin-Nexus}{table.caption.68}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.19}{\ignorespaces Histogramas de los tiempos de activación de motores Xamarin-Nexus}}{74}{figure.caption.69}}
-\newlabel{fig:xamarin-nexus-hist-motors}{{5.19}{74}{Histogramas de los tiempos de activación de motores Xamarin-Nexus}{figure.caption.69}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.20}{\ignorespaces Gráfico QQ de los tiempos de activación de motores Xamarin-Nexus}}{75}{figure.caption.70}}
-\newlabel{fig:xamarin-nexus-QQ-motors}{{5.20}{75}{Gráfico QQ de los tiempos de activación de motores Xamarin-Nexus}{figure.caption.70}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.21}{\ignorespaces Gráficos de cajas de los tiempos de activación de motores Xamarin-Nexus}}{76}{figure.caption.71}}
-\newlabel{fig:xamarin-nexus-boxplot-motors}{{5.21}{76}{Gráficos de cajas de los tiempos de activación de motores Xamarin-Nexus}{figure.caption.71}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.4.2}Flexores}{76}{subsubsection.5.1.4.2}}
-\@writefile{lot}{\contentsline {table}{\numberline {5.8}{\ignorespaces Resumen de los resultados de los tiempos de lectura de flexores Xamarin-Nexus}}{76}{table.caption.72}}
-\newlabel{table:flexor-xamarin-nexus}{{5.8}{76}{Resumen de los resultados de los tiempos de lectura de flexores Xamarin-Nexus}{table.caption.72}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.22}{\ignorespaces Histogramas de los resultados de los tiempos de lectura de flexores Xamarin-Nexus}}{77}{figure.caption.73}}
-\newlabel{fig:xamarin-nexus-hist-flexors}{{5.22}{77}{Histogramas de los resultados de los tiempos de lectura de flexores Xamarin-Nexus}{figure.caption.73}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.23}{\ignorespaces Gráfico QQ de los resultados de los tiempos de lectura de flexores Xamarin-Nexus}}{77}{figure.caption.74}}
-\newlabel{fig:xamarin-nexus-QQ-flexors}{{5.23}{77}{Gráfico QQ de los resultados de los tiempos de lectura de flexores Xamarin-Nexus}{figure.caption.74}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Evaluación aplicaciones nativa y multiplataforma}{60}{section.5.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}Prototipo 3 : Droid - Galaxy}{61}{subsection.5.1.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.1.1}Motores}{61}{subsubsection.5.1.1.1}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces Resumen de los resultados de los tiempos de activación de motor Droid-Galaxy}}{61}{table.caption.51}}
+\newlabel{table:motor-droid-galaxy}{{5.1}{61}{Resumen de los resultados de los tiempos de activación de motor Droid-Galaxy}{table.caption.51}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Histogramas de los tiempos de activación de motores Droid-Galaxy}}{62}{figure.caption.52}}
+\newlabel{fig:droid-galaxy-hist-motors}{{5.1}{62}{Histogramas de los tiempos de activación de motores Droid-Galaxy}{figure.caption.52}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces Gráfico QQ de os tiempos de activación de motores motores Droid-Galaxy}}{63}{figure.caption.53}}
+\newlabel{fig:droid-galaxy-QQ-motors}{{5.2}{63}{Gráfico QQ de os tiempos de activación de motores motores Droid-Galaxy}{figure.caption.53}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces Gráficos de cajas de los tiempos de activación de motores de motores Droid-Galaxy}}{64}{figure.caption.54}}
+\newlabel{fig:droid-galaxy-boxplot-motors}{{5.3}{64}{Gráficos de cajas de los tiempos de activación de motores de motores Droid-Galaxy}{figure.caption.54}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.1.2}Flexores}{64}{subsubsection.5.1.1.2}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.2}{\ignorespaces Resumen de los resultados de los tiempos de lectura de flexores Droid-Galaxy}}{65}{table.caption.55}}
+\newlabel{table:flexor-droid-galaxy}{{5.2}{65}{Resumen de los resultados de los tiempos de lectura de flexores Droid-Galaxy}{table.caption.55}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces Histogramas de los tiempos de lectura de flexores Droid-Galaxy}}{65}{figure.caption.56}}
+\newlabel{fig:droid-galaxy-hist-flexors}{{5.4}{65}{Histogramas de los tiempos de lectura de flexores Droid-Galaxy}{figure.caption.56}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces Gráfico QQ de los tiempos de lectura de flexores Droid-Galaxy}}{65}{figure.caption.57}}
+\newlabel{fig:droid-galaxy-QQ-flexors}{{5.5}{65}{Gráfico QQ de los tiempos de lectura de flexores Droid-Galaxy}{figure.caption.57}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces Gráficos de cajas de los tiempos de lectura de flexores Droid-Galaxy}}{66}{figure.caption.58}}
+\newlabel{fig:droid-galaxy-boxplot-flexors}{{5.6}{66}{Gráficos de cajas de los tiempos de lectura de flexores Droid-Galaxy}{figure.caption.58}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.2}Prototipo 4: Xamarin - Galaxy}{66}{subsection.5.1.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.2.1}Motores}{66}{subsubsection.5.1.2.1}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.3}{\ignorespaces Resumen de los resultados de los tiempos de activación de motores Xamarin-Galaxy}}{66}{table.caption.59}}
+\newlabel{table:motor-xamarin-galaxy}{{5.3}{66}{Resumen de los resultados de los tiempos de activación de motores Xamarin-Galaxy}{table.caption.59}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.7}{\ignorespaces Histogramas de los tiempos de activación de motores Xamarin-Galaxy}}{67}{figure.caption.60}}
+\newlabel{fig:xamarin-galaxy-hist-motors}{{5.7}{67}{Histogramas de los tiempos de activación de motores Xamarin-Galaxy}{figure.caption.60}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.8}{\ignorespaces Gráfico QQ de los tiempos de activación de motores Xamarin-Galaxy}}{68}{figure.caption.61}}
+\newlabel{fig:xamarin-galaxy-QQ-motors}{{5.8}{68}{Gráfico QQ de los tiempos de activación de motores Xamarin-Galaxy}{figure.caption.61}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.9}{\ignorespaces Gráficos de cajas de los tiempos de activación de motores Xamarin-Galaxy}}{69}{figure.caption.62}}
+\newlabel{fig:xamarin-galaxy-boxplot-motors}{{5.9}{69}{Gráficos de cajas de los tiempos de activación de motores Xamarin-Galaxy}{figure.caption.62}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.2.2}Flexores}{69}{subsubsection.5.1.2.2}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.4}{\ignorespaces Resumen de los resultados de los tiempos de lectura de flexores Xamarin-Galaxy}}{69}{table.caption.63}}
+\newlabel{table:flexor-xamarin-galaxy}{{5.4}{69}{Resumen de los resultados de los tiempos de lectura de flexores Xamarin-Galaxy}{table.caption.63}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.10}{\ignorespaces Histogramas de los tiempos de lectura de flexores Xamarin-Galaxy}}{70}{figure.caption.64}}
+\newlabel{fig:xamarin-galaxy-hist-flexors}{{5.10}{70}{Histogramas de los tiempos de lectura de flexores Xamarin-Galaxy}{figure.caption.64}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.11}{\ignorespaces Gráfico QQ de los tiempos de lectura de flexores Xamarin-Galaxy}}{70}{figure.caption.65}}
+\newlabel{fig:xamarin-galaxy-QQ-flexors}{{5.11}{70}{Gráfico QQ de los tiempos de lectura de flexores Xamarin-Galaxy}{figure.caption.65}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.12}{\ignorespaces Gráficos de cajas de los tiempos de lectura de flexores Xamarin-Galaxy}}{71}{figure.caption.66}}
+\newlabel{fig:xamarin-galaxy-boxplot-flexors}{{5.12}{71}{Gráficos de cajas de los tiempos de lectura de flexores Xamarin-Galaxy}{figure.caption.66}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.3}Prototipo 3 : Droid - Nexus}{71}{subsection.5.1.3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.3.1}Motores}{71}{subsubsection.5.1.3.1}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.5}{\ignorespaces Resumen de los resultados de los tiempos de activación de motores Droid-Nexus}}{71}{table.caption.67}}
+\newlabel{table:motor-droid-nexus}{{5.5}{71}{Resumen de los resultados de los tiempos de activación de motores Droid-Nexus}{table.caption.67}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.13}{\ignorespaces Histogramas de los tiempos de activación de motores Droid-Nexus}}{72}{figure.caption.68}}
+\newlabel{fig:droid-nexus-hist-motors}{{5.13}{72}{Histogramas de los tiempos de activación de motores Droid-Nexus}{figure.caption.68}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.14}{\ignorespaces Gráfico QQ de los tiempos de activación de motores Droid-Nexus}}{73}{figure.caption.69}}
+\newlabel{fig:droid-nexus-QQ-motors}{{5.14}{73}{Gráfico QQ de los tiempos de activación de motores Droid-Nexus}{figure.caption.69}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.15}{\ignorespaces Gráficos de cajas los tiempos de activación de de motores Droid-Nexus}}{74}{figure.caption.70}}
+\newlabel{fig:droid-nexus-boxplot-motors}{{5.15}{74}{Gráficos de cajas los tiempos de activación de de motores Droid-Nexus}{figure.caption.70}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.3.2}Flexores}{74}{subsubsection.5.1.3.2}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.6}{\ignorespaces Resumen de los resultados de los tiempos de lectura de flexores Droid-Nexus}}{74}{table.caption.71}}
+\newlabel{table:flexor-droid-nexus}{{5.6}{74}{Resumen de los resultados de los tiempos de lectura de flexores Droid-Nexus}{table.caption.71}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.16}{\ignorespaces Histogramas de los tiempos de lectura de flexores Droid-Nexus}}{75}{figure.caption.72}}
+\newlabel{fig:droid-nexus-hist-flexors}{{5.16}{75}{Histogramas de los tiempos de lectura de flexores Droid-Nexus}{figure.caption.72}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.17}{\ignorespaces Gráfico QQ de los tiempos de lectura de flexores Droid-Nexus}}{75}{figure.caption.73}}
+\newlabel{fig:droid-nexus-QQ-flexors}{{5.17}{75}{Gráfico QQ de los tiempos de lectura de flexores Droid-Nexus}{figure.caption.73}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.18}{\ignorespaces Gráficos de cajas de los tiempos de lectura de flexores Droid-Nexus}}{76}{figure.caption.74}}
+\newlabel{fig:droid-nexus-boxplot-flexors}{{5.18}{76}{Gráficos de cajas de los tiempos de lectura de flexores Droid-Nexus}{figure.caption.74}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.4}Prototipo 4: Xamarin - Nexus}{76}{subsection.5.1.4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.4.1}Motores}{76}{subsubsection.5.1.4.1}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.7}{\ignorespaces Resumen de los resultados de los tiempos de activación de motores Xamarin-Nexus}}{76}{table.caption.75}}
+\newlabel{table:motor-xamarin-nexus}{{5.7}{76}{Resumen de los resultados de los tiempos de activación de motores Xamarin-Nexus}{table.caption.75}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.19}{\ignorespaces Histogramas de los tiempos de activación de motores Xamarin-Nexus}}{77}{figure.caption.76}}
+\newlabel{fig:xamarin-nexus-hist-motors}{{5.19}{77}{Histogramas de los tiempos de activación de motores Xamarin-Nexus}{figure.caption.76}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.20}{\ignorespaces Gráfico QQ de los tiempos de activación de motores Xamarin-Nexus}}{78}{figure.caption.77}}
+\newlabel{fig:xamarin-nexus-QQ-motors}{{5.20}{78}{Gráfico QQ de los tiempos de activación de motores Xamarin-Nexus}{figure.caption.77}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.21}{\ignorespaces Gráficos de cajas de los tiempos de activación de motores Xamarin-Nexus}}{79}{figure.caption.78}}
+\newlabel{fig:xamarin-nexus-boxplot-motors}{{5.21}{79}{Gráficos de cajas de los tiempos de activación de motores Xamarin-Nexus}{figure.caption.78}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.4.2}Flexores}{79}{subsubsection.5.1.4.2}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.8}{\ignorespaces Resumen de los resultados de los tiempos de lectura de flexores Xamarin-Nexus}}{79}{table.caption.79}}
+\newlabel{table:flexor-xamarin-nexus}{{5.8}{79}{Resumen de los resultados de los tiempos de lectura de flexores Xamarin-Nexus}{table.caption.79}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.22}{\ignorespaces Histogramas de los resultados de los tiempos de lectura de flexores Xamarin-Nexus}}{80}{figure.caption.80}}
+\newlabel{fig:xamarin-nexus-hist-flexors}{{5.22}{80}{Histogramas de los resultados de los tiempos de lectura de flexores Xamarin-Nexus}{figure.caption.80}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.23}{\ignorespaces Gráfico QQ de los resultados de los tiempos de lectura de flexores Xamarin-Nexus}}{80}{figure.caption.81}}
+\newlabel{fig:xamarin-nexus-QQ-flexors}{{5.23}{80}{Gráfico QQ de los resultados de los tiempos de lectura de flexores Xamarin-Nexus}{figure.caption.81}{}}
 \citation{tesis-monsalve-rodrigo}
 \citation{tesis-meneses-sebastian}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.24}{\ignorespaces Gráficos de cajas de los resultados de los tiempos de lectura de flexores Xamarin-Nexus}}{78}{figure.caption.75}}
-\newlabel{fig:xamarin-nexus-boxplot-flexors}{{5.24}{78}{Gráficos de cajas de los resultados de los tiempos de lectura de flexores Xamarin-Nexus}{figure.caption.75}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}Evaluación tiempo de activación usando APIs}{78}{section.5.2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.25}{\ignorespaces Aplicación utilizada para realizar las pruebas de la API C\# }}{79}{figure.caption.76}}
-\newlabel{fig:csharp-api-test}{{5.25}{79}{Aplicación utilizada para realizar las pruebas de la API C\#}{figure.caption.76}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.26}{\ignorespaces Aplicación utilizada para realizar las pruebas de la API Java }}{79}{figure.caption.77}}
-\newlabel{fig:java-api-test}{{5.26}{79}{Aplicación utilizada para realizar las pruebas de la API Java}{figure.caption.77}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}API C\#}{80}{subsection.5.2.1}}
-\@writefile{lot}{\contentsline {table}{\numberline {5.9}{\ignorespaces Resumen resultados de los tiempos de activación usando API C\#}}{80}{table.caption.78}}
-\newlabel{table:motor-xamarin-galaxy-api}{{5.9}{80}{Resumen resultados de los tiempos de activación usando API C\#}{table.caption.78}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.27}{\ignorespaces Histogramas de los tiempos de activación de motores usando API C\# }}{81}{figure.caption.79}}
-\newlabel{fig:xamarin-galaxy-hist-motors-api}{{5.27}{81}{Histogramas de los tiempos de activación de motores usando API C\#}{figure.caption.79}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.28}{\ignorespaces Gráfico QQ delos tiempos de activación de motores usando API C\# }}{82}{figure.caption.80}}
-\newlabel{fig:xamarin-galaxy-QQ-motors-api}{{5.28}{82}{Gráfico QQ delos tiempos de activación de motores usando API C\#}{figure.caption.80}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.24}{\ignorespaces Gráficos de cajas de los resultados de los tiempos de lectura de flexores Xamarin-Nexus}}{81}{figure.caption.82}}
+\newlabel{fig:xamarin-nexus-boxplot-flexors}{{5.24}{81}{Gráficos de cajas de los resultados de los tiempos de lectura de flexores Xamarin-Nexus}{figure.caption.82}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Evaluación tiempo de activación usando APIs}{81}{section.5.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.25}{\ignorespaces Aplicación utilizada para realizar las pruebas de la API C\# }}{82}{figure.caption.83}}
+\newlabel{fig:csharp-api-test}{{5.25}{82}{Aplicación utilizada para realizar las pruebas de la API C\#}{figure.caption.83}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.26}{\ignorespaces Aplicación utilizada para realizar las pruebas de la API Java }}{82}{figure.caption.84}}
+\newlabel{fig:java-api-test}{{5.26}{82}{Aplicación utilizada para realizar las pruebas de la API Java}{figure.caption.84}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}API C\#}{83}{subsection.5.2.1}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.9}{\ignorespaces Resumen resultados de los tiempos de activación usando API C\#}}{83}{table.caption.85}}
+\newlabel{table:motor-xamarin-galaxy-api}{{5.9}{83}{Resumen resultados de los tiempos de activación usando API C\#}{table.caption.85}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.27}{\ignorespaces Histogramas de los tiempos de activación de motores usando API C\# }}{84}{figure.caption.86}}
+\newlabel{fig:xamarin-galaxy-hist-motors-api}{{5.27}{84}{Histogramas de los tiempos de activación de motores usando API C\#}{figure.caption.86}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.28}{\ignorespaces Gráfico QQ delos tiempos de activación de motores usando API C\# }}{85}{figure.caption.87}}
+\newlabel{fig:xamarin-galaxy-QQ-motors-api}{{5.28}{85}{Gráfico QQ delos tiempos de activación de motores usando API C\#}{figure.caption.87}{}}
 \citation{tesis-cerda-rodrigo}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.29}{\ignorespaces Gráficos de cajas de los tiempos de activación de motores usando API C\# }}{83}{figure.caption.81}}
-\newlabel{fig:xamarin-galaxy-boxplot-motors-api}{{5.29}{83}{Gráficos de cajas de los tiempos de activación de motores usando API C\#}{figure.caption.81}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}API Java}{83}{subsection.5.2.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.3}Evaluación tiempo de lectura de datos usando APIs}{83}{section.5.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}API C\#}{84}{subsection.5.3.1}}
-\@writefile{lot}{\contentsline {table}{\numberline {5.10}{\ignorespaces Resumen resultados de pruebas de lectura flexores e IMU usando API C\#}}{84}{table.caption.82}}
-\newlabel{table:flexors&imu-xamarin-galaxy-api}{{5.10}{84}{Resumen resultados de pruebas de lectura flexores e IMU usando API C\#}{table.caption.82}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.30}{\ignorespaces Histogramas de Flexores e IMU usando API C\#}}{85}{figure.caption.83}}
-\newlabel{fig:xamarin-galaxy-hist-flexors&imu-api}{{5.30}{85}{Histogramas de Flexores e IMU usando API C\#}{figure.caption.83}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.31}{\ignorespaces Gráfico QQ de Flexores e IMU usando API C\# }}{86}{figure.caption.84}}
-\newlabel{fig:xamarin-galaxy-QQ-flexors&imu-api}{{5.31}{86}{Gráfico QQ de Flexores e IMU usando API C\#}{figure.caption.84}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.32}{\ignorespaces Gráficos de cajas de Flexores e IMU usando API C\# }}{87}{figure.caption.85}}
-\newlabel{fig:xamarin-galaxy-boxplot-flexors&imu-api}{{5.32}{87}{Gráficos de cajas de Flexores e IMU usando API C\#}{figure.caption.85}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.2}API Java}{87}{subsection.5.3.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.4}Pruebas de concepto}{87}{section.5.4}}
-\newlabel{seccion-pruebas-concepto}{{5.4}{87}{Pruebas de concepto}{section.5.4}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.5}Resumen}{87}{section.5.5}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {6}Conclusiones}{88}{chapter.6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.29}{\ignorespaces Gráficos de cajas de los tiempos de activación de motores usando API C\# }}{86}{figure.caption.88}}
+\newlabel{fig:xamarin-galaxy-boxplot-motors-api}{{5.29}{86}{Gráficos de cajas de los tiempos de activación de motores usando API C\#}{figure.caption.88}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}API Java}{86}{subsection.5.2.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}Evaluación tiempo de lectura de datos usando APIs}{86}{section.5.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}API C\#}{87}{subsection.5.3.1}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.10}{\ignorespaces Resumen resultados de pruebas de lectura flexores e IMU usando API C\#}}{87}{table.caption.89}}
+\newlabel{table:flexors&imu-xamarin-galaxy-api}{{5.10}{87}{Resumen resultados de pruebas de lectura flexores e IMU usando API C\#}{table.caption.89}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.30}{\ignorespaces Histogramas de Flexores e IMU usando API C\#}}{88}{figure.caption.90}}
+\newlabel{fig:xamarin-galaxy-hist-flexors&imu-api}{{5.30}{88}{Histogramas de Flexores e IMU usando API C\#}{figure.caption.90}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.31}{\ignorespaces Gráfico QQ de Flexores e IMU usando API C\# }}{89}{figure.caption.91}}
+\newlabel{fig:xamarin-galaxy-QQ-flexors&imu-api}{{5.31}{89}{Gráfico QQ de Flexores e IMU usando API C\#}{figure.caption.91}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.32}{\ignorespaces Gráficos de cajas de Flexores e IMU usando API C\# }}{90}{figure.caption.92}}
+\newlabel{fig:xamarin-galaxy-boxplot-flexors&imu-api}{{5.32}{90}{Gráficos de cajas de Flexores e IMU usando API C\#}{figure.caption.92}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.2}API Java}{90}{subsection.5.3.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.4}Pruebas de concepto}{90}{section.5.4}}
+\newlabel{seccion-pruebas-concepto}{{5.4}{90}{Pruebas de concepto}{section.5.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.5}Resumen}{90}{section.5.5}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}Conclusiones}{91}{chapter.6}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{loa}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {6.1}Objetivos}{88}{section.6.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.1.1}Objetivos específicos}{88}{subsection.6.1.1}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.1.1.1}Desarrollar la aplicación de configuración de OpenGlove en Android. Permitiendo la creación, visualización, actualización y eliminación de los perfiles de configuración:}{88}{subsubsection.6.1.1.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.1}Objetivos}{91}{section.6.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1.1}Objetivos específicos}{91}{subsection.6.1.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.1.1.1}Desarrollar la aplicación de configuración de OpenGlove en Android. Permitiendo la creación, visualización, actualización y eliminación de los perfiles de configuración:}{91}{subsubsection.6.1.1.1}}
 \citation{tesis-cerda-rodrigo}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.1.1.2}Desarrollar APIs en Java y C\# que permitan la administración de dispositivos Bluetooth en segundo plano en Android permitiendo la conexión, desconexión, activación y listado de guantes OpenGlove. También permitirá la activación y control de actuadores, flexores e IMU}{89}{subsubsection.6.1.1.2}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.1.1.3}Realizar evaluaciones de rendimiento para las APIs Java y C\# :}{89}{subsubsection.6.1.1.3}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.1.1.4}Demostrar el uso del SDK en un ambiente de VR, AR o MR, utilizando las APIs desarrolladas:}{89}{subsubsection.6.1.1.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.1.2}Objetivo general}{90}{subsection.6.1.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.2}Resultados obtenidos}{90}{section.6.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.1}Desarrollo de software}{90}{subsection.6.2.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.2}Resultados de las pruebas}{90}{subsection.6.2.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.1.1.2}Desarrollar APIs en Java y C\# que permitan la administración de dispositivos Bluetooth en segundo plano en Android permitiendo la conexión, desconexión, activación y listado de guantes OpenGlove. También permitirá la activación y control de actuadores, flexores e IMU}{92}{subsubsection.6.1.1.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.1.1.3}Realizar evaluaciones de rendimiento para las APIs Java y C\# :}{92}{subsubsection.6.1.1.3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.1.1.4}Demostrar el uso del SDK en un ambiente de VR, AR o MR, utilizando las APIs desarrolladas:}{92}{subsubsection.6.1.1.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1.2}Objetivo general}{93}{subsection.6.1.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.2}Resultados obtenidos}{93}{section.6.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.1}Desarrollo de software}{93}{subsection.6.2.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.2}Resultados de las pruebas}{93}{subsection.6.2.2}}
 \citation{tesis-cerda-rodrigo}
-\@writefile{toc}{\contentsline {section}{\numberline {6.3}Alcances y limitaciones}{91}{section.6.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.4}Trabajo futuro}{92}{section.6.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.5}Observaciones finales}{93}{section.6.5}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.3}Alcances y limitaciones}{94}{section.6.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.4}Trabajo futuro}{95}{section.6.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.5}Observaciones finales}{96}{section.6.5}}
 \citation{actuadores}
 \citation{techtarget-API}
 \citation{gartner-group-AR}
@@ -408,7 +431,7 @@
 \citation{gartner-group-SDK}
 \citation{nngroup-ux}
 \citation{gartner-group-VR}
-\@writefile{toc}{\contentsline {chapter}{Glosario}{94}{section.6.5}}
+\@writefile{toc}{\contentsline {chapter}{Glosario}{97}{section.6.5}}
 \citation{websocket-html5}
 \bibstyle{apa-good}
 \bibdata{bibliografia}
@@ -433,7 +456,7 @@
 \bibcite{avatarvr-info-page}{{19}{2018}{{Neurodigital}}{{}}}
 \bibcite{nngroup-ux}{{20}{2017}{{Norman \& Nielsen}}{{}}}
 \bibcite{latency-haptic-perception-2009}{{21}{2009}{{Okamoto et~al.}}{{Okamoto, Konyo, Saga, \& Tadokoro}}}
-\@writefile{toc}{\contentsline {chapter}{Referencias bibliogr\'aficas}{96}{chapter*.86}}
+\@writefile{toc}{\contentsline {chapter}{Referencias bibliogr\'aficas}{99}{chapter*.93}}
 \bibcite{semantic-versioning-tom-preston-werner-coFounder-GitHub}{{22}{2018}{{Preston-Werner}}{{}}}
 \bibcite{websocket-pubnub}{{23}{2018}{{PubNub}}{{}}}
 \bibcite{flexor-sensor-01}{{24}{2018}{{Rambal}}{{}}}
@@ -447,26 +470,26 @@
 \bibcite{websocket-html5}{{32}{2018{a}}{{Websocket.org}}{{}}}
 \bibcite{websocket-scalability}{{33}{2018{b}}{{Websocket.org}}{{}}}
 \bibcite{latency-visual-haptic-2015}{{34}{2015}{{Wu et~al.}}{{Wu, Sim, Enquobahrie, \& Ortiz}}}
-\@writefile{toc}{\contentsline {chapter}{Anexos}{98}{chapter*.87}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {A} Low Level Communication Protocol}{98}{chapter.1}}
+\@writefile{toc}{\contentsline {chapter}{Anexos}{101}{chapter*.94}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {A} Low Level Communication Protocol}{101}{chapter.1}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{loa}{\addvspace {10\p@ }}
-\newlabel{finales:anexo1}{{A}{98}{Low Level Communication Protocol}{chapter.1}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {B}High Level Communication Protocol}{99}{chapter.2}}
+\newlabel{finales:anexo1}{{A}{101}{Low Level Communication Protocol}{chapter.1}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {B}High Level Communication Protocol}{102}{chapter.2}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{loa}{\addvspace {10\p@ }}
-\newlabel{finales:anexo2}{{B}{99}{High Level Communication Protocol}{chapter.2}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {C}High Level OpenGlove APIs Reference}{100}{chapter.3}}
+\newlabel{finales:anexo2}{{B}{102}{High Level Communication Protocol}{chapter.2}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {C}High Level OpenGlove APIs Reference}{103}{chapter.3}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{loa}{\addvspace {10\p@ }}
-\newlabel{finales:anexo4}{{C}{100}{High Level OpenGlove APIs Reference}{chapter.3}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {C.1}C\# API}{100}{section.3.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {C.2}Java API}{100}{section.3.2}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {D}Proof of concepts}{101}{chapter.4}}
+\newlabel{finales:anexo4}{{C}{103}{High Level OpenGlove APIs Reference}{chapter.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {C.1}C\# API}{103}{section.3.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {C.2}Java API}{103}{section.3.2}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {D}Proof of concepts}{104}{chapter.4}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{loa}{\addvspace {10\p@ }}
-\newlabel{finales:anexo3}{{D}{101}{Proof of concepts}{chapter.4}{}}
+\newlabel{finales:anexo3}{{D}{104}{Proof of concepts}{chapter.4}{}}

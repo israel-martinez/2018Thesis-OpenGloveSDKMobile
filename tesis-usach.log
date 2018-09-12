@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  11 SEP 2018 02:19
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  12 SEP 2018 02:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1239,6 +1239,26 @@ Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/dcolumn.sty
 Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
 )
+(/usr/local/texlive/2018/texmf-dist/tex/latex/inconsolata/inconsolata.sty
+Package: inconsolata 2017/01/04 v1.112
+
+`inconsolata-zi4' v1.112, 2017/01/04 Text macros for Inconsolata (msharpe)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks49
+\XKV@tempa@toks=\toks50
+)
+\XKV@depth=\count332
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\zifour@ocount=\count333
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
 (./tesis-usach.aux (./preliminares/cubierta.aux) (./preliminares/abstract.aux)
 
 LaTeX Warning: Label `fig:arquitectura-open-glove' multiply defined.
@@ -1246,30 +1266,30 @@ LaTeX Warning: Label `fig:arquitectura-open-glove' multiply defined.
 )
 \openout1 = `tesis-usach.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 35.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
 .................................................
 . fontspec info: "setup-math"
 . 
@@ -1277,56 +1297,56 @@ LaTeX Font Info:    ... okay on input line 10.
 .................................................
 \symlegacymaths=\mathgroup10
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 10.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 10.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 10.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 10.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 10.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 10.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 10.
-LaTeX Font Info:    Redeclaring math accent \check on input line 10.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 10.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 10.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 10.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 10.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 10.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 10.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 10.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 10.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 10.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 10.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 10.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 10.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 10.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 10.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 10.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 10.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 35.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 35.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 35.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 35.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 35.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 35.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 35.
+LaTeX Font Info:    Redeclaring math accent \check on input line 35.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 35.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 35.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 35.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 35.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 35.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 35.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 35.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 35.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 35.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 35.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 35.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 35.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 35.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 35.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 35.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 35.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 10.
+(Font)              `operators' in the math version `normal' on input line 35.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/Arial(0)/m/n on input line 10.
+(Font)                  OT1/cmr/m/n --> TU/Arial(0)/m/n on input line 35.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 10.
+(Font)              `operators' in the math version `bold' on input line 35.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/Arial(0)/m/n on input line 10.
+(Font)                  OT1/cmr/bx/n --> TU/Arial(0)/m/n on input line 35.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/Arial(0)/m/n --> TU/Arial(0)/m/n on input line 10.
+(Font)                  TU/Arial(0)/m/n --> TU/Arial(0)/m/n on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/Arial(0)/m/it on input line 10.
+(Font)                  OT1/cmr/m/it --> TU/Arial(0)/m/it on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/Arial(0)/bx/n on input line 10.
+(Font)                  OT1/cmr/bx/n --> TU/Arial(0)/bx/n on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 10.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 10.
+(Font)                  OT1/cmtt/m/n --> TU/zi4/m/n on input line 35.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/Arial(0)/m/n --> TU/Arial(0)/bx/n on input line 10.
+(Font)                  TU/Arial(0)/m/n --> TU/Arial(0)/bx/n on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/Arial(0)/bx/it on input line 10.
+(Font)                  OT1/cmr/bx/it --> TU/Arial(0)/bx/it on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 10.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 10.
+(Font)                  OT1/cmtt/m/n --> TU/zi4/bx/n on input line 35.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1339,7 +1359,7 @@ Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box69
-Package hyperref Info: Link coloring ON on input line 10.
+Package hyperref Info: Link coloring ON on input line 35.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1347,17 +1367,17 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count332
+\c@section@level=\count334
 )
-LaTeX Info: Redefining \ref on input line 10.
-LaTeX Info: Redefining \pageref on input line 10.
-LaTeX Info: Redefining \nameref on input line 10.
+LaTeX Info: Redefining \ref on input line 35.
+LaTeX Info: Redefining \pageref on input line 35.
+LaTeX Info: Redefining \nameref on input line 35.
 
 (./tesis-usach.out) (./tesis-usach.out)
 \@outlinefile=\write6
 \openout6 = `tesis-usach.out'.
 
-\c@lstlisting=\count333
+\c@lstlisting=\count335
 
 babelbib: Use citation-dependent languages in bibliography
 babelbib: Set bibliography fall-back language to english
@@ -1401,7 +1421,12 @@ babelbib extension \btxifchangecaseon added to \extrasenglish
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+(/usr/local/texlive/2018/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+)
 \openout2 = `preliminares/cubierta.aux'.
+
 
 (./preliminares/cubierta.tex
 *geometry* verbose mode - [ newgeometry ] result:
@@ -1478,7 +1503,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--21
 ])
 File: images/licences/cc-by.png Graphic file (type bmp)
 <images/licences/cc-by.png>
- [2
+LaTeX Font Info:    Try loading font information for TU+zi4 on input line 51.
+LaTeX Font Info:    No file TUzi4.fd. on input line 51.
+
+
+LaTeX Font Warning: Font shape `TU/zi4/m/n' undefined
+(Font)              using `TU/lmr/m/n' instead on input line 51.
+
+[2
 
 
 ]
@@ -1505,19 +1537,14 @@ File: images/licences/cc-by.png Graphic file (type bmp)
 
  [9
 
-] (./tesis-usach.lof
-Underfull \hbox (badness 1237) in paragraph at lines 28--28
- [][] \TU/Arial(0)/m/n/10 Figura [][][]Diagrama de actividades de las acciones 
-OpenGlove sobre servidor 
- []
-
-[10
+] (./tesis-usach.lof [10
 
 ])
 \tf@lof=\write9
 \openout9 = `tesis-usach.lof'.
 
- [11] (./chapters/01.00.Introduccion.tex
+ [11]
+(./chapters/01.00.Introduccion.tex
 Cap\'itulo 1.
 ) (./chapters/01.01.Antecedentes-motivacion.tex)
 (./chapters/01.02.Descripcion-problema.tex [1
@@ -1528,14 +1555,8 @@ File: images/chapter01/Legacy-OpenGlove-Architecture.png Graphic file (type bmp
 )
 <images/chapter01/Legacy-OpenGlove-Architecture.png>
 )
-(./chapters/01.03.Solucion-propuesta.tex [2]
-Underfull \hbox (badness 10000) in paragraph at lines 17--17
-[][][]\TU/Arial(0)/m/n/8 Multiple Threads Runnable Code: [][]$[][][][][] [] [] 
-[] [][][][][][][][][] [] [][][][][][][] [] [][][] [] [][][][][][][][] [] [][][]
-[][][][][][][][][][][][][][] []
- []
-
-[3]) (./chapters/01.04.Objetivos-alcance-proyecto.tex [4])
+(./chapters/01.03.Solucion-propuesta.tex [2] [3])
+(./chapters/01.04.Objetivos-alcance-proyecto.tex [4])
 (./chapters/01.05.Metodologias-herramientas.tex [5] [6] [7])
 (./chapters/01.06.Organizacion-documento.tex)
 (./chapters/02.00.Marco-teorico.tex [8]
@@ -1615,13 +1636,7 @@ Overfull \hbox (2.16624pt too wide) in paragraph at lines 127--136
 
 File: images/chapter03/04-prototype/04-prototype.png Graphic file (type bmp)
 <images/chapter03/04-prototype/04-prototype.png>
-[30] [31]
-Underfull \hbox (badness 1688) in paragraph at lines 162--162
-[][][]\TU/Arial(0)/m/n/8 El baud rate especifica la velocidad en la que se enví
-an los datos por una línea serial, usualmente son
- []
-
-[32]
+[30] [31] [32]
 File: images/chapter03/05-prototype/05-prototype.png Graphic file (type bmp)
 <images/chapter03/05-prototype/05-prototype.png>
  [33] [34]
@@ -1672,45 +1687,73 @@ File: images/chapter04/OpenGlove-Architecture-Configuration-App.png Graphic fil
 e (type bmp)
 <images/chapter04/OpenGlove-Architecture-Configuration-App.png>
  [48]
-Overfull \hbox (13.343pt too wide) in alignment at lines 165--171
+Overfull \hbox (13.343pt too wide) in alignment at lines 162--168
  [] [] 
  []
 
 
-Overfull \hbox (13.343pt too wide) in alignment at lines 171--173
+Overfull \hbox (13.343pt too wide) in alignment at lines 168--170
  [] [] 
  []
 
 
-Overfull \hbox (13.343pt too wide) in alignment at lines 173--190
+Overfull \hbox (13.343pt too wide) in alignment at lines 170--187
  [] [] 
  []
 
-[49] [50]) (./chapters/04.03.Comportamiento.tex
+[49] [50]) (./chapters/04.03.Comportamiento.tex [51]
 File: images/chapter04/ActivityDiagrams-OpenGloveActions-0.png Graphic file (ty
 pe bmp)
 <images/chapter04/ActivityDiagrams-OpenGloveActions-0.png>
+
+
+LaTeX Warning: Reference `fig:methods-1-websocket-server' on page 52 undefined 
+on input line 43.
+
+[52]
 File: images/chapter04/ActivityDiagrams-OpenGloveActions-1.png Graphic file (ty
 pe bmp)
 <images/chapter04/ActivityDiagrams-OpenGloveActions-1.png>
- [51]
+
+
+LaTeX Warning: Reference `fig:methods-2-openglove-device' on page 53 undefined 
+on input line 80.
+
+
+LaTeX Warning: Reference `fig:activity-diagrams-2-openglove-device' on page 53 
+undefined on input line 80.
+
+[53]
 File: images/chapter04/ActivityDiagrams-OpenGloveActions-2.png Graphic file (ty
 pe bmp)
 <images/chapter04/ActivityDiagrams-OpenGloveActions-2.png>
- [52]
+
+
+LaTeX Warning: Reference `fig:methods-3-openglove-arduino' on page 54 undefined
+ on input line 118.
+
+
+LaTeX Warning: Reference `fig:activity-diagrams-3-openglove-arduino' on page 54
+ undefined on input line 118.
+
+[54]
 File: images/chapter04/ActivityDiagrams-OpenGloveActions-3.png Graphic file (ty
 pe bmp)
 <images/chapter04/ActivityDiagrams-OpenGloveActions-3.png>
- [53]
+ [55] [56]
 File: images/chapter04/ActivityDiagrams-ReadDataFromArduino.png Graphic file (t
 ype bmp)
 <images/chapter04/ActivityDiagrams-ReadDataFromArduino.png>
-)
-(./chapters/04.04.Aspectos-implementacion.tex [54])
+
+
+LaTeX Warning: Reference `fig:methods-5-reading-bluetoothdevice-state' on page 
+57 undefined on input line 207.
+
+[57]) (./chapters/04.04.Aspectos-implementacion.tex)
 (./chapters/04.05.Resumen.tex) (./chapters/05.00.Evaluacion-tecnica.tex
-[55] [56]
+[58] [59]
 Cap\'itulo 5.
-) (./chapters/05.01.Evaluacion-aplicaciones-nativa-multiplataforma.tex [57
+) (./chapters/05.01.Evaluacion-aplicaciones-nativa-multiplataforma.tex [60
 
 ]
 Overfull \hbox (10.77643pt too wide) in paragraph at lines 24--37
@@ -1723,11 +1766,11 @@ type bmp)
 File: evaluation/graphics/Droid/Galaxy/NormalQQMotorsDroidGalaxy.png Graphic fi
 le (type bmp)
 <evaluation/graphics/Droid/Galaxy/NormalQQMotorsDroidGalaxy.png>
-[58] [59]
+[61] [62]
 File: evaluation/graphics/Droid/Galaxy/BoxplotMotorsDroidGalaxy.png Graphic fil
 e (type bmp)
 <evaluation/graphics/Droid/Galaxy/BoxplotMotorsDroidGalaxy.png>
- [60]
+ [63]
 Overfull \hbox (26.35362pt too wide) in paragraph at lines 88--97
  [][] 
  []
@@ -1738,22 +1781,22 @@ File: evaluation/graphics/Droid/Galaxy/HistFlexorsDroidGalaxy.png Graphic file
 File: evaluation/graphics/Droid/Galaxy/NormalQQFlexorsDroidGalaxy.png Graphic f
 ile (type bmp)
 <evaluation/graphics/Droid/Galaxy/NormalQQFlexorsDroidGalaxy.png>
-[61]
+[64]
 File: evaluation/graphics/Droid/Galaxy/BoxplotFlexorsDroidGalaxy.png Graphic fi
 le (type bmp)
 <evaluation/graphics/Droid/Galaxy/BoxplotFlexorsDroidGalaxy.png>
- [62]
+ [65]
 File: evaluation/graphics/Xamarin/Galaxy/HistMotorsXamarinGalaxy.png Graphic fi
 le (type bmp)
 <evaluation/graphics/Xamarin/Galaxy/HistMotorsXamarinGalaxy.png>
 File: evaluation/graphics/Xamarin/Galaxy/NormalQQMotorsXamarinGalaxy.png Graphi
 c file (type bmp)
 <evaluation/graphics/Xamarin/Galaxy/NormalQQMotorsXamarinGalaxy.png>
- [63] [64]
+ [66] [67]
 File: evaluation/graphics/Xamarin/Galaxy/BoxplotMotorsXamarinGalaxy.png Graphic
  file (type bmp)
 <evaluation/graphics/Xamarin/Galaxy/BoxplotMotorsXamarinGalaxy.png>
- [65]
+ [68]
 Overfull \hbox (26.35362pt too wide) in paragraph at lines 204--213
  [][] 
  []
@@ -1764,22 +1807,22 @@ ile (type bmp)
 File: evaluation/graphics/Xamarin/Galaxy/NormalQQFlexorsXamarinGalaxy.png Graph
 ic file (type bmp)
 <evaluation/graphics/Xamarin/Galaxy/NormalQQFlexorsXamarinGalaxy.png>
-[66]
+[69]
 File: evaluation/graphics/Xamarin/Galaxy/BoxplotFlexorsXamarinGalaxy.png Graphi
 c file (type bmp)
 <evaluation/graphics/Xamarin/Galaxy/BoxplotFlexorsXamarinGalaxy.png>
- [67]
+ [70]
 File: evaluation/graphics/Droid/Nexus/HistMotorsDroidNexus.png Graphic file (ty
 pe bmp)
 <evaluation/graphics/Droid/Nexus/HistMotorsDroidNexus.png>
 File: evaluation/graphics/Droid/Nexus/NormalQQMotorsDroidNexus.png Graphic file
  (type bmp)
 <evaluation/graphics/Droid/Nexus/NormalQQMotorsDroidNexus.png>
- [68] [69]
+ [71] [72]
 File: evaluation/graphics/Droid/Nexus/BoxplotMotorsDroidNexus.png Graphic file 
 (type bmp)
 <evaluation/graphics/Droid/Nexus/BoxplotMotorsDroidNexus.png>
- [70]
+ [73]
 Overfull \hbox (22.35623pt too wide) in paragraph at lines 320--329
  [][] 
  []
@@ -1790,22 +1833,22 @@ ype bmp)
 File: evaluation/graphics/Droid/Nexus/NormalQQFlexorsDroidNexus.png Graphic fil
 e (type bmp)
 <evaluation/graphics/Droid/Nexus/NormalQQFlexorsDroidNexus.png>
-[71]
+[74]
 File: evaluation/graphics/Droid/Nexus/BoxplotFlexorsDroidNexus.png Graphic file
  (type bmp)
 <evaluation/graphics/Droid/Nexus/BoxplotFlexorsDroidNexus.png>
- [72]
+ [75]
 File: evaluation/graphics/Xamarin/Nexus/HistMotorsXamarinNexus.png Graphic file
  (type bmp)
 <evaluation/graphics/Xamarin/Nexus/HistMotorsXamarinNexus.png>
 File: evaluation/graphics/Xamarin/Nexus/NormalQQMotorsXamarinNexus.png Graphic 
 file (type bmp)
 <evaluation/graphics/Xamarin/Nexus/NormalQQMotorsXamarinNexus.png>
- [73] [74]
+ [76] [77]
 File: evaluation/graphics/Xamarin/Nexus/BoxplotMotorsXamarinNexus.png Graphic f
 ile (type bmp)
 <evaluation/graphics/Xamarin/Nexus/BoxplotMotorsXamarinNexus.png>
- [75]
+ [78]
 Overfull \hbox (22.35623pt too wide) in paragraph at lines 436--445
  [][] 
  []
@@ -1816,16 +1859,16 @@ e (type bmp)
 File: evaluation/graphics/Xamarin/Nexus/NormalQQFlexorsXamarinNexus.png Graphic
  file (type bmp)
 <evaluation/graphics/Xamarin/Nexus/NormalQQFlexorsXamarinNexus.png>
-[76]
+[79]
 File: evaluation/graphics/Xamarin/Nexus/BoxplotFlexorsXamarinNexus.png Graphic 
 file (type bmp)
 <evaluation/graphics/Xamarin/Nexus/BoxplotFlexorsXamarinNexus.png>
-) (./chapters/05.02.Evaluacion-tiempo-activacion.tex [77]
+) (./chapters/05.02.Evaluacion-tiempo-activacion.tex [80]
 File: images/chapter05/C-Sharp-APITest.png Graphic file (type bmp)
 <images/chapter05/C-Sharp-APITest.png>
 File: images/chapter05/Java-APITest.png Graphic file (type bmp)
 <images/chapter05/Java-APITest.png>
- [78] [79]
+ [81] [82]
 Overfull \hbox (34.02022pt too wide) in paragraph at lines 43--56
  [][] 
  []
@@ -1838,18 +1881,18 @@ File: evaluation/graphics/Xamarin/Galaxy-APITest/NormalQQMotorsXamarinGalaxy-AP
 ITest.png Graphic file (type bmp)
 <evaluation/graphics/Xamarin/Galaxy-APITest/NormalQQMotorsXamarinGalaxy-APITest
 .png>
-[80] [81]
+[83] [84]
 File: evaluation/graphics/Xamarin/Galaxy-APITest/BoxplotMotorsXamarinGalaxy-API
 Test.png Graphic file (type bmp)
 <evaluation/graphics/Xamarin/Galaxy-APITest/BoxplotMotorsXamarinGalaxy-APITest.
 png>
- [82]) (./chapters/05.03.Evaluacion-tiempo-lectura.tex [83]
+ [85]) (./chapters/05.03.Evaluacion-tiempo-lectura.tex [86]
 Overfull \hbox (32.91182pt too wide) in paragraph at lines 16--34
  [][] 
  []
 
 
-LaTeX Warning: Reference `fig:xamarin-galaxy-hist-flexor&imu-api' on page 84 un
+LaTeX Warning: Reference `fig:xamarin-galaxy-hist-flexor&imu-api' on page 87 un
 defined on input line 37.
 
 File: evaluation/graphics/Xamarin/Galaxy-APITest/HistFlexors&IMUXamarinGalaxy-A
@@ -1860,19 +1903,19 @@ File: evaluation/graphics/Xamarin/Galaxy-APITest/NormalQQFlexors&IMUXamarinGala
 xy-APITest.png Graphic file (type bmp)
 <evaluation/graphics/Xamarin/Galaxy-APITest/NormalQQFlexors&IMUXamarinGalaxy-AP
 ITest.png>
-[84] [85]
+[87] [88]
 File: evaluation/graphics/Xamarin/Galaxy-APITest/BoxplotFlexors&IMUXamarinGalax
 y-APITest.png Graphic file (type bmp)
 <evaluation/graphics/Xamarin/Galaxy-APITest/BoxplotFlexors&IMUXamarinGalaxy-API
 Test.png>
- [86]) (./chapters/05.04.Pruebas-concepto.tex)
-(./chapters/05.05.Resumen.tex) (./chapters/06.00.Conclusiones.tex [87]
+ [89]) (./chapters/05.04.Pruebas-concepto.tex)
+(./chapters/05.05.Resumen.tex) (./chapters/06.00.Conclusiones.tex [90]
 Cap\'itulo 6.
-) (./chapters/06.01.Objetivos.tex [88
+) (./chapters/06.01.Objetivos.tex [91
 
 ]
 
-LaTeX Warning: Reference `capitulo-evaluacion-tecnica' on page 89 undefined on 
+LaTeX Warning: Reference `capitulo-evaluacion-tecnica' on page 92 undefined on 
 input line 20.
 
 
@@ -1881,19 +1924,12 @@ Underfull \hbox (badness 6047) in paragraph at lines 23--24
 zando las herramientas de
  []
 
-[89]) (./chapters/06.02.Resultados-obtenidos.tex)
-(./chapters/06.03.Alcances-limitaciones.tex [90] [91])
+[92]) (./chapters/06.02.Resultados-obtenidos.tex)
+(./chapters/06.03.Alcances-limitaciones.tex [93] [94])
 (./chapters/06.04.Trabajo-futuro.tex
 Underfull \hbox (badness 1365) in paragraph at lines 6--7
 \TU/Arial(0)/m/n/10 de dispositivos Bluetooth. Luego desarrollar APIs que sopor
 ten otros lenguajes de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--12
-[][][]\TU/Arial(0)/m/n/8 Plataformas soportadas por Xamarin.Forms [][]$[][][][]
-[] [] [] [] [][][][][][] [] [][][] [] [][][][][][][] [] [][][][][][][] [] [][][
-][][] [] [][][][] []
  []
 
 
@@ -1902,17 +1938,17 @@ Underfull \hbox (badness 1314) in paragraph at lines 16--17
 dado que requiere
  []
 
-[92]) (./chapters/06.05.Observaciones-finales.tex) [93] (./finales/Glosario.tex
+[95]) (./chapters/06.05.Observaciones-finales.tex) [96] (./finales/Glosario.tex
 
 Underfull \hbox (badness 1019) in paragraph at lines 25--26
 \TU/Arial(0)/m/n/10 natural, generalmente a través de pantallas inmersivas mont
 adas en la cabeza y el
  []
 
-[94
+[97
 
 
-]) [95] (./tesis-usach.bbl
+]) [98] (./tesis-usach.bbl
 Underfull \hbox (badness 1014) in paragraph at lines 63--67
 []\TU/Arial(0)/m/n/10 Grigorik, I. (2013).  High performance browser networking
 : Websocket.  Recuperado de
@@ -1930,7 +1966,7 @@ Underfull \hbox (badness 4096) in paragraph at lines 101--106
 difference?  Recu-
  []
 
-[96
+[99
 
 
 ]
@@ -1992,33 +2028,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 199--203
 o de
  []
 
-) [97] (./finales/Anexo-1.tex
+) [100] (./finales/Anexo-1.tex
 Anexo A.
-) (./finales/Anexo-2.tex [98
+) (./finales/Anexo-2.tex [101
 
 
 ]
 Anexo B.
-) (./finales/Anexo-3.tex [99
+) (./finales/Anexo-3.tex [102
 
 ]
 Anexo C.
-) (./finales/Anexo-4.tex [100
+) (./finales/Anexo-4.tex [103
 
 ]
 Anexo D.
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 122.
- [101
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 147.
+ [104
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 122.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 147.
  (./tesis-usach.aux (./preliminares/cubierta.aux)
 (./preliminares/abstract.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 122.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 122.
-Package rerunfilecheck Info: File `tesis-usach.out' has not changed.
-(rerunfilecheck)             Checksum: AE2A405540D8E3997616F179DD4A2A22.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 147.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 147.
+
+
+Package rerunfilecheck Warning: File `tesis-usach.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `tesis-usach.out':
+(rerunfilecheck)             Before: 0FD7D5ECA56F8083FF78114E1B816FD1
+(rerunfilecheck)             After:  B4BF7D15D8B12C60DE91133F98CE463F.
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were undefined references.
@@ -2026,15 +2071,15 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 122.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 147.
  ) 
 Here is how much of TeX's memory you used:
- 28658 strings out of 492970
- 515870 string characters out of 6133938
- 710722 words of memory out of 5000000
- 32014 multiletter control sequences out of 15000+600000
+ 29144 strings out of 492970
+ 524198 string characters out of 6133938
+ 721615 words of memory out of 5000000
+ 32479 multiletter control sequences out of 15000+600000
  540684 words of font info for 86 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 51i,17n,67p,10414b,673s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,17n,87p,10414b,1246s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tesis-usach.pdf (112 pages).
+Output written on tesis-usach.pdf (115 pages).

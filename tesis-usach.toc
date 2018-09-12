@@ -51,65 +51,67 @@
 \contentsline {section}{\numberline {4.2}Estructura}{42}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Software de control Arduino}{42}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}API C\# de bajo nivel}{44}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}APIs alto nivel}{47}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.3}APIs de alto nivel}{47}{subsection.4.2.3}
 \contentsline {subsection}{\numberline {4.2.4}Aplicación de configuración}{48}{subsection.4.2.4}
 \contentsline {section}{\numberline {4.3}Comportamiento}{51}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Acciones sobre APIs de alto nivel}{51}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Acciones sobre servidor WebSocket}{52}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Acciones sobre instancias de OpenGloveDevice}{53}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Acciones sobre software de control Arduino}{54}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}Lectura de datos provenientes de Arduino}{54}{subsection.4.3.5}
-\contentsline {section}{\numberline {4.4}Aspectos de implementación}{56}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Desarrollo multiplataforma en Xamarin.Forms}{56}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}API C\# bajo nivel}{56}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Servidor WebSocket}{56}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}Software de configuración}{56}{subsection.4.4.4}
-\contentsline {subsection}{\numberline {4.4.5}APIs}{56}{subsection.4.4.5}
-\contentsline {subsubsection}{\numberline {4.4.5.1}Java}{56}{subsubsection.4.4.5.1}
-\contentsline {subsubsection}{\numberline {4.4.5.2}C\#}{56}{subsubsection.4.4.5.2}
-\contentsline {section}{\numberline {4.5}Resumen}{56}{section.4.5}
-\contentsline {chapter}{\numberline {5}Evaluación técnica y pruebas de concepto}{57}{chapter.5}
-\contentsline {section}{\numberline {5.1}Evaluación aplicaciones nativa y multiplataforma}{57}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Prototipo 3 : Droid - Galaxy}{58}{subsection.5.1.1}
-\contentsline {subsubsection}{\numberline {5.1.1.1}Motores}{58}{subsubsection.5.1.1.1}
-\contentsline {subsubsection}{\numberline {5.1.1.2}Flexores}{61}{subsubsection.5.1.1.2}
-\contentsline {subsection}{\numberline {5.1.2}Prototipo 4: Xamarin - Galaxy}{63}{subsection.5.1.2}
-\contentsline {subsubsection}{\numberline {5.1.2.1}Motores}{63}{subsubsection.5.1.2.1}
-\contentsline {subsubsection}{\numberline {5.1.2.2}Flexores}{66}{subsubsection.5.1.2.2}
-\contentsline {subsection}{\numberline {5.1.3}Prototipo 3 : Droid - Nexus}{68}{subsection.5.1.3}
-\contentsline {subsubsection}{\numberline {5.1.3.1}Motores}{68}{subsubsection.5.1.3.1}
-\contentsline {subsubsection}{\numberline {5.1.3.2}Flexores}{71}{subsubsection.5.1.3.2}
-\contentsline {subsection}{\numberline {5.1.4}Prototipo 4: Xamarin - Nexus}{73}{subsection.5.1.4}
-\contentsline {subsubsection}{\numberline {5.1.4.1}Motores}{73}{subsubsection.5.1.4.1}
-\contentsline {subsubsection}{\numberline {5.1.4.2}Flexores}{76}{subsubsection.5.1.4.2}
-\contentsline {section}{\numberline {5.2}Evaluación tiempo de activación usando APIs}{78}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}API C\#}{80}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}API Java}{83}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}Evaluación tiempo de lectura de datos usando APIs}{83}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}API C\#}{84}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}API Java}{87}{subsection.5.3.2}
-\contentsline {section}{\numberline {5.4}Pruebas de concepto}{87}{section.5.4}
-\contentsline {section}{\numberline {5.5}Resumen}{87}{section.5.5}
-\contentsline {chapter}{\numberline {6}Conclusiones}{88}{chapter.6}
-\contentsline {section}{\numberline {6.1}Objetivos}{88}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Objetivos específicos}{88}{subsection.6.1.1}
-\contentsline {subsubsection}{\numberline {6.1.1.1}Desarrollar la aplicación de configuración de OpenGlove en Android. Permitiendo la creación, visualización, actualización y eliminación de los perfiles de configuración:}{88}{subsubsection.6.1.1.1}
-\contentsline {subsubsection}{\numberline {6.1.1.2}Desarrollar APIs en Java y C\# que permitan la administración de dispositivos Bluetooth en segundo plano en Android permitiendo la conexión, desconexión, activación y listado de guantes OpenGlove. También permitirá la activación y control de actuadores, flexores e IMU}{89}{subsubsection.6.1.1.2}
-\contentsline {subsubsection}{\numberline {6.1.1.3}Realizar evaluaciones de rendimiento para las APIs Java y C\# :}{89}{subsubsection.6.1.1.3}
-\contentsline {subsubsection}{\numberline {6.1.1.4}Demostrar el uso del SDK en un ambiente de VR, AR o MR, utilizando las APIs desarrolladas:}{89}{subsubsection.6.1.1.4}
-\contentsline {subsection}{\numberline {6.1.2}Objetivo general}{90}{subsection.6.1.2}
-\contentsline {section}{\numberline {6.2}Resultados obtenidos}{90}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Desarrollo de software}{90}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Resultados de las pruebas}{90}{subsection.6.2.2}
-\contentsline {section}{\numberline {6.3}Alcances y limitaciones}{91}{section.6.3}
-\contentsline {section}{\numberline {6.4}Trabajo futuro}{92}{section.6.4}
-\contentsline {section}{\numberline {6.5}Observaciones finales}{93}{section.6.5}
-\contentsline {chapter}{Glosario}{94}{section.6.5}
-\contentsline {chapter}{Referencias bibliogr\'aficas}{96}{chapter*.86}
-\contentsline {chapter}{Anexos}{98}{chapter*.87}
-\contentsline {chapter}{\numberline {A} Low Level Communication Protocol}{98}{chapter.1}
-\contentsline {chapter}{\numberline {B}High Level Communication Protocol}{99}{chapter.2}
-\contentsline {chapter}{\numberline {C}High Level OpenGlove APIs Reference}{100}{chapter.3}
-\contentsline {section}{\numberline {C.1}C\# API}{100}{section.3.1}
-\contentsline {section}{\numberline {C.2}Java API}{100}{section.3.2}
-\contentsline {chapter}{\numberline {D}Proof of concepts}{101}{chapter.4}
+\contentsline {subsection}{\numberline {4.3.1}Métodos aplicados sobre cliente WebSocket}{52}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Métodos aplicados sobre servidor WebSocket}{52}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Métodos aplicados sobre instancias de OpenGloveDevice}{53}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Métodos aplicados sobre el software de control Arduino}{55}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}Lectura de mensajes provenientes de Arduino}{56}{subsection.4.3.5}
+\contentsline {subsection}{\numberline {4.3.6}Lectura del estado de conexión del dispositivo Bluetooth}{58}{subsection.4.3.6}
+\contentsline {subsection}{\numberline {4.3.7}Lectura de mensajes provenientes del cliente WebSocket}{58}{subsection.4.3.7}
+\contentsline {section}{\numberline {4.4}Aspectos de implementación}{59}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Desarrollo multiplataforma en Xamarin.Forms}{59}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}API C\# bajo nivel}{59}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Servidor WebSocket}{59}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}Software de configuración}{59}{subsection.4.4.4}
+\contentsline {subsection}{\numberline {4.4.5}APIs}{59}{subsection.4.4.5}
+\contentsline {subsubsection}{\numberline {4.4.5.1}Java}{59}{subsubsection.4.4.5.1}
+\contentsline {subsubsection}{\numberline {4.4.5.2}C\#}{59}{subsubsection.4.4.5.2}
+\contentsline {section}{\numberline {4.5}Resumen}{59}{section.4.5}
+\contentsline {chapter}{\numberline {5}Evaluación técnica y pruebas de concepto}{60}{chapter.5}
+\contentsline {section}{\numberline {5.1}Evaluación aplicaciones nativa y multiplataforma}{60}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Prototipo 3 : Droid - Galaxy}{61}{subsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.1.1}Motores}{61}{subsubsection.5.1.1.1}
+\contentsline {subsubsection}{\numberline {5.1.1.2}Flexores}{64}{subsubsection.5.1.1.2}
+\contentsline {subsection}{\numberline {5.1.2}Prototipo 4: Xamarin - Galaxy}{66}{subsection.5.1.2}
+\contentsline {subsubsection}{\numberline {5.1.2.1}Motores}{66}{subsubsection.5.1.2.1}
+\contentsline {subsubsection}{\numberline {5.1.2.2}Flexores}{69}{subsubsection.5.1.2.2}
+\contentsline {subsection}{\numberline {5.1.3}Prototipo 3 : Droid - Nexus}{71}{subsection.5.1.3}
+\contentsline {subsubsection}{\numberline {5.1.3.1}Motores}{71}{subsubsection.5.1.3.1}
+\contentsline {subsubsection}{\numberline {5.1.3.2}Flexores}{74}{subsubsection.5.1.3.2}
+\contentsline {subsection}{\numberline {5.1.4}Prototipo 4: Xamarin - Nexus}{76}{subsection.5.1.4}
+\contentsline {subsubsection}{\numberline {5.1.4.1}Motores}{76}{subsubsection.5.1.4.1}
+\contentsline {subsubsection}{\numberline {5.1.4.2}Flexores}{79}{subsubsection.5.1.4.2}
+\contentsline {section}{\numberline {5.2}Evaluación tiempo de activación usando APIs}{81}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}API C\#}{83}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}API Java}{86}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Evaluación tiempo de lectura de datos usando APIs}{86}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}API C\#}{87}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}API Java}{90}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}Pruebas de concepto}{90}{section.5.4}
+\contentsline {section}{\numberline {5.5}Resumen}{90}{section.5.5}
+\contentsline {chapter}{\numberline {6}Conclusiones}{91}{chapter.6}
+\contentsline {section}{\numberline {6.1}Objetivos}{91}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Objetivos específicos}{91}{subsection.6.1.1}
+\contentsline {subsubsection}{\numberline {6.1.1.1}Desarrollar la aplicación de configuración de OpenGlove en Android. Permitiendo la creación, visualización, actualización y eliminación de los perfiles de configuración:}{91}{subsubsection.6.1.1.1}
+\contentsline {subsubsection}{\numberline {6.1.1.2}Desarrollar APIs en Java y C\# que permitan la administración de dispositivos Bluetooth en segundo plano en Android permitiendo la conexión, desconexión, activación y listado de guantes OpenGlove. También permitirá la activación y control de actuadores, flexores e IMU}{92}{subsubsection.6.1.1.2}
+\contentsline {subsubsection}{\numberline {6.1.1.3}Realizar evaluaciones de rendimiento para las APIs Java y C\# :}{92}{subsubsection.6.1.1.3}
+\contentsline {subsubsection}{\numberline {6.1.1.4}Demostrar el uso del SDK en un ambiente de VR, AR o MR, utilizando las APIs desarrolladas:}{92}{subsubsection.6.1.1.4}
+\contentsline {subsection}{\numberline {6.1.2}Objetivo general}{93}{subsection.6.1.2}
+\contentsline {section}{\numberline {6.2}Resultados obtenidos}{93}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Desarrollo de software}{93}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Resultados de las pruebas}{93}{subsection.6.2.2}
+\contentsline {section}{\numberline {6.3}Alcances y limitaciones}{94}{section.6.3}
+\contentsline {section}{\numberline {6.4}Trabajo futuro}{95}{section.6.4}
+\contentsline {section}{\numberline {6.5}Observaciones finales}{96}{section.6.5}
+\contentsline {chapter}{Glosario}{97}{section.6.5}
+\contentsline {chapter}{Referencias bibliogr\'aficas}{99}{chapter*.93}
+\contentsline {chapter}{Anexos}{101}{chapter*.94}
+\contentsline {chapter}{\numberline {A} Low Level Communication Protocol}{101}{chapter.1}
+\contentsline {chapter}{\numberline {B}High Level Communication Protocol}{102}{chapter.2}
+\contentsline {chapter}{\numberline {C}High Level OpenGlove APIs Reference}{103}{chapter.3}
+\contentsline {section}{\numberline {C.1}C\# API}{103}{section.3.1}
+\contentsline {section}{\numberline {C.2}Java API}{103}{section.3.2}
+\contentsline {chapter}{\numberline {D}Proof of concepts}{104}{chapter.4}
