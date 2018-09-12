@@ -32,6 +32,8 @@
 
 % END: For add C sharp code style
 
+\newcommand\tab[1][1cm]{\hspace*{#1}} % for \tab command
+
 \begin{document}
 \baselineskip 23pt
 \frontmatter								% Utiliza numeración romana
@@ -62,7 +64,7 @@
 
 \listoftables							%% Indice de tablas
 \listoffigures							%% Indice de figuras
-%\listofalgorithms						%% Indice de algoritmos (Optativo: En caso de poseer algoritmos)
+\listofalgorithms						%% Indice de algoritmos (Optativo: En caso de poseer algoritmos)
 \AtBeginEnvironment{algorithmic}{\setstretch{1.5}} % Interlineado de los algoritmos
 } % end \setstretch{1.0}
 

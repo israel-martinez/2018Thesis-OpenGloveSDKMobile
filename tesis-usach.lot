@@ -2,34 +2,34 @@
 \babel@toc {english}{}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Comparación SDK de distintos Guantes}}{14}{table.caption.8}
+\contentsline {table}{\numberline {2.1}{\ignorespaces Comparación SDK de distintos Guantes}}{14}{table.caption.9}
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {3.1}{\ignorespaces Requisitos funcionales de software}}{20}{table.3.1}
-\contentsline {table}{\numberline {3.2}{\ignorespaces Requisitos no funcionales de software}}{25}{table.caption.14}
-\contentsline {table}{\numberline {3.3}{\ignorespaces Primer prototipo: activación de motores}}{26}{table.caption.15}
-\contentsline {table}{\numberline {3.4}{\ignorespaces Segundo prototipo: obtención de datos desde flexores}}{27}{table.caption.17}
-\contentsline {table}{\numberline {3.5}{\ignorespaces Tercer prototipo: activación de motores y obtención de datos desde flexores}}{29}{table.caption.19}
-\contentsline {table}{\numberline {3.6}{\ignorespaces Cuarto prototipo}}{30}{table.caption.21}
-\contentsline {table}{\numberline {3.7}{\ignorespaces Quinto prototipo}}{33}{table.caption.23}
-\contentsline {table}{\numberline {3.8}{\ignorespaces Sexto prototipo}}{35}{table.caption.25}
-\contentsline {table}{\numberline {3.9}{\ignorespaces Matriz de prototipos de software vs requisitos funcionales}}{39}{table.caption.27}
-\contentsline {table}{\numberline {3.10}{\ignorespaces Matriz de prototipos de software vs requisitos no funcionales}}{39}{table.caption.28}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Requisitos no funcionales de software}}{25}{table.caption.15}
+\contentsline {table}{\numberline {3.3}{\ignorespaces Primer prototipo: activación de motores}}{26}{table.caption.16}
+\contentsline {table}{\numberline {3.4}{\ignorespaces Segundo prototipo: obtención de datos desde flexores}}{27}{table.caption.18}
+\contentsline {table}{\numberline {3.5}{\ignorespaces Tercer prototipo: activación de motores y obtención de datos desde flexores}}{29}{table.caption.20}
+\contentsline {table}{\numberline {3.6}{\ignorespaces Cuarto prototipo}}{30}{table.caption.22}
+\contentsline {table}{\numberline {3.7}{\ignorespaces Quinto prototipo}}{33}{table.caption.24}
+\contentsline {table}{\numberline {3.8}{\ignorespaces Sexto prototipo}}{35}{table.caption.26}
+\contentsline {table}{\numberline {3.9}{\ignorespaces Matriz de prototipos de software vs requisitos funcionales}}{39}{table.caption.28}
+\contentsline {table}{\numberline {3.10}{\ignorespaces Matriz de prototipos de software vs requisitos no funcionales}}{39}{table.caption.29}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Descripción de la estructura software de control Arduino}}{44}{table.caption.32}
-\contentsline {table}{\numberline {4.2}{\ignorespaces Descripción del diagrama de clases API C\# de bajo nivel}}{46}{table.caption.34}
-\contentsline {table}{\numberline {4.3}{\ignorespaces Descripción del diagrama de clases APIs de alto nivel}}{48}{table.caption.37}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Descripción de la estructura software de control Arduino}}{44}{table.caption.33}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Descripción del diagrama de clases API C\# de bajo nivel}}{46}{table.caption.35}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Descripción del diagrama de clases APIs de alto nivel}}{48}{table.caption.38}
 \contentsline {table}{\numberline {4.4}{\ignorespaces Descripción del diagrama de clases aplicación de configuración}}{49}{table.4.4}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Resumen de los resultados de los tiempos de activación de motor Droid-Galaxy}}{63}{table.caption.53}
-\contentsline {table}{\numberline {5.2}{\ignorespaces Resumen de los resultados de los tiempos de lectura de flexores Droid-Galaxy}}{67}{table.caption.57}
-\contentsline {table}{\numberline {5.3}{\ignorespaces Resumen de los resultados de los tiempos de activación de motores Xamarin-Galaxy}}{68}{table.caption.61}
-\contentsline {table}{\numberline {5.4}{\ignorespaces Resumen de los resultados de los tiempos de lectura de flexores Xamarin-Galaxy}}{71}{table.caption.65}
-\contentsline {table}{\numberline {5.5}{\ignorespaces Resumen de los resultados de los tiempos de activación de motores Droid-Nexus}}{73}{table.caption.69}
-\contentsline {table}{\numberline {5.6}{\ignorespaces Resumen de los resultados de los tiempos de lectura de flexores Droid-Nexus}}{76}{table.caption.73}
-\contentsline {table}{\numberline {5.7}{\ignorespaces Resumen de los resultados de los tiempos de activación de motores Xamarin-Nexus}}{78}{table.caption.77}
-\contentsline {table}{\numberline {5.8}{\ignorespaces Resumen de los resultados de los tiempos de lectura de flexores Xamarin-Nexus}}{81}{table.caption.81}
-\contentsline {table}{\numberline {5.9}{\ignorespaces Resumen resultados de los tiempos de activación usando API C\#}}{85}{table.caption.87}
-\contentsline {table}{\numberline {5.10}{\ignorespaces Resumen resultados de pruebas de lectura flexores e IMU usando API C\#}}{89}{table.caption.91}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Resumen de los resultados de los tiempos de activación de motor Droid-Galaxy}}{64}{table.caption.47}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Resumen de los resultados de los tiempos de lectura de flexores Droid-Galaxy}}{68}{table.caption.51}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Resumen de los resultados de los tiempos de activación de motores Xamarin-Galaxy}}{69}{table.caption.55}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Resumen de los resultados de los tiempos de lectura de flexores Xamarin-Galaxy}}{72}{table.caption.59}
+\contentsline {table}{\numberline {5.5}{\ignorespaces Resumen de los resultados de los tiempos de activación de motores Droid-Nexus}}{74}{table.caption.63}
+\contentsline {table}{\numberline {5.6}{\ignorespaces Resumen de los resultados de los tiempos de lectura de flexores Droid-Nexus}}{77}{table.caption.67}
+\contentsline {table}{\numberline {5.7}{\ignorespaces Resumen de los resultados de los tiempos de activación de motores Xamarin-Nexus}}{79}{table.caption.71}
+\contentsline {table}{\numberline {5.8}{\ignorespaces Resumen de los resultados de los tiempos de lectura de flexores Xamarin-Nexus}}{82}{table.caption.75}
+\contentsline {table}{\numberline {5.9}{\ignorespaces Resumen resultados de los tiempos de activación usando API C\#}}{86}{table.caption.81}
+\contentsline {table}{\numberline {5.10}{\ignorespaces Resumen resultados de pruebas de lectura flexores e IMU usando API C\#}}{90}{table.caption.85}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

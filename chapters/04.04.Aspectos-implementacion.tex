@@ -2,17 +2,80 @@
 
 
 \subsection{Desarrollo multiplataforma en Xamarin.Forms}
-De los resultados de la comparación en la Sección \ref{section:native-vs-crossplartform} entre desarrollo nativo en Android con Android Studio y  Android con Xamarin.Forms, se obtuvo que los rendimientos no eran muy diferentes entre si, por tanto, se optó por el uso de Xamarin.Forms, ya que provee soporte multiplataforma y permite que el proyecto pueda ser utilizado en otras plataformas en un futuro, utilizando las APIs y bibliotecas nativas que permitan comunicación tanto Bluetooth como WebSocket.
+De los resultados de la comparación en la Sección \ref{section:native-vs-crossplartform}, entre desarrollo nativo en Android con Android Studio y  Android con Xamarin.Forms, se obtuvo que los rendimientos no eran muy diferentes entre si, por tanto, se optó por el uso de Xamarin.Forms, ya que provee soporte multiplataforma y permite que el proyecto pueda ser utilizado en otras plataformas en un futuro, utilizando las APIs y bibliotecas nativas que permitan comunicación tanto Bluetooth como WebSocket.
 
 
 
 
 \subsection{API C\# bajo nivel}
-En la Sección \ref{subseccion-estructura-api-ll}, se detalla sobre la estructura de OpenGloveDevice que corresponde a la API de bajo nivel C\#. Respecto a la implementación, se debe mencionar el uso de \textit{DependencyService}\footnote{DependencyService: \url{https://docs.microsoft.com/en-us/xamarin/xamarin-forms/app-fundamentals/dependency-service/introduction}} de Xamarin.Forms, el cual permite realizar diferentes implementaciones de una interfaz referenciada en el proyecto principal, a los demás proyectos asociados (iOS, Android, UWP, etc.). Para ello se requiere la declaración de una interfaz en el código compartido (proyecto principal), segundo, realizar una implementación de la interfaz en cada proyecto por plataforma, cada implementación debe ser registrada en \textit{DependencyService} para que esta sea cargada en tiempo de ejecución. Finalmente en el código compartido, se debe llamar explícitamente a \textit{DependencyService} para hacer uso de ella.
+En la Sección \ref{subseccion-estructura-api-ll}, se detalla sobre la estructura de OpenGloveDevice que corresponde a la API de bajo nivel C\#. Respecto a la implementación, se debe mencionar el uso de \textit{DependencyService}\footnote{DependencyService: \url{https://docs.microsoft.com/en-us/xamarin/xamarin-forms/app-fundamentals/dependency-service/introduction}} de Xamarin.Forms, el cual permite realizar diferentes implementaciones de una interfaz referenciada en el proyecto principal, a los demás proyectos asociados (iOS, Android, UWP, etc.). Para ello se requiere la declaración de una interfaz en el código compartido (proyecto principal), segundo, realizar una implementación de la interfaz en cada proyecto por plataforma, cada implementación debe ser registrada en \textit{DependencyService} para que esta sea cargada en tiempo de ejecución. Finalmente en el código compartido, se debe llamar explícitamente a \textit{DependencyService} para hacer uso de ella. El Código \ref{code:implementation-csharp-ll} muestra esta implementación, utilizando como ejemplo el método Write, que permite la escritura  en el socket serial Bluetooth.
+
+
+\begin{algorithm}[!ht]
+  \begin{center}
+   	\captionsetup{justification=centering}
+    \caption[Implementación ICommunication en diferentes plataformas]{Implementación ICommunication en diferentes plataformas
+    \\ \tab[4cm] Fuente: Elaboración propia (2018)}
+    \label{code:implementation-csharp-ll}
+  \end{center}
+  \begin{lstlisting}
+	// On OpenGloveApp main project
+    public interface ICommunication
+    {
+        List<BluetoothDevices> GetAllPairedDevices();
+        void OpenDeviceConnection(string bluetoothDeviceName);
+        void CloseDeviceConnection();
+        void Write(string message);
+        string ReadLine();
+    }
+    
+    // On OpenGloveApp.Android project
+    [assembly: Xamarin.Forms.Dependency(typeof(Communication))]
+	namespace OpenGloveApp.Droid.Bluetooth
+	{
+	    public class Communication : ICommunication
+	    {
+       	 	//... More code ...
+	    		public void Write(string message)
+        		{
+            		if (mBluetoothManagementThread != null)
+                		if (mBluetoothManagementThread.IsAlive)
+                    		mBluetoothManagementThread.Write(message);
+        		}		
+       	  //... More code ...
+       	  
+    // On OpenGloveApp.iOS project
+    [assembly: Xamarin.Forms.Dependency(typeof(Communication))]
+	namespace OpenGloveApp.iOS.Bluetooth
+	{
+		public class Communication : ICommunication
+    		{
+        		//...More code ...
+        		public void Write(string message)
+	        	{
+    	        		throw new NotImplementedException();
+        		}
+        		//... More code ...
+
+   // Call Dependency Service on Shared Code, and use the methods
+    public class LegacyOpenGlove
+    {
+        public ICommunication communication = DependencyService.Get<ICommunication>();        
+        //...More code ...
+        public void ActivateMotor(IEnumerable<int> pins, IEnumerable<string> values)
+        {
+            string message = messageGenerator.ActivateMotor(pins, values);
+            communication.Write(message);
+        }
+        //...More code ...
+   
+   
+\end{lstlisting}
+\end{algorithm}
 
 
 \subsection{Servidor WebSocket}
-
+Para incluir un servidor WebSocket a la aplicación de configuración, se utilizó la biblioteca Fleck, ya que esta mostró compatibilidad al agregarlos a los proyectos principal, iOS y Android de Xamarin.Forms. Con esto se logró establecer un punto de acceso a la aplicación de configuración, permitiendo que cualquier lenguaje de programación soportado en la plataforma destino y que permita el uso de WebSocket bajo el estándar RFC 6455.
 
 
 

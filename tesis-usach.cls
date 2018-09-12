@@ -89,9 +89,9 @@
 % Tabla de contenidos
 \RequirePackage[nottoc,notlot,notlof,notbib]{tocbibind}
 
-%--------Algoritmos
+%--------Código
 \RequirePackage[ruled,algochapter,linesnumbered]{algorithm2e}
-\renewcommand{\algorithmcfname}{Algoritmo}
+\renewcommand{\algorithmcfname}{Código}
 \RequirePackage{algorithmic}
 \setlength{\algomargin}{1.5em}
 \renewcommand{\algorithmicrequire}{\textbf{Entrada:}}
@@ -276,7 +276,7 @@
 \renewcommand{\contentsname}{\centerline{Tabla de contenido}}
 \renewcommand{\listtablename}{\centerline{\'Indice de tablas}}
 \renewcommand{\listfigurename}{\centerline{\'Indice de ilustraciones}}
-\renewcommand{\listalgorithmcfname}{\centerline{\'Indice de algoritmos}}
+\renewcommand{\listalgorithmcfname}{\centerline{\'Indice de código}}
 
 \renewcommand{\bibname}{Referencias bibliogr\'aficas}
 

@@ -9,20 +9,21 @@ A continuación se describe el comportamiento general de los métodos disponible
 \subsection{Métodos aplicados sobre cliente WebSocket}
 \label{subsection:method-websocket-client}
 
-Los métodos que pueden ser aplicados sobre el cliente WebSocket se muestran en la Figura \ref{fig:methods-0-api-hl}. Estos métodos son ejecutados por la aplicación que utiliza una instancia de OpenGlove, realizando la acción sobre el cliente WebSocket. Esto se detalla en el diagrama de actividades de la Figura \ref{fig:activity-diagrams-0-api-hl}. Adicionalmente, en el caso que se logre la conexión con el servidor WebSocket, el evento OnOpen del cliente es invocado. Cuando se invoca ese evento, se agrega la instancia OpenGlove al servidor  y se inicia la captura de datos. Eso se realizó utilizando los métodos AddOpenGloveDeviceToServer y StartCaptureDataFromServer respectivamente. El comportamiento de estos dos métodos mencionados se incluyen en la Subsección \ref{subsection:method-websocket-server}.
+Los métodos que pueden ser aplicados sobre el cliente WebSocket se muestran en el Código \ref{fig:methods-0-api-hl}. Estos métodos son ejecutados por la aplicación que utiliza una instancia de OpenGlove, realizando la acción sobre el cliente WebSocket. Esto se detalla en el diagrama de actividades de la Figura \ref{fig:activity-diagrams-0-api-hl}. Adicionalmente, en el caso que se logre la conexión con el servidor WebSocket, el evento OnOpen del cliente es invocado. Cuando se invoca ese evento, se agrega la instancia OpenGlove al servidor  y se inicia la captura de datos. Eso se realizó utilizando los métodos AddOpenGloveDeviceToServer y StartCaptureDataFromServer respectivamente. El comportamiento de estos dos métodos mencionados se incluyen en la Subsección \ref{subsection:method-websocket-server}.
 
-\begin{figure}[H]
-  \begin{center} 
+\begin{algorithm}[!ht]
+   \captionsetup{justification=centering}
+   \begin{center}
+    \caption[Métodos aplicados sobre el cliente WebSocket]{Métodos aplicados sobre el cliente WebSocket \\ \tab[4cm] Fuente:
+     Elaboración propia (2018)}
+    \end{center}
+    \label{fig:methods-0-api-hl}
       \begin{lstlisting}
 	// OpenGloveActions: OpenGlove High level API (WebSocketClient)
 	public void ConnectToWebSocketServer();
 	public void DisconnectFromWebSocketServer();
 	\end{lstlisting}
-   \captionsetup{justification=centering}
-    \caption[Métodos aplicados sobre el cliente WebSocket]{Métodos aplicados sobre el cliente WebSocket \\Fuente: Elaboración propia (2018)}
-    \label{fig:methods-0-api-hl}
-  \end{center}
-\end{figure}
+\end{algorithm}
 
 
 
@@ -40,13 +41,17 @@ Los métodos que pueden ser aplicados sobre el cliente WebSocket se muestran en 
 
 \subsection{Métodos aplicados sobre servidor WebSocket}
 \label{subsection:method-websocket-server}
-Los métodos que pueden ser aplicados sobre el servidor WebSocket se muestran en la Figura \ref{fig:methods-1-websocket-server}. Estos métodos son ejecutados por la aplicación que utiliza una instancia de OpenGlove, realizando la acción sobre el servidor WebSocket, pasando por la capa intermedia del cliente WebSocket. El comportamiento de estos métodos se aprecia en el diagrama de actividades de la Figura \ref{fig:activity-diagrams-1-websocket-server}.
+Los métodos que pueden ser aplicados sobre el servidor WebSocket se muestran en el Código \ref{fig:methods-1-websocket-server}. Estos métodos son ejecutados por la aplicación que utiliza una instancia de OpenGlove, realizando la acción sobre el servidor WebSocket, pasando por la capa intermedia del cliente WebSocket. El comportamiento de estos métodos se aprecia en el diagrama de actividades de la Figura \ref{fig:activity-diagrams-1-websocket-server}.
 
 
 
 
-\begin{figure}[H]
+\begin{algorithm}[!ht]
   \begin{center} 
+   \captionsetup{justification=centering}
+    \caption[Métodos aplicados sobre el servidor WebSocket]{Métodos aplicados sobre el servidor WebSocket \\ \tab[4cm] Fuente: Elaboración propia (2018)}
+    \label{fig:methods-1-websocket-server}
+  \end{center}
 \begin{lstlisting}
 // OpenGloveActions: WebSocket Server
 public void AddOpenGloveDeviceToServer();
@@ -55,11 +60,7 @@ public void SaveOpenGloveConfiguration();
 public void StartCaptureDataFromServer();
 public void StopCaptureDataFromServer();
 \end{lstlisting}
-   \captionsetup{justification=centering}
-    \caption[Métodos aplicados sobre el servidor WebSocket]{Métodos aplicados sobre el servidor WebSocket \\Fuente: Elaboración propia (2018)}
-    \label{fig:methods-1-websocket-server}
-  \end{center}
-\end{figure}
+\end{algorithm}
 
 
 \begin{figure}[H]
@@ -77,12 +78,16 @@ public void StopCaptureDataFromServer();
 
 \subsection{Métodos aplicados sobre instancias de OpenGloveDevice}
 \label{subsection:method-openglove-device}
-Los métodos que pueden ser aplicados sobre la instancia de la clase OpenGloveDevice en el servidor WebSocket se muestran en la Figura \ref{fig:methods-2-openglove-device}. Estos métodos son ejecutados por la aplicación que utiliza una instancia de OpenGlove, realizando la acción sobre la instancia de OpenGloveDevice en el servidor WebSocket, pasando por las capas intermedias del cliente y el servidor WebSocket. El comportamiento de estos métodos se puede apreciar en el diagrama de actividades de la Figura \ref{fig:activity-diagrams-2-openglove-device}.
+Los métodos que pueden ser aplicados sobre la instancia de la clase OpenGloveDevice en el servidor WebSocket se muestran en el Código \ref{fig:methods-2-openglove-device}. Estos métodos son ejecutados por la aplicación que utiliza una instancia de OpenGlove, realizando la acción sobre la instancia de OpenGloveDevice en el servidor WebSocket, pasando por las capas intermedias del cliente y el servidor WebSocket. El comportamiento de estos métodos se puede apreciar en el diagrama de actividades de la Figura \ref{fig:activity-diagrams-2-openglove-device}.
 
 
-\begin{figure}[H]
+\begin{algorithm}[!ht]
   \begin{center} 
-\begin{lstlisting}
+   	\captionsetup{justification=centering}
+    \caption[Métodos aplicados sobre instancias de OpenGloveDevice]{Métodos aplicados sobre instancias de OpenGloveDevice\\ \tab[4cm] Fuente: Elaboración propia (2018)}
+    \label{fig:methods-2-openglove-device}
+  \end{center}
+  \begin{lstlisting}
 // OpenGloveActions: OpenGlove Instances
 public void ConnectToBluetoothDevice();
 public void DisconnectFromBluetoothDevice();
@@ -96,11 +101,7 @@ public void SetRawData(bool status);
 public void SetIMUChoosingData(int value);
 public void SetLoopDelay(int value);
 \end{lstlisting}
-   	\captionsetup{justification=centering}
-    \caption[Métodos aplicados sobre instancias de OpenGloveDevice]{Métodos aplicados sobre instancias de OpenGloveDevice\\Fuente: Elaboración propia (2018)}
-    \label{fig:methods-2-openglove-device}
-  \end{center}
-\end{figure}
+\end{algorithm}
 
 \begin{figure}[H]
   \begin{center} 
@@ -115,12 +116,16 @@ public void SetLoopDelay(int value);
 
 \subsection{Métodos aplicados sobre el software de control Arduino}
 \label{subsection:method-openglove-arduino}
-Los métodos que pueden ser aplicados sobre el software de control Arduino se muestran en la Figura \ref{fig:methods-3-openglove-arduino}. Estos métodos son ejecutados por la aplicación que utiliza una instancia de OpenGlove, realizando la acción sobre el software de control Arduino. Estos métodos generan cambios en el dispositivo Arduino. Para realizar la acción se pasa por las capas intermedias del cliente, el servidor WebSocket y la instancia de OpenGloveDevice que administra la conexión con Arduino. El comportamiento de estos métodos se puede apreciar en el diagrama de actividades de la Figura \ref{fig:activity-diagrams-3-openglove-arduino}.
+Los métodos que pueden ser aplicados sobre el software de control Arduino se muestran en el Código \ref{fig:methods-3-openglove-arduino}. Estos métodos son ejecutados por la aplicación que utiliza una instancia de OpenGlove, realizando la acción sobre el software de control Arduino. Estos métodos generan cambios en el dispositivo Arduino. Para realizar la acción se pasa por las capas intermedias del cliente, el servidor WebSocket y la instancia de OpenGloveDevice que administra la conexión con Arduino. El comportamiento de estos métodos se puede apreciar en el diagrama de actividades de la Figura \ref{fig:activity-diagrams-3-openglove-arduino}.
 
 
-\begin{figure}[H]
+\begin{algorithm}[!ht]
   \begin{center} 
-\begin{lstlisting}
+   	\captionsetup{justification=centering}
+    \caption[Métodos aplicados sobre el software de control Arduino]{Métodos aplicados sobre el software de control Arduino\\ \tab[4cm] Fuente: Elaboración propia (2018)}
+    \label{fig:methods-3-openglove-arduino}
+  \end{center}
+  \begin{lstlisting}
 // OpenGloveActions: Software of Control Arduino
 public void Start();
 public void Stop();
@@ -148,11 +153,7 @@ public void TurnOnIMU();
 public void TurnOffIMU();
 public void GetOpenGloveArduinoVersionSoftware();
 \end{lstlisting}
-   	\captionsetup{justification=centering}
-    \caption[Métodos aplicados sobre el software de control Arduino]{Métodos aplicados sobre el software de control Arduino\\Fuente: Elaboración propia (2018)}
-    \label{fig:methods-3-openglove-arduino}
-  \end{center}
-\end{figure}
+\end{algorithm}
 
 
 
@@ -168,11 +169,15 @@ public void GetOpenGloveArduinoVersionSoftware();
 
 \subsection{Escuchando mensajes provenientes de Arduino}
 \label{subsection:reading-openglove-arduino}
-Este comportamiento ocurre cuando se ha inicializado por lo menos un flexor y/o se ha inicializado e iniciado la IMU. La Figura \ref{fig:methods-4-listening-arduino}, muestra el formato de los métodos que deben ser implementados por los objetos que utilicen instancias de la clase OpenGlove. El comportamiento de estos métodos se aprecia en el Diagrama de actividades de la Figura \ref{fig:activity-diagrams-4-ListeningMessagesFromArduino}
+Este comportamiento ocurre cuando se ha inicializado por lo menos un flexor y/o se ha inicializado e iniciado la IMU. El código \ref{fig:methods-4-listening-arduino}, muestra el formato de los métodos que deben ser implementados por los objetos que utilicen instancias de la clase OpenGlove. El comportamiento de estos métodos se aprecia en el Diagrama de actividades de la Figura \ref{fig:activity-diagrams-4-ListeningMessagesFromArduino}
 
-\begin{figure}[H]
+\begin{algorithm}[!ht]
   \begin{center}
-\begin{lstlisting}
+   	\captionsetup{justification=centering}
+    \caption[Escuchando mensajes provenientes de Arduino]{Escuchando mensajes provenientes de Arduino\\ \tab[4cm] Fuente: Elaboración propia (2018)}
+    \label{fig:methods-4-listening-arduino}
+  \end{center}
+  \begin{lstlisting}
 // OpenGloveActions: Listening messages from Arduino Control Software
 // For use in API C#: subcribe to event with your own method
 // For use in API Java: implements public interface with lambdas or method references
@@ -186,17 +191,13 @@ public void OnAttitudeValuesReceived(float pitch, float roll, float yaw);
 public void OnAllIMUValuesReceived(float ax, float ay, float az, float gx, float gy, float gz, float mx, float my, float mz);
 public void OnInfoMessagesReceived(string message);
 \end{lstlisting}
-   	\captionsetup{justification=centering}
-    \caption[Lectura de mensajes provenientes de Arduino]{Lectura de mensajes provenientes de Arduino\\Fuente: Elaboración propia (2018)}
-    \label{fig:methods-4-listening-arduino}
-  \end{center}
-\end{figure}
+\end{algorithm}
 
 \begin{figure}[H]
   \begin{center} 
    	\includegraphics[width=1.0\textwidth]{images/chapter04/ActivityDiagrams-ListeningMessagesFromArduino.png} 
    	\captionsetup{justification=centering}
-    \caption[Diagrama de actividades de la lectura de mensajes provenientes de Arduino]{Diagrama de actividades de la lectura de mensajes provenientes de Arduino\\Fuente: Elaboración propia (2018)}
+    \caption[Diagrama de actividades cuando se escuchan mensajes provenientes de Arduino]{Diagrama de actividades cuando se escuchan mensajes provenientes de Arduino\\Fuente: Elaboración propia (2018)}
     \label{fig:activity-diagrams-4-ListeningMessagesFromArduino}
   \end{center}
 \end{figure}
@@ -206,25 +207,25 @@ public void OnInfoMessagesReceived(string message);
 
 Para actualizar el estado de la conexión Bluetooth en las APIs de alto nivel, el hilo que administra dicha conexión, debe enviar  actualizaciones del estado de conexión o desconexión con los dispositivos. Cuando el estado del socket está conectado se envía un mensaje  \textit{``b,True"}  y cuando no, se envía \textit{``b,False"}. La Figura \ref{fig:methods-5-listening-bluetoothdevice-state}, muestra el método que se debe implementar para obtener los cambios de estado de la conexión Bluetooth.  El comportamiento de activación de estos métodos se puede apreciar en el diagrama de actividades de la Figura \ref{fig:activity-diagrams-5-listening-bluetoothdevice-state}.
 
-\begin{figure}[H]
+\begin{algorithm}[!ht]
   \begin{center}
-\begin{lstlisting}
+   	\captionsetup{justification=centering}
+    \caption[Escuchando el estado de conexión del dispositivo Bluetooth]{Escuchando el estado de conexión del dispositivo Bluetooth\\ \tab[4cm] Fuente: Elaboración propia (2018)}
+    \label{fig:methods-5-listening-bluetoothdevice-state}
+  \end{center}
+  \begin{lstlisting}
 // OpenGloveActions: Listening Bluetooth device connection state messages
 // For use in API C#: subcribe to event with your own method
 // For use in API Java: implements public interface with lambdas or method references
 public void OnBluetoothDeviceConnectionStateChanged(bool isConnected);
 \end{lstlisting}
-   	\captionsetup{justification=centering}
-    \caption[Lectura del estado de conexión del dispositivo Bluetooth]{Lectura del estado de conexión del dispositivo Bluetooth\\Fuente: Elaboración propia (2018)}
-    \label{fig:methods-5-listening-bluetoothdevice-state}
-  \end{center}
-\end{figure}
+\end{algorithm}
 
 \begin{figure}[H]
   \begin{center} 
    	\includegraphics[width=1.0\textwidth]{images/chapter04/ActivityDiagrams-ListeningMessagesFromOpenGloveDevice.png} 
    	\captionsetup{justification=centering}
-    \caption[Diagrama de actividades del método que escucha la conexión del dispositivo Bluetooth]{Diagrama de actividades del método que escucha la conexión del dispositivo Bluetooth\\Fuente: Elaboración propia (2018)}
+    \caption[Diagrama de actividades cuando se escucha el estado de la conexión del dispositivo Bluetooth]{Diagrama de actividades cuando se escucha el estado de la conexión del dispositivo Bluetooth\\Fuente: Elaboración propia (2018)}
     \label{fig:activity-diagrams-5-listening-bluetoothdevice-state}
   \end{center}
 \end{figure}
@@ -235,26 +236,26 @@ public void OnBluetoothDeviceConnectionStateChanged(bool isConnected);
 Para notificar el estado de la conexión del cliente WebSocket en las APIs de alto nivel, se invoca el método OnWebSocketConnectionStateChanged, cada vez que ocurre un cambio utilizando OnOpen y OnClose de la API WebSocket. La Figura \ref{fig:methods-6-listening-websocket-state}, muestra el método que debe ser implementado para escuchar el estado de conexión del cliente WebSocket. El comportamiento de este método se puede apreciar en el diagrama de actividades de la Figura \ref{fig:activity-diagrams-6-listening-websocket-state}.
 
 
-\begin{figure}[H]
+\begin{algorithm}[!ht]
   \begin{center}
-\begin{lstlisting}
+   	\captionsetup{justification=centering}
+    \caption[Escuchando el estado de conexión del cliente WebSocket]{Escuchando el estado de conexión del cliente WebSocket\\ \tab[4cm] Fuente: Elaboración propia (2018)}
+    \label{fig:methods-6-listening-websocket-state}
+  \end{center}
+  \begin{lstlisting}
 // OpenGloveActions: Listening WebSocket client connection state messages
 // For use in API C#: subcribe to event with your own method
 // For use in API Java: implements public interface with lambdas or method references
 public void OnWebSocketConnectionStateChanged(bool isConnected);
 \end{lstlisting}
-   	\captionsetup{justification=centering}
-    \caption[Lectura del estado de conexión del cliente WebSocket]{Lectura del estado de conexión del cliente WebSocket\\Fuente: Elaboración propia (2018)}
-    \label{fig:methods-6-listening-websocket-state}
-  \end{center}
-\end{figure}
+\end{algorithm}
 
 
 \begin{figure}[H]
   \begin{center} 
    	\includegraphics[width=1.0\textwidth]{images/chapter04/ActivityDiagrams-ListeningFromWebSocketClient.png} 
    	\captionsetup{justification=centering}
-    \caption[Diagrama de actividades del método que escucha la conexión del dispositivo Bluetooth]{Diagrama de actividades del método que escucha la conexión del dispositivo Bluetooth\\Fuente: Elaboración propia (2018)}
+    \caption[Diagrama de actividades cuando se escucha la conexión del dispositivo Bluetooth]{Diagrama de actividades cuando se escucha la conexión del dispositivo Bluetooth\\Fuente: Elaboración propia (2018)}
     \label{fig:activity-diagrams-6-listening-websocket-state}
   \end{center}
 \end{figure}
