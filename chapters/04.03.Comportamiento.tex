@@ -1,15 +1,15 @@
 \section{Comportamiento}
 \label{seccion-comportamiento-apis}
-A continuación se describe el comportamiento general de las métodos disponibles en las APIs de alto nivel, utilizando diagramas de actividades. Se agruparon estos métodos según su nivel de interacción con las diferentes capas de abstracción del SDK. Las capas de abstracción corresponden: a la API de alto nivel (Cliente WebSocket), el Servidor WebSocket, las instancias de la clase OpenGloveDevice en el servidor, la instancia de LegacyOpenGlove (API C\# de bajo nivel) y el software de control Arduino. 
+Para comprender el comportamiento de las APIs de alto nivel, es necesario complementar lo detallado sobre la clase OpenGlove en la Subsección \ref{subseccion-estructura-apis-hl}, en la cual se habló sobre la estructura de las mismas. Cada instancia de la clase OpenGlove de alto nivel, permite ejecutar acciones sobre su cliente WebSocket, el servidor WebSocket al que se conecta, a las configuraciones de su instancia de la clase OpenGloveDevice alojada en el servidor y realizar acciones sobre el software de control Arduino. Además, cada instancia provee un fácil consumo de los datos provenientes de Arduino. La suma de esto es lo que hace posible una representación de los dispositivos OpenGlove en las APIs de alto nivel en tiempo real, incluyendo el envío de mensajes de manera bidireccional y full-duplex para los lenguajes de programación C\# y Java. Con esto se facilita que otras APIs de alto nivel pueden ser desarrolladas, utilizando lenguajes de programación que permitan: el manejo de eventos o funciones lambda o el envío de mensajes entre hilos, además del uso de Clientes WebSocket (API WebSocket y protocolo RFC 6455). De esta forma, se reduce la necesidad de agregar lógica compleja en la API de alto nivel.
 
-Para comprender el comportamiento de las APIs de alto nivel, es necesario complementar lo detallado sobre la clase OpenGlove en la Subsección \ref{subseccion-estructura-apis-hl}, en la cual se habló sobre la estructura de las mismas. Cada instancia de la clase OpenGlove de alto nivel, permite ejecutar acciones sobre su cliente WebSocket, el servidor WebSocket al que se conecta, a las configuraciones de su instancia de la clase OpenGloveDevice en el servidor y realizar acciones sobre el software de control Arduino. Además, cada instancia provee un fácil consumo de los datos provenientes de Arduino. La suma de esto es lo que hace posible una representación de los dispositivos OpenGlove en tiempo real, con envío de mensajes de manera bidireccional y full-duplex para los lenguajes de programación C\# y Java. Con esto se facilita que otras APIs de alto nivel pueden ser desarrolladas, utilizando lenguajes de programación que permitan: el manejo de eventos o funciones lambda o el envío de mensajes entre hilos y el uso de Clientes WebSocket (API WebSocket y protocolo RFC 6455). De esta forma, se reduce la necesidad de agregar lógica compleja en la API de alto nivel.
+A continuación se describe el comportamiento general de los métodos disponibles en las APIs de alto nivel, utilizando diagramas de actividades. Se agruparon estos métodos según su nivel de interacción con las diferentes capas de abstracción del SDK. Las capas de abstracción corresponden a: la API de alto nivel (Cliente WebSocket), el Servidor WebSocket, las instancias de la clase OpenGloveDevice, las instancias de LegacyOpenGlove (API C\# de bajo nivel) y el software de control Arduino.
 
 
 
 \subsection{Métodos aplicados sobre cliente WebSocket}
 \label{subsection:method-websocket-client}
 
-Los métodos que pueden ser aplicados sobre el cliente WebSocket se muestran en la Figura \ref{fig:methods-0-api-hl}. Estos métodos son ejecutados por la aplicación que utiliza una instancia de OpenGlove, realizando la acción sobre el cliente WebSocket. Esto se detalla en el diagrama de actividades de la Figura \ref{fig:activity-diagrams-0-api-hl}. Adicionalmente, en el caso que se logre la conexión con el servidor WebSocket, el evento OnOpen del cliente es invocado, agregando la instancia OpenGlove al servidor e iniciado la captura de datos, utilizando los métodos AddOpenGloveDeviceToServer y StartCaptureDataFromServer respectivamente. El comportamiento de estos dos métodos mencionados se incluyen en la Subsección \ref{subsection:method-websocket-server}.
+Los métodos que pueden ser aplicados sobre el cliente WebSocket se muestran en la Figura \ref{fig:methods-0-api-hl}. Estos métodos son ejecutados por la aplicación que utiliza una instancia de OpenGlove, realizando la acción sobre el cliente WebSocket. Esto se detalla en el diagrama de actividades de la Figura \ref{fig:activity-diagrams-0-api-hl}. Adicionalmente, en el caso que se logre la conexión con el servidor WebSocket, el evento OnOpen del cliente es invocado. Cuando se invoca ese evento, se agrega la instancia OpenGlove al servidor  y se inicia la captura de datos. Eso se realizó utilizando los métodos AddOpenGloveDeviceToServer y StartCaptureDataFromServer respectivamente. El comportamiento de estos dos métodos mencionados se incluyen en la Subsección \ref{subsection:method-websocket-server}.
 
 \begin{figure}[H]
   \begin{center} 
@@ -40,7 +40,7 @@ Los métodos que pueden ser aplicados sobre el cliente WebSocket se muestran en 
 
 \subsection{Métodos aplicados sobre servidor WebSocket}
 \label{subsection:method-websocket-server}
-Los métodos que pueden ser aplicados sobre el servidor WebSocket se muestran en la Figura \ref{fig:methods-1-websocket-server}. Estos métodos son ejecutados por la aplicación que utiliza una instancia de OpenGlove, realizando la acción sobre el servidor WebSocket, pasando por la capa intermedia del cliente WebSocket. El comportamiento de estos métodos puede se aprecia en el diagrama de actividades de la Figura \ref{fig:activity-diagrams-1-websocket-server}.
+Los métodos que pueden ser aplicados sobre el servidor WebSocket se muestran en la Figura \ref{fig:methods-1-websocket-server}. Estos métodos son ejecutados por la aplicación que utiliza una instancia de OpenGlove, realizando la acción sobre el servidor WebSocket, pasando por la capa intermedia del cliente WebSocket. El comportamiento de estos métodos se aprecia en el diagrama de actividades de la Figura \ref{fig:activity-diagrams-1-websocket-server}.
 
 
 
@@ -168,7 +168,7 @@ public void GetOpenGloveArduinoVersionSoftware();
 
 \subsection{Escuchando mensajes provenientes de Arduino}
 \label{subsection:reading-openglove-arduino}
-Este comportamiento ocurre cuando se ha inicializado por lo menos un flexor y/o se ha inicializado e iniciado la IMU. La Figura \ref{fig:methods-4-listening-arduino}, muestra el formato de los métodos que deben ser implementados por los objetos que utilicen instancias de la clase OpenGlove. EL comportamiento de estos métodos se aprecia en el Diagrama de actividades de la Figura \ref{fig:activity-diagrams-4-ListeningMessagesFromArduino}
+Este comportamiento ocurre cuando se ha inicializado por lo menos un flexor y/o se ha inicializado e iniciado la IMU. La Figura \ref{fig:methods-4-listening-arduino}, muestra el formato de los métodos que deben ser implementados por los objetos que utilicen instancias de la clase OpenGlove. El comportamiento de estos métodos se aprecia en el Diagrama de actividades de la Figura \ref{fig:activity-diagrams-4-ListeningMessagesFromArduino}
 
 \begin{figure}[H]
   \begin{center}
@@ -204,7 +204,7 @@ public void OnInfoMessagesReceived(string message);
 \subsection{Escuchando el estado de conexión del dispositivo Bluetooth}
 \label{subsection:reading-bluetooth-device-state}
 
-Para actualizar el estado de la conexión Bluetooth en las APIs de alto nivel, el hilo que administra dicha conexión, debe enviar  actualizaciones del estado de conexión o desconexión con los dispositivos. Cuando el estado del socket está conectado se envía un mensaje  \textit{b,True}  y cuando se envía \textit{b,False}. La Figura \ref{fig:methods-5-listening-bluetoothdevice-state}, muestra el método que se debe implementar para obtener los cambios de estado de la conexión Bluetooth.  El comportamiento de activación de estos métodos se puede apreciar en el diagrama de actividades de la Figura \ref{fig:activity-diagrams-5-listening-bluetoothdevice-state}.
+Para actualizar el estado de la conexión Bluetooth en las APIs de alto nivel, el hilo que administra dicha conexión, debe enviar  actualizaciones del estado de conexión o desconexión con los dispositivos. Cuando el estado del socket está conectado se envía un mensaje  \textit{``b,True"}  y cuando no, se envía \textit{``b,False"}. La Figura \ref{fig:methods-5-listening-bluetoothdevice-state}, muestra el método que se debe implementar para obtener los cambios de estado de la conexión Bluetooth.  El comportamiento de activación de estos métodos se puede apreciar en el diagrama de actividades de la Figura \ref{fig:activity-diagrams-5-listening-bluetoothdevice-state}.
 
 \begin{figure}[H]
   \begin{center}

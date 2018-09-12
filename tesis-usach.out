@@ -56,9 +56,9 @@
 \BOOKMARK [2][]{subsection.4.3.2}{4.3.2 Métodos aplicados sobre servidor WebSocket}{section.4.3}% 56
 \BOOKMARK [2][]{subsection.4.3.3}{4.3.3 Métodos aplicados sobre instancias de OpenGloveDevice}{section.4.3}% 57
 \BOOKMARK [2][]{subsection.4.3.4}{4.3.4 Métodos aplicados sobre el software de control Arduino}{section.4.3}% 58
-\BOOKMARK [2][]{subsection.4.3.5}{4.3.5\040Lectura\040de\040mensajes\040provenientes\040de\040Arduino}{section.4.3}% 59
-\BOOKMARK [2][]{subsection.4.3.6}{4.3.6 Lectura del estado de conexión del dispositivo Bluetooth}{section.4.3}% 60
-\BOOKMARK [2][]{subsection.4.3.7}{4.3.7\040Lectura\040de\040mensajes\040provenientes\040del\040cliente\040WebSocket}{section.4.3}% 61
+\BOOKMARK [2][]{subsection.4.3.5}{4.3.5\040Escuchando\040mensajes\040provenientes\040de\040Arduino}{section.4.3}% 59
+\BOOKMARK [2][]{subsection.4.3.6}{4.3.6 Escuchando el estado de conexión del dispositivo Bluetooth}{section.4.3}% 60
+\BOOKMARK [2][]{subsection.4.3.7}{4.3.7 Escuchando el estado de conexión del cliente WebSocket}{section.4.3}% 61
 \BOOKMARK [1][]{section.4.4}{4.4 Aspectos de implementación}{chapter.4}% 62
 \BOOKMARK [2][]{subsection.4.4.1}{4.4.1\040Desarrollo\040multiplataforma\040en\040Xamarin.Forms}{section.4.4}% 63
 \BOOKMARK [2][]{subsection.4.4.2}{4.4.2\040API\040C#\040bajo\040nivel}{section.4.4}% 64
@@ -105,8 +105,8 @@
 \BOOKMARK [1][]{section.6.4}{6.4\040Trabajo\040futuro}{chapter.6}% 105
 \BOOKMARK [1][]{section.6.5}{6.5\040Observaciones\040finales}{chapter.6}% 106
 \BOOKMARK [0][]{section.6.5}{Glosario}{}% 107
-\BOOKMARK [0][]{chapter*.93}{Referencias bibliográficas}{}% 108
-\BOOKMARK [0][]{chapter*.94}{Anexos}{}% 109
+\BOOKMARK [0][]{chapter*.95}{Referencias bibliográficas}{}% 108
+\BOOKMARK [0][]{chapter*.96}{Anexos}{}% 109
 \BOOKMARK [0][]{chapter.1}{A\040\040Low\040Level\040Communication\040Protocol}{}% 110
 \BOOKMARK [0][]{chapter.2}{B\040High\040Level\040Communication\040Protocol}{}% 111
 \BOOKMARK [0][]{chapter.3}{C\040High\040Level\040OpenGlove\040APIs\040Reference}{}% 112
