@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  12 SEP 2018 19:18
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  13 SEP 2018 13:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1263,6 +1263,9 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 
 LaTeX Warning: Label `fig:arquitectura-open-glove' multiply defined.
 
+
+LaTeX Warning: Label `code:api-chsharp' multiply defined.
+
 )
 \openout1 = `tesis-usach.aux'.
 
@@ -1773,26 +1776,35 @@ Overfull \hbox (15.0pt too wide) detected at line 251
 File: images/chapter04/ActivityDiagrams-ListeningFromWebSocketClient.png Graphi
 c file (type bmp)
 <images/chapter04/ActivityDiagrams-ListeningFromWebSocketClient.png>
-) (./chapters/04.04.Aspectos-implementacion.tex [59]
-Underfull \hbox (badness 10000) in paragraph at lines 11--11
-[][][]\TU/Arial(0)/m/n/8 DependencyService: [][]$[][][][][] [] [] [] [][][][] [
-] [][][][][][][][][] [] [][][] [] [][][][][][] [] [][][][][][][] [] [][][][][][
-][][][][][][][][] [] [][][][][][][][][][][][][][][][][] []
- []
-
-[60]
-Overfull \hbox (15.0pt too wide) detected at line 74
+) (./chapters/04.04.Aspectos-implementacion.tex [59] [60]
+Overfull \hbox (15.0pt too wide) detected at line 68
 [][] 
  []
 
-) (./chapters/04.05.Resumen.tex) (./chapters/05.00.Evaluacion-tecnica.tex
-[61]
+[61] [62]
+Overfull \hbox (15.0pt too wide) detected at line 113
+[][] 
+ []
 
-LaTeX Warning: Text page 62 contains only floats.
 
-[62]
+Overfull \hbox (2.6523pt too wide) in paragraph at lines 135--137
+[][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (15.0pt too wide) detected at line 140
+[][] 
+ []
+
+[63]) (./chapters/04.05.Resumen.tex)
+Underfull \hbox (badness 1314) in paragraph at lines 2--102
+[]\TU/Arial(0)/m/n/10 Este capítulo abordó el diseño e implementación de la sol
+ución propuesta, detallando la
+ []
+
+(./chapters/05.00.Evaluacion-tecnica.tex [64]
 Cap\'itulo 5.
-) (./chapters/05.01.Evaluacion-aplicaciones-nativa-multiplataforma.tex [63
+) (./chapters/05.01.Evaluacion-aplicaciones-nativa-multiplataforma.tex [65
 
 ]
 Overfull \hbox (10.77643pt too wide) in paragraph at lines 25--38
@@ -1805,11 +1817,11 @@ type bmp)
 File: evaluation/graphics/Droid/Galaxy/NormalQQMotorsDroidGalaxy.png Graphic fi
 le (type bmp)
 <evaluation/graphics/Droid/Galaxy/NormalQQMotorsDroidGalaxy.png>
-[64] [65]
+[66] [67]
 File: evaluation/graphics/Droid/Galaxy/BoxplotMotorsDroidGalaxy.png Graphic fil
 e (type bmp)
 <evaluation/graphics/Droid/Galaxy/BoxplotMotorsDroidGalaxy.png>
- [66]
+ [68]
 Overfull \hbox (26.35362pt too wide) in paragraph at lines 89--98
  [][] 
  []
@@ -1820,22 +1832,22 @@ File: evaluation/graphics/Droid/Galaxy/HistFlexorsDroidGalaxy.png Graphic file
 File: evaluation/graphics/Droid/Galaxy/NormalQQFlexorsDroidGalaxy.png Graphic f
 ile (type bmp)
 <evaluation/graphics/Droid/Galaxy/NormalQQFlexorsDroidGalaxy.png>
-[67]
+[69]
 File: evaluation/graphics/Droid/Galaxy/BoxplotFlexorsDroidGalaxy.png Graphic fi
 le (type bmp)
 <evaluation/graphics/Droid/Galaxy/BoxplotFlexorsDroidGalaxy.png>
- [68]
+ [70]
 File: evaluation/graphics/Xamarin/Galaxy/HistMotorsXamarinGalaxy.png Graphic fi
 le (type bmp)
 <evaluation/graphics/Xamarin/Galaxy/HistMotorsXamarinGalaxy.png>
 File: evaluation/graphics/Xamarin/Galaxy/NormalQQMotorsXamarinGalaxy.png Graphi
 c file (type bmp)
 <evaluation/graphics/Xamarin/Galaxy/NormalQQMotorsXamarinGalaxy.png>
- [69] [70]
+ [71] [72]
 File: evaluation/graphics/Xamarin/Galaxy/BoxplotMotorsXamarinGalaxy.png Graphic
  file (type bmp)
 <evaluation/graphics/Xamarin/Galaxy/BoxplotMotorsXamarinGalaxy.png>
- [71]
+ [73]
 Overfull \hbox (26.35362pt too wide) in paragraph at lines 205--214
  [][] 
  []
@@ -1846,22 +1858,22 @@ ile (type bmp)
 File: evaluation/graphics/Xamarin/Galaxy/NormalQQFlexorsXamarinGalaxy.png Graph
 ic file (type bmp)
 <evaluation/graphics/Xamarin/Galaxy/NormalQQFlexorsXamarinGalaxy.png>
-[72]
+[74]
 File: evaluation/graphics/Xamarin/Galaxy/BoxplotFlexorsXamarinGalaxy.png Graphi
 c file (type bmp)
 <evaluation/graphics/Xamarin/Galaxy/BoxplotFlexorsXamarinGalaxy.png>
- [73]
+ [75]
 File: evaluation/graphics/Droid/Nexus/HistMotorsDroidNexus.png Graphic file (ty
 pe bmp)
 <evaluation/graphics/Droid/Nexus/HistMotorsDroidNexus.png>
 File: evaluation/graphics/Droid/Nexus/NormalQQMotorsDroidNexus.png Graphic file
  (type bmp)
 <evaluation/graphics/Droid/Nexus/NormalQQMotorsDroidNexus.png>
- [74] [75]
+ [76] [77]
 File: evaluation/graphics/Droid/Nexus/BoxplotMotorsDroidNexus.png Graphic file 
 (type bmp)
 <evaluation/graphics/Droid/Nexus/BoxplotMotorsDroidNexus.png>
- [76]
+ [78]
 Overfull \hbox (22.35623pt too wide) in paragraph at lines 321--330
  [][] 
  []
@@ -1872,22 +1884,22 @@ ype bmp)
 File: evaluation/graphics/Droid/Nexus/NormalQQFlexorsDroidNexus.png Graphic fil
 e (type bmp)
 <evaluation/graphics/Droid/Nexus/NormalQQFlexorsDroidNexus.png>
-[77]
+[79]
 File: evaluation/graphics/Droid/Nexus/BoxplotFlexorsDroidNexus.png Graphic file
  (type bmp)
 <evaluation/graphics/Droid/Nexus/BoxplotFlexorsDroidNexus.png>
- [78]
+ [80]
 File: evaluation/graphics/Xamarin/Nexus/HistMotorsXamarinNexus.png Graphic file
  (type bmp)
 <evaluation/graphics/Xamarin/Nexus/HistMotorsXamarinNexus.png>
 File: evaluation/graphics/Xamarin/Nexus/NormalQQMotorsXamarinNexus.png Graphic 
 file (type bmp)
 <evaluation/graphics/Xamarin/Nexus/NormalQQMotorsXamarinNexus.png>
- [79] [80]
+ [81] [82]
 File: evaluation/graphics/Xamarin/Nexus/BoxplotMotorsXamarinNexus.png Graphic f
 ile (type bmp)
 <evaluation/graphics/Xamarin/Nexus/BoxplotMotorsXamarinNexus.png>
- [81]
+ [83]
 Overfull \hbox (22.35623pt too wide) in paragraph at lines 437--446
  [][] 
  []
@@ -1898,16 +1910,16 @@ e (type bmp)
 File: evaluation/graphics/Xamarin/Nexus/NormalQQFlexorsXamarinNexus.png Graphic
  file (type bmp)
 <evaluation/graphics/Xamarin/Nexus/NormalQQFlexorsXamarinNexus.png>
-[82]
+[84]
 File: evaluation/graphics/Xamarin/Nexus/BoxplotFlexorsXamarinNexus.png Graphic 
 file (type bmp)
 <evaluation/graphics/Xamarin/Nexus/BoxplotFlexorsXamarinNexus.png>
-) (./chapters/05.02.Evaluacion-tiempo-activacion.tex [83]
+) (./chapters/05.02.Evaluacion-tiempo-activacion.tex [85]
 File: images/chapter05/C-Sharp-APITest.png Graphic file (type bmp)
 <images/chapter05/C-Sharp-APITest.png>
 File: images/chapter05/Java-APITest.png Graphic file (type bmp)
 <images/chapter05/Java-APITest.png>
- [84] [85]
+ [86] [87]
 Overfull \hbox (34.02022pt too wide) in paragraph at lines 43--56
  [][] 
  []
@@ -1920,18 +1932,18 @@ File: evaluation/graphics/Xamarin/Galaxy-APITest/NormalQQMotorsXamarinGalaxy-AP
 ITest.png Graphic file (type bmp)
 <evaluation/graphics/Xamarin/Galaxy-APITest/NormalQQMotorsXamarinGalaxy-APITest
 .png>
-[86] [87]
+[88] [89]
 File: evaluation/graphics/Xamarin/Galaxy-APITest/BoxplotMotorsXamarinGalaxy-API
 Test.png Graphic file (type bmp)
 <evaluation/graphics/Xamarin/Galaxy-APITest/BoxplotMotorsXamarinGalaxy-APITest.
 png>
- [88]) (./chapters/05.03.Evaluacion-tiempo-lectura.tex [89]
+ [90]) (./chapters/05.03.Evaluacion-tiempo-lectura.tex [91]
 Overfull \hbox (32.91182pt too wide) in paragraph at lines 16--34
  [][] 
  []
 
 
-LaTeX Warning: Reference `fig:xamarin-galaxy-hist-flexor&imu-api' on page 90 un
+LaTeX Warning: Reference `fig:xamarin-galaxy-hist-flexor&imu-api' on page 92 un
 defined on input line 37.
 
 File: evaluation/graphics/Xamarin/Galaxy-APITest/HistFlexors&IMUXamarinGalaxy-A
@@ -1942,19 +1954,19 @@ File: evaluation/graphics/Xamarin/Galaxy-APITest/NormalQQFlexors&IMUXamarinGala
 xy-APITest.png Graphic file (type bmp)
 <evaluation/graphics/Xamarin/Galaxy-APITest/NormalQQFlexors&IMUXamarinGalaxy-AP
 ITest.png>
-[90] [91]
+[92] [93]
 File: evaluation/graphics/Xamarin/Galaxy-APITest/BoxplotFlexors&IMUXamarinGalax
 y-APITest.png Graphic file (type bmp)
 <evaluation/graphics/Xamarin/Galaxy-APITest/BoxplotFlexors&IMUXamarinGalaxy-API
 Test.png>
- [92]) (./chapters/05.04.Pruebas-concepto.tex)
-(./chapters/05.05.Resumen.tex) (./chapters/06.00.Conclusiones.tex [93]
+ [94]) (./chapters/05.04.Pruebas-concepto.tex)
+(./chapters/05.05.Resumen.tex) (./chapters/06.00.Conclusiones.tex [95]
 Cap\'itulo 6.
-) (./chapters/06.01.Objetivos.tex [94
+) (./chapters/06.01.Objetivos.tex [96
 
 ]
 
-LaTeX Warning: Reference `capitulo-evaluacion-tecnica' on page 95 undefined on 
+LaTeX Warning: Reference `capitulo-evaluacion-tecnica' on page 97 undefined on 
 input line 20.
 
 
@@ -1963,8 +1975,8 @@ Underfull \hbox (badness 6047) in paragraph at lines 23--24
 zando las herramientas de
  []
 
-[95]) (./chapters/06.02.Resultados-obtenidos.tex)
-(./chapters/06.03.Alcances-limitaciones.tex [96] [97])
+[97]) (./chapters/06.02.Resultados-obtenidos.tex)
+(./chapters/06.03.Alcances-limitaciones.tex [98] [99])
 (./chapters/06.04.Trabajo-futuro.tex
 Underfull \hbox (badness 1365) in paragraph at lines 6--7
 \TU/Arial(0)/m/n/10 de dispositivos Bluetooth. Luego desarrollar APIs que sopor
@@ -1977,17 +1989,17 @@ Underfull \hbox (badness 1314) in paragraph at lines 16--17
 dado que requiere
  []
 
-[98]) (./chapters/06.05.Observaciones-finales.tex) [99] (./finales/Glosario.tex
-
+[100]) (./chapters/06.05.Observaciones-finales.tex) [101]
+(./finales/Glosario.tex
 Underfull \hbox (badness 1019) in paragraph at lines 25--26
 \TU/Arial(0)/m/n/10 natural, generalmente a través de pantallas inmersivas mont
 adas en la cabeza y el
  []
 
-[100
+[102
 
 
-]) [101] (./tesis-usach.bbl
+]) [103] (./tesis-usach.bbl
 Underfull \hbox (badness 1014) in paragraph at lines 63--67
 []\TU/Arial(0)/m/n/10 Grigorik, I. (2013).  High performance browser networking
 : Websocket.  Recuperado de
@@ -2005,7 +2017,7 @@ Underfull \hbox (badness 4096) in paragraph at lines 101--106
 difference?  Recu-
  []
 
-[102
+[104
 
 
 ]
@@ -2067,24 +2079,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 199--203
 o de
  []
 
-) [103] (./finales/Anexo-1.tex
+) [105] (./finales/Anexo-1.tex
 Anexo A.
-) (./finales/Anexo-2.tex [104
+) (./finales/Anexo-2.tex [106
 
 
 ]
 Anexo B.
-) (./finales/Anexo-3.tex [105
+) (./finales/Anexo-3.tex [107
 
 ]
 Anexo C.
-) (./finales/Anexo-4.tex [106
+) (./finales/Anexo-4.tex [108
 
 ]
 Anexo D.
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 149.
- [107
+ [109
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 149.
@@ -2093,7 +2105,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 149.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 149.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 149.
 Package rerunfilecheck Info: File `tesis-usach.out' has not changed.
-(rerunfilecheck)             Checksum: EB210EF1AAD06B01B1775F502EBA8BE7.
+(rerunfilecheck)             Checksum: CDBC645F4B5E5F7CA329066B21559DDF.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2107,12 +2119,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 149.
  ) 
 Here is how much of TeX's memory you used:
- 29189 strings out of 492970
- 525432 string characters out of 6133938
- 722605 words of memory out of 5000000
- 32519 multiletter control sequences out of 15000+600000
+ 29188 strings out of 492970
+ 525401 string characters out of 6133938
+ 721605 words of memory out of 5000000
+ 32518 multiletter control sequences out of 15000+600000
  540684 words of font info for 86 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  51i,17n,87p,10414b,1433s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tesis-usach.pdf (119 pages).
+Output written on tesis-usach.pdf (121 pages).

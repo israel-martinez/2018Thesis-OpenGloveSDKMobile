@@ -10,6 +10,8 @@
 \contentsline {algocf}{\numberline {4.6}{\ignorespaces Escuchando el estado de conexión del dispositivo Bluetooth}}{58}{algocf.4.6}
 \contentsline {algocf}{\numberline {4.7}{\ignorespaces Escuchando el estado de conexión del cliente WebSocket}}{60}{algocf.4.7}
 \contentsline {algocf}{\numberline {4.8}{\ignorespaces Implementación ICommunication en diferentes plataformas}}{62}{algocf.4.8}
+\contentsline {algocf}{\numberline {4.9}{\ignorespaces Código de ejemplo para escuchar mensajes de los flexores en la API de alto nivel C\#}}{63}{algocf.4.9}
+\contentsline {algocf}{\numberline {4.10}{\ignorespaces Código de ejemplo para escuchar mensajes de los flexores en la API de alto nivel Java}}{64}{algocf.4.10}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

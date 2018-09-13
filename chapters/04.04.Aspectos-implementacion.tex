@@ -2,13 +2,13 @@
 
 
 \subsection{Desarrollo multiplataforma en Xamarin.Forms}
-De los resultados de la comparación en la Sección \ref{section:native-vs-crossplartform}, entre desarrollo nativo en Android con Android Studio y  Android con Xamarin.Forms, se obtuvo que los rendimientos no eran muy diferentes entre si, por tanto, se optó por el uso de Xamarin.Forms, ya que provee soporte multiplataforma y permite que el proyecto pueda ser utilizado en otras plataformas en un futuro, utilizando las APIs y bibliotecas nativas que permitan comunicación tanto Bluetooth como WebSocket.
+De los resultados de la comparación en la Sección \ref{section:native-vs-crossplartform}, entre el desarrollo nativo en Android con Android Studio y  Android con Xamarin.Forms, se obtuvo que los rendimientos no eran muy diferentes entre si, por tanto, se optó por el uso de Xamarin.Forms, ya que provee soporte multiplataforma, por lo que permite que el proyecto pueda ser extendido en dichas plataformas, utilizando las APIs y bibliotecas nativas que permitan comunicación tanto Bluetooth como WebSocket.
 
 
 
 
 \subsection{API C\# bajo nivel}
-En la Sección \ref{subseccion-estructura-api-ll}, se detalla sobre la estructura de OpenGloveDevice que corresponde a la API de bajo nivel C\#. Respecto a la implementación, se debe mencionar el uso de \textit{DependencyService}\footnote{DependencyService: \url{https://docs.microsoft.com/en-us/xamarin/xamarin-forms/app-fundamentals/dependency-service/introduction}} de Xamarin.Forms, el cual permite realizar diferentes implementaciones de una interfaz referenciada en el proyecto principal, a los demás proyectos asociados (iOS, Android, UWP, etc.). Para ello se requiere la declaración de una interfaz en el código compartido (proyecto principal), segundo, realizar una implementación de la interfaz en cada proyecto por plataforma, cada implementación debe ser registrada en \textit{DependencyService} para que esta sea cargada en tiempo de ejecución. Finalmente en el código compartido, se debe llamar explícitamente a \textit{DependencyService} para hacer uso de ella. El Código \ref{code:implementation-csharp-ll} muestra esta implementación, utilizando como ejemplo el método Write, que permite la escritura  en el socket serial Bluetooth.
+En la Sección \ref{subseccion-estructura-api-ll}, se detalló sobre la estructura de OpenGloveDevice, la cual corresponde a la API de bajo nivel C\#. Respecto de su implementación en el proyecto, se utilizó \textit{DependencyService} de Xamarin.Forms. Este servicio permite realizar diferentes implementaciones de una interfaz referenciada en el proyecto principal, a los demás proyectos asociados (iOS, Android, UWP, etc.). Para ello se requiere la declaración de una interfaz en el código compartido (proyecto principal), segundo, realizar una implementación de la interfaz en cada proyecto por plataforma, cada implementación debe ser registrada en \textit{DependencyService} para que esta sea cargada en tiempo de ejecución. Finalmente en el código compartido, se debe llamar explícitamente a \textit{DependencyService} para hacer uso de ella. El Código \ref{code:implementation-csharp-ll} muestra esta implementación, utilizando como ejemplo el método Write, que permite la escritura en el socket serial Bluetooth.
 
 
 \begin{algorithm}[!ht]
@@ -21,13 +21,9 @@ En la Sección \ref{subseccion-estructura-api-ll}, se detalla sobre la estructur
   \begin{lstlisting}
 	// On OpenGloveApp main project
     public interface ICommunication
-    {
-        List<BluetoothDevices> GetAllPairedDevices();
-        void OpenDeviceConnection(string bluetoothDeviceName);
-        void CloseDeviceConnection();
+    {  //... More code ...
         void Write(string message);
-        string ReadLine();
-    }
+        // ... More code ...
     
     // On OpenGloveApp.Android project
     [assembly: Xamarin.Forms.Dependency(typeof(Communication))]
@@ -68,8 +64,6 @@ En la Sección \ref{subseccion-estructura-api-ll}, se detalla sobre la estructur
             communication.Write(message);
         }
         //...More code ...
-   
-   
 \end{lstlisting}
 \end{algorithm}
 
@@ -80,16 +74,70 @@ Para incluir un servidor WebSocket a la aplicación de configuración, se utiliz
 
 
 \subsection{Software de configuración}
+El software de configuración fue pensado para ser utilizado en dispositivos iOS y Android, por tanto durante el desarrollo considerando las diferencias de interfaz de usuario de cada plataforma, además de la utilización de bibliotecas que sean compatibles con Xamarin.Forms, para desarrollar la mayoría de las funcionalidades desde el proyecto principal (código compartido) de Xamarin.Forms. Para extender el software de configuración a otras plataformas, debe probarse la compatibilidad de los elementos visuales y librearías de terceros. Es posible definir el comportamiento y uso de bibliotecas para cada plataforma en específico, utilizando \textit{DependencyService}, como también librerías de terceros que permitan su uso en diferentes plataformas.
 
 
 
-\subsection{APIs}
-	%\subsubsection{Kotlin}
-	%\subsubsection{Objetive C}
-	%\subsubsection{Swift}
-	%\subsubsection{C++}
+	%\subsection{API Kotlin}
+	%\subsection{API Objetive C}
+	%\subsection{API Swift}
+	%\subsection{API C++}
 	
-	\subsubsection{Java}
+\newpage
+\subsection{API C\# alto nivel}
+	Para incluir un cliente WebSocket que se conecte y comunique con el servidor, se utilizó la biblioteca WebSocketSharp (en su versión compatible con .NET standard 2.0). Con ello se logró establecer una conexión full-duplex con el servidor WebSocket. Bajo esta conexión, tanto el servidor como el cliente pueden enviar mensajes de manera simultánea. Para disponibilizar los mensajes recibidos desde el servidor, se utilizaron eventos y delegados C\#. Los desarrolladores deben implementar y suscribir los métodos de los mensajes que desea escuchar. El Código \ref{code:api-chsharp} muestra un ejemplo, de cómo suscribir un método para escuchar los mensajes de los flexores, para mover la región del dedo.
+	
+\begin{algorithm}[!ht]
+  \begin{center} 
+   	\captionsetup{justification=centering}
+    \caption[Código de ejemplo para escuchar mensajes de los flexores en la API de alto nivel C\#]{Código de ejemplo para escuchar mensajes de los flexores en la API de alto nivel C\#\\ \tab[4cm] Fuente: Elaboración propia (2018)}
+    \label{code:api-chsharp}
+  \end{center}
+  \begin{lstlisting}
+	// leftHand is a instance of OpenGlove class
+	// leftHand is connected to WebSocket server and to Bluetooth device
+	// leftHand is assigned a OpenGlove configuration for Flexors
+	
+	// the implementation for listening flexors data
+	public void OnFlexorValueReceived(int region, int value)
+	{
+		this.MoveFinger(region, value);
+	}
+		
+	// suscribe the ,method implementation to delegate of Communication
+	leftHand.Communication.OnFlexorValueReceived += this.OnFlexorsValueReceived;
+	
+	// start configuration on Bluetooth device, the Arduino sending flexors data
+	leftHand.Start();
+  \end{lstlisting}
+\end{algorithm}
+	
+	\subsubsection{API Java alto nivel}
+	Para la API Java se buscó que el uso fuera de la misma forma que la desarrollada en C\#. Por ello se utilizó la versión 8 de Java, la cual incluye funciones lambda e  interfaces funcionales (\textit{ functional interface}). Los desarrolladores deben implementar las interfaces funcionales, utilizando funciones lambda o referencias de métodos. El Código muestra un ejemplo, de cómo implementar la interfaz funcional con referencias de métodos. Con ello se puede escuchar los mensajes de los flexores, para mover la región del dedo.
+	
+\begin{algorithm}[!ht]
+  \begin{center} 
+   	\captionsetup{justification=centering}
+    \caption[Código de ejemplo para escuchar mensajes de los flexores en la API de alto nivel Java]{Código de ejemplo para escuchar mensajes de los flexores en la API de alto nivel Java\\ \tab[4cm] Fuente: Elaboración propia (2018)}
+    \label{code:api-chsharp}
+  \end{center}
+  \begin{lstlisting}
+	// leftHand is a instance of OpenGlove class
+	// leftHand is connected to WebSocket server and to Bluetooth device
+	// leftHand is assigned a OpenGlove configuration for Flexors
+	
+	// the implementation for listening flexors data
+	public void OnFlexorValueReceived(int region, int value){
+		this.MoveFinger(region, value);
+	}
+		
+	// method implementation for functional interface of Communication
+	leftHand.Communication.setOnFlexorValueReceived(this::OnFlexorValueReceived)
+	
+	// start configuration on Bluetooth device, the Arduino sending flexors data
+	leftHand.Start();
+  \end{lstlisting}
+\end{algorithm}
 
-	\subsubsection{C\#}
+
     
